@@ -22,6 +22,8 @@ private Q_SLOTS:
     void updateTransformation( const bool & );
     void updateScaling( const bool & );
     void updateRotation( const QString & );
+    void updateDrawFrames( const bool & );
+    void updateColors( const bool & );
 
 private:
     FormulaView *d_view;

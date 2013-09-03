@@ -47,10 +47,24 @@ void FormulaView::setRotation( const qreal &rotation )
     update();
 }
 
+void FormulaView::setDrawFrames( const bool &drawFrames )
+{
+    d_drawFrames = drawFrames;
+    update();
+}
+
+void FormulaView::setColors( const bool &colors )
+{
+    d_colors = colors;
+    update();
+}
+
 void FormulaView::paintEvent( QPaintEvent *event )
 {
     QPainter painter( this );
     painter.setClipRegion( event->region() );
+
+    painter.fillRect( event->rect(), d_colors ? Qt::darkCyan : Qt::white );
 
     renderFormula( &painter );
 }
@@ -59,7 +73,18 @@ void FormulaView::renderFormula( QPainter *painter ) const
 {
     QwtMathMLDocument doc;
     doc.setContent( d_formula );
+    if ( d_colors )
+    {
+        doc.setBackgroundColor( Qt::darkCyan );
+        doc.setForegroundColor( Qt::yellow );
+    }
+    else
+    {
+        doc.setBackgroundColor( Qt::white );
+        doc.setForegroundColor( Qt::black );
+    }
     doc.setBaseFontPointSize( d_fontSize );
+    doc.setDrawFrames( d_drawFrames );
 
     QRectF docRect;
     docRect.setSize( doc.size() );
@@ -81,6 +106,6 @@ void FormulaView::renderFormula( QPainter *painter ) const
     }
     else
     {
-        doc.paint( painter, docRect.topLeft().toPoint() );
+        doc.paint( painter, docRect.topLeft() );
     }
 }

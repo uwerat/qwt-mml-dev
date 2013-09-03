@@ -2,17 +2,16 @@
 #include "qwt_mml_entity_table.h"
 
 #include <QApplication>
-#include <QMap>
-#include <QDesktopWidget>
-#include <QPainter>
-#include <QDomNode>
 #include <QDebug>
+#include <QDesktopWidget>
+#include <QDomNode>
+#include <QMap>
+#include <QPainter>
 
 // *******************************************************************
 // Declarations
 // *******************************************************************
 
-static bool           g_draw_frames            = false;
 static const qreal    g_mfrac_spacing          = 0.1;
 static const qreal    g_mroot_base_margin      = 0.1;
 static const qreal    g_script_size_multiplier = 0.7071; // sqrt(1/2)
@@ -117,6 +116,9 @@ public:
     QColor backgroundColor() const { return m_background_color; }
     void setBackgroundColor( const QColor &color ) { m_background_color = color; }
 
+    bool drawFrames() const { return m_draw_frames; }
+    void setDrawFrames( const bool &drawFrames ) { m_draw_frames = drawFrames; }
+
 private:
     void _dump( const QwtMmlNode *node, QString &indent ) const;
     bool insertChild( QwtMmlNode *parent, QwtMmlNode *new_node, QString *errorMsg );
@@ -140,6 +142,7 @@ private:
     qreal m_base_font_point_size;
     QColor m_foreground_color;
     QColor m_background_color;
+    bool m_draw_frames;
 };
 
 class QwtMmlNode : public QwtMml
@@ -1097,9 +1100,7 @@ QwtMml::NodeType domToQwtMmlNodeType( const QDomNode &dom_node )
             break;
 
         case QDomNode::EntityReferenceNode:
-#if 0
-            qWarning( "EntityReferenceNode: name=\"" + dom_node.nodeName() + "\" value=\"" + dom_node.nodeValue() + "\"" );
-#endif
+            qWarning() << "EntityReferenceNode: name=\"" + dom_node.nodeName() + "\" value=\"" + dom_node.nodeValue() + "\"";
             break;
 
         case QDomNode::AttributeNode:
@@ -1138,6 +1139,7 @@ QwtMmlDocument::QwtMmlDocument()
     m_base_font_point_size = 16;
     m_foreground_color = Qt::black;
     m_background_color = Qt::white;
+    m_draw_frames = false;
 }
 
 QwtMmlDocument::~QwtMmlDocument()
@@ -1591,8 +1593,7 @@ void QwtMmlDocument::paint( QPainter *painter, const QPointF &pos ) const
     if ( m_root_node == 0 )
         return;
 
-    QRectF mr = m_root_node->myRect();
-    m_root_node->setRelOrigin( pos - mr.topLeft() );
+    m_root_node->setRelOrigin( pos - m_root_node->myRect().topLeft() );
     m_root_node->paint( painter );
 }
 
@@ -2052,12 +2053,25 @@ void QwtMmlNode::paint( QPainter *painter )
     painter->save();
 
     const QColor bg = background();
+    const QRectF dRect = myRect().translated( devicePoint( relOrigin() ) );
     if ( bg.isValid() )
-        painter->fillRect( myRect(), bg );
+    {
+        painter->fillRect( dRect, bg );
+    }
+    else
+    {
+        painter->fillRect( dRect, m_document->backgroundColor() );
+    }
 
     const QColor fg = color();
     if ( fg.isValid() )
-        painter->setPen( QPen( color(), 1 ) );
+    {
+        painter->setPen( QPen( fg, 1 ) );
+    }
+    else
+    {
+        painter->setPen( QPen( m_document->foregroundColor(), 1 ) );
+    }
 
     QwtMmlNode *child = firstChild();
     for ( ; child != 0; child = child->nextSibling() )
@@ -2070,17 +2084,21 @@ void QwtMmlNode::paint( QPainter *painter )
 
 void QwtMmlNode::paintSymbol( QPainter *painter ) const
 {
-    if ( g_draw_frames && myRect().isValid() )
+    if ( m_document->drawFrames() && myRect().isValid() )
     {
         painter->save();
 
         painter->setPen( QPen( Qt::red, 0 ) );
-        painter->drawRect( m_my_rect );
+
+        const QPointF dPos = devicePoint( relOrigin() );
+        const QRectF dRect = myRect().translated( dPos );
+        painter->drawRect( dRect );
 
         QPen pen = painter->pen();
         pen.setStyle( Qt::DotLine );
         painter->setPen( pen );
-        painter->drawLine( myRect().left(), 0.0, myRect().right(), 0.0 );
+
+        painter->drawLine( dRect.left(), dPos.y(), dRect.right(), dPos.y() );
 
         painter->restore();
     }
@@ -2312,12 +2330,8 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
     painter->save();
     painter->setFont( fn );
 
-#if 1
     const QPointF dPos = devicePoint( relOrigin() );
     painter->drawText( dPos.x(), dPos.y() + fm.strikeOutPos(), m_text );
-#else
-    painter->drawText( 0.0, fm.strikeOutPos(), m_text );
-#endif
 
     painter->restore();
 }
@@ -2470,7 +2484,7 @@ QwtMml::FormType QwtMmlMoNode::form() const
         if ( ok )
             return value;
         else
-            qWarning( "Could not convert %s to form", value_str.toLatin1().data() );
+            qWarning() << "Could not convert " << value_str << " to form";
     }
 
     // Default heuristic.
@@ -2714,7 +2728,7 @@ void QwtMmlMtableNode::layoutSymbol()
                 continue;
             }
             else
-                qWarning( "QwtMmlMtableNode::layoutSymbol(): could not parse value %s%%", value.toLatin1().data() );
+                qWarning() << "QwtMmlMtableNode::layoutSymbol(): could not parse value " << value << "%%";
         }
 
         // Relatively sized column, but we failed to parse the factor. Treat is like an auto
@@ -2960,19 +2974,17 @@ void QwtMmlMtdNode::setMyRect( const QRectF &rect )
         while ( rect.width() < child->myRect().width()
                 && child->font().pointSize() > g_min_font_point_size )
         {
-#if 0
-            qWarning( "QwtMmlMtdNode::setMyRect(): rect.width()=%d, child()->myRect().width=%d sl=%d",
-                rect.width(), child->myRect().width(), m_scriptlevel_adjust );
-#endif
+            qWarning() << "QwtMmlMtdNode::setMyRect(): rect.width()=" << rect.width()
+                       << ", child()->myRect().width=" << child->myRect().width()
+                       << " sl=" << m_scriptlevel_adjust;
 
             ++m_scriptlevel_adjust;
             child->layout();
         }
 
-#if 0
-        qWarning( "QwtMmlMtdNode::setMyRect(): rect.width()=%d, child()->myRect().width=%d sl=%d",
-            rect.width(), child->myRect().width(), m_scriptlevel_adjust );
-#endif
+        qWarning() << "QwtMmlMtdNode::setMyRect(): rect.width()=" << rect.width()
+                   << ", child()->myRect().width=" << child->myRect().width()
+                   << " sl=" << m_scriptlevel_adjust;
     }
 
     QRectF mr = myRect();
@@ -4015,7 +4027,7 @@ static QwtMml::FrameSpacing mmlInterpretFrameSpacing( const QString &value_list,
     return fs;
 }
 
-static QFont mmlInterpretDepreciatedFontAttr( 
+static QFont mmlInterpretDepreciatedFontAttr(
     const QwtMmlAttributeMap &font_attr, QFont &fn, int em, int ex )
 {
     if ( font_attr.contains( "fontsize" ) )
@@ -4042,9 +4054,7 @@ static QFont mmlInterpretDepreciatedFontAttr(
             qreal size = mmlInterpretSpacing( value, em, ex, &ok );
             if ( ok )
             {
-#if 1
                 fn.setPixelSize( size );
-#endif
                 break;
             }
 
@@ -4115,9 +4125,7 @@ static QFont mmlInterpretMathSize( QString value, QFont &fn, int em, int ex, boo
     qreal size = mmlInterpretSpacing( value, em, ex, &size_ok );
     if ( size_ok )
     {
-#if 1
-        fn.setPixelSize( size );  // setPointSizeF ???
-#endif
+        fn.setPixelSize( size );
         return fn;
     }
 
@@ -4218,7 +4226,7 @@ void QwtMathMLDocument::setFontName( QwtMathMLDocument::MmlFont type,
 
 /*!
     Returns the point size of the font used to render expressions
-    whose scriptlevel is 0.
+    which scriptlevel is 0.
 
     \sa setBaseFontPointSize() fontName() setFontName()
 */
@@ -4229,7 +4237,7 @@ qreal QwtMathMLDocument::baseFontPointSize() const
 
 /*!
     Sets the point \a size of the font used to render expressions
-    whose scriptlevel is 0.
+    which scriptlevel is 0.
 
     \sa baseFontPointSize() fontName() setFontName()
 */
@@ -4243,4 +4251,61 @@ void QwtMathMLDocument::setBaseFontPointSize( qreal size )
 
     m_doc->setBaseFontPointSize( size );
     m_doc->layout();
+}
+
+/*!
+    Returns the color used to render expressions.
+*/
+QColor QwtMathMLDocument::foregroundColor() const
+{
+    return m_doc->foregroundColor();
+}
+
+/*!
+    Sets the color used to render expressions.
+*/
+void QwtMathMLDocument::setForegroundColor( const QColor &color )
+{
+    if ( color == m_doc->foregroundColor() )
+        return;
+
+    m_doc->setForegroundColor( color );
+}
+
+/*!
+    Returns the color used to render the background of expressions.
+*/
+QColor QwtMathMLDocument::backgroundColor() const
+{
+    return m_doc->backgroundColor();
+}
+
+/*!
+    Sets the color used to render the background of expressions.
+*/
+void QwtMathMLDocument::setBackgroundColor( const QColor &color )
+{
+    if ( color == m_doc->backgroundColor() )
+        return;
+
+    m_doc->setBackgroundColor( color );
+}
+
+/*!
+    Returns whether frames are to be drawn.
+*/
+bool QwtMathMLDocument::drawFrames() const
+{
+    return m_doc->drawFrames();
+}
+
+/*!
+    Specifies whether frames are to be drawn.
+*/
+void QwtMathMLDocument::setDrawFrames( const bool &drawFrames )
+{
+    if ( drawFrames == m_doc->drawFrames() )
+        return;
+
+    m_doc->setDrawFrames( drawFrames );
 }

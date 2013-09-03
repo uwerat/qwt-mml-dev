@@ -1,7 +1,7 @@
 #ifndef _QWT_MML_ENTITY_TABLE_H_
 #define _QWT_MML_ENTITY_TABLE_H_
 
-#include <qstring.h>
+#include <QString>
 
 class QwtMMLEntityTable
 {

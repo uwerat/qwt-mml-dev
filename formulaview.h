@@ -20,6 +20,8 @@ public Q_SLOTS:
     void setTransformation( const bool &transformation );
     void setScale( const bool &scale );
     void setRotation( const qreal & );
+    void setDrawFrames( const bool &drawFrames );
+    void setColors( const bool &colors );
 
 protected:
     virtual void paintEvent( QPaintEvent * );
@@ -33,6 +35,8 @@ private:
     bool d_transformation;
     bool d_scale;
     qreal d_rotation;
+    bool d_drawFrames;
+    bool d_colors;
 };
 
 #endif

@@ -28,7 +28,7 @@ MainWindow::MainWindow()
     for ( int i = 8; i <= 128; i += 2 )
         fontSizes << QString::number( i );
     comboFontSizes->addItems( fontSizes );
-    comboFontSizes->setCurrentIndex( 3 );
+    comboFontSizes->setCurrentIndex( 32 );
     toolBar->addWidget( comboFontSizes );
 
     QCheckBox *checkTransformation = new QCheckBox( toolBar );
@@ -48,6 +48,14 @@ MainWindow::MainWindow()
     d_comboRotations->setCurrentIndex( 0 );
     toolBar->addWidget( d_comboRotations );
 
+    QCheckBox *checkDrawFrames = new QCheckBox( toolBar );
+    checkDrawFrames->setText( "Draw frames" );
+    toolBar->addWidget( checkDrawFrames );
+
+    QCheckBox *checkColors = new QCheckBox( toolBar );
+    checkColors->setText( "Colors" );
+    toolBar->addWidget( checkColors );
+
     addToolBar( toolBar );
 
     connect( btnLoad, SIGNAL( clicked() ), this, SLOT( load() ) );
@@ -55,11 +63,15 @@ MainWindow::MainWindow()
     connect( checkTransformation, SIGNAL( toggled( bool ) ), this, SLOT( updateTransformation( const bool & ) ) );
     connect( d_checkScale, SIGNAL( toggled( bool ) ), this, SLOT( updateScaling( const bool & ) ) );
     connect( d_comboRotations, SIGNAL( currentIndexChanged( const QString & ) ), this, SLOT( updateRotation( const QString & ) ) );
+    connect( checkDrawFrames, SIGNAL( toggled( bool ) ), this, SLOT( updateDrawFrames( const bool & ) ) );
+    connect( checkColors, SIGNAL( toggled( bool ) ), this, SLOT( updateColors( const bool & ) ) );
 
     updateFontSize( comboFontSizes->currentText() );
     updateTransformation( checkTransformation->isChecked() );
     updateScaling( d_checkScale->isChecked() );
     updateRotation( d_comboRotations->currentText() );
+    updateDrawFrames( checkDrawFrames->isChecked() );
+    updateColors( checkColors->isChecked() );
 };
 
 void MainWindow::load()
@@ -106,4 +118,14 @@ void MainWindow::updateScaling( const bool &scale )
 void MainWindow::updateRotation( const QString &rotation )
 {
     d_view->setRotation( rotation.toInt() );
+}
+
+void MainWindow::updateDrawFrames( const bool &drawFrames )
+{
+    d_view->setDrawFrames( drawFrames );
+}
+
+void MainWindow::updateColors( const bool &colors )
+{
+    d_view->setColors( colors );
 }

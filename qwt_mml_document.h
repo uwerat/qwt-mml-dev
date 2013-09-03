@@ -1,8 +1,9 @@
 #ifndef _QWT_MML_DOCUMENT_H_
 #define _QWT_MML_DOCUMENT_H_
 
-#include <qstring.h>
-#include <qsize.h>
+#include <QColor>
+#include <QSize>
+#include <QString>
 
 class QPainter;
 class QPointF;
@@ -37,6 +38,15 @@ public:
 
     qreal baseFontPointSize() const;
     void setBaseFontPointSize( qreal size );
+
+    QColor foregroundColor() const;
+    void setForegroundColor( const QColor &color );
+
+    QColor backgroundColor() const;
+    void setBackgroundColor( const QColor &color );
+
+    bool drawFrames() const;
+    void setDrawFrames( const bool &drawFrames );
 
 private:
     QwtMmlDocument *m_doc;
