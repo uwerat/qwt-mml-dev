@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: moAlargeop12</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mo/moAform11.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mo/moAlrspace13.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mo/moAlargeop12.xml (<a href="moAlargeop12.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This example tests the interaction of the 'largeop' and
+'displaystyle' attributes.  Specifically, it tests the default, true
+and false values of 'largeop' for &amp;int; with when 'displaystyle'
+is true or false.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="moAlargeop12.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mrow> 
+        <mo>&#x0222B;</mo> 
+        <mi>x</mi> 
+        <mo>=</mo> 
+        <mo largeop="true">&#x0222B;</mo> 
+        <mi>x</mi> 
+        <mo>=</mo> 
+        <mo largeop="false">&#x0222B;</mo> 
+        <mi>x</mi> 
+        <mo>=</mo> 
+        <mstyle displaystyle="true"> 
+          <mo>&#x0222B;</mo> 
+          <mi>x</mi> 
+          <mo>=</mo> 
+          <mo largeop="true">&#x0222B;</mo> 
+          <mi>x</mi> 
+          <mo>=</mo> 
+          <mo largeop="false">&#x0222B;</mo> 
+          <mi>x</mi> 
+        </mstyle> 
+      </mrow> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mrow> 
+        &lt;mo>&amp;int;&lt;/mo> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>=&lt;/mo> 
+        &lt;mo largeop='true'>&amp;int;&lt;/mo> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>=&lt;/mo> 
+        &lt;mo largeop='false'>&amp;int;&lt;/mo> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>=&lt;/mo> 
+        &lt;mstyle displaystyle='true'> 
+          &lt;mo>&amp;int;&lt;/mo> 
+          &lt;mi>x&lt;/mi> 
+          &lt;mo>=&lt;/mo> 
+          &lt;mo largeop='true'>&amp;int;&lt;/mo> 
+          &lt;mi>x&lt;/mi> 
+          &lt;mo>=&lt;/mo> 
+          &lt;mo largeop='false'>&amp;int;&lt;/mo> 
+          &lt;mi>x&lt;/mi> 
+        &lt;/mstyle> 
+      &lt;/mrow> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

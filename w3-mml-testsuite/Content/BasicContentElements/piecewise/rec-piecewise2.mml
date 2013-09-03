@@ -1,0 +1,31 @@
+    <math> 
+      <piecewise> 
+        <piece> 
+          <apply> 
+            <minus/> 
+            <ci> x </ci> 
+          </apply> 
+          <apply> 
+            <lt/> 
+            <ci> x </ci> 
+            <cn> 0 </cn> 
+          </apply> 
+        </piece> 
+        <piece> 
+          <cn> 0 </cn> 
+          <apply> 
+            <eq/> 
+            <ci> x </ci> 
+            <cn> 0 </cn> 
+          </apply> 
+        </piece> 
+        <piece> 
+          <ci> x </ci> 
+          <apply> 
+            <gt/> 
+            <ci> x </ci> 
+            <cn> 0 </cn> 
+          </apply> 
+        </piece> 
+      </piecewise> 
+    </math>

@@ -1,0 +1,12 @@
+    <math> 
+      <!-- reference to OpenMath formal syntax definition of Bessel function --> 
+      <apply> 
+        <csymbol encoding="OpenMath" definitionURL="http://www.openmath.org/cd/BesselFunctions.ocd"> 
+          <msub> 
+            <mi>J</mi> 
+            <mn>0</mn> 
+          </msub> 
+        </csymbol> 
+        <ci>y</ci> 
+      </apply> 
+    </math>

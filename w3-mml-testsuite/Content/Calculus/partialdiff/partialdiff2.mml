@@ -1,0 +1,25 @@
+    <math> 
+      <apply> 
+        <partialdiff/> 
+        <bvar> 
+          <ci> x </ci> 
+          <degree> 
+            <ci> n </ci> 
+          </degree> 
+        </bvar> 
+        <bvar> 
+          <ci> y </ci> 
+          <degree> 
+            <ci> m </ci> 
+          </degree> 
+        </bvar> 
+        <apply> 
+          <sin/> 
+          <apply> 
+            <times/> 
+            <ci> x </ci> 
+            <ci> y </ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

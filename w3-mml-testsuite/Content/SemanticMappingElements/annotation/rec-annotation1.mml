@@ -1,0 +1,14 @@
+    <math> 
+      <semantics> 
+        <apply> 
+          <plus/> 
+          <apply> 
+            <sin/> 
+            <ci> x </ci> 
+          </apply> 
+          <cn> 5 </cn> 
+        </apply> 
+        <annotation encoding="TeX">\sin x + 5 
+        </annotation> 
+      </semantics> 
+    </math>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: intDispStyle</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Topics/StretchyChars/integral/int9.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Topics/StretchyChars/integral/intNested3.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/StretchyChars/integral/intDispStyle.xml (<a href="intDispStyle.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests how integrals render with different values of display style and other params.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="intDispStyle.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable columnlines="solid" rowlines="solid"> 
+        <mtr>
+          <mtd/>
+          <mtd>
+            <mtext>ds=true</mtext>
+          </mtd> 
+          <mtd>
+            <mtext>ds=false</mtext>
+          </mtd>
+        </mtr> 
+        <mtr>
+          <mtd>
+            <mtext>stretch=t, large=t</mtext>
+          </mtd>
+          <mtd>
+            <mstyle fontsize="150%" displaystyle="true"> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="false"> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>stretch=f, large=t</mtext>
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="true"> 
+              <mrow> 
+                <mo stretchy="false" largeop="true">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="false" largeop="true">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="false"> 
+              <mrow> 
+                <mo stretchy="false" largeop="true">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="false" largeop="true">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>stretch=t, large=f</mtext>
+          </mtd>
+          <mtd>
+            <mstyle fontsize="150%" displaystyle="true"> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>A</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="false"> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>A</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="false">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>stretch=f, large=f</mtext>
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="true"> 
+              <mrow> 
+                <mo stretchy="false" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="false" largeop="false">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle> 
+          </mtd>
+          <mtd> 
+            <mstyle fontsize="150%" displaystyle="false"> 
+              <mrow> 
+                <mo stretchy="false" largeop="false">&#x0222B;
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mn>5</mn> 
+                </mfrac> 
+              </mrow> 
+              <mo>=</mo> 
+              <mrow> 
+                <mo stretchy="false" largeop="false">&#x0222B;
+                </mo> 
+                <mi>x</mi> 
+              </mrow>
+            </mstyle>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable columnlines="solid" rowlines="solid"> 
+        &lt;mtr>
+          &lt;mtd>&lt;/mtd>
+          &lt;mtd>
+            &lt;mtext>ds=true&lt;/mtext>
+          &lt;/mtd> 
+          &lt;mtd>
+            &lt;mtext>ds=false&lt;/mtext>
+          &lt;/mtd>
+        &lt;/mtr> 
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>stretch=t, large=t&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mstyle fontsize="150%" displaystyle="true"> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="false"> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>stretch=f, large=t&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="true"> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="false"> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="true">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>stretch=t, large=f&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mstyle fontsize="150%" displaystyle="true"> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>A&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="false"> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>A&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>stretch=f, large=f&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="true"> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle> 
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%" displaystyle="false"> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mn>5&lt;/mn> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+              &lt;mo>=&lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="false" largeop="false">&amp;int;
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow>
+            &lt;/mstyle>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

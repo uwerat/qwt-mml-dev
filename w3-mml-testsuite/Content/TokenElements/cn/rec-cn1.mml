@@ -1,0 +1,11 @@
+    <math> 
+      <list> 
+        <cn type="real"> 12345.7 </cn> 
+        <cn type="integer"> 12345 </cn> 
+        <cn type="integer" base="16"> AB3 </cn> 
+        <cn type="rational"> 12342 <sep/> 2342342 </cn> 
+        <cn type="complex-cartesian"> 12.3 <sep/> 5 </cn> 
+        <cn type="complex-polar"> 2 <sep/> 3.1415 </cn> 
+        <cn type="constant"> &#x003C0; </cn> 
+      </list> 
+    </math>

@@ -1,0 +1,15 @@
+    <math> 
+      <lambda> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <apply> 
+          <sin/> 
+          <apply> 
+            <plus/> 
+            <ci> x </ci> 
+            <cn> 1 </cn> 
+          </apply> 
+        </apply> 
+      </lambda> 
+    </math>

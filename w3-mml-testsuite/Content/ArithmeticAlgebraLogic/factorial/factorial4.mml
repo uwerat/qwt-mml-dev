@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <factorial/> 
+        <apply> 
+          <divide/> 
+          <ci> n </ci> 
+          <ci> m </ci> 
+        </apply> 
+      </apply> 
+    </math>

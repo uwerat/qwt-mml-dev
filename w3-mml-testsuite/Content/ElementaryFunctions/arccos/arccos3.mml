@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><example><name>arccos2</name><author>Design Science, Inc. (E. Cannon, E. Tabacman, R.Miner)</author><description>arccos (5 pi)</description><directory>Content/ElementaryFunctions/arccos</directory><prevPage>../../../Content/ElementaryFunctions/arccos/arccos2</prevPage><nextPage>../../../Content/ElementaryFunctions/arccos/arccos4</nextPage><rendering><img src="arccos2.png" creator="webeq"/></rendering><tex/><eqn><math><apply><arccos/><apply><times/><cn>5</cn><cn>π</cn></apply></apply></math></eqn><src>
+    &lt;math> 
+      &lt;apply> 
+        &lt;arccos/> 
+        &lt;apply> 
+          &lt;times/> 
+          &lt;cn>5&lt;/cn> 
+          &lt;cn>&pi;&lt;/cn> 
+        &lt;/apply> 
+      &lt;/apply> 
+    &lt;/math>
+  </src></example>

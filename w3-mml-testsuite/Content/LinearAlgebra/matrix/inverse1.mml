@@ -1,0 +1,9 @@
+    <math>
+      <apply>
+        <apply>
+          <inverse/>
+          <ci type="matrix"> a </ci>
+        </apply>
+        <ci> A </ci>
+      </apply>
+    </math>

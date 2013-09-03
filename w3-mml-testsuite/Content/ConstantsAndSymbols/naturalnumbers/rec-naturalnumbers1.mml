@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <in/> 
+        <cn type="integer">1729</cn> 
+        <naturalnumbers/> 
+      </apply> 
+    </math>

@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <approx/> 
+        <cn type="rational"> 22 
+          <sep/> 7 
+        </cn> 
+        <cn type="constant"> &#x003C0; </cn> 
+      </apply> 
+    </math>

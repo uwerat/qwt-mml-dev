@@ -1,0 +1,16 @@
+    <math> 
+      <apply> 
+        <moment/> 
+        <degree> 
+          <cn> 3 </cn> 
+        </degree> 
+        <momentabout> 
+          <ci> p </ci> 
+        </momentabout> 
+        <mrow> 
+          <ci> X </ci> 
+          <ci> Y </ci> 
+          <ci> Z </ci> 
+        </mrow> 
+      </apply> 
+    </math>

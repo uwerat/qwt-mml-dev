@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: badTag1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../ErrorHandling/BadEntities/badEntity1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../ErrorHandling/BadTags/badTagPhantom2.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>ErrorHandling/BadTags/badTag1.xml (<a href="badTag1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests responses to invalid (non-MathML) tags.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="badTag1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <msup> 
+        <mn>5</mn> 
+        <foo>2</foo> 
+      </msup> 
+      <mo>+</mo> 
+      <msup> 
+        <foo>2</foo> 
+        <mn>5</mn> 
+      </msup> 
+      <mo>+</mo> 
+      <mrow> 
+        <mn>5</mn> 
+        <foo>+</foo> 
+        <mn>5</mn> 
+      </mrow> 
+      <mo>+</mo> 
+      <foo/> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;msup> 
+        &lt;mn>5&lt;/mn> 
+        &lt;foo>2&lt;/foo> 
+      &lt;/msup> 
+      &lt;mo>+&lt;/mo> 
+      &lt;msup> 
+        &lt;foo>2&lt;/foo> 
+        &lt;mn>5&lt;/mn> 
+      &lt;/msup> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mrow> 
+        &lt;mn>5&lt;/mn> 
+        &lt;foo>+&lt;/foo> 
+        &lt;mn>5&lt;/mn> 
+      &lt;/mrow> 
+      &lt;mo>+&lt;/mo> 
+      &lt;foo/> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

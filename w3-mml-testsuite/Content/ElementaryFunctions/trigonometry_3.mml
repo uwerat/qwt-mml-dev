@@ -1,0 +1,29 @@
+    <math> 
+      <apply> 
+        <divide /> 
+        <apply> 
+          <times/> 
+          <apply> 
+            <sec/> 
+            <apply> 
+              <times/> 
+              <ci> x </ci> 
+              <ci> y </ci> 
+            </apply> 
+          </apply> 
+          <apply> 
+            <times/> 
+            <cn>2</cn> 
+            <ci>b</ci> 
+          </apply> 
+        </apply> 
+        <apply> 
+          <tan /> 
+          <apply> 
+            <plus /> 
+            <cn>x</cn> 
+            <cn>y</cn> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

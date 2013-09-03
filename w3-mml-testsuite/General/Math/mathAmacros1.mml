@@ -1,0 +1,6 @@
+    <math macros="testdir/testfile testdir2/testfile2">
+      <mfrac>
+        <mi>x</mi>
+        <mi>y</mi>
+      </mfrac>
+    </math>

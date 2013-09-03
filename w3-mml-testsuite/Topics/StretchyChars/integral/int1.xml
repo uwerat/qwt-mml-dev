@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: int1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Topics/StretchyChars/horizontal/stretchTilde1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Topics/StretchyChars/integral/int10.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/StretchyChars/integral/int1.xml (<a href="int1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (E. Cannon, E. Tabacman, R.Miner)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>inline integral
+</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="int1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>&#x0222B;</mo>
+      <mi>f</mi>
+      <mrow> 
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+      </mrow>
+      <mtext>&#x0200A;</mtext>
+      <mo>&#x02146;</mo>
+      <mi>x</mi>
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math>
+      &lt;mo>&amp;int;&lt;/mo>
+      &lt;mi>f&lt;/mi>
+      &lt;mrow> 
+        &lt;mo>(&lt;/mo>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>)&lt;/mo>
+      &lt;/mrow>
+      &lt;mtext>&amp;VeryThinSpace;&lt;/mtext>
+      &lt;mo>&amp;dd;&lt;/mo>
+      &lt;mi>x&lt;/mi>
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

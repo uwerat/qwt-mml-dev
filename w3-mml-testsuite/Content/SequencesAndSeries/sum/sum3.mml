@@ -1,0 +1,21 @@
+    <math> 
+      <apply> 
+        <sum/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <reln> 
+            <in/> 
+            <ci> x </ci> 
+            <ci type="set"> B </ci> 
+          </reln> 
+        </condition> 
+        <apply> 
+          <fn> 
+            <ci> f </ci> 
+          </fn> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

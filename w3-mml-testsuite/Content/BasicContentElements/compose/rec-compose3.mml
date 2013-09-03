@@ -1,0 +1,14 @@
+    <math> 
+      <apply> 
+        <apply> 
+          <compose/> 
+          <fn> 
+            <ci> f </ci> 
+          </fn> 
+          <fn> 
+            <ci> g </ci> 
+          </fn> 
+        </apply> 
+        <ci> x </ci> 
+      </apply> 
+    </math>

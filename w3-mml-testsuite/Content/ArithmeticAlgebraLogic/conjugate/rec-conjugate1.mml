@@ -1,0 +1,14 @@
+    <math> 
+      <apply> 
+        <conjugate/> 
+        <apply> 
+          <plus/> 
+          <ci> x </ci> 
+          <apply> 
+            <times/> 
+            <cn> &#x02148; </cn> 
+            <ci> y </ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

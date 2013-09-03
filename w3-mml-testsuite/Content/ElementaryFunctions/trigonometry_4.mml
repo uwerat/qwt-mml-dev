@@ -1,0 +1,13 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <apply> 
+          <sin/> 
+          <ci>x</ci> 
+        </apply> 
+        <apply> 
+          <cos/> 
+          <ci>x</ci> 
+        </apply> 
+      </apply> 
+    </math>

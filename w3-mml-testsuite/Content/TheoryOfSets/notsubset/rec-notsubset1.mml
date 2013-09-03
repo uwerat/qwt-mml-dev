@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <notsubset/> 
+        <ci> A </ci> 
+        <ci> B </ci> 
+      </apply> 
+    </math>

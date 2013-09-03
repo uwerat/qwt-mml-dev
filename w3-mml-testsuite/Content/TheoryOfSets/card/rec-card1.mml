@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <card/> 
+          <ci> A </ci> 
+        </apply> 
+        <ci> 5 </ci> 
+      </apply> 
+    </math>

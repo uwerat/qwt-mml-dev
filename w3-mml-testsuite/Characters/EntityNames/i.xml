@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/EntityNames/h.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/EntityNames/j.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/EntityNames/i.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Entity Names starting with  i</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>iacute</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000ED.png" alt="U000ED"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iacute;</mi></math></td></tr>
+      <tr><td>Iacute</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000CD.png" alt="U000CD"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iacute;</mi></math></td></tr>
+      <tr><td>ic</td><td>N/A</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ic;</mi></math></td></tr>
+      <tr><td>icirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000EE.png" alt="U000EE"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&icirc;</mi></math></td></tr>
+      <tr><td>Icirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000CE.png" alt="U000CE"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Icirc;</mi></math></td></tr>
+      <tr><td>Icy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00418.png" alt="U00418"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Icy;</mi></math></td></tr>
+      <tr><td>icy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00438.png" alt="U00438"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&icy;</mi></math></td></tr>
+      <tr><td>Idot</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00130.png" alt="U00130"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Idot;</mi></math></td></tr>
+      <tr><td>iecy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00435.png" alt="U00435"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iecy;</mi></math></td></tr>
+      <tr><td>IEcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00415.png" alt="U00415"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&IEcy;</mi></math></td></tr>
+      <tr><td>iexcl</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000A1.png" alt="U000A1"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iexcl;</mi></math></td></tr>
+      <tr><td>iff</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D4.png" alt="U021D4"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iff;</mi></math></td></tr>
+      <tr><td>Ifr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02111.png" alt="U02111"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Ifr;</mi></math></td></tr>
+      <tr><td>ifr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D526.png" alt="U1D526"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ifr;</mi></math></td></tr>
+      <tr><td>Igrave</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000CC.png" alt="U000CC"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Igrave;</mi></math></td></tr>
+      <tr><td>igrave</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000EC.png" alt="U000EC"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&igrave;</mi></math></td></tr>
+      <tr><td>ii</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02148.png" alt="U02148"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ii;</mi></math></td></tr>
+      <tr><td>iiiint</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A0C.png" alt="U02A0C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iiiint;</mi></math></td></tr>
+      <tr><td>iiint</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0222D.png" alt="U0222D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iiint;</mi></math></td></tr>
+      <tr><td>iinfin</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U029DC.png" alt="U029DC"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iinfin;</mi></math></td></tr>
+      <tr><td>iiota</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02129.png" alt="U02129"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iiota;</mi></math></td></tr>
+      <tr><td>IJlig</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00132.png" alt="U00132"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&IJlig;</mi></math></td></tr>
+      <tr><td>ijlig</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00133.png" alt="U00133"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ijlig;</mi></math></td></tr>
+      <tr><td>Im</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02111.png" alt="U02111"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Im;</mi></math></td></tr>
+      <tr><td>Imacr</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0012A.png" alt="U0012A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Imacr;</mi></math></td></tr>
+      <tr><td>imacr</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0012B.png" alt="U0012B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imacr;</mi></math></td></tr>
+      <tr><td>image</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02111.png" alt="U02111"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&image;</mi></math></td></tr>
+      <tr><td>ImaginaryI</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02148.png" alt="U02148"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ImaginaryI;</mi></math></td></tr>
+      <tr><td>imagline</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02110.png" alt="U02110"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imagline;</mi></math></td></tr>
+      <tr><td>imagpart</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02111.png" alt="U02111"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imagpart;</mi></math></td></tr>
+      <tr><td>imath</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00131.png" alt="U00131"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imath;</mi></math></td></tr>
+      <tr><td>imof</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022B7.png" alt="U022B7"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imof;</mi></math></td></tr>
+      <tr><td>imped</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D543.png" alt="U1D543"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&imped;</mi></math></td></tr>
+      <tr><td>Implies</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D2.png" alt="U021D2"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Implies;</mi></math></td></tr>
+      <tr><td>in</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02208.png" alt="U02208"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&in;</mi></math></td></tr>
+      <tr><td>incare</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02105.png" alt="U02105"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&incare;</mi></math></td></tr>
+      <tr><td>infin</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0221E.png" alt="U0221E"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&infin;</mi></math></td></tr>
+      <tr><td>inodot</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00131.png" alt="U00131"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&inodot;</mi></math></td></tr>
+      <tr><td>int</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0222B.png" alt="U0222B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&int;</mi></math></td></tr>
+      <tr><td>Int</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0222C.png" alt="U0222C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Int;</mi></math></td></tr>
+      <tr><td>intcal</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022BA.png" alt="U022BA"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&intcal;</mi></math></td></tr>
+      <tr><td>integers</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02124.png" alt="U02124"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&integers;</mi></math></td></tr>
+      <tr><td>Integral</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0222B.png" alt="U0222B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Integral;</mi></math></td></tr>
+      <tr><td>intercal</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022BA.png" alt="U022BA"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&intercal;</mi></math></td></tr>
+      <tr><td>Intersection</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022C2.png" alt="U022C2"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Intersection;</mi></math></td></tr>
+      <tr><td>intlarhk</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A17.png" alt="U02A17"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&intlarhk;</mi></math></td></tr>
+      <tr><td>intprod</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A3C.png" alt="U02A3C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&intprod;</mi></math></td></tr>
+      <tr><td>InvisibleComma</td><td>N/A</td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&InvisibleComma;</mi></math></td></tr>
+      <tr><td>InvisibleTimes</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02062.png" alt="U02062"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&InvisibleTimes;</mi></math></td></tr>
+      <tr><td>IOcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00401.png" alt="U00401"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&IOcy;</mi></math></td></tr>
+      <tr><td>iocy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00451.png" alt="U00451"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iocy;</mi></math></td></tr>
+      <tr><td>Iogon</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0012E.png" alt="U0012E"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iogon;</mi></math></td></tr>
+      <tr><td>iogon</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0012F.png" alt="U0012F"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iogon;</mi></math></td></tr>
+      <tr><td>Iopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D540.png" alt="U1D540"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iopf;</mi></math></td></tr>
+      <tr><td>iopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D55A.png" alt="U1D55A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iopf;</mi></math></td></tr>
+      <tr><td>iota</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003B9.png" alt="U003B9"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iota;</mi></math></td></tr>
+      <tr><td>iprod</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A3C.png" alt="U02A3C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iprod;</mi></math></td></tr>
+      <tr><td>iquest</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000BF.png" alt="U000BF"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iquest;</mi></math></td></tr>
+      <tr><td>Iscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02110.png" alt="U02110"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iscr;</mi></math></td></tr>
+      <tr><td>iscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4BE.png" alt="U1D4BE"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iscr;</mi></math></td></tr>
+      <tr><td>isin</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02208.png" alt="U02208"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isin;</mi></math></td></tr>
+      <tr><td>isindot</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022F5.png" alt="U022F5"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isindot;</mi></math></td></tr>
+      <tr><td>isinE</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022F9.png" alt="U022F9"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isinE;</mi></math></td></tr>
+      <tr><td>isins</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022F4.png" alt="U022F4"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isins;</mi></math></td></tr>
+      <tr><td>isinsv</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022F3.png" alt="U022F3"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isinsv;</mi></math></td></tr>
+      <tr><td>isinv</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02208.png" alt="U02208"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&isinv;</mi></math></td></tr>
+      <tr><td>it</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02062.png" alt="U02062"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&it;</mi></math></td></tr>
+      <tr><td>Itilde</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00128.png" alt="U00128"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Itilde;</mi></math></td></tr>
+      <tr><td>itilde</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00129.png" alt="U00129"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&itilde;</mi></math></td></tr>
+      <tr><td>iukcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00456.png" alt="U00456"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iukcy;</mi></math></td></tr>
+      <tr><td>Iukcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00406.png" alt="U00406"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iukcy;</mi></math></td></tr>
+      <tr><td>Iuml</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000CF.png" alt="U000CF"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Iuml;</mi></math></td></tr>
+      <tr><td>iuml</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000EF.png" alt="U000EF"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&iuml;</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

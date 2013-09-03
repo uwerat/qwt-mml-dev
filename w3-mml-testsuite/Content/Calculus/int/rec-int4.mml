@@ -1,0 +1,16 @@
+    <math> 
+      <apply> 
+        <int/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <interval> 
+          <ci> a </ci> 
+          <ci> b </ci> 
+        </interval> 
+        <apply> 
+          <cos/> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

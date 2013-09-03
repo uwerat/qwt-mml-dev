@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: accents2</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../Topics/Accents/accents1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../Topics/Accents/accents3.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/Accents/accents2.xml (<a href="accents2.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Test of many accents in specific situations.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="accents2.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>reference:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mn>2</mn> 
+              <mn>&#x0005E;</mn> 
+              <mn>&#x02032;</mn> 
+              <mn>&#x002D9;</mn> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>operators:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover> 
+                <mi> x </mi> 
+                <mo> 2 </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo> &#x0005E; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo>&#x02032;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo>'&#x002D9;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo> &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo> &#x002D9; &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo>&#x002D9;&#x002D9;</mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>numbers:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover> 
+                <mi> x </mi> 
+                <mn> 2 </mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn> &#x0005E; </mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn>&#x02032;</mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn>'&#x002D9;</mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn> &#x002D9; </mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn> &#x002D9; &#x002D9; </mn> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mn>&#x002D9;&#x002D9;</mn> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>mover accent=false:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo> 2 </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo> &#x0005E; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo>&#x02032;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo>'&#x002D9;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo> &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo> &#x002D9; &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="false"> 
+                <mi> x </mi> 
+                <mo>&#x002D9;&#x002D9;</mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>mo accent=false:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false"> 2 </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false"> &#x0005E; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false">&#x02032;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false">'&#x002D9;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false"> &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false"> &#x002D9; &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="false">&#x002D9;&#x002D9;</mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>mover accent=true:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo> 2 </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo> &#x0005E; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo>&#x02032;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo>'&#x002D9;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo> &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo> &#x002D9; &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover accent="true"> 
+                <mi> x </mi> 
+                <mo>&#x002D9;&#x002D9;</mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>mo accent=true:</mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true"> 2 </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true"> &#x0005E; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true">&#x02032;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true">'&#x002D9;</mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true"> &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true"> &#x002D9; &#x002D9; </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true">&#x002D9;&#x002D9;</mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mtext>mo accent=true, stretchy = false: 
+            </mtext> 
+          </mtd> 
+          <mtd> 
+            <mstyle fontsize="150%"> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false"> 2 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false"> &#x0005E; 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false">&#x02032; 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false">'&#x002D9; 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false"> &#x002D9; 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false"> &#x002D9; &#x002D9; 
+                </mo> 
+              </mover> 
+              <mo> + </mo> 
+              <mover> 
+                <mi> x </mi> 
+                <mo accent="true" stretchy="false">&#x002D9;&#x002D9; 
+                </mo> 
+              </mover> 
+            </mstyle> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>reference:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mn>2&lt;/mn> 
+              &lt;mn>&amp;Hat;&lt;/mn> 
+              &lt;mn>&amp;prime;&lt;/mn> 
+              &lt;mn>&amp;dot;&lt;/mn> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>operators:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> 2 &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;Hat; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;prime;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>'&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;dot;&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>numbers:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn> 2 &lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn> &amp;Hat; &lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn>&amp;prime;&lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn>'&amp;dot;&lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn> &amp;dot; &lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn> &amp;dot; &amp;dot; &lt;/mn> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mn>&amp;dot;&amp;dot;&lt;/mn> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>mover accent=false:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> 2 &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;Hat; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;prime;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>'&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="false"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;dot;&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>mo accent=false:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false"> 2 &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false"> &amp;Hat; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false">&amp;prime;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false">'&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false"> &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false"> &amp;dot; &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="false">&amp;dot;&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>mover accent=true:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> 2 &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;Hat; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;prime;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>'&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo> &amp;dot; &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover accent="true"> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo>&amp;dot;&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>mo accent=true:&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true"> 2 &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true"> &amp;Hat; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true">&amp;prime;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true">'&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true"> &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true"> &amp;dot; &amp;dot; &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true">&amp;dot;&amp;dot;&lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign="right"> 
+            &lt;mtext>mo accent=true, stretchy = false: 
+            &lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mstyle fontsize="150%"> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false"> 2 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false"> &amp;Hat; 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false">&amp;prime; 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false">'&amp;dot; 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false"> &amp;dot; 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false"> &amp;dot; &amp;dot; 
+                &lt;/mo> 
+              &lt;/mover> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mover> 
+                &lt;mi> x &lt;/mi> 
+                &lt;mo accent="true" stretchy="false">&amp;dot;&amp;dot; 
+                &lt;/mo> 
+              &lt;/mover> 
+            &lt;/mstyle> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

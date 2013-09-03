@@ -1,0 +1,20 @@
+    <math> 
+      <apply> 
+        <forall/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <lt/> 
+            <ci> x </ci> 
+            <cn> 9 </cn> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <lt/> 
+          <ci> x </ci> 
+          <cn> 10 </cn> 
+        </apply> 
+      </apply> 
+    </math>

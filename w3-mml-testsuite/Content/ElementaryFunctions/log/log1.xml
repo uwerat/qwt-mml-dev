@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: log1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Content/ElementaryFunctions/ln/rec-ln1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Content/ElementaryFunctions/log/rec-log2.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Content/ElementaryFunctions/log/log1.xml (<a href="log1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (E. Cannon, E. Tabacman, R.Miner)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Log base 3 of x + y</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="log1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <apply> 
+        <log/> 
+        <logbase> 
+          <cn> 3 </cn> 
+        </logbase> 
+        <apply> 
+          <plus/> 
+          <ci> x </ci> 
+          <ci> y </ci> 
+        </apply> 
+      </apply> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;apply> 
+        &lt;log/> 
+        &lt;logbase> 
+          &lt;cn> 3 &lt;/cn> 
+        &lt;/logbase> 
+        &lt;apply> 
+          &lt;plus/> 
+          &lt;ci> x &lt;/ci> 
+          &lt;ci> y &lt;/ci> 
+        &lt;/apply> 
+      &lt;/apply> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

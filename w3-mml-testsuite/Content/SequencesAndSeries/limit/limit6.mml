@@ -1,0 +1,31 @@
+    <math> 
+      <apply> 
+        <limit/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <tendsto type="above"/> 
+            <ci> x </ci> 
+            <ci> a </ci> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <times/> 
+          <apply> 
+            <sin/> 
+            <apply> 
+              <times/> 
+              <ci> x </ci> 
+              <ci> y </ci> 
+            </apply> 
+          </apply> 
+          <apply> 
+            <times/> 
+            <cn>2</cn> 
+            <ci>b</ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

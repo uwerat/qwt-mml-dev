@@ -1,0 +1,31 @@
+    <math>
+      <apply>
+        <max/>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <condition>
+          <apply>
+            <and/>
+            <reln>
+              <gt/>
+              <ci> x </ci>
+              <cn> 0 </cn>
+            </reln>
+            <reln>
+              <lt/>
+              <ci> x </ci>
+              <cn> 1 </cn>
+            </reln>
+          </apply>
+        </condition>
+        <apply>
+          <minus/>
+          <ci> x </ci>
+          <apply>
+            <sin/>
+            <ci> x </ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>

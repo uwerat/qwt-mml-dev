@@ -1,0 +1,6 @@
+    <math> 
+      <apply> 
+        <determinant/> 
+        <ci type="matrix"> A </ci> 
+      </apply> 
+    </math>

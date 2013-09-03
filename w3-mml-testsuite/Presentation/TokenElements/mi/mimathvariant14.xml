@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mimathvariant14</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mi/mimathvariant13.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mn/mn1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mi/mimathvariant14.xml (<a href="mimathvariant14.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Testing the 'mathvariant' attribute as well as testing what fonts/glyphs are installed on a user's system.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mimathvariant14.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="fraktur">ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            </mi> 
+            <mi mathvariant="fraktur">abcdefghijklmnopqrstuvwxyz 
+            </mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="bold-fraktur">ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            </mi> 
+            <mi mathvariant="bold-fraktur">abcdefghijklmnopqrstuvwxyz 
+            </mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="double-struck">ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            </mi> 
+            <mi mathvariant="double-struck">abcdefghijklmnopqrstuvwxyz 
+            </mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="script">ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            </mi> 
+            <mi mathvariant="script">abcdefghijklmnopqrstuvwxyz 
+            </mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="bold-script">ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            </mi> 
+            <mi mathvariant="bold-script">abcdefghijklmnopqrstuvwxyz 
+            </mi> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='fraktur'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            &lt;/mi> 
+            &lt;mi mathvariant='fraktur'>abcdefghijklmnopqrstuvwxyz 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='bold-fraktur'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            &lt;/mi> 
+            &lt;mi mathvariant='bold-fraktur'>abcdefghijklmnopqrstuvwxyz 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='double-struck'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            &lt;/mi> 
+            &lt;mi mathvariant='double-struck'>abcdefghijklmnopqrstuvwxyz 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='script'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            &lt;/mi> 
+            &lt;mi mathvariant='script'>abcdefghijklmnopqrstuvwxyz 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='bold-script'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 
+            &lt;/mi> 
+            &lt;mi mathvariant='bold-script'>abcdefghijklmnopqrstuvwxyz 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

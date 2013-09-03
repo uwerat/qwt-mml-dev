@@ -1,0 +1,24 @@
+    <math> 
+      <apply> 
+        <max/> 
+        <bvar> 
+          <ci>x</ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <and/> 
+            <apply> 
+              <in/> 
+              <ci>x</ci> 
+              <ci type="set">B</ci> 
+            </apply> 
+            <apply> 
+              <notin/> 
+              <ci>x</ci> 
+              <ci type="set">C</ci> 
+            </apply> 
+          </apply> 
+        </condition> 
+        <ci>x</ci> 
+      </apply> 
+    </math>

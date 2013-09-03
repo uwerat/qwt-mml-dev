@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mfracSscriptlevel15</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/mfrac/mfracSinheritance14.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/mfrac/mfracZComp1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/mfrac/mfracSscriptlevel15.xml (<a href="mfracSscriptlevel15.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This example tests that &lt;mfrac> interacts properly with the
+    displaystyle attribute.  In particular, it should set
+    displaystyle to false for its children, or if it was already
+    false, increase the scriptlevel for its children.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mfracSscriptlevel15.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mfrac> 
+        <mn>1</mn> 
+        <mn>2</mn> 
+      </mfrac> 
+      <mo>+</mo> 
+      <mstyle displaystyle="true"> 
+        <mfrac> 
+          <mn>1</mn> 
+          <mn>2</mn> 
+        </mfrac> 
+      </mstyle> 
+      <mo>+</mo> 
+      <mfrac> 
+        <mn>1</mn> 
+        <mrow> 
+          <mn>1</mn> 
+          <mo>+</mo> 
+          <mfrac> 
+            <mi>x</mi> 
+            <mn>3</mn> 
+          </mfrac> 
+        </mrow> 
+      </mfrac> 
+      <mo>+</mo> 
+      <mstyle displaystyle="true"> 
+        <mfrac> 
+          <mn>1</mn> 
+          <mrow> 
+            <mn>1</mn> 
+            <mo>+</mo> 
+            <mfrac> 
+              <mi>x</mi> 
+              <mn>3</mn> 
+            </mfrac> 
+          </mrow> 
+        </mfrac> 
+      </mstyle> 
+      <mo>+</mo> 
+      <mstyle displaystyle="true"> 
+        <mfrac> 
+          <mn>1</mn> 
+          <mrow> 
+            <mn>1</mn> 
+            <mo>+</mo> 
+            <mstyle displaystyle="true"> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mn>3</mn> 
+              </mfrac> 
+            </mstyle> 
+          </mrow> 
+        </mfrac> 
+      </mstyle> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mfrac> 
+        &lt;mn>1&lt;/mn> 
+        &lt;mn>2&lt;/mn> 
+      &lt;/mfrac> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mstyle displaystyle='true'> 
+        &lt;mfrac> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/mfrac> 
+      &lt;/mstyle> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mfrac> 
+        &lt;mn>1&lt;/mn> 
+        &lt;mrow> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mfrac> 
+            &lt;mi>x&lt;/mi> 
+            &lt;mn>3&lt;/mn> 
+          &lt;/mfrac> 
+        &lt;/mrow> 
+      &lt;/mfrac> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mstyle displaystyle='true'> 
+        &lt;mfrac> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mrow> 
+            &lt;mn>1&lt;/mn> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mfrac> 
+              &lt;mi>x&lt;/mi> 
+              &lt;mn>3&lt;/mn> 
+            &lt;/mfrac> 
+          &lt;/mrow> 
+        &lt;/mfrac> 
+      &lt;/mstyle> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mstyle displaystyle='true'> 
+        &lt;mfrac> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mrow> 
+            &lt;mn>1&lt;/mn> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mstyle displaystyle='true'> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mn>3&lt;/mn> 
+              &lt;/mfrac> 
+            &lt;/mstyle> 
+          &lt;/mrow> 
+        &lt;/mfrac> 
+      &lt;/mstyle> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

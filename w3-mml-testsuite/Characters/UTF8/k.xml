@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/UTF8/j.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/UTF8/l.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/UTF8/k.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Wide Characters starting with  k</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>kappa</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003BA.png" alt="U003BA"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>κ</mi></math></td></tr>
+      <tr><td>kappav</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003F0.png" alt="U003F0"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϰ</mi></math></td></tr>
+      <tr><td>Kcedil</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00136.png" alt="U00136"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ķ</mi></math></td></tr>
+      <tr><td>kcedil</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00137.png" alt="U00137"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ķ</mi></math></td></tr>
+      <tr><td>Kcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0041A.png" alt="U0041A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>К</mi></math></td></tr>
+      <tr><td>kcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0043A.png" alt="U0043A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>к</mi></math></td></tr>
+      <tr><td>kfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D528.png" alt="U1D528"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔨</mi></math></td></tr>
+      <tr><td>Kfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D50E.png" alt="U1D50E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔎</mi></math></td></tr>
+      <tr><td>kgreen</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00138.png" alt="U00138"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ĸ</mi></math></td></tr>
+      <tr><td>khcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00445.png" alt="U00445"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>х</mi></math></td></tr>
+      <tr><td>KHcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00425.png" alt="U00425"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Х</mi></math></td></tr>
+      <tr><td>KJcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0040C.png" alt="U0040C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ќ</mi></math></td></tr>
+      <tr><td>kjcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0045C.png" alt="U0045C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ќ</mi></math></td></tr>
+      <tr><td>kopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D55C.png" alt="U1D55C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝕜</mi></math></td></tr>
+      <tr><td>Kopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D542.png" alt="U1D542"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝕂</mi></math></td></tr>
+      <tr><td>kscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4C0.png" alt="U1D4C0"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓀</mi></math></td></tr>
+      <tr><td>Kscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4A6.png" alt="U1D4A6"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝒦</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

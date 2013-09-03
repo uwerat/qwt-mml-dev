@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <and/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </apply> 
+    </math>

@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <apply> 
+          <minus/> 
+          <tan/> 
+          <cos/> 
+        </apply> 
+        <ci>x</ci> 
+      </apply> 
+    </math>

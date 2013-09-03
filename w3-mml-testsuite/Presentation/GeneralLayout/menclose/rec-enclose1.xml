@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: rec-enclose1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/mfenced/mfencedSfonts9.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/menclose/rec-enclose2.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/menclose/rec-enclose1.xml (<a href="rec-enclose1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommentation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>131 divided into 14131 as a US-style long division problem</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="rec-enclose1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable columnspacing="0px" rowspacing="2px"> 
+        <mtr> 
+          <mtd> </mtd> 
+          <mtd columnalign="right"> 
+            <mn>10</mn> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd columnalign="right"> 
+            <mn>131</mn> 
+          </mtd> 
+          <mtd columnalign="right"> 
+            <menclose notation="longdiv"> 
+              <mn>1413</mn> 
+            </menclose> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> </mtd> 
+          <mtd columnalign="right"> 
+            <mrow> 
+              <munder> 
+                <mn>131</mn> 
+                <mo> &#x00332; </mo> 
+              </munder> 
+              <mphantom> 
+                <mn>3</mn> 
+              </mphantom> 
+            </mrow> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> </mtd> 
+          <mtd columnalign="right"> 
+            <mn>103</mn> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable columnspacing='0px' rowspacing='2px'> 
+        &lt;mtr> 
+          &lt;mtd> &lt;/mtd> 
+          &lt;mtd columnalign='right'> 
+            &lt;mn>10&lt;/mn> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd columnalign='right'> 
+            &lt;mn>131&lt;/mn> 
+          &lt;/mtd> 
+          &lt;mtd columnalign='right'> 
+            &lt;menclose notation='longdiv'> 
+              &lt;mn>1413&lt;/mn> 
+            &lt;/menclose> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> &lt;/mtd> 
+          &lt;mtd columnalign='right'> 
+            &lt;mrow> 
+              &lt;munder> 
+                &lt;mn>131&lt;/mn> 
+                &lt;mo> &amp;UnderBar; &lt;/mo> 
+              &lt;/munder> 
+              &lt;mphantom> 
+                &lt;mn>3&lt;/mn> 
+              &lt;/mphantom> 
+            &lt;/mrow> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> &lt;/mtd> 
+          &lt;mtd columnalign='right'> 
+            &lt;mn>103&lt;/mn> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

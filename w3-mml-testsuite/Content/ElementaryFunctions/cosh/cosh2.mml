@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <cosh/> 
+        <apply> 
+          <times/> 
+          <cn>5</cn> 
+          <cn>&#x003C0;</cn> 
+        </apply> 
+      </apply> 
+    </math>

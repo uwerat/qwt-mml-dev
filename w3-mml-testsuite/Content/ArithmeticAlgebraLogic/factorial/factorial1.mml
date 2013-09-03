@@ -1,0 +1,14 @@
+    <math> 
+      <apply> 
+        <factorial/> 
+        <apply> 
+          <plus/> 
+          <apply> 
+            <plus/> 
+            <ci> n </ci> 
+            <ci> m </ci> 
+          </apply> 
+          <ci>x</ci> 
+        </apply> 
+      </apply> 
+    </math>

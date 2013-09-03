@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <outerproduct/> 
+        <ci type="vector">A</ci> 
+        <ci type="vector">B</ci> 
+      </apply> 
+    </math>

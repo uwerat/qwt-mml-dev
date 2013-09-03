@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <intersect/> 
+        <ci type="set"> A </ci> 
+        <ci type="set"> B </ci> 
+      </apply> 
+    </math>

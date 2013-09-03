@@ -1,0 +1,15 @@
+    <math> 
+      <list order="numeric"> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <lt/> 
+            <ci> x </ci> 
+            <cn> 5 </cn> 
+          </apply> 
+        </condition> 
+        <ci> x </ci> 
+      </list> 
+    </math>

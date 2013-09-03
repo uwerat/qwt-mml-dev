@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <implies/> 
+        <ci> A </ci> 
+        <ci> B </ci> 
+      </apply> 
+    </math>

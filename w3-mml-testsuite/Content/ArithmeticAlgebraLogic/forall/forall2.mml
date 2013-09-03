@@ -1,0 +1,8 @@
+    <math>
+      <apply>
+        <forall/>
+        <bvar>
+          <ci>x</ci>
+        </bvar>
+      </apply>
+    </math>

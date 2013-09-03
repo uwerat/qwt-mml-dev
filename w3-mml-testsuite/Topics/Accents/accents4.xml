@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: accents4</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../Topics/Accents/accents3.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../Topics/StretchyChars/vertical/abs1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/Accents/accents4.xml (<a href="accents4.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (D. Doyle)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Comprehensive accent test</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="accents4.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x000A8;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x000AF;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x002D9;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x002DC;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x0005E;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x00332;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x02190;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x02192;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x02194;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x021BC;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x021BD;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x021C0;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x021C1;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x000A8;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x02713;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x0FE37;</mo> 
+      </mover> 
+      <mover> 
+        <mi>x</mi> 
+        <mo>&#x0FE38;</mo> 
+      </mover> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;die;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;macr;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;dot;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;tilde;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;circ;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;UnderBar;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;larr;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;rarr;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;harr;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;lharu;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;lhard;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;rharu;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;rhard;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;die;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;check;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;OverBrace;&lt;/mo> 
+      &lt;/mover> 
+      &lt;mover> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mo>&amp;UnderBrace;&lt;/mo> 
+      &lt;/mover> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

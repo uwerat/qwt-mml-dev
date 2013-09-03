@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <ln/> 
+          <exponentiale/> 
+        </apply> 
+        <cn>1</cn> 
+      </apply> 
+    </math>

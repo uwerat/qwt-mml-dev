@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <int/> 
+        <domainofapplication> 
+          <ci> C </ci> 
+        </domainofapplication> 
+        <ci> f </ci> 
+      </apply> 
+    </math>

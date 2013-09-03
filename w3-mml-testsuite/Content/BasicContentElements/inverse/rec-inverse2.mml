@@ -1,0 +1,6 @@
+    <math> 
+      <apply> 
+        <inverse definitionURL="../MyDefinition.htm" encoding="text"/> 
+        <ci> f </ci> 
+      </apply> 
+    </math>

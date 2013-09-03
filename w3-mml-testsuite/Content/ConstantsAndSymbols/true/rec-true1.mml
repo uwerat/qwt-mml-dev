@@ -1,0 +1,11 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <or/> 
+          <true/> 
+          <ci type = "logical">P</ci> 
+        </apply> 
+        <true/> 
+      </apply> 
+    </math>

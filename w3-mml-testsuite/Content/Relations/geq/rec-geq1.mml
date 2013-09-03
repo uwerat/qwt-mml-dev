@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <geq/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </apply> 
+    </math>

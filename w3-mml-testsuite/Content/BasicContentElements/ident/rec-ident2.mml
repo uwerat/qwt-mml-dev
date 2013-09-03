@@ -1,0 +1,18 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <compose/> 
+          <fn> 
+            <ci> f </ci> 
+          </fn> 
+          <apply> 
+            <inverse/> 
+            <fn> 
+              <ci> f </ci> 
+            </fn> 
+          </apply> 
+        </apply> 
+        <ident/> 
+      </apply> 
+    </math>

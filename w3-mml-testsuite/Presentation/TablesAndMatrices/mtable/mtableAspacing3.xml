@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mtableAspacing3</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TablesAndMatrices/mtable/mtableAspacing2.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TablesAndMatrices/mtable/mtableAspacing4.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TablesAndMatrices/mtable/mtableAspacing3.xml (<a href="mtableAspacing3.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (D. Doyle)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>table row/column spacing using equalcolumns="true"</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mtableAspacing3.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable frame="solid" columnlines="solid" rowlines="solid" rowspacing="4pt 4pt 8pt" equalcolumns="true" displaystyle="true">
+        <mtr>
+          <mtd>
+            <mfrac>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mn>1</mn>
+              </mrow>
+              <mi>2</mi>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mi>b</mi>
+          </mtd>
+          <mtd>
+            <mi>c</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>x</mi>
+          </mtd>
+          <mtd>
+            <mrow>
+              <mfrac>
+                <mn>2</mn>
+                <mn>3</mn>
+              </mfrac>
+              <mi>y</mi>
+              <mo>+</mo>
+              <mn>5</mn>
+            </mrow>
+          </mtd>
+          <mtd>
+            <mi>z</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mn>1</mn>
+          </mtd>
+          <mtd>
+            <mn>2</mn>
+          </mtd>
+          <mtd>
+            <mfrac>
+              <mrow>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mn>5</mn>
+              </mrow>
+              <mi>3</mi>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math>
+      &lt;mtable frame="solid" columnlines="solid" rowlines="solid" rowspacing="4pt 4pt 8pt" equalcolumns="true" displaystyle="true">
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mfrac>
+              &lt;mrow>
+                &lt;mi>a&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mn>1&lt;/mn>
+              &lt;/mrow>
+              &lt;mi>2&lt;/mi>
+            &lt;/mfrac>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>b&lt;/mi>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>c&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>x&lt;/mi>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mfrac>
+                &lt;mn>2&lt;/mn>
+                &lt;mn>3&lt;/mn>
+              &lt;/mfrac>
+              &lt;mi>y&lt;/mi>
+              &lt;mo>+&lt;/mo>
+              &lt;mn>5&lt;/mn>
+            &lt;/mrow>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>z&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mn>1&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mn>2&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mfrac>
+              &lt;mrow>
+                &lt;mi>a&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mn>5&lt;/mn>
+              &lt;/mrow>
+              &lt;mi>3&lt;/mi>
+            &lt;/mfrac>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

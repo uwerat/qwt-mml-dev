@@ -1,0 +1,7 @@
+    <math> 
+      <reln> 
+        <neq/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </reln> 
+    </math>

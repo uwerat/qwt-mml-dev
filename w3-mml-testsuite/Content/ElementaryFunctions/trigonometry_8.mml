@@ -1,0 +1,101 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <apply> 
+          <sin/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <cos/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <tan/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <sec/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <csc/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <cot/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <sinh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <cosh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <tanh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <sech/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <csch/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <coth/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arcsin/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccos/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arctan/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arcsec/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccsc/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccot/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arcsinh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccosh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arctanh/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arcsech/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccsch/> 
+          <ci> x </ci> 
+        </apply> 
+        <apply> 
+          <arccoth/> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

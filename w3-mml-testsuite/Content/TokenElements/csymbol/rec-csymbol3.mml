@@ -1,0 +1,5 @@
+    <math> 
+      <!-- reference to human readable text description of Boltzmann's constant --> 
+      <csymbol encoding="text" definitionURL="www.example.org/universalconstants/Boltzmann.htm"> k 
+      </csymbol> 
+    </math>

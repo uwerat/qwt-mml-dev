@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mnScolor8</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mn/mnAtoken7.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mn/mnSdisplaystyle9.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mn/mnScolor8.xml (<a href="mnScolor8.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests color attribute inheritance with
+&lt;mstyle> and &lt;mn></td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mnScolor8.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mstyle color="#ff0000"> 
+        <mrow> 
+          <mn>5</mn> 
+          <mo>+</mo> 
+          <mn color="blue">5</mn> 
+          <mo>+</mo> 
+          <mn color="#0f0">5</mn> 
+          <mo>+</mo> 
+          <mn color="#9c0fff">5</mn> 
+          <mo>+</mo> 
+          <mn fontstyle="italic">5</mn> 
+          <mo>+</mo> 
+          <mn fontfamily="Helvetica">5</mn> 
+        </mrow> 
+      </mstyle> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mstyle color='#ff0000'> 
+        &lt;mrow> 
+          &lt;mn>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='blue'>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='#0f0'>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='#9c0fff'>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontstyle='italic'>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontfamily='Helvetica'>5&lt;/mn> 
+        &lt;/mrow> 
+      &lt;/mstyle> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

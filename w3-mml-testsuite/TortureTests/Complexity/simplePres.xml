@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+  Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+  of Technology, Institut National de Recherche en Informatique et en
+  Automatique, Keio University). All Rights Reserved. See
+  http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: simplePres</title>
+  </head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../TortureTests/Complexity/complex4.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../Topics/EmbellishedOp/embStretch1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>TortureTests/Complexity/simplePres.xml (<a href="simplePres.mml">mml file</a>)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Simple testing of presentation tags and attributes.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+          N/A
+      </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mfenced open="{" separators=",."> 
+        <mfrac> 
+          <mn>1</mn> 
+          <mn>78</mn> 
+        </mfrac> 
+        <mrow> 
+          <mo>sin</mo> 
+          <mi>x</mi> 
+        </mrow> 
+        <mi>y</mi> 
+      </mfenced> 
+      <mo>&#x000D7;</mo> 
+      <msup> 
+        <mi mathvariant="fraktur">a</mi> 
+        <mrow> 
+          <mn>2</mn> 
+          <mi>x</mi> 
+        </mrow> 
+      </msup> 
+      <mo>+</mo> 
+      <msub> 
+        <mn>2</mn> 
+        <mi>j</mi> 
+      </msub> 
+      <mi>x</mi> 
+      <mo>+</mo> 
+      <mfrac> 
+        <mn>45</mn> 
+        <mfrac> 
+          <mn>1</mn> 
+          <mn>78</mn> 
+        </mfrac> 
+      </mfrac> 
+      <mo>*</mo> 
+      <mstyle color="blue" background="red" fontsize="24pt"> 
+        <msubsup> 
+          <mi>x</mi> 
+          <mn color="green">2</mn> 
+          <mn>3</mn> 
+        </msubsup> 
+      </mstyle> 
+      <mo>=</mo> 
+      <mstyle color="blue" background="lightblue" fontsize="16pt"> 
+        <mroot> 
+          <mfrac> 
+            <mn>1</mn> 
+            <mrow> 
+              <mn>23</mn> 
+              <mo>+</mo> 
+              <mn>&#x003B2;</mn> 
+            </mrow> 
+          </mfrac> 
+          <mn>3</mn> 
+        </mroot> 
+      </mstyle> 
+      <ms lquote="#" rquote="&#x00022;">This is my string!
+      </ms>
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math>
+      &lt;mfenced open="{" separators=",."> 
+        &lt;mfrac> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mn>78&lt;/mn> 
+        &lt;/mfrac> 
+        &lt;mrow> 
+          &lt;mo>sin&lt;/mo> 
+          &lt;mi>x&lt;/mi> 
+        &lt;/mrow> 
+        &lt;mi>y&lt;/mi> 
+      &lt;/mfenced> 
+      &lt;mo>&amp;times;&lt;/mo> 
+      &lt;msup> 
+        &lt;mi mathvariant="fraktur">a&lt;/mi> 
+        &lt;mrow> 
+          &lt;mn>2&lt;/mn> 
+          &lt;mi>x&lt;/mi> 
+        &lt;/mrow> 
+      &lt;/msup> 
+      &lt;mo>+&lt;/mo> 
+      &lt;msub> 
+        &lt;mn>2&lt;/mn> 
+        &lt;mi>j&lt;/mi> 
+      &lt;/msub> 
+      &lt;mi>x&lt;/mi> 
+      &lt;mo>+&lt;/mo> 
+      &lt;mfrac> 
+        &lt;mn>45&lt;/mn> 
+        &lt;mfrac> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mn>78&lt;/mn> 
+        &lt;/mfrac> 
+      &lt;/mfrac> 
+      &lt;mo>*&lt;/mo> 
+      &lt;mstyle color="blue" background="red" fontsize="24pt"> 
+        &lt;msubsup> 
+          &lt;mi>x&lt;/mi> 
+          &lt;mn color="green">2&lt;/mn> 
+          &lt;mn>3&lt;/mn> 
+        &lt;/msubsup> 
+      &lt;/mstyle> 
+      &lt;mo>=&lt;/mo> 
+      &lt;mstyle color="blue" background="lightblue" fontsize="16pt"> 
+        &lt;mroot> 
+          &lt;mfrac> 
+            &lt;mn>1&lt;/mn> 
+            &lt;mrow> 
+              &lt;mn>23&lt;/mn> 
+              &lt;mo>+&lt;/mo> 
+              &lt;mn>&amp;beta;&lt;/mn> 
+            &lt;/mrow> 
+          &lt;/mfrac> 
+          &lt;mn>3&lt;/mn> 
+        &lt;/mroot> 
+      &lt;/mstyle> 
+      &lt;ms lquote="#" rquote="&amp;quot;">This is my string!
+      &lt;/ms>
+    &lt;/math>
+    </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

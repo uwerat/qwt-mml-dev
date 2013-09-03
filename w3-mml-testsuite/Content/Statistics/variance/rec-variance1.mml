@@ -1,0 +1,6 @@
+    <math> 
+      <apply> 
+        <variance/> 
+        <ci> X </ci> 
+      </apply> 
+    </math>

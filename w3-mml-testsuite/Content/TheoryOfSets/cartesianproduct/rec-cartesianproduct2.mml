@@ -1,0 +1,8 @@
+    <math> 
+      <apply> 
+        <cartesianproduct/> 
+        <reals/> 
+        <reals/> 
+        <reals/> 
+      </apply> 
+    </math>

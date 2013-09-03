@@ -1,0 +1,10 @@
+    <math> 
+      <declare type="fn" nargs="2" scope="local"> 
+        <ci> f </ci> 
+        <apply> 
+          <plus/> 
+          <ci> F </ci> 
+          <ci> G </ci> 
+        </apply> 
+      </declare> 
+    </math>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: maligngroup1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TablesAndMatrices/mtable/deprecated-test3.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TablesAndMatrices/mtable/mtable1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TablesAndMatrices/mtable/maligngroup1.xml (<a href="maligngroup1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Wolfram Research</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="maligngroup1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable groupalign="{decimalpoint left left decimalpoint left left decimalpoint}"> 
+        <mtr> 
+          <mtd> 
+            <mrow> 
+              <mrow> 
+                <maligngroup/> 
+                <mn> 8.44 </mn> 
+                <mo> &#x02062; </mo> 
+                <maligngroup/> 
+                <mi> x </mi> 
+              </mrow> 
+              <maligngroup/> 
+              <mo> + </mo> 
+              <mrow> 
+                <maligngroup/> 
+                <mn> 55 </mn> 
+                <mo> &#x02062; </mo> 
+                <maligngroup/> 
+                <mi> y </mi> 
+              </mrow> 
+            </mrow> 
+            <maligngroup/> 
+            <mo> = </mo> 
+            <maligngroup/> 
+            <mn> 0 </mn> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mrow> 
+              <mrow> 
+                <maligngroup/> 
+                <mn> 3.1 </mn> 
+                <mo> &#x02062; </mo> 
+                <maligngroup/> 
+                <mi> x </mi> 
+              </mrow> 
+              <maligngroup/> 
+              <mo> - </mo> 
+              <mrow> 
+                <maligngroup/> 
+                <mn> 0.7 </mn> 
+                <mo> &#x02062; </mo> 
+                <maligngroup/> 
+                <mi> y </mi> 
+              </mrow> 
+            </mrow> 
+            <maligngroup/> 
+            <mo> = </mo> 
+            <maligngroup/> 
+            <mrow> 
+              <mo> - </mo> 
+              <mn> 1.1 </mn> 
+            </mrow> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable groupalign='{decimalpoint left left decimalpoint left left decimalpoint}'> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mrow> 
+              &lt;mrow> 
+                &lt;maligngroup/> 
+                &lt;mn> 8.44 &lt;/mn> 
+                &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
+                &lt;maligngroup/> 
+                &lt;mi> x &lt;/mi> 
+              &lt;/mrow> 
+              &lt;maligngroup/> 
+              &lt;mo> + &lt;/mo> 
+              &lt;mrow> 
+                &lt;maligngroup/> 
+                &lt;mn> 55 &lt;/mn> 
+                &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
+                &lt;maligngroup/> 
+                &lt;mi> y &lt;/mi> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;maligngroup/> 
+            &lt;mo> = &lt;/mo> 
+            &lt;maligngroup/> 
+            &lt;mn> 0 &lt;/mn> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mrow> 
+              &lt;mrow> 
+                &lt;maligngroup/> 
+                &lt;mn> 3.1 &lt;/mn> 
+                &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
+                &lt;maligngroup/> 
+                &lt;mi> x &lt;/mi> 
+              &lt;/mrow> 
+              &lt;maligngroup/> 
+              &lt;mo> - &lt;/mo> 
+              &lt;mrow> 
+                &lt;maligngroup/> 
+                &lt;mn> 0.7 &lt;/mn> 
+                &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
+                &lt;maligngroup/> 
+                &lt;mi> y &lt;/mi> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;maligngroup/> 
+            &lt;mo> = &lt;/mo> 
+            &lt;maligngroup/> 
+            &lt;mrow> 
+              &lt;mo> - &lt;/mo> 
+              &lt;mn> 1.1 &lt;/mn> 
+            &lt;/mrow> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

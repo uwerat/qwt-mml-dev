@@ -1,0 +1,15 @@
+    <math> 
+      <apply> 
+        <union/> 
+        <apply> 
+          <intersect/> 
+          <ci>A</ci> 
+          <ci>B</ci> 
+        </apply> 
+        <apply> 
+          <intersect/> 
+          <ci>C</ci> 
+          <ci>D</ci> 
+        </apply> 
+      </apply> 
+    </math>

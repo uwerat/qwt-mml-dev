@@ -1,0 +1,13 @@
+    <math>
+      <apply>
+        <minus/>
+        <apply>
+          <exp/>
+          <apply>
+            <power/>
+            <ci>x</ci>
+            <ci>j</ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>

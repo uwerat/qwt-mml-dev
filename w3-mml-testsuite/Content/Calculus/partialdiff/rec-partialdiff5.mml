@@ -1,0 +1,11 @@
+    <math> 
+      <apply> 
+        <partialdiff/> 
+        <list> 
+          <cn>1</cn> 
+          <cn>1</cn> 
+          <cn>3</cn> 
+        </list> 
+        <ci type="fn">f</ci> 
+      </apply> 
+    </math>

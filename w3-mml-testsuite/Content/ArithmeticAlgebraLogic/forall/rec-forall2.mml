@@ -1,0 +1,17 @@
+    <math> 
+      <apply> 
+        <forall/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <apply> 
+          <eq/> 
+          <apply> 
+            <minus/> 
+            <ci> x </ci> 
+            <ci> x </ci> 
+          </apply> 
+          <cn>0</cn> 
+        </apply> 
+      </apply> 
+    </math>

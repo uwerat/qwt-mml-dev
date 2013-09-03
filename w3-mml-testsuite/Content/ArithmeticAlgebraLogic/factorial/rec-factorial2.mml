@@ -1,0 +1,6 @@
+    <math> 
+      <apply> 
+        <factorial/> 
+        <ci> n </ci> 
+      </apply> 
+    </math>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: msqrtBimplied8</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/msqrt-mroot/msqrtB7.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/msqrt-mroot/msqrtSinheritance9.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/msqrt-mroot/msqrtBimplied8.xml (<a href="msqrtBimplied8.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This example tests that &lt;msqrt> works with an implied
+&lt;mrow>.  In particular, it tests the case where there are no
+children except the implied &lt;mrow>.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="msqrtBimplied8.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mrow> 
+        <msqrt> 
+          <mi>x</mi> 
+          <mo>-</mo> 
+          <mn>3</mn> 
+        </msqrt> 
+        <mo>+</mo> 
+        <msqrt> 
+          <mrow> 
+            <mi>x</mi> 
+            <mo>-</mo> 
+            <mn>3</mn> 
+          </mrow> 
+        </msqrt> 
+        <mo>+</mo> 
+        <msqrt> </msqrt> 
+      </mrow> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mrow> 
+        &lt;msqrt> 
+          &lt;mi>x&lt;/mi> 
+          &lt;mo>-&lt;/mo> 
+          &lt;mn>3&lt;/mn> 
+        &lt;/msqrt> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msqrt> 
+          &lt;mrow> 
+            &lt;mi>x&lt;/mi> 
+            &lt;mo>-&lt;/mo> 
+            &lt;mn>3&lt;/mn> 
+          &lt;/mrow> 
+        &lt;/msqrt> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msqrt> &lt;/msqrt> 
+      &lt;/mrow> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

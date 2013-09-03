@@ -1,0 +1,12 @@
+    <math> 
+      <apply> 
+        <fn> 
+          <apply> 
+            <plus/> 
+            <ci> f </ci> 
+            <ci> g </ci> 
+          </apply> 
+        </fn> 
+        <ci>z</ci> 
+      </apply> 
+    </math>

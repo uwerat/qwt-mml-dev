@@ -1,0 +1,26 @@
+    <math> 
+      <apply> 
+        <limit/> 
+        <bvar> 
+          <ci> V </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <tendsto/> 
+            <ci> V </ci> 
+            <cn> 0 </cn> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <divide/> 
+          <apply> 
+            <int encoding="text" definitionURL="SurfaceIntegrals.htm"/> 
+            <bvar> 
+              <ci> S </ci> 
+            </bvar> 
+            <ci> a </ci> 
+          </apply> 
+          <ci> V </ci> 
+        </apply> 
+      </apply> 
+    </math>

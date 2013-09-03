@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/EntityNames/i.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/EntityNames/k.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/EntityNames/j.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Entity Names starting with  j</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>jcirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00135.png" alt="U00135"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jcirc;</mi></math></td></tr>
+      <tr><td>Jcirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00134.png" alt="U00134"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jcirc;</mi></math></td></tr>
+      <tr><td>jcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00439.png" alt="U00439"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jcy;</mi></math></td></tr>
+      <tr><td>Jcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00419.png" alt="U00419"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jcy;</mi></math></td></tr>
+      <tr><td>Jfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D50D.png" alt="U1D50D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jfr;</mi></math></td></tr>
+      <tr><td>jfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D527.png" alt="U1D527"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jfr;</mi></math></td></tr>
+      <tr><td>jmath</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U0006A.png" alt="U0006A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jmath;</mi></math></td></tr>
+      <tr><td>jopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D55B.png" alt="U1D55B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jopf;</mi></math></td></tr>
+      <tr><td>Jopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D541.png" alt="U1D541"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jopf;</mi></math></td></tr>
+      <tr><td>Jscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4A5.png" alt="U1D4A5"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jscr;</mi></math></td></tr>
+      <tr><td>jscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4BF.png" alt="U1D4BF"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jscr;</mi></math></td></tr>
+      <tr><td>jsercy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00458.png" alt="U00458"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jsercy;</mi></math></td></tr>
+      <tr><td>Jsercy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00408.png" alt="U00408"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jsercy;</mi></math></td></tr>
+      <tr><td>Jukcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00404.png" alt="U00404"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Jukcy;</mi></math></td></tr>
+      <tr><td>jukcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00454.png" alt="U00454"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&jukcy;</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

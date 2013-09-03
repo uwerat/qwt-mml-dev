@@ -1,0 +1,12 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <domain/> 
+          <fn> 
+            <ci> f </ci> 
+          </fn> 
+        </apply> 
+        <reals/> 
+      </apply> 
+    </math>

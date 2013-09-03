@@ -1,0 +1,11 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <union/> 
+          <ci>A</ci> 
+          <cn>&#x003C6;</cn> 
+        </apply> 
+        <ci>A</ci> 
+      </apply> 
+    </math>

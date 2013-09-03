@@ -1,0 +1,13 @@
+    <math> 
+      <apply> 
+        <divide/> 
+        <apply> 
+          <cos/> 
+          <ci>t</ci> 
+        </apply> 
+        <apply> 
+          <sin/> 
+          <ci>t</ci> 
+        </apply> 
+      </apply> 
+    </math>

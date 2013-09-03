@@ -1,0 +1,19 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <scalarproduct/> 
+          <ci type="vector"> A </ci> 
+          <ci type="vector">B</ci> 
+        </apply> 
+        <apply> 
+          <times/> 
+          <ci> a </ci> 
+          <ci> b </ci> 
+          <apply> 
+            <cos/> 
+            <ci> &#x003B8; </ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

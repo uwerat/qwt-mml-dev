@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/EntityNames/g.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/EntityNames/i.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/EntityNames/h.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Entity Names starting with  h</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>Hacek</td><td><img src="http://www.w3.org/Math/characters/glyphs/002/U002C7.png" alt="U002C7"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hacek;</mi></math></td></tr>
+      <tr><td>hairsp</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U0200A.png" alt="U0200A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hairsp;</mi></math></td></tr>
+      <tr><td>half</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000BD.png" alt="U000BD"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&half;</mi></math></td></tr>
+      <tr><td>hamilt</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210B.png" alt="U0210B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hamilt;</mi></math></td></tr>
+      <tr><td>hardcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0044A.png" alt="U0044A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hardcy;</mi></math></td></tr>
+      <tr><td>HARDcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0042A.png" alt="U0042A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&HARDcy;</mi></math></td></tr>
+      <tr><td>harr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02194.png" alt="U02194"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&harr;</mi></math></td></tr>
+      <tr><td>hArr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D4.png" alt="U021D4"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hArr;</mi></math></td></tr>
+      <tr><td>harrcir</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02948.png" alt="U02948"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&harrcir;</mi></math></td></tr>
+      <tr><td>harrw</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021AD.png" alt="U021AD"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&harrw;</mi></math></td></tr>
+      <tr><td>Hat</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U0005E.png" alt="U0005E"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hat;</mi></math></td></tr>
+      <tr><td>hbar</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210F.png" alt="U0210F"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hbar;</mi></math></td></tr>
+      <tr><td>Hcirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00124.png" alt="U00124"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hcirc;</mi></math></td></tr>
+      <tr><td>hcirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00125.png" alt="U00125"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hcirc;</mi></math></td></tr>
+      <tr><td>heartsuit</td><td><img src="http://www.w3.org/Math/characters/glyphs/026/U02661.png" alt="U02661"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&heartsuit;</mi></math></td></tr>
+      <tr><td>hellip</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02026.png" alt="U02026"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hellip;</mi></math></td></tr>
+      <tr><td>hercon</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022B9.png" alt="U022B9"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hercon;</mi></math></td></tr>
+      <tr><td>hfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D525.png" alt="U1D525"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hfr;</mi></math></td></tr>
+      <tr><td>Hfr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210C.png" alt="U0210C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hfr;</mi></math></td></tr>
+      <tr><td>HilbertSpace</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210B.png" alt="U0210B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&HilbertSpace;</mi></math></td></tr>
+      <tr><td>hksearow</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02925.png" alt="U02925"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hksearow;</mi></math></td></tr>
+      <tr><td>hkswarow</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02926.png" alt="U02926"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hkswarow;</mi></math></td></tr>
+      <tr><td>hoarr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021FF.png" alt="U021FF"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hoarr;</mi></math></td></tr>
+      <tr><td>homtht</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0223B.png" alt="U0223B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&homtht;</mi></math></td></tr>
+      <tr><td>hookleftarrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A9.png" alt="U021A9"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hookleftarrow;</mi></math></td></tr>
+      <tr><td>hookrightarrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021AA.png" alt="U021AA"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hookrightarrow;</mi></math></td></tr>
+      <tr><td>Hopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210D.png" alt="U0210D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hopf;</mi></math></td></tr>
+      <tr><td>hopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D559.png" alt="U1D559"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hopf;</mi></math></td></tr>
+      <tr><td>horbar</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02015.png" alt="U02015"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&horbar;</mi></math></td></tr>
+      <tr><td>HorizontalLine</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U02500.png" alt="U02500"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&HorizontalLine;</mi></math></td></tr>
+      <tr><td>Hscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210B.png" alt="U0210B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hscr;</mi></math></td></tr>
+      <tr><td>hscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4BD.png" alt="U1D4BD"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hscr;</mi></math></td></tr>
+      <tr><td>hslash</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0210F.png" alt="U0210F"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hslash;</mi></math></td></tr>
+      <tr><td>hstrok</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00127.png" alt="U00127"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hstrok;</mi></math></td></tr>
+      <tr><td>Hstrok</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00126.png" alt="U00126"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Hstrok;</mi></math></td></tr>
+      <tr><td>HumpDownHump</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0224E.png" alt="U0224E"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&HumpDownHump;</mi></math></td></tr>
+      <tr><td>HumpEqual</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0224F.png" alt="U0224F"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&HumpEqual;</mi></math></td></tr>
+      <tr><td>hybull</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02043.png" alt="U02043"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hybull;</mi></math></td></tr>
+      <tr><td>hyphen</td><td><img src="http://www.w3.org/Math/characters/glyphs/020/U02010.png" alt="U02010"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&hyphen;</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mnSdisplaystyle9</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mn/mnScolor8.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mn/mnSfont10.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mn/mnSdisplaystyle9.xml (<a href="mnSdisplaystyle9.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests that attributes set on &lt;mn> are unaffected by
+being put into an &lt;mstyle> environment. Also tests various
+multiple color attribute value formats.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mnSdisplaystyle9.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mstyle displaystyle="true"> 
+        <mrow> 
+          <mn>5</mn> 
+          <mo>+</mo> 
+          <mn fontweight="bold">23</mn> 
+          <mo>+</mo> 
+          <mn fontweight="normal" fontstyle="italic">0.5 
+          </mn> 
+          <mo>+</mo> 
+          <mn fontstyle="normal">5.0</mn> 
+          <mo>+</mo> 
+          <mn fontweight="bold" fontstyle="normal">.1 
+          </mn> 
+          <mo>+</mo> 
+          <mn color="#9c0fff">100</mn> 
+          <mo>+</mo> 
+          <mn color="#0ee">0xFFEF</mn> 
+          <mo>+</mo> 
+          <mn color="Green">5</mn> 
+          <mo>+</mo> 
+          <mn fontfamily="Helvetica">5</mn> 
+        </mrow> 
+      </mstyle> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mstyle displaystyle='true'> 
+        &lt;mrow> 
+          &lt;mn>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontweight='bold'>23&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontweight='normal' fontstyle='italic'>0.5 
+          &lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontstyle='normal'>5.0&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontweight='bold' fontstyle='normal'>.1 
+          &lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='#9c0fff'>100&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='#0ee'>0xFFEF&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn color='Green'>5&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mn fontfamily='Helvetica'>5&lt;/mn> 
+        &lt;/mrow> 
+      &lt;/mstyle> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

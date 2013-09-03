@@ -1,0 +1,12 @@
+    <math display="inline" mode="display">
+      <mfrac>
+        <mi>x</mi>
+        <mi>y</mi>
+      </mfrac>
+    </math>
+    <math display="block" mode="display">
+      <mfrac>
+        <mi>x</mi>
+        <mi>y</mi>
+      </mfrac>
+    </math>

@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <gt/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </apply> 
+    </math>

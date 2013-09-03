@@ -1,0 +1,17 @@
+    <math> 
+      <apply> 
+        <sin/> 
+        <apply> 
+          <plus/> 
+          <apply> 
+            <cos/> 
+            <ci> x </ci> 
+          </apply> 
+          <apply> 
+            <power/> 
+            <ci> x </ci> 
+            <cn> 3 </cn> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

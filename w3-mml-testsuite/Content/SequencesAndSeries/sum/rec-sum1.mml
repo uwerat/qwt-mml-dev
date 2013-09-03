@@ -1,0 +1,35 @@
+    <math> 
+      <apply> 
+        <sum/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <lowlimit> 
+          <ci> a </ci> 
+        </lowlimit> 
+        <uplimit> 
+          <ci> b </ci> 
+        </uplimit> 
+        <apply> 
+          <ci type="fn"> f </ci> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+      <apply> 
+        <sum/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <in/> 
+            <ci> x </ci> 
+            <ci type="set"> B </ci> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <ci type="fn"> f </ci> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

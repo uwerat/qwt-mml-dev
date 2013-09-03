@@ -1,0 +1,10 @@
+    <math> 
+      <declare> 
+        <ci> v </ci> 
+        <vector> 
+          <cn> 1 </cn> 
+          <cn> 2 </cn> 
+          <cn> 3 </cn> 
+        </vector> 
+      </declare> 
+    </math>

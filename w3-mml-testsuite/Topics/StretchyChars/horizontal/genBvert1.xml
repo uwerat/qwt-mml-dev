@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: genBvert1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Topics/StretchyChars/vertical/verbar2.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Topics/StretchyChars/horizontal/stretchAccents1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/StretchyChars/horizontal/genBvert1.xml (<a href="genBvert1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (E. Cannon, E. Tabacman, R.Miner)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Test of many stretchy vertical chars</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="genBvert1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mo stretchy="false">(</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">)</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">[</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">]</mo> 
+      <mo stretchy="false">&#x0230A;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x0230B;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x02308;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x02309;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x02016;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">{</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">}</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x02329;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x0232A;</mo> 
+      <mi>H</mi> 
+      <mi>&#x021C0;</mi> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x022F1;</mo> 
+      <mi>H</mi> 
+      <mo stretchy="false">&#x002D9;</mo> 
+      <mi>H</mi> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mo stretchy='false'>(&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>)&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>[&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>]&lt;/mo> 
+      &lt;mo stretchy='false'>&amp;lfloor;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;rfloor;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;lceil;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;rceil;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;Verbar;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>{&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>}&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;langle;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;rangle;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mi>&amp;rharu;&lt;/mi> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;dtdot;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+      &lt;mo stretchy='false'>&amp;dot;&lt;/mo> 
+      &lt;mi>H&lt;/mi> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

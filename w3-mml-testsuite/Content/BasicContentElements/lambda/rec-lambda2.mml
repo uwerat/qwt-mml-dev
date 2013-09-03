@@ -1,0 +1,25 @@
+    <math> 
+      <lambda> 
+        <bvar> 
+          <ci> b </ci> 
+        </bvar> 
+        <apply> 
+          <int/> 
+          <bvar> 
+            <ci> x </ci> 
+          </bvar> 
+          <lowlimit> 
+            <ci> a </ci> 
+          </lowlimit> 
+          <uplimit> 
+            <ci> b </ci> 
+          </uplimit> 
+          <apply> 
+            <fn> 
+              <ci> f </ci> 
+            </fn> 
+            <ci> x </ci> 
+          </apply> 
+        </apply> 
+      </lambda> 
+    </math>

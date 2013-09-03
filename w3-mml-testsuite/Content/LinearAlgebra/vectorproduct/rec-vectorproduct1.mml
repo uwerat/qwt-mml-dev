@@ -1,0 +1,20 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <vectorproduct/> 
+          <ci type="vector"> A </ci> 
+          <ci type="vector"> B </ci> 
+        </apply> 
+        <apply> 
+          <times/> 
+          <ci> a </ci> 
+          <ci> b </ci> 
+          <apply> 
+            <sin/> 
+            <ci> &#x003B8; </ci> 
+          </apply> 
+          <ci type="vector"> N </ci> 
+        </apply> 
+      </apply> 
+    </math>

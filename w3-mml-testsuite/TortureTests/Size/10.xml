@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+  Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+  of Technology, Institut National de Recherche en Informatique et en
+  Automatique, Keio University). All Rights Reserved. See
+  http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: 10</title>
+  </head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../ErrorHandling/NumChildren/tooFewContentContainer.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../TortureTests/Size/100.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>TortureTests/Size/10.xml (<a href="10.mml">mml file</a>)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Small stress test containing 10 separate equations.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+          N/A
+      </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup>
+        <mi>x</mi>
+        <mn>0</mn>
+      </msup>
+      <mo>+</mo>
+      <mn>0</mn>
+      <mo>=</mo>
+      <mi>&#x003B1;</mi>
+    </math>. 
+    Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>1</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo>=</mo>
+        <mi>&#x003B2;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>2</mn>
+        <mo>=</mo>
+        <mi>&#x003B3;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>3</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>3</mn>
+        <mo>=</mo>
+        <mi>&#x003B4;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>4</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>4</mn>
+        <mo>=</mo>
+        <mi>&#x003B1;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>5</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>5</mn>
+        <mo>=</mo>
+        <mi>&#x003B2;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>6</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>6</mn>
+        <mo>=</mo>
+        <mi>&#x003B3;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>7</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>7</mn>
+        <mo>=</mo>
+        <mi>&#x003B4;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>8</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>8</mn>
+        <mo>=</mo>
+        <mi>&#x003B1;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>9</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>9</mn>
+        <mo>=</mo>
+        <mi>&#x003B2;</mi>
+      </math>. Consider the equation 
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+          <mi>x</mi>
+          <mn>10</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>10</mn>
+        <mo>=</mo>
+        <mi>&#x003B3;</mi>
+      </math>.
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+      N/A
+    </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

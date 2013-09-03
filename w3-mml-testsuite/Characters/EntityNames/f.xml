@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/EntityNames/e.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/EntityNames/g.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/EntityNames/f.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Entity Names starting with  f</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>fallingdotseq</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02252.png" alt="U02252"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fallingdotseq;</mi></math></td></tr>
+      <tr><td>Fcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00424.png" alt="U00424"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Fcy;</mi></math></td></tr>
+      <tr><td>fcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00444.png" alt="U00444"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fcy;</mi></math></td></tr>
+      <tr><td>female</td><td><img src="http://www.w3.org/Math/characters/glyphs/026/U02640.png" alt="U02640"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&female;</mi></math></td></tr>
+      <tr><td>ffilig</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FB/U0FB03.png" alt="U0FB03"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ffilig;</mi></math></td></tr>
+      <tr><td>fflig</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FB/U0FB00.png" alt="U0FB00"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fflig;</mi></math></td></tr>
+      <tr><td>ffllig</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FB/U0FB04.png" alt="U0FB04"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ffllig;</mi></math></td></tr>
+      <tr><td>ffr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D523.png" alt="U1D523"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ffr;</mi></math></td></tr>
+      <tr><td>Ffr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D509.png" alt="U1D509"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Ffr;</mi></math></td></tr>
+      <tr><td>filig</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FB/U0FB01.png" alt="U0FB01"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&filig;</mi></math></td></tr>
+      <tr><td>FilledSmallSquare</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025FC.png" alt="U025FC"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&FilledSmallSquare;</mi></math></td></tr>
+      <tr><td>FilledVerySmallSquare</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025AA.png" alt="U025AA"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&FilledVerySmallSquare;</mi></math></td></tr>
+      <tr><td>flat</td><td><img src="http://www.w3.org/Math/characters/glyphs/026/U0266D.png" alt="U0266D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&flat;</mi></math></td></tr>
+      <tr><td>fllig</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FB/U0FB02.png" alt="U0FB02"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fllig;</mi></math></td></tr>
+      <tr><td>fnof</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00192.png" alt="U00192"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fnof;</mi></math></td></tr>
+      <tr><td>Fopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D53D.png" alt="U1D53D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Fopf;</mi></math></td></tr>
+      <tr><td>fopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D557.png" alt="U1D557"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fopf;</mi></math></td></tr>
+      <tr><td>ForAll</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02200.png" alt="U02200"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&ForAll;</mi></math></td></tr>
+      <tr><td>forall</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U02200.png" alt="U02200"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&forall;</mi></math></td></tr>
+      <tr><td>fork</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022D4.png" alt="U022D4"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fork;</mi></math></td></tr>
+      <tr><td>forkv</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02AD9.png" alt="U02AD9"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&forkv;</mi></math></td></tr>
+      <tr><td>Fouriertrf</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02131.png" alt="U02131"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Fouriertrf;</mi></math></td></tr>
+      <tr><td>fpartint</td><td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A0D.png" alt="U02A0D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fpartint;</mi></math></td></tr>
+      <tr><td>frac12</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000BD.png" alt="U000BD"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac12;</mi></math></td></tr>
+      <tr><td>frac13</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02153.png" alt="U02153"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac13;</mi></math></td></tr>
+      <tr><td>frac14</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000BC.png" alt="U000BC"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac14;</mi></math></td></tr>
+      <tr><td>frac15</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02155.png" alt="U02155"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac15;</mi></math></td></tr>
+      <tr><td>frac16</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02159.png" alt="U02159"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac16;</mi></math></td></tr>
+      <tr><td>frac18</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0215B.png" alt="U0215B"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac18;</mi></math></td></tr>
+      <tr><td>frac23</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02154.png" alt="U02154"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac23;</mi></math></td></tr>
+      <tr><td>frac25</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02156.png" alt="U02156"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac25;</mi></math></td></tr>
+      <tr><td>frac34</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000BE.png" alt="U000BE"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac34;</mi></math></td></tr>
+      <tr><td>frac35</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02157.png" alt="U02157"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac35;</mi></math></td></tr>
+      <tr><td>frac38</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0215C.png" alt="U0215C"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac38;</mi></math></td></tr>
+      <tr><td>frac45</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02158.png" alt="U02158"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac45;</mi></math></td></tr>
+      <tr><td>frac56</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0215A.png" alt="U0215A"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac56;</mi></math></td></tr>
+      <tr><td>frac58</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0215D.png" alt="U0215D"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac58;</mi></math></td></tr>
+      <tr><td>frac78</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0215E.png" alt="U0215E"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frac78;</mi></math></td></tr>
+      <tr><td>frown</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U02322.png" alt="U02322"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&frown;</mi></math></td></tr>
+      <tr><td>Fscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02131.png" alt="U02131"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&Fscr;</mi></math></td></tr>
+      <tr><td>fscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4BB.png" alt="U1D4BB"/></td><td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&fscr;</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

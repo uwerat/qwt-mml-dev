@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <cn>7</cn> 
+        <apply> 
+          <minus/> 
+          <cn>1</cn> 
+        </apply> 
+      </apply> 
+    </math>

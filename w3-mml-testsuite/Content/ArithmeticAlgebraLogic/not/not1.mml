@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <not/> 
+        <apply> 
+          <and/> 
+          <ci> a </ci> 
+          <ci> b </ci> 
+        </apply> 
+      </apply> 
+    </math>

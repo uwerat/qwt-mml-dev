@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <arccsch/> 
+        <apply> 
+          <plus/> 
+          <ci>a</ci> 
+          <ci>b</ci> 
+        </apply> 
+      </apply> 
+    </math>

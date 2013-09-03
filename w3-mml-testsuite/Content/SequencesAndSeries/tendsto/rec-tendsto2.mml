@@ -1,0 +1,21 @@
+    <math> 
+      <apply> 
+        <tendsto/> 
+        <vector> 
+          <ci> x </ci> 
+          <ci> y </ci> 
+        </vector> 
+        <vector> 
+          <apply> 
+            <ci type="fn"> f </ci> 
+            <ci> x </ci> 
+            <ci> y </ci> 
+          </apply> 
+          <apply> 
+            <ci type="fn"> g </ci> 
+            <ci> x </ci> 
+            <ci> y </ci> 
+          </apply> 
+        </vector> 
+      </apply> 
+    </math>

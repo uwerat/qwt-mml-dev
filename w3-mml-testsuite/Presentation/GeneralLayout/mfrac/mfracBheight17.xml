@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mfracBheight17</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/mfrac/mfracBalign16.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/mfrac/mfracBhoriz11.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/mfrac/mfracBheight17.xml (<a href="mfracBheight17.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc. (D. Doyle, E. Cannon, E. Tabacman, R.Miner)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>num/denom height tests</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mfracBheight17.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable> 
+        <mtr> 
+          <mtd> 
+            <mtext>taller num</mtext> 
+          </mtd> 
+          <mtd> 
+            <msup> 
+              <mi>x</mi> 
+              <mn>2</mn> 
+            </msup> 
+            <mo>+</mo> 
+            <msup> 
+              <mfrac> 
+                <mi>h</mi> 
+                <mi>x</mi> 
+              </mfrac> 
+              <mn>2</mn> 
+            </msup> 
+            <mo>+</mo> 
+            <msup> 
+              <mrow> 
+                <mo>(</mo> 
+                <mfrac> 
+                  <mi>h</mi> 
+                  <mi>x</mi> 
+                </mfrac> 
+                <mo>)</mo> 
+              </mrow> 
+              <mn>2</mn> 
+            </msup> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mtext>taller denom</mtext> 
+          </mtd> 
+          <mtd> 
+            <msup> 
+              <mi>x</mi> 
+              <mn>2</mn> 
+            </msup> 
+            <mo>+</mo> 
+            <msup> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mi>y</mi> 
+              </mfrac> 
+              <mn>2</mn> 
+            </msup> 
+            <mo>+</mo> 
+            <msup> 
+              <mrow> 
+                <mo>(</mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mi>y</mi> 
+                </mfrac> 
+                <mo>)</mo> 
+              </mrow> 
+              <mn>2</mn> 
+            </msup> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mtext>taller num&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;msup> 
+              &lt;mi>x&lt;/mi> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+            &lt;mo>+&lt;/mo> 
+            &lt;msup> 
+              &lt;mfrac> 
+                &lt;mi>h&lt;/mi> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mfrac> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+            &lt;mo>+&lt;/mo> 
+            &lt;msup> 
+              &lt;mrow> 
+                &lt;mo>(&lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>h&lt;/mi> 
+                  &lt;mi>x&lt;/mi> 
+                &lt;/mfrac> 
+                &lt;mo>)&lt;/mo> 
+              &lt;/mrow> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mtext>taller denom&lt;/mtext> 
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;msup> 
+              &lt;mi>x&lt;/mi> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+            &lt;mo>+&lt;/mo> 
+            &lt;msup> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mi>y&lt;/mi> 
+              &lt;/mfrac> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+            &lt;mo>+&lt;/mo> 
+            &lt;msup> 
+              &lt;mrow> 
+                &lt;mo>(&lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mi>y&lt;/mi> 
+                &lt;/mfrac> 
+                &lt;mo>)&lt;/mo> 
+              &lt;/mrow> 
+              &lt;mn>2&lt;/mn> 
+            &lt;/msup> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

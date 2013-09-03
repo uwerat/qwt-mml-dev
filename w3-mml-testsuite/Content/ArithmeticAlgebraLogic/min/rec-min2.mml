@@ -1,0 +1,20 @@
+    <math> 
+      <apply> 
+        <min/> 
+        <bvar> 
+          <ci>x</ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <notin/> 
+            <ci> x </ci> 
+            <ci type="set"> B </ci> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <power/> 
+          <ci> x </ci> 
+          <cn> 2 </cn> 
+        </apply> 
+      </apply> 
+    </math>

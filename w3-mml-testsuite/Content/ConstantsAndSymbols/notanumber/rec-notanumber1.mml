@@ -1,0 +1,11 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <divide/> 
+          <cn>0</cn> 
+          <cn>0</cn> 
+        </apply> 
+        <notanumber/> 
+      </apply> 
+    </math>

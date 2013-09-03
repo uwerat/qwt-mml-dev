@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: merrorB3</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/merror/merror1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/mpadded/mpadded1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/merror/merrorB3.xml (<a href="merrorB3.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>The &lt;merror> example from the MathML specification.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="merrorB3.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <merror> 
+        <mtext> Unrecognized element: &#x003c;mfraction&#x0003E; arguments were: 
+        </mtext> 
+        <mrow> 
+          <mn>1</mn> 
+          <mo>+</mo> 
+          <msqrt> 
+            <mn>5</mn> 
+          </msqrt> 
+        </mrow> 
+        <mtext> &#x0205F; and &#x0205F; 
+        </mtext> 
+        <mn>2</mn> 
+      </merror> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;merror> 
+        &lt;mtext> Unrecognized element: &amp;lt;mfraction&amp;gt; arguments were: 
+        &lt;/mtext> 
+        &lt;mrow> 
+          &lt;mn>1&lt;/mn> 
+          &lt;mo>+&lt;/mo> 
+          &lt;msqrt> 
+            &lt;mn>5&lt;/mn> 
+          &lt;/msqrt> 
+        &lt;/mrow> 
+        &lt;mtext> &amp;MediumSpace; and &amp;MediumSpace; 
+        &lt;/mtext> 
+        &lt;mn>2&lt;/mn> 
+      &lt;/merror> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

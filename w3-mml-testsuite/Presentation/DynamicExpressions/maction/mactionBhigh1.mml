@@ -1,0 +1,10 @@
+    <math xmlns:dsi="http://www.dessci.com/mathml"> 
+      <maction actiontype="highlight" dsi:background="#dddd66" dsi:color="#bb2244"> 
+        <mfrac> 
+          <mn>x</mn> 
+          <mi>2</mi> 
+        </mfrac> 
+      </maction> 
+      <mo>+</mo> 
+      <mn>2</mn> 
+    </math>

@@ -1,0 +1,13 @@
+    <math> 
+      <apply> 
+        <fn> 
+          <ci>f</ci> 
+        </fn> 
+        <apply> 
+          <fn> 
+            <ci>g</ci> 
+          </fn> 
+          <ci>x</ci> 
+        </apply> 
+      </apply> 
+    </math>

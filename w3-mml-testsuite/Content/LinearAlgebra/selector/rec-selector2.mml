@@ -1,0 +1,8 @@
+    <math> 
+      <apply> 
+        <selector/> 
+        <ci type="matrix"> A </ci> 
+        <cn> 3 </cn> 
+        <cn> 2 </cn> 
+      </apply> 
+    </math>

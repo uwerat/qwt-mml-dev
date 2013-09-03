@@ -1,0 +1,17 @@
+    <math> 
+      <mn> 
+        <mglyph fontfamily="Arial" index="97" alt="lowercase 'a'" /> 
+      </mn> 
+      <mspace width="10px" /> 
+      <mi> 
+        <mglyph fontfamily="Arial" index="105" /> 
+      </mi> 
+      <mspace width="10px" /> 
+      <mn>
+        <mglyph fontfamily="fake-font" index="105" />
+      </mn> 
+      <mspace width="10px" /> 
+      <mi> 
+        <mglyph index="97" alt="lowercase 'a'" /> 
+      </mi> 
+    </math>

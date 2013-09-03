@@ -1,0 +1,23 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <cn type="real"> 4.56 </cn> 
+        <cn type="integer"> 4.56 </cn> 
+        <cn type="rational"> 4 
+          <sep/> 5 
+        </cn> 
+        <cn type="complex-cartesian"> 4 
+          <sep/> 5 
+        </cn> 
+        <cn type="complex-polar"> 4.56 
+          <sep/> 4.56 
+        </cn> 
+        <cn type="constant"> &#x003C0; </cn> 
+        <cn> &#x02147; </cn> 
+        <cn> &#x02147; </cn> 
+        <cn> &#x02148; </cn> 
+        <cn> &#x02148; </cn> 
+        <cn> &#x003B3; </cn> 
+        <cn> &#x0221E; </cn> 
+      </apply> 
+    </math>

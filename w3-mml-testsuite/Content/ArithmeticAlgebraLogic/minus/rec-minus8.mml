@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <minus/> 
+        <ci> x </ci> 
+        <ci> y </ci> 
+      </apply> 
+    </math>

@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <cartesianproduct/> 
+        <ci> A </ci> 
+        <ci> B </ci> 
+      </apply> 
+    </math>

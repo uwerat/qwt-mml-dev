@@ -1,0 +1,17 @@
+    <math> 
+      <apply> 
+        <power/> 
+        <apply> 
+          <divide/> 
+          <apply> 
+            <sin/> 
+            <ci>x</ci> 
+          </apply> 
+          <apply> 
+            <cos/> 
+            <ci>x</ci> 
+          </apply> 
+        </apply> 
+        <cn>2</cn> 
+      </apply> 
+    </math>

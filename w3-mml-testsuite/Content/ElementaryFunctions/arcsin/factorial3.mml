@@ -1,0 +1,18 @@
+    <math>
+      <apply>
+        <times/> 
+        <apply>
+          <arcsin/> 
+          <apply>
+            <times/> 
+            <ci> x </ci> 
+            <ci> y </ci> 
+          </apply> 
+        </apply> 
+        <apply>
+          <times/> 
+          <cn>2</cn> 
+          <ci>b</ci> 
+        </apply> 
+      </apply>
+    </math>

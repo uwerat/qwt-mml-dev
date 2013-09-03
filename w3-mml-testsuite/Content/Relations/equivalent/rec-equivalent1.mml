@@ -1,0 +1,13 @@
+    <math> 
+      <apply> 
+        <equivalent/> 
+        <ci> a </ci> 
+        <apply> 
+          <not/> 
+          <apply> 
+            <not/> 
+            <ci> a </ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

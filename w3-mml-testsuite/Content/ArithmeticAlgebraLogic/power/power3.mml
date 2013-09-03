@@ -1,0 +1,18 @@
+    <math> 
+      <apply> 
+        <minus/> 
+        <apply> 
+          <power/> 
+          <apply> 
+            <plus/> 
+            <ci> x </ci> 
+            <ci>y</ci> 
+          </apply> 
+          <apply> 
+            <minus/> 
+            <cn>n</cn> 
+            <cn>3</cn> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

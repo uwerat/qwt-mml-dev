@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: stretchHoriz1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Topics/StretchyChars/horizontal/stretchBrack1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Topics/StretchyChars/horizontal/stretchHoriz2.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/StretchyChars/horizontal/stretchHoriz1.xml (<a href="stretchHoriz1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests for over/under nodes with stretchy characters.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="stretchHoriz1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable frame="solid">
+        <mtr>
+          <mtd/>
+          <mtd>
+            <mtext>Stetching in base</mtext>
+          </mtd>
+          <mtd>
+            <mtext>Stretching in script</mtext>
+          </mtd>
+        </mtr> 
+        <mtr>
+          <mtd>
+            <mtext>no mrows</mtext>
+          </mtd>
+          <mtd>
+            <mover>
+              <mo> &#x02192; </mo>
+              <mtext> maps to </mtext>
+            </mover>
+          </mtd>
+          <mtd> 
+            <mover>
+              <mtext> maps to </mtext>
+              <mo> &#x02192; </mo>
+            </mover> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>all in row</mtext>
+          </mtd>
+          <mtd> 
+            <mrow>
+              <mover>
+                <mo> &#x02192; </mo>
+                <mtext> maps to </mtext>
+              </mover>
+            </mrow> 
+          </mtd>
+          <mtd>
+            <mrow>
+              <mover>
+                <mtext> maps to </mtext>
+                <mo> &#x02192; </mo>
+              </mover>
+            </mrow> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>op in row</mtext>
+          </mtd>
+          <mtd> 
+            <mover>
+              <mrow>
+                <mo> &#x02192; </mo>
+              </mrow>
+              <mtext> maps to </mtext>
+            </mover> 
+          </mtd>
+          <mtd>
+            <mover>
+              <mtext> maps to </mtext>
+              <mrow>
+                <mo> &#x02192; </mo>
+              </mrow>
+            </mover> 
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>text in row</mtext>
+          </mtd>
+          <mtd> 
+            <mrow>
+              <mover>
+                <mrow>
+                  <mo> &#x02192; </mo>
+                </mrow>
+                <mtext> maps to </mtext>
+              </mover>
+            </mrow> 
+          </mtd>
+          <mtd> 
+            <mrow>
+              <mover>
+                <mtext> maps to </mtext>
+                <mrow>
+                  <mo> &#x02192; </mo>
+                </mrow>
+              </mover>
+            </mrow> 
+          </mtd>
+        </mtr>
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable frame="solid">
+        &lt;mtr>
+          &lt;mtd>&lt;/mtd>
+          &lt;mtd>
+            &lt;mtext>Stetching in base&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mtext>Stretching in script&lt;/mtext>
+          &lt;/mtd>
+        &lt;/mtr> 
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>no mrows&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mover>
+              &lt;mo> &amp;RightArrow; &lt;/mo>
+              &lt;mtext> maps to &lt;/mtext>
+            &lt;/mover>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mover>
+              &lt;mtext> maps to &lt;/mtext>
+              &lt;mo> &amp;RightArrow; &lt;/mo>
+            &lt;/mover> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>all in row&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mrow>
+              &lt;mover>
+                &lt;mo> &amp;RightArrow; &lt;/mo>
+                &lt;mtext> maps to &lt;/mtext>
+              &lt;/mover>
+            &lt;/mrow> 
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mover>
+                &lt;mtext> maps to &lt;/mtext>
+                &lt;mo> &amp;RightArrow; &lt;/mo>
+              &lt;/mover>
+            &lt;/mrow> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>op in row&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mover>
+              &lt;mrow>
+                &lt;mo> &amp;RightArrow; &lt;/mo>
+              &lt;/mrow>
+              &lt;mtext> maps to &lt;/mtext>
+            &lt;/mover> 
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mover>
+              &lt;mtext> maps to &lt;/mtext>
+              &lt;mrow>
+                &lt;mo> &amp;RightArrow; &lt;/mo>
+              &lt;/mrow>
+            &lt;/mover> 
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>text in row&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mrow>
+              &lt;mover>
+                &lt;mrow>
+                  &lt;mo> &amp;RightArrow; &lt;/mo>
+                &lt;/mrow>
+                &lt;mtext> maps to &lt;/mtext>
+              &lt;/mover>
+            &lt;/mrow> 
+          &lt;/mtd>
+          &lt;mtd> 
+            &lt;mrow>
+              &lt;mover>
+                &lt;mtext> maps to &lt;/mtext>
+                &lt;mrow>
+                  &lt;mo> &amp;RightArrow; &lt;/mo>
+                &lt;/mrow>
+              &lt;/mover>
+            &lt;/mrow> 
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

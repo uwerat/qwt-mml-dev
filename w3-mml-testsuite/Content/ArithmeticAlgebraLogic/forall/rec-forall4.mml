@@ -1,0 +1,76 @@
+    <math> 
+      <apply> 
+        <forall/> 
+        <bvar> 
+          <ci> n </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <and/> 
+            <apply> 
+              <gt/> 
+              <ci> n </ci> 
+              <cn> 0 </cn> 
+            </apply> 
+            <apply> 
+              <in/> 
+              <ci> n </ci> 
+              <integers/> 
+            </apply> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <exists/> 
+          <bvar> 
+            <ci> x </ci> 
+          </bvar> 
+          <bvar> 
+            <ci> y </ci> 
+          </bvar> 
+          <bvar> 
+            <ci> z </ci> 
+          </bvar> 
+          <condition> 
+            <apply> 
+              <and/> 
+              <apply> 
+                <in/> 
+                <ci> x </ci> 
+                <integers/> 
+              </apply> 
+              <apply> 
+                <in/> 
+                <ci> y </ci> 
+                <integers/> 
+              </apply> 
+              <apply> 
+                <in/> 
+                <ci> z </ci> 
+                <integers/> 
+              </apply> 
+            </apply> 
+          </condition> 
+          <apply> 
+            <eq/> 
+            <apply> 
+              <plus/> 
+              <apply> 
+                <power/> 
+                <ci> x </ci> 
+                <ci> n </ci> 
+              </apply> 
+              <apply> 
+                <power/> 
+                <ci> y </ci> 
+                <ci> n </ci> 
+              </apply> 
+            </apply> 
+            <apply> 
+              <power/> 
+              <ci> z </ci> 
+              <ci> n </ci> 
+            </apply> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

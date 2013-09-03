@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mspace1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mtext/mtextspaces7.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mspace/mspace2.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mspace/mspace1.xml (<a href="mspace1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This example tests the &lt;mspace> element.  It uses
+an &lt;mstyle> element to color the background to make the space
+visible.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mspace1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mrow> 
+        <mi>x</mi> 
+        <mstyle background="#000099"> 
+          <mspace height="1ex" width="1ex"/> 
+        </mstyle> 
+        <mi>M</mi> 
+        <mstyle background="#000099"> 
+          <mspace height="1ex" depth="1em" width="1ex"/> 
+        </mstyle> 
+        <mi>x</mi> 
+        <mstyle background="#000099"> 
+          <mspace depth="2mm" width=".2in"/> 
+        </mstyle> 
+      </mrow> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mrow> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mstyle background="#000099"> 
+          &lt;mspace height="1ex" width="1ex"/> 
+        &lt;/mstyle> 
+        &lt;mi>M&lt;/mi> 
+        &lt;mstyle background="#000099"> 
+          &lt;mspace height="1ex" depth="1em" width="1ex"/> 
+        &lt;/mstyle> 
+        &lt;mi>x&lt;/mi> 
+        &lt;mstyle background="#000099"> 
+          &lt;mspace depth="2mm" width=".2in"/> 
+        &lt;/mstyle> 
+      &lt;/mrow> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

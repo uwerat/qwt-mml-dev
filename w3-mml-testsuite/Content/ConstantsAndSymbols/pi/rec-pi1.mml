@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <approx/> 
+        <pi/> 
+        <cn type = "rational">22 
+          <sep/>7 
+        </cn> 
+      </apply> 
+    </math>

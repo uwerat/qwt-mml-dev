@@ -1,0 +1,8 @@
+    <math> 
+      <apply> 
+        <csymbol definitionURL="http://www.example.org/function_spaces.html#my_def" encoding="text"> BigK 
+        </csymbol> 
+        <ci>x</ci> 
+        <ci>y</ci> 
+      </apply> 
+    </math>

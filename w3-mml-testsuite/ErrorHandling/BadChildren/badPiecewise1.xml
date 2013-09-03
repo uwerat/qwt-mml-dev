@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: badPiecewise1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../ErrorHandling/BadChildren/badMoment1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../ErrorHandling/BadChildren/badReln1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>ErrorHandling/BadChildren/badPiecewise1.xml (<a href="badPiecewise1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Design Science, Inc (D. Doyle)</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Test of bad piecewise children</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="badPiecewise1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <piecewise> 
+        <piece> 
+          <cn> 0 </cn> 
+          <apply> 
+            <lt/> 
+            <ci> x </ci> 
+            <cn> 5 </cn> 
+          </apply> 
+        </piece> 
+        <foo> 
+          <ci> x </ci> 
+        </foo> 
+        <otherwise> 
+          <ci> y </ci> 
+        </otherwise> 
+        <otherwise> 
+          <ci> x </ci> 
+        </otherwise> 
+      </piecewise> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;piecewise> 
+        &lt;piece> 
+          &lt;cn> 0 &lt;/cn> 
+          &lt;apply> 
+            &lt;lt/> 
+            &lt;ci> x &lt;/ci> 
+            &lt;cn> 5 &lt;/cn> 
+          &lt;/apply> 
+        &lt;/piece> 
+        &lt;foo> 
+          &lt;ci> x &lt;/ci> 
+        &lt;/foo> 
+        &lt;otherwise> 
+          &lt;ci> y &lt;/ci> 
+        &lt;/otherwise> 
+        &lt;otherwise> 
+          &lt;ci> x &lt;/ci> 
+        &lt;/otherwise> 
+      &lt;/piecewise> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

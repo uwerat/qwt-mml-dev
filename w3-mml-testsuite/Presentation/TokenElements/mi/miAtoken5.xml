@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: miAtoken5</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mi/mi4.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mi/miScolorname15.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mi/miAtoken5.xml (<a href="miAtoken5.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies; Neil Soiffer, Wolfram Research</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Basic attribute tests for CSS attributes common to token
+elements for &lt;mi>.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="miAtoken5.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable> 
+        <mtr> 
+          <mtd> 
+            <mi> A </mi> 
+            <mo>+</mo> 
+            <mi fontweight="bold">A</mi> 
+            <mo> + </mo> 
+            <mi fontsize="36pt">A</mi> 
+            <mo>+</mo> 
+            <mi fontstyle="normal">A</mi> 
+            <mo>+</mo> 
+            <mi color="#9c0fff">A</mi> 
+            <mo>+</mo> 
+            <mi fontfamily="Helvetica">A</mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="script">A</mi> 
+            <mo>+</mo> 
+            <mi mathsize="36pt">A</mi> 
+            <mo>+</mo> 
+            <mi mathcolor="#9c0fff">A</mi> 
+            <mo>+</mo> 
+            <mi mathbackground="blue">A</mi> 
+          </mtd> 
+        </mtr> 
+        <mtr> 
+          <mtd> 
+            <mi mathvariant="script" fontweight="bold">A 
+            </mi> 
+            <mo>+</mo> 
+            <mi mathsize="36pt" fontsize="12pt">A 
+            </mi> 
+            <mo>+</mo> 
+            <mi mathcolor="#9c0fff" color="red">A 
+            </mi> 
+            <mo>+</mo> 
+            <mi mathbackground="blue" color="gray">A 
+            </mi> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi> A &lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi fontweight='bold'>A&lt;/mi> 
+            &lt;mo> + &lt;/mo> 
+            &lt;mi fontsize='36pt'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi fontstyle='normal'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi color='#9c0fff'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi fontfamily='Helvetica'>A&lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='script'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathsize='36pt'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathcolor='#9c0fff'>A&lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathbackground='blue'>A&lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr> 
+          &lt;mtd> 
+            &lt;mi mathvariant='script' fontweight='bold'>A 
+            &lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathsize='36pt' fontsize='12pt'>A 
+            &lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathcolor='#9c0fff' color='red'>A 
+            &lt;/mi> 
+            &lt;mo>+&lt;/mo> 
+            &lt;mi mathbackground='blue' color='gray'>A 
+            &lt;/mi> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

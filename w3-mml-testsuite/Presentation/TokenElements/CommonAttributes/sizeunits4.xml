@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: sizeunits4</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/CommonAttributes/sizeunits3.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/mrow/mrow1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/CommonAttributes/sizeunits4.xml (<a href="sizeunits4.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This test runs through the CSS
+vertical units, using the 'superscript' attribute of the &lt;msup>
+element, which is a little more obscure than something like 'fontsize'.  </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="sizeunits4.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mrow> 
+        <msup> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="24pt"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="1ex"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="1em"> 
+          <mrow> 
+            <mi>M</mi> 
+            <mi mathcolor="Blue">x</mi> 
+          </mrow> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="10px"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="0.25in"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="1cm"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="10mm"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup superscriptshift="1pc"> 
+          <mi mathcolor="Blue">x</mi> 
+          <mn>2</mn> 
+        </msup> 
+        <mo>+</mo> 
+        <msup> 
+          <mi fontsize="170%" mathcolor="Blue">x 
+          </mi> 
+          <mn>2</mn> 
+        </msup> 
+      </mrow> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mrow> 
+        &lt;msup> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='24pt'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='1ex'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='1em'> 
+          &lt;mrow> 
+            &lt;mi>M&lt;/mi> 
+            &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;/mrow> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='10px'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='0.25in'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='1cm'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='10mm'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup superscriptshift='1pc'> 
+          &lt;mi mathcolor='Blue'>x&lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+        &lt;mo>+&lt;/mo> 
+        &lt;msup > 
+          &lt;mi fontsize='170%' mathcolor='Blue'>x 
+          &lt;/mi> 
+          &lt;mn>2&lt;/mn> 
+        &lt;/msup> 
+      &lt;/mrow> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

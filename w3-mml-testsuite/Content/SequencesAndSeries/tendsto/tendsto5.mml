@@ -1,0 +1,15 @@
+    <math> 
+      <apply> 
+        <tendsto type="below"/> 
+        <apply> 
+          <power/> 
+          <ci> x </ci> 
+          <cn> 2 </cn> 
+        </apply> 
+        <apply> 
+          <power/> 
+          <ci> a </ci> 
+          <cn> 2 </cn> 
+        </apply> 
+      </apply> 
+    </math>

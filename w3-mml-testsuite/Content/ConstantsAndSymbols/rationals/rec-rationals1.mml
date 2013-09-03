@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <in/> 
+        <cn type="rational"> 22 
+          <sep/>7 
+        </cn> 
+        <rationals/> 
+      </apply> 
+    </math>

@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <divide/> 
+        <cn>1</cn> 
+        <apply> 
+          <tan/> 
+          <ci>t</ci> 
+        </apply> 
+      </apply> 
+    </math>

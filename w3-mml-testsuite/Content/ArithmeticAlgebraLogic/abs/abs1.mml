@@ -1,0 +1,10 @@
+    <math> 
+      <apply> 
+        <abs/> 
+        <apply> 
+          <divide/> 
+          <ci> H </ci> 
+          <ci> K </ci> 
+        </apply> 
+      </apply> 
+    </math>

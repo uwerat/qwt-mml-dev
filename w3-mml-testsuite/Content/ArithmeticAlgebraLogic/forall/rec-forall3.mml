@@ -1,0 +1,40 @@
+    <math> 
+      <apply> 
+        <forall/> 
+        <bvar> 
+          <ci> p </ci> 
+        </bvar> 
+        <bvar> 
+          <ci> q </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <and/> 
+            <apply> 
+              <in/> 
+              <ci> p </ci> 
+              <rationals/> 
+            </apply> 
+            <apply> 
+              <in/> 
+              <ci> q </ci> 
+              <rationals/> 
+            </apply> 
+            <apply> 
+              <lt/> 
+              <ci> p </ci> 
+              <ci> q </ci> 
+            </apply> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <lt/> 
+          <ci> p </ci> 
+          <apply> 
+            <power/> 
+            <ci> q </ci> 
+            <cn> 2 </cn> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

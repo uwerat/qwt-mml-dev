@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: miStoken10</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mi/miSmathsize17.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mi/miequivalents11.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mi/miStoken10.xml (<a href="miStoken10.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Tests that token element attributes set on &lt;mi> are
+unaffected by being put into an &lt;mstyle> environment. Also tests
+various multiple color attribute value formats.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="miStoken10.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mstyle displaystyle="true"> 
+        <mrow> 
+          <mi>A</mi> 
+          <mo>+</mo> 
+          <mi fontweight="bold">A</mi> 
+          <mo>+</mo> 
+          <mi fontweight="normal" fontstyle="italic">A 
+          </mi> 
+          <mo>+</mo> 
+          <mi fontstyle="normal">A</mi> 
+          <mo>+</mo> 
+          <mi fontweight="bold" fontstyle="normal">A 
+          </mi> 
+          <mo>+</mo> 
+          <mi color="#9c0fff">A</mi> 
+          <mo>+</mo> 
+          <mi color="#0ee">A</mi> 
+          <mo>+</mo> 
+          <mi color="Green">A</mi> 
+          <mo>+</mo> 
+          <mi fontfamily="Helvetica">A</mi> 
+        </mrow> 
+      </mstyle> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mstyle displaystyle='true'> 
+        &lt;mrow> 
+          &lt;mi>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi fontweight='bold'>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi fontweight='normal' fontstyle='italic'>A 
+          &lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi fontstyle='normal'>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi fontweight='bold' fontstyle='normal'>A 
+          &lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi color='#9c0fff'>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi color='#0ee'>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi color='Green'>A&lt;/mi> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mi fontfamily='Helvetica'>A&lt;/mi> 
+        &lt;/mrow> 
+      &lt;/mstyle> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/NumericRefs/l.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/NumericRefs/n.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/NumericRefs/m.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Numeric References starting with  m</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>macr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/000/U000AF.png" alt="U000AF"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x000AF;</mi></math></td></tr>
+      <tr><td>male</td> <td><img src="http://www.w3.org/Math/characters/glyphs/026/U02642.png" alt="U02642"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02642;</mi></math></td></tr>
+      <tr><td>malt</td> <td><img src="http://www.w3.org/Math/characters/glyphs/027/U02720.png" alt="U02720"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02720;</mi></math></td></tr>
+      <tr><td>maltese</td> <td><img src="http://www.w3.org/Math/characters/glyphs/027/U02720.png" alt="U02720"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02720;</mi></math></td></tr>
+      <tr><td>map</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A6.png" alt="U021A6"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x021A6;</mi></math></td></tr>
+      <tr><td>Map</td> <td><img src="http://www.w3.org/Math/characters/glyphs/029/U02905.png" alt="U02905"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02905;</mi></math></td></tr>
+      <tr><td>mapsto</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A6.png" alt="U021A6"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x021A6;</mi></math></td></tr>
+      <tr><td>mapstodown</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A7.png" alt="U021A7"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x021A7;</mi></math></td></tr>
+      <tr><td>mapstoleft</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A4.png" alt="U021A4"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x021A4;</mi></math></td></tr>
+      <tr><td>mapstoup</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A5.png" alt="U021A5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x021A5;</mi></math></td></tr>
+      <tr><td>marker</td> <td><img src="http://www.w3.org/Math/characters/glyphs/025/U025AE.png" alt="U025AE"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x025AE;</mi></math></td></tr>
+      <tr><td>mcomma</td> <td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A29.png" alt="U02A29"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02A29;</mi></math></td></tr>
+      <tr><td>Mcy</td> <td><img src="http://www.w3.org/Math/characters/glyphs/004/U0041C.png" alt="U0041C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0041C;</mi></math></td></tr>
+      <tr><td>mcy</td> <td><img src="http://www.w3.org/Math/characters/glyphs/004/U0043C.png" alt="U0043C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0043C;</mi></math></td></tr>
+      <tr><td>mdash</td> <td><img src="http://www.w3.org/Math/characters/glyphs/020/U02014.png" alt="U02014"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02014;</mi></math></td></tr>
+      <tr><td>mDDot</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U0223A.png" alt="U0223A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0223A;</mi></math></td></tr>
+      <tr><td>measuredangle</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02221.png" alt="U02221"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02221;</mi></math></td></tr>
+      <tr><td>MediumSpace</td> <td><img src="http://www.w3.org/Math/characters/glyphs/020/U0205F.png" alt="U0205F"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0205F;</mi></math></td></tr>
+      <tr><td>Mellintrf</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U02133.png" alt="U02133"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02133;</mi></math></td></tr>
+      <tr><td>Mfr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D510.png" alt="U1D510"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x1D510;</mi></math></td></tr>
+      <tr><td>mfr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D52A.png" alt="U1D52A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x1D52A;</mi></math></td></tr>
+      <tr><td>mho</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U02127.png" alt="U02127"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02127;</mi></math></td></tr>
+      <tr><td>micro</td> <td><img src="http://www.w3.org/Math/characters/glyphs/000/U000B5.png" alt="U000B5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x000B5;</mi></math></td></tr>
+      <tr><td>mid</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02223.png" alt="U02223"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02223;</mi></math></td></tr>
+      <tr><td>midast</td> <td><img src="http://www.w3.org/Math/characters/glyphs/000/U0002A.png" alt="U0002A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0002A;</mi></math></td></tr>
+      <tr><td>midcir</td> <td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02AF0.png" alt="U02AF0"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02AF0;</mi></math></td></tr>
+      <tr><td>middot</td> <td><img src="http://www.w3.org/Math/characters/glyphs/000/U000B7.png" alt="U000B7"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x000B7;</mi></math></td></tr>
+      <tr><td>minus</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02212.png" alt="U02212"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02212;</mi></math></td></tr>
+      <tr><td>minusb</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U0229F.png" alt="U0229F"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0229F;</mi></math></td></tr>
+      <tr><td>minusd</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02238.png" alt="U02238"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02238;</mi></math></td></tr>
+      <tr><td>minusdu</td> <td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02A2A.png" alt="U02A2A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02A2A;</mi></math></td></tr>
+      <tr><td>MinusPlus</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02213.png" alt="U02213"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02213;</mi></math></td></tr>
+      <tr><td>mlcp</td> <td><img src="http://www.w3.org/Math/characters/glyphs/02A/U02ADB.png" alt="U02ADB"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02ADB;</mi></math></td></tr>
+      <tr><td>mldr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/020/U02026.png" alt="U02026"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02026;</mi></math></td></tr>
+      <tr><td>mnplus</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02213.png" alt="U02213"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02213;</mi></math></td></tr>
+      <tr><td>models</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U022A7.png" alt="U022A7"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x022A7;</mi></math></td></tr>
+      <tr><td>Mopf</td> <td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D544.png" alt="U1D544"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x1D544;</mi></math></td></tr>
+      <tr><td>mopf</td> <td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D55E.png" alt="U1D55E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x1D55E;</mi></math></td></tr>
+      <tr><td>mp</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U02213.png" alt="U02213"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02213;</mi></math></td></tr>
+      <tr><td>mscr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4C2.png" alt="U1D4C2"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x1D4C2;</mi></math></td></tr>
+      <tr><td>Mscr</td> <td><img src="http://www.w3.org/Math/characters/glyphs/021/U02133.png" alt="U02133"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x02133;</mi></math></td></tr>
+      <tr><td>mstpos</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U0223E.png" alt="U0223E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x0223E;</mi></math></td></tr>
+      <tr><td>mu</td> <td><img src="http://www.w3.org/Math/characters/glyphs/003/U003BC.png" alt="U003BC"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x003BC;</mi></math></td></tr>
+      <tr><td>multimap</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U022B8.png" alt="U022B8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x022B8;</mi></math></td></tr>
+      <tr><td>mumap</td> <td><img src="http://www.w3.org/Math/characters/glyphs/022/U022B8.png" alt="U022B8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x022B8;</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

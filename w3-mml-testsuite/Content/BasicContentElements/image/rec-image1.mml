@@ -1,0 +1,13 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <image/> 
+          <sin/> 
+        </apply> 
+        <interval> 
+          <cn>-1</cn> 
+          <cn> 1 </cn> 
+        </interval> 
+      </apply> 
+    </math>

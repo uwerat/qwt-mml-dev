@@ -1,0 +1,11 @@
+    <math> 
+      <apply> 
+        <intersect/> 
+        <ci type="set"> A </ci> 
+        <apply> 
+          <union/> 
+          <ci type="set"> B </ci> 
+          <ci type="set"> C </ci> 
+        </apply> 
+      </apply> 
+    </math>

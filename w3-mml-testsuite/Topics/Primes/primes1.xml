@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: primes1</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../Topics/Nesting/nestTable1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../Topics/Accents/accents1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/Primes/primes1.xml (<a href="primes1.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>checks a large number of usual and unusual cases in regards to having a prime as a superscript.  NOTE: some tests may not make sense mathematically.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="primes1.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup>
+        <mi> x </mi>
+        <mn> 2 </mn>
+      </msup> 
+      <mo> + </mo>
+      <msup>
+        <mi> 2 </mi>
+        <mn> 2 </mn>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mi> x </mi>
+        <mo> &#x02032; </mo>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mi> x </mi>
+        <mo>'</mo>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mi> x </mi>
+        <mo> '' </mo>
+      </msup> 
+      <mo> + </mo>
+      <mi>x</mi>
+      <mi>&#x02032;</mi>
+      <mo> + </mo> 
+      <msup>
+        <msup>
+          <mi> x </mi>
+          <mo> ' </mo>
+        </msup>
+        <mn> ' </mn>
+      </msup>
+      <mo> + </mo> 
+      <msup>
+        <msup>
+          <mi> x </mi>
+          <mo> ' </mo>
+        </msup>
+        <mn> 2 </mn>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mi> x </mi>
+        <mrow>
+          <mo> ' </mo>
+          <mo> + </mo>
+          <mo> ' </mo>
+        </mrow>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <msup>
+          <mi> x </mi>
+          <mo> ' </mo>
+        </msup>
+        <mn> ' </mn>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mi> x </mi>
+        <msup>
+          <mo> ' </mo>
+          <mn> ' </mn>
+        </msup>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mo> ' </mo>
+        <mn> ' </mn>
+      </msup> 
+      <mo> + </mo> 
+      <msup>
+        <mo> ' </mo>
+        <mo> ' </mo>
+      </msup>
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math>
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;mn> 2 &lt;/mn>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo>
+      &lt;msup>
+        &lt;mi> 2 &lt;/mi>
+        &lt;mn> 2 &lt;/mn>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;mo> &amp;prime; &lt;/mo>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;mo>'&lt;/mo>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;mo> '' &lt;/mo>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mi>&amp;prime;&lt;/mi>
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;msup>
+          &lt;mi> x &lt;/mi>
+          &lt;mo> ' &lt;/mo>
+        &lt;/msup>
+        &lt;mn> ' &lt;/mn>
+      &lt;/msup>
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;msup>
+          &lt;mi> x &lt;/mi>
+          &lt;mo> ' &lt;/mo>
+        &lt;/msup>
+        &lt;mn> 2 &lt;/mn>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;mrow>
+          &lt;mo> ' &lt;/mo>
+          &lt;mo> + &lt;/mo>
+          &lt;mo> ' &lt;/mo>
+        &lt;/mrow>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;msup>
+          &lt;mi> x &lt;/mi>
+          &lt;mo> ' &lt;/mo>
+        &lt;/msup>
+        &lt;mn> ' &lt;/mn>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mi> x &lt;/mi>
+        &lt;msup>
+          &lt;mo> ' &lt;/mo>
+          &lt;mn> ' &lt;/mn>
+        &lt;/msup>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mo> ' &lt;/mo>
+        &lt;mn> ' &lt;/mn>
+      &lt;/msup> 
+      &lt;mo> + &lt;/mo> 
+      &lt;msup>
+        &lt;mo> ' &lt;/mo>
+        &lt;mo> ' &lt;/mo>
+      &lt;/msup>
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

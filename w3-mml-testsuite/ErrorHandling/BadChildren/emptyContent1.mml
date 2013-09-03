@@ -1,0 +1,51 @@
+    <math> 
+      <msub> 
+        <mn></mn> 
+        <mo> </mo> 
+      </msub> 
+    </math> 
+    <math> 
+      <msub> 
+        <mn></mn> 
+        <mo> </mo> 
+        <mo> </mo> 
+      </msub> 
+    </math> 
+    <math> 
+      <mroot> 
+        <mn></mn> 
+        <mo> </mo> 
+        <mo> </mo> 
+      </mroot> 
+    </math> 
+    <math> 
+      <mmultiscripts> 
+        <mo></mo> 
+        <mtext></mtext> 
+      </mmultiscripts> 
+    </math> 
+    <math> 
+      <apply> 
+        <plus/> 
+        <ci></ci> 
+        <ci></ci> 
+      </apply> 
+    </math> 
+    <math> 
+      <mpadded> 
+        <mo></mo> 
+        <mo></mo> 
+      </mpadded> 
+    </math> 
+    <math> 
+      <mstyle background="blue"> 
+        <mi></mi> 
+        <mo></mo> 
+      </mstyle> 
+    </math> 
+    <math> 
+      <mfenced> 
+        <mi></mi> 
+        <mo></mo> 
+      </mfenced> 
+    </math>

@@ -1,0 +1,6 @@
+    <math> 
+      <interval closure="open-closed"> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </interval> 
+    </math>

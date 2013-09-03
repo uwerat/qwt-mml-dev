@@ -1,0 +1,11 @@
+    <math> 
+      <vector> 
+        <apply> 
+          <plus/> 
+          <ci> x </ci> 
+          <ci> y </ci> 
+        </apply> 
+        <cn> 3 </cn> 
+        <cn> 7 </cn> 
+      </vector> 
+    </math>

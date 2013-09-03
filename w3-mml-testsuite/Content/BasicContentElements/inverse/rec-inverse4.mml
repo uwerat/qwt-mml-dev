@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <apply> 
+          <inverse/> 
+          <sin/> 
+        </apply> 
+        <ci> x </ci> 
+      </apply> 
+    </math>

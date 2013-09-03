@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <in/> 
+        <cn type="integer"> 42 </cn> 
+        <integers/> 
+      </apply> 
+    </math>

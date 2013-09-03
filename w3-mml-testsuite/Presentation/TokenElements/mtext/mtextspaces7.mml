@@ -1,0 +1,4 @@
+    <math> 
+      <mtext> This is &#x02009; some &amp;#x02009;&amp;#x0200A;&amp;#x0200A; text with spaces. 
+      </mtext> 
+    </math>

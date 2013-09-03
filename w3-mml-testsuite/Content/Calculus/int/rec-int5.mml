@@ -1,0 +1,19 @@
+    <math> 
+      <apply> 
+        <int/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <in/> 
+            <ci> x </ci> 
+            <ci type="set"> D </ci> 
+          </apply> 
+        </condition> 
+        <apply> 
+          <ci type="fn"> f </ci> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

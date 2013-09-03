@@ -1,0 +1,7 @@
+    <math> 
+      <mn>2</mn> 
+      <mo>+</mo> 
+      <mphantom> 
+        <foo>14</foo> 
+      </mphantom> 
+    </math>

@@ -1,0 +1,8 @@
+    <math> 
+      <apply> 
+        <gcd/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+        <ci> c </ci> 
+      </apply> 
+    </math>

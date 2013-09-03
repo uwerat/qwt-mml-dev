@@ -1,0 +1,14 @@
+    <math> 
+      <declare type="fn"> 
+        <ci> J </ci> 
+        <lambda> 
+          <bvar> 
+            <ci> x </ci> 
+          </bvar> 
+          <apply> 
+            <ln/> 
+            <ci> x </ci> 
+          </apply> 
+        </lambda> 
+      </declare> 
+    </math>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../style/mathml.xsl"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title> MathML TestSuite, Version 2: mi1</title>
+  </head>
+      
+  <body style="background:#ffffff">
+
+    <table width="100%" cellpadding="8"><tr><td>
+        <a href="../../Characters/UTF8/t.xml"> prev </a>
+    </td><td style="text-align:right"> 
+        <a href="../../Characters/UTF8/v.xml"> next </a>
+    </td></tr></table>
+
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>/Characters/UTF8/u.xml</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>MathML 2 Recommendation</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Wide Characters starting with  u</td>
+        </tr>
+
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td><td>N/A</td></tr></table>
+
+      <p><b>Your browser's rendering</b>:</p>
+      <table><tr><th>name</th><th>pic</th><th>render</th></tr>
+      <tr><td>Uacute</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000DA.png" alt="U000DA"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ú</mi></math></td></tr>
+      <tr><td>uacute</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000FA.png" alt="U000FA"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ú</mi></math></td></tr>
+      <tr><td>uarr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02191.png" alt="U02191"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↑</mi></math></td></tr>
+      <tr><td>uArr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D1.png" alt="U021D1"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇑</mi></math></td></tr>
+      <tr><td>Uarr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U0219F.png" alt="U0219F"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↟</mi></math></td></tr>
+      <tr><td>Uarrocir</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02949.png" alt="U02949"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⥉</mi></math></td></tr>
+      <tr><td>ubrcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0045E.png" alt="U0045E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ў</mi></math></td></tr>
+      <tr><td>Ubrcy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U0040E.png" alt="U0040E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ў</mi></math></td></tr>
+      <tr><td>ubreve</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016D.png" alt="U0016D"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ŭ</mi></math></td></tr>
+      <tr><td>Ubreve</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016C.png" alt="U0016C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ŭ</mi></math></td></tr>
+      <tr><td>Ucirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000DB.png" alt="U000DB"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Û</mi></math></td></tr>
+      <tr><td>ucirc</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000FB.png" alt="U000FB"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>û</mi></math></td></tr>
+      <tr><td>Ucy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00423.png" alt="U00423"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>У</mi></math></td></tr>
+      <tr><td>ucy</td><td><img src="http://www.w3.org/Math/characters/glyphs/004/U00443.png" alt="U00443"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>у</mi></math></td></tr>
+      <tr><td>udarr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021C5.png" alt="U021C5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇅</mi></math></td></tr>
+      <tr><td>udblac</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00171.png" alt="U00171"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ű</mi></math></td></tr>
+      <tr><td>Udblac</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00170.png" alt="U00170"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ű</mi></math></td></tr>
+      <tr><td>udhar</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U0296E.png" alt="U0296E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⥮</mi></math></td></tr>
+      <tr><td>ufisht</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U0297E.png" alt="U0297E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⥾</mi></math></td></tr>
+      <tr><td>Ufr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D518.png" alt="U1D518"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔘</mi></math></td></tr>
+      <tr><td>ufr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D532.png" alt="U1D532"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔲</mi></math></td></tr>
+      <tr><td>Ugrave</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000D9.png" alt="U000D9"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ù</mi></math></td></tr>
+      <tr><td>ugrave</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000F9.png" alt="U000F9"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ù</mi></math></td></tr>
+      <tr><td>uHar</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02963.png" alt="U02963"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⥣</mi></math></td></tr>
+      <tr><td>uharl</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021BF.png" alt="U021BF"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↿</mi></math></td></tr>
+      <tr><td>uharr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021BE.png" alt="U021BE"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↾</mi></math></td></tr>
+      <tr><td>uhblk</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U02580.png" alt="U02580"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>▀</mi></math></td></tr>
+      <tr><td>ulcorn</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0231C.png" alt="U0231C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌜</mi></math></td></tr>
+      <tr><td>ulcorner</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0231C.png" alt="U0231C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌜</mi></math></td></tr>
+      <tr><td>ulcrop</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0230F.png" alt="U0230F"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌏</mi></math></td></tr>
+      <tr><td>ultri</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025F8.png" alt="U025F8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>◸</mi></math></td></tr>
+      <tr><td>umacr</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016B.png" alt="U0016B"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ū</mi></math></td></tr>
+      <tr><td>Umacr</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016A.png" alt="U0016A"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ū</mi></math></td></tr>
+      <tr><td>uml</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000A8.png" alt="U000A8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>¨</mi></math></td></tr>
+      <tr><td>UnderBar</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U00332.png" alt="U00332"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>̲</mi></math></td></tr>
+      <tr><td>UnderBrace</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FE/U0FE38.png" alt="U0FE38"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>︸</mi></math></td></tr>
+      <tr><td>UnderBracket</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U023B5.png" alt="U023B5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⎵</mi></math></td></tr>
+      <tr><td>UnderParenthesis</td><td><img src="http://www.w3.org/Math/characters/glyphs/0FE/U0FE36.png" alt="U0FE36"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>︶</mi></math></td></tr>
+      <tr><td>Union</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022C3.png" alt="U022C3"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⋃</mi></math></td></tr>
+      <tr><td>UnionPlus</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0228E.png" alt="U0228E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⊎</mi></math></td></tr>
+      <tr><td>Uogon</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00172.png" alt="U00172"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ų</mi></math></td></tr>
+      <tr><td>uogon</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00173.png" alt="U00173"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ų</mi></math></td></tr>
+      <tr><td>Uopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D54C.png" alt="U1D54C"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝕌</mi></math></td></tr>
+      <tr><td>uopf</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D5/U1D566.png" alt="U1D566"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝕦</mi></math></td></tr>
+      <tr><td>Uparrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D1.png" alt="U021D1"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇑</mi></math></td></tr>
+      <tr><td>UpArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02191.png" alt="U02191"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↑</mi></math></td></tr>
+      <tr><td>uparrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02191.png" alt="U02191"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↑</mi></math></td></tr>
+      <tr><td>UpArrowBar</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U02912.png" alt="U02912"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⤒</mi></math></td></tr>
+      <tr><td>UpArrowDownArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021C5.png" alt="U021C5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇅</mi></math></td></tr>
+      <tr><td>UpDownArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02195.png" alt="U02195"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↕</mi></math></td></tr>
+      <tr><td>Updownarrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021D5.png" alt="U021D5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇕</mi></math></td></tr>
+      <tr><td>updownarrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02195.png" alt="U02195"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↕</mi></math></td></tr>
+      <tr><td>UpEquilibrium</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U0296E.png" alt="U0296E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⥮</mi></math></td></tr>
+      <tr><td>upharpoonleft</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021BF.png" alt="U021BF"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↿</mi></math></td></tr>
+      <tr><td>upharpoonright</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021BE.png" alt="U021BE"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↾</mi></math></td></tr>
+      <tr><td>uplus</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U0228E.png" alt="U0228E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⊎</mi></math></td></tr>
+      <tr><td>UpperLeftArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02196.png" alt="U02196"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↖</mi></math></td></tr>
+      <tr><td>UpperRightArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U02197.png" alt="U02197"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↗</mi></math></td></tr>
+      <tr><td>upsi</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003C5.png" alt="U003C5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>υ</mi></math></td></tr>
+      <tr><td>Upsi</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003D2.png" alt="U003D2"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϒ</mi></math></td></tr>
+      <tr><td>Upsilon</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003A5.png" alt="U003A5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Υ</mi></math></td></tr>
+      <tr><td>upsilon</td><td><img src="http://www.w3.org/Math/characters/glyphs/003/U003C5.png" alt="U003C5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>υ</mi></math></td></tr>
+      <tr><td>UpTee</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022A5.png" alt="U022A5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⊥</mi></math></td></tr>
+      <tr><td>UpTeeArrow</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021A5.png" alt="U021A5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↥</mi></math></td></tr>
+      <tr><td>upuparrows</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021C8.png" alt="U021C8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇈</mi></math></td></tr>
+      <tr><td>urcorn</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0231D.png" alt="U0231D"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌝</mi></math></td></tr>
+      <tr><td>urcorner</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0231D.png" alt="U0231D"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌝</mi></math></td></tr>
+      <tr><td>urcrop</td><td><img src="http://www.w3.org/Math/characters/glyphs/023/U0230E.png" alt="U0230E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌎</mi></math></td></tr>
+      <tr><td>Uring</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016E.png" alt="U0016E"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ů</mi></math></td></tr>
+      <tr><td>uring</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U0016F.png" alt="U0016F"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ů</mi></math></td></tr>
+      <tr><td>urtri</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025F9.png" alt="U025F9"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>◹</mi></math></td></tr>
+      <tr><td>uscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4CA.png" alt="U1D4CA"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓊</mi></math></td></tr>
+      <tr><td>Uscr</td><td><img src="http://www.w3.org/Math/characters/glyphs/1D4/U1D4B0.png" alt="U1D4B0"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝒰</mi></math></td></tr>
+      <tr><td>utdot</td><td><img src="http://www.w3.org/Math/characters/glyphs/022/U022F0.png" alt="U022F0"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⋰</mi></math></td></tr>
+      <tr><td>utilde</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00169.png" alt="U00169"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ũ</mi></math></td></tr>
+      <tr><td>Utilde</td><td><img src="http://www.w3.org/Math/characters/glyphs/001/U00168.png" alt="U00168"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ũ</mi></math></td></tr>
+      <tr><td>utri</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025B5.png" alt="U025B5"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>▵</mi></math></td></tr>
+      <tr><td>utrif</td><td><img src="http://www.w3.org/Math/characters/glyphs/025/U025B4.png" alt="U025B4"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>▴</mi></math></td></tr>
+      <tr><td>uuarr</td><td><img src="http://www.w3.org/Math/characters/glyphs/021/U021C8.png" alt="U021C8"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⇈</mi></math></td></tr>
+      <tr><td>uuml</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000FC.png" alt="U000FC"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ü</mi></math></td></tr>
+      <tr><td>Uuml</td><td><img src="http://www.w3.org/Math/characters/glyphs/000/U000DC.png" alt="U000DC"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ü</mi></math></td></tr>
+      <tr><td>uwangle</td><td><img src="http://www.w3.org/Math/characters/glyphs/029/U029A7.png" alt="U029A7"/></td> <td><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦧</mi></math></td></tr>
+</table>
+    <hr />
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+        N/A
+  </pre>
+    <p style="text-align: right">
+         <a href="../../../index.html" target="_top">Test Suite Home</a>
+    </p>
+  </body>
+</html>

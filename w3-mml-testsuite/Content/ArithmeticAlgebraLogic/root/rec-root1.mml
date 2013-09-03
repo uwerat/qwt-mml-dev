@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <root/> 
+        <degree> 
+          <ci type='integer'> n </ci> 
+        </degree> 
+        <ci> a </ci> 
+      </apply> 
+    </math>

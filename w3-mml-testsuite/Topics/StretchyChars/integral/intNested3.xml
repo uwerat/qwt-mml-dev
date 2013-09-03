@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: intNested3</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Topics/StretchyChars/integral/intDispStyle.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Topics/StretchyChars/integral/intSize1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Topics/StretchyChars/integral/intNested3.xml (<a href="intNested3.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Dave Doyle, Design Science</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>Test of how the nested integrals resize around different sized equations.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="intNested3.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mtable> 
+        <mtr>
+          <mtd>
+            <mtext>single integral</mtext>
+          </mtd> 
+          <mtd> 
+            <mrow> 
+              <mo stretchy="false" largeop="true">&#x0222B; 
+              </mo> 
+              <mi>x</mi> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="false" largeop="false">&#x0222B; 
+              </mo> 
+              <mi>M</mi> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mi>o</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>A</mi> 
+                <mi>o</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mi>A</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>A</mi> 
+                <mi>M</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>.</mi> 
+                <mi>''</mi> 
+              </mfrac> 
+            </mrow> 
+          </mtd> 
+        </mtr> 
+        <mtr>
+          <mtd>
+            <mtext>double integral</mtext>
+          </mtd> 
+          <mtd> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mi>x</mi> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mi>M</mi> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mi>o</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>A</mi> 
+                <mi>o</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>x</mi> 
+                <mi>A</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>A</mi> 
+                <mi>M</mi> 
+              </mfrac> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mfrac> 
+                <mi>.</mi> 
+                <mi>''</mi> 
+              </mfrac> 
+            </mrow> 
+          </mtd> 
+        </mtr> 
+        <mtr>
+          <mtd>
+            <mtext>double nested integral</mtext>
+          </mtd> 
+          <mtd> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mi>x</mi> 
+              </mrow> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mi>M</mi> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mi>o</mi> 
+                </mfrac> 
+              </mrow> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mfrac> 
+                  <mi>A</mi> 
+                  <mi>o</mi> 
+                </mfrac> 
+              </mrow> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mfrac> 
+                  <mi>x</mi> 
+                  <mi>A</mi> 
+                </mfrac> 
+              </mrow> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mfrac> 
+                  <mi>A</mi> 
+                  <mi>M</mi> 
+                </mfrac> 
+              </mrow> 
+            </mrow> 
+            <mrow> 
+              <mo stretchy="true" largeop="true">&#x0222B; 
+              </mo> 
+              <mrow> 
+                <mo stretchy="true" largeop="true">&#x0222B; 
+                </mo> 
+                <mfrac> 
+                  <mi>.</mi> 
+                  <mi>''</mi> 
+                </mfrac> 
+              </mrow> 
+            </mrow> 
+          </mtd> 
+        </mtr> 
+      </mtable> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mtable> 
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>single integral&lt;/mtext>
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mrow> 
+              &lt;mo stretchy="false" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mi>x&lt;/mi> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="false" largeop="false">&amp;int; 
+              &lt;/mo> 
+              &lt;mi>M&lt;/mi> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mi>o&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>A&lt;/mi> 
+                &lt;mi>o&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mi>A&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>A&lt;/mi> 
+                &lt;mi>M&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>.&lt;/mi> 
+                &lt;mi>''&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>double integral&lt;/mtext>
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mi>x&lt;/mi> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mi>M&lt;/mi> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mi>o&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>A&lt;/mi> 
+                &lt;mi>o&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mi>A&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>A&lt;/mi> 
+                &lt;mi>M&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mfrac> 
+                &lt;mi>.&lt;/mi> 
+                &lt;mi>''&lt;/mi> 
+              &lt;/mfrac> 
+            &lt;/mrow> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>double nested integral&lt;/mtext>
+          &lt;/mtd> 
+          &lt;mtd> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mi>M&lt;/mi> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mi>o&lt;/mi> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>A&lt;/mi> 
+                  &lt;mi>o&lt;/mi> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>x&lt;/mi> 
+                  &lt;mi>A&lt;/mi> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>A&lt;/mi> 
+                  &lt;mi>M&lt;/mi> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+            &lt;mrow> 
+              &lt;mo stretchy="true" largeop="true">&amp;int; 
+              &lt;/mo> 
+              &lt;mrow> 
+                &lt;mo stretchy="true" largeop="true">&amp;int; 
+                &lt;/mo> 
+                &lt;mfrac> 
+                  &lt;mi>.&lt;/mi> 
+                  &lt;mi>''&lt;/mi> 
+                &lt;/mfrac> 
+              &lt;/mrow> 
+            &lt;/mrow> 
+          &lt;/mtd> 
+        &lt;/mtr> 
+      &lt;/mtable> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <ci type="real"> x </ci> 
+        <ci type="integer"> x </ci> 
+        <ci type="rational"> x </ci> 
+        <ci type="complex-cartesian"> y </ci> 
+        <ci type="complex-polar"> &#x003B8; </ci> 
+        <ci type="vector"> v </ci> 
+        <ci type="constant"> &#x003C0; </ci> 
+        <ci> &#x02147; </ci> 
+        <ci> &#x02147; </ci> 
+        <ci> &#x02148; </ci> 
+        <ci> &#x02148; </ci> 
+        <ci> &#x003B3; </ci> 
+        <ci> &#x0221E; </ci> 
+      </apply> 
+    </math>

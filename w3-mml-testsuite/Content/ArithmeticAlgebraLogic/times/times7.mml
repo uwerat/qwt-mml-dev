@@ -1,0 +1,14 @@
+    <math>
+      <apply>
+        <minus/>
+        <apply>
+          <plus/>
+          <ci>x</ci>
+          <apply>
+            <times/>
+            <ci>a</ci>
+            <ci>b</ci>
+          </apply>
+        </apply>
+      </apply>
+    </math>

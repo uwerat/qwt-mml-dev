@@ -1,0 +1,9 @@
+    <math>
+      <maction actiontype="tooltip"> 
+        <mfrac> 
+          <mn>y</mn> 
+          <mi>x</mi> 
+        </mfrac> 
+        <mtext>Divide y by x</mtext>
+      </maction>
+    </math>

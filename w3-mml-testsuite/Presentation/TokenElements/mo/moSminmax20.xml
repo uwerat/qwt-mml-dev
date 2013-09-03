@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: moSminmax20</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/TokenElements/mo/moAsymmetric19.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/TokenElements/mtext/mtext1.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/TokenElements/mo/moSminmax20.xml (<a href="moSminmax20.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This test checks the 'minsize' and 'maxsize' attributes which
+apply to stretchy operators.  This test checks that inheritance
+through the &lt;mstyle> element works, and that percentages work
+for CSS units.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="moSminmax20.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mstyle minsize="1cm" maxsize="3cm"> 
+        <mrow> 
+          <mo>(</mo> 
+          <mfrac> 
+            <mi>y</mi> 
+            <mi>z</mi> 
+          </mfrac> 
+          <mo maxsize="25%">)</mo> 
+          <mo>+</mo> 
+          <mo minsize="225%">(</mo> 
+          <mfrac> 
+            <mi>y</mi> 
+            <mi>z</mi> 
+          </mfrac> 
+          <mo maxsize="infinity">)</mo> 
+        </mrow> 
+      </mstyle> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mstyle minsize='1cm' maxsize='3cm'> 
+        &lt;mrow> 
+          &lt;mo>(&lt;/mo> 
+          &lt;mfrac> 
+            &lt;mi>y&lt;/mi> 
+            &lt;mi>z&lt;/mi> 
+          &lt;/mfrac> 
+          &lt;mo maxsize='25%'>)&lt;/mo> 
+          &lt;mo>+&lt;/mo> 
+          &lt;mo minsize='225%'>(&lt;/mo> 
+          &lt;mfrac> 
+            &lt;mi>y&lt;/mi> 
+            &lt;mi>z&lt;/mi> 
+          &lt;/mfrac> 
+          &lt;mo maxsize='infinity'>)&lt;/mo> 
+        &lt;/mrow> 
+      &lt;/mstyle> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+    <math> 
+      <apply> 
+        <int/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <lowlimit> 
+          <cn> 0 </cn> 
+        </lowlimit> 
+        <uplimit> 
+          <ci> a </ci> 
+        </uplimit> 
+        <apply> 
+          <ci> f </ci> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>

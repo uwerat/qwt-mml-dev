@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="../../../../style/mathml.xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!--
+Copyright &#251; 2002 World Wide Web Consortium, (Massachusetts Institute
+of Technology, Institut National de Recherche en Informatique et en
+Automatique, Keio University). All Rights Reserved. See
+http://www.w3.org/Consortium/Legal/.
+  -->
+  <head>
+    <title> W3C MathML TestSuite, Version 2: mrootSfonts3</title>
+</head>
+  <body style="background: #ffffff">
+    <table width="100%" cellpadding="8">
+      <tr>
+        <td>
+          <a href="../../../Presentation/GeneralLayout/msqrt-mroot/mrootB1.xml">
+    prev </a>
+        </td>
+        <td style="text-align: right">
+          <a href="../../../Presentation/GeneralLayout/msqrt-mroot/mrootSscriptlevel4.xml">
+    next</a>
+        </td>
+      </tr>
+    </table>
+      <table style="background:#cccccc" cellpadding="4">
+        <tr>
+          <td style="text-align: right" valign="top">File:</td>
+          <td>Presentation/GeneralLayout/msqrt-mroot/mrootSfonts3.xml (<a href="mrootSfonts3.mml">mml file</a>)
+        </td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Author:</td>
+          <td>Robert Miner and Jeff Schaefer, Geometry Technologies</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Description:</td>
+          <td>This example test that font attributes inherit
+properly from &lt;mstyle> to &lt;mroot>.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right" valign="top">Sample Rendering:</td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <img src="mrootSfonts3.png" alt="Created by: webeq"/>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <p>
+      <b>Your browser's rendering</b>:</p>
+    <p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+      <mrow> 
+        <mfrac> 
+          <mstyle fontfamily="Helvetica"> 
+            <mroot> 
+              <mrow> 
+                <mi>x</mi> 
+                <mo>-</mo> 
+                <mn>3</mn> 
+              </mrow> 
+              <mrow> 
+                <mi>x</mi> 
+                <mo>-</mo> 
+                <mn>3</mn> 
+              </mrow> 
+            </mroot> 
+          </mstyle> 
+          <mstyle fontweight="bold"> 
+            <mroot> 
+              <mrow> 
+                <mn>3</mn> 
+                <mi>x</mi> 
+              </mrow> 
+              <mrow> 
+                <mi>x</mi> 
+                <mo>-</mo> 
+                <mn>3</mn> 
+              </mrow> 
+            </mroot> 
+          </mstyle> 
+        </mfrac> 
+        <mroot> 
+          <mn>3</mn> 
+          <mi>x</mi> 
+        </mroot> 
+      </mrow> 
+    </math>
+  </p>
+    <hr/>
+    <p>
+      <b>Source Code</b>:</p>
+    <pre>
+    &lt;math> 
+      &lt;mrow> 
+        &lt;mfrac> 
+          &lt;mstyle fontfamily='Helvetica'> 
+            &lt;mroot> 
+              &lt;mrow> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mo>-&lt;/mo> 
+                &lt;mn>3&lt;/mn> 
+              &lt;/mrow> 
+              &lt;mrow> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mo>-&lt;/mo> 
+                &lt;mn>3&lt;/mn> 
+              &lt;/mrow> 
+            &lt;/mroot> 
+          &lt;/mstyle> 
+          &lt;mstyle fontweight='bold'> 
+            &lt;mroot> 
+              &lt;mrow> 
+                &lt;mn>3&lt;/mn> 
+                &lt;mi>x&lt;/mi> 
+              &lt;/mrow> 
+              &lt;mrow> 
+                &lt;mi>x&lt;/mi> 
+                &lt;mo>-&lt;/mo> 
+                &lt;mn>3&lt;/mn> 
+              &lt;/mrow> 
+            &lt;/mroot> 
+          &lt;/mstyle> 
+        &lt;/mfrac> 
+        &lt;mroot> 
+          &lt;mn>3&lt;/mn> 
+          &lt;mi>x&lt;/mi> 
+        &lt;/mroot> 
+      &lt;/mrow> 
+    &lt;/math>
+  </pre>
+    <p style="text-align: right">
+      <a href="../../../../overview.html" target="_top">
+	Test Suite Home
+	</a>
+    </p>
+    <hr/>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <in/> 
+        <ci> a </ci> 
+        <ci type="set"> A </ci> 
+      </apply> 
+    </math>

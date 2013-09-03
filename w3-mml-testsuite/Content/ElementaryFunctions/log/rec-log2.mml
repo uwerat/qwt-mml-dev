@@ -1,0 +1,9 @@
+    <math> 
+      <apply> 
+        <log/> 
+        <logbase> 
+          <cn> 3 </cn> 
+        </logbase> 
+        <ci> x </ci> 
+      </apply> 
+    </math>

@@ -1,0 +1,15 @@
+    <math> 
+      <apply> 
+        <arcsin/> 
+        <apply> 
+          <times/> 
+          <ci>x</ci> 
+          <apply> 
+            <plus/> 
+            <ci>y</ci> 
+            <ci>z</ci> 
+          </apply> 
+          <ci> z </ci> 
+        </apply> 
+      </apply> 
+    </math>

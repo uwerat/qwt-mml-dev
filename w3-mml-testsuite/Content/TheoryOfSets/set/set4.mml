@@ -1,0 +1,14 @@
+    <math> 
+      <set> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <reln> 
+            <lt/> 
+            <ci> x </ci> 
+            <cn> 5 </cn> 
+          </reln> 
+        </condition> 
+      </set> 
+    </math>

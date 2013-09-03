@@ -1,0 +1,14 @@
+    <math> 
+      <apply> 
+        <int/> 
+        <bvar> 
+          <ci>x</ci> 
+        </bvar> 
+        <apply> 
+          <fn> 
+            <ci>f</ci> 
+          </fn> 
+          <ci>x</ci> 
+        </apply> 
+      </apply> 
+    </math>

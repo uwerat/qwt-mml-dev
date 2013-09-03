@@ -1,0 +1,15 @@
+    <math> 
+      <apply> 
+        <plus/> 
+        <apply> 
+          <power/> 
+          <sin/> 
+          <cn>2</cn> 
+        </apply> 
+        <apply> 
+          <power/> 
+          <cos/> 
+          <cn>2</cn> 
+        </apply> 
+      </apply>
+    </math>

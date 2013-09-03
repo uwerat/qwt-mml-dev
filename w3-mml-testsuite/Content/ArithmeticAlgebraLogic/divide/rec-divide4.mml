@@ -1,0 +1,7 @@
+    <math> 
+      <apply> 
+        <divide/> 
+        <ci> a </ci> 
+        <ci> b </ci> 
+      </apply> 
+    </math>

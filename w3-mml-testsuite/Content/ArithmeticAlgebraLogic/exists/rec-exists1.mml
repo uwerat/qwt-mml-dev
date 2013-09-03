@@ -1,0 +1,18 @@
+    <math> 
+      <apply> 
+        <exists/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <apply> 
+          <eq/> 
+          <apply> 
+            <fn> 
+              <ci> f </ci> 
+            </fn> 
+            <ci> x </ci> 
+          </apply> 
+          <cn>0</cn> 
+        </apply> 
+      </apply> 
+    </math>

@@ -1,0 +1,14 @@
+    <math> 
+      <apply> 
+        <cosh/> 
+        <apply> 
+          <divide/> 
+          <apply> 
+            <times/> 
+            <cn>5</cn> 
+            <cn>&#x003C0;</cn> 
+          </apply> 
+          <cn>6</cn> 
+        </apply> 
+      </apply> 
+    </math>

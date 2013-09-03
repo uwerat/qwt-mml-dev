@@ -1,0 +1,6 @@
+    <math> 
+      <apply> 
+        <ceiling/> 
+        <ci> a </ci> 
+      </apply> 
+    </math>

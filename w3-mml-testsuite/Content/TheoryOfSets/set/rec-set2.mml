@@ -1,0 +1,23 @@
+    <math> 
+      <set> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <condition> 
+          <apply> 
+            <and/> 
+            <apply> 
+              <lt/> 
+              <ci> x </ci> 
+              <cn> 5 </cn> 
+            </apply> 
+            <apply> 
+              <in/> 
+              <ci> x </ci> 
+              <naturalnumbers/> 
+            </apply> 
+          </apply> 
+        </condition> 
+        <ci> x </ci> 
+      </set> 
+    </math>

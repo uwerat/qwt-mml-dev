@@ -1,0 +1,16 @@
+    <math> 
+      <apply> 
+        <eq/> 
+        <apply> 
+          <laplacian/> 
+          <ci> f </ci> 
+        </apply> 
+        <apply> 
+          <divergence/> 
+          <apply> 
+            <grad/> 
+            <ci> f </ci> 
+          </apply> 
+        </apply> 
+      </apply> 
+    </math>

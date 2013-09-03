@@ -1,0 +1,16 @@
+    <math> 
+      <merror> 
+        <mtext> Unrecognized element: &#x003c;mfraction&amp;#x0003E; arguments were: 
+        </mtext> 
+        <mrow> 
+          <mn>1</mn> 
+          <mo>+</mo> 
+          <msqrt> 
+            <mn>5</mn> 
+          </msqrt> 
+        </mrow> 
+        <mtext> &#x0205F; and &amp;#x0205F; 
+        </mtext> 
+        <mn>2</mn> 
+      </merror> 
+    </math>

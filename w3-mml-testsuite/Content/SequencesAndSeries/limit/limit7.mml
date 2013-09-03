@@ -1,0 +1,15 @@
+    <math> 
+      <apply> 
+        <limit/> 
+        <bvar> 
+          <ci> x </ci> 
+        </bvar> 
+        <lowlimit> 
+          <cn> 0 </cn> 
+        </lowlimit> 
+        <apply> 
+          <sin/> 
+          <ci> x </ci> 
+        </apply> 
+      </apply> 
+    </math>
