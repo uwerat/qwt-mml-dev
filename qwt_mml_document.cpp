@@ -2096,7 +2096,8 @@ void QwtMmlNode::paintSymbol( QPainter *painter ) const
         pen.setStyle( Qt::DotLine );
         painter->setPen( pen );
 
-        painter->drawLine( dRect.left(), dPos.y(), dRect.right(), dPos.y() );
+        painter->drawLine( QPointF( dRect.left(), dPos.y() ),
+                           QPointF ( dRect.right(), dPos.y() ) );
 
         painter->restore();
     }
@@ -2199,7 +2200,8 @@ void QwtMmlMfracNode::paintSymbol( QPainter *painter ) const
         QRectF r = symbolRect();
         r.moveTopLeft( devicePoint( r.topLeft() ) );
 
-        painter->drawLine( r.left(), r.center().y(), r.right(), r.center().y() );
+        painter->drawLine( QPointF( r.left(), r.center().y() ),
+                           QPointF( r.right(), r.center().y() ) );
 
         painter->restore();
     }
@@ -2288,11 +2290,12 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     painter->translate( r.bottomLeft() );
     painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
     painter->setFont( font() );
-    painter->drawText( 0, 0, QString( g_radical_char ) );
+    painter->drawText( QPointF( 0.0, 0.0), QString( g_radical_char ) );
 
     painter->restore();
 
-    painter->drawLine( r.right(), r.top(), r.right() + m_my_rect.width(), r.top() );
+    painter->drawLine( QPointF( r.right(), r.top() ),
+                       QPointF( r.right() + m_my_rect.width(), r.top() ) );
 }
 
 QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
@@ -2326,7 +2329,7 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
     painter->setFont( fn );
 
     const QPointF dPos = devicePoint( m_rel_origin );
-    painter->drawText( dPos.x(), dPos.y() + fm.strikeOutPos(), m_text );
+    painter->drawText( QPointF( dPos.x(), dPos.y() + fm.strikeOutPos() ), m_text );
 
     painter->restore();
 }
@@ -2863,7 +2866,8 @@ void QwtMmlMtableNode::paintSymbol( QPainter *painter ) const
 
             painter->setPen( pen );
             qreal x = col_offset + 0.5 * col_spc;
-            painter->drawLine( x, -0.5 * m_content_height, x, 0.5 * m_content_height );
+            painter->drawLine( QPointF( x, -0.5 * m_content_height ),
+                               QPointF( x, 0.5 * m_content_height ) );
         }
         col_offset += col_spc;
     }
@@ -2883,7 +2887,8 @@ void QwtMmlMtableNode::paintSymbol( QPainter *painter ) const
 
             painter->setPen( pen );
             qreal y = row_offset + 0.5 * ( row_spc - m_content_height );
-            painter->drawLine( 0, y, m_content_width, y );
+            painter->drawLine( QPointF( 0, y ),
+                               QPointF( m_content_width, y ) );
         }
         row_offset += row_spc;
     }
