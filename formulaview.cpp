@@ -66,7 +66,7 @@ void FormulaView::paintEvent( QPaintEvent *event )
     QPainter painter( this );
     painter.setClipRegion( event->region() );
 
-    painter.fillRect( event->rect(), d_colors ? Qt::darkCyan : Qt::white );
+    painter.fillRect( event->rect(), Qt::white );
 
     renderFormula( &painter );
 }
@@ -102,7 +102,7 @@ void FormulaView::renderFormula( QPainter *painter ) const
         painter->rotate( d_rotation );
         painter->scale( scaleF, scaleF );
         painter->translate( docRect.topLeft() - docRect.center() );
-        doc.paint( painter, QPointF( 0, 0 ) );
+        doc.paint( painter, QPointF( 0.0, 0.0 ) );
 
         painter->restore();
     }
