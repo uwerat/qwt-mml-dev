@@ -97,6 +97,10 @@ void MainWindow::loadFormula( const QString &fileName )
     const QByteArray document = file.readAll();
     file.close();
 
+    qDebug() << "----------";
+    qDebug() << "Formula for" << fileName;
+    qDebug() << document;
+
     d_view->setFormula( document );
 }
 
