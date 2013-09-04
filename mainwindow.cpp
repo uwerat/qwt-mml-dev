@@ -43,7 +43,7 @@ MainWindow::MainWindow()
 
     d_comboRotations = new QComboBox( toolBar );
     QStringList rotations;
-    for ( int i = 0; i < 360; i += 15 )
+    for ( int i = 0; i <= 360; i += 15 )
         rotations << QString::number( i );
     d_comboRotations->addItems( rotations );
     d_comboRotations->setCurrentIndex( 0 );
