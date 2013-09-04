@@ -1100,7 +1100,7 @@ QwtMml::NodeType domToQwtMmlNodeType( const QDomNode &dom_node )
             break;
 
         case QDomNode::DocumentNode:
-            mml_type = QwtMml::MrowNode;
+            mml_type = QwtMml::UnknownNode;
             break;
 
         case QDomNode::EntityReferenceNode:
@@ -2048,36 +2048,42 @@ void QwtMmlNode::paint( QPainter *painter )
     if ( !m_my_rect.isValid() )
         return;
 
-    painter->save();
+    if ( m_node_type != UnknownNode )
+    {
+        painter->save();
 
-    const QColor bg = background();
-    const QRectF dRect = m_my_rect.translated( devicePoint( QPointF() ) );
-    if ( bg.isValid() )
-    {
-        painter->fillRect( dRect, bg );
-    }
-    else
-    {
-        painter->fillRect( dRect, m_document->backgroundColor() );
-    }
+        const QColor bg = background();
+        const QRectF dRect = m_my_rect.translated( devicePoint( QPointF() ) );
+        if ( bg.isValid() )
+        {
+            painter->fillRect( dRect, bg );
+        }
+        else
+        {
+            painter->fillRect( dRect, m_document->backgroundColor() );
+        }
 
-    const QColor fg = color();
-    if ( fg.isValid() )
-    {
-        painter->setPen( QPen( fg, 1 ) );
-    }
-    else
-    {
-        painter->setPen( QPen( m_document->foregroundColor(), 1 ) );
+        const QColor fg = color();
+        if ( fg.isValid() )
+        {
+            painter->setPen( QPen( fg, 1 ) );
+        }
+        else
+        {
+            painter->setPen( QPen( m_document->foregroundColor(), 1 ) );
+        }
     }
 
     QwtMmlNode *child = m_first_child;
     for ( ; child != 0; child = child->nextSibling() )
         child->paint( painter );
 
-    paintSymbol( painter );
+    if ( m_node_type != UnknownNode )
+    {
+        paintSymbol( painter );
 
-    painter->restore();
+        painter->restore();
+    }
 }
 
 void QwtMmlNode::paintSymbol( QPainter *painter ) const
