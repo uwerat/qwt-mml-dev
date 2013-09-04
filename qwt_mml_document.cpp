@@ -204,7 +204,6 @@ public:
 
 protected:
     QRectF m_my_rect;
-    QPointF m_rel_origin;
 
     QwtMmlNode *m_parent,
                *m_first_child,
@@ -222,6 +221,7 @@ private:
     QwtMmlAttributeMap m_attribute_map;
     bool m_stretched;
     QRectF m_parent_rect;
+    QPointF m_rel_origin;
 
     NodeType m_node_type;
     QwtMmlDocument *m_document;
@@ -2094,7 +2094,7 @@ void QwtMmlNode::paintSymbol( QPainter *painter ) const
 
         painter->setPen( QPen( Qt::red, 0 ) );
 
-        const QPointF dPos = devicePoint( m_rel_origin );
+        const QPointF dPos = devicePoint( QPointF() );
         const QRectF dRect = m_my_rect.translated( dPos );
         painter->drawRect( dRect );
 
@@ -2334,7 +2334,7 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
     painter->save();
     painter->setFont( fn );
 
-    const QPointF dPos = devicePoint( m_rel_origin );
+    const QPointF dPos = devicePoint( QPointF() );
     painter->drawText( QPointF( dPos.x(), dPos.y() + fm.strikeOutPos() ), m_text );
 
     painter->restore();
