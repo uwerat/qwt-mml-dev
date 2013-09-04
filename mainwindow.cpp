@@ -7,6 +7,7 @@
 #include <qcombobox.h>
 #include <qdebug.h>
 #include <qfiledialog.h>
+#include <qmimedata.h>
 #include <qstatusbar.h>
 #include <qtoolbar.h>
 #include <qtoolbutton.h>
@@ -75,7 +76,35 @@ MainWindow::MainWindow()
     updateRotation( d_comboRotations->currentText() );
     updateDrawFrames( checkDrawFrames->isChecked() );
     updateColors( checkColors->isChecked() );
+
+    setAcceptDrops(true);
 };
+
+void MainWindow::dragEnterEvent(QDragEnterEvent *event)
+{
+    if ( event->mimeData()->urls().count() == 1 )
+        event->acceptProposedAction();
+    else
+        event->ignore();
+}
+
+void MainWindow::dragMoveEvent(QDragMoveEvent *event)
+{
+    QString fileName = event->mimeData()->urls().first().toLocalFile();
+    QFileInfo fileInfo( fileName );
+
+    if ( fileInfo.exists() && fileInfo.completeSuffix() == "mml" )
+        event->acceptProposedAction();
+    else
+        event->ignore();
+}
+
+void MainWindow::dropEvent(QDropEvent *event)
+{
+    loadFormula( event->mimeData()->urls().first().toLocalFile() );
+
+    event->acceptProposedAction();
+}
 
 void MainWindow::load()
 {
@@ -84,12 +113,14 @@ void MainWindow::load()
 
     if ( !fileName.isEmpty() )
         loadFormula( fileName );
-
-    statusBar()->showMessage( fileName );
+    else
+        statusBar()->showMessage( QString::null );
 }
 
 void MainWindow::loadFormula( const QString &fileName )
 {
+    statusBar()->showMessage( fileName );
+
     QFile file( fileName );
     if ( !file.open(QIODevice::ReadOnly | QIODevice::Text) )
         return;

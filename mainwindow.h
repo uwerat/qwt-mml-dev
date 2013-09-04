@@ -1,6 +1,7 @@
 #ifndef _MAIN_WINDOW_H_
 #define _MAIN_WINDOW_H_
 
+#include <qevent.h>
 #include <qmainwindow.h>
 
 class FormulaView;
@@ -14,6 +15,11 @@ class MainWindow: public QMainWindow
 
 public:
     MainWindow();
+
+protected:
+    virtual void dragEnterEvent( QDragEnterEvent *event );
+    virtual void dragMoveEvent( QDragMoveEvent *event );
+    virtual void dropEvent( QDropEvent *event );
 
 private Q_SLOTS:
     void load();
