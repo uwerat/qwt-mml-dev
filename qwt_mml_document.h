@@ -1,9 +1,9 @@
 #ifndef _QWT_MML_DOCUMENT_H_
 #define _QWT_MML_DOCUMENT_H_
 
-#include <QColor>
-#include <QSize>
-#include <QString>
+#include <qcolor.h>
+#include <qsize.h>
+#include <qstring.h>
 
 class QPainter;
 class QPointF;

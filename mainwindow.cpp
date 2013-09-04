@@ -1,14 +1,15 @@
-#include "mainwindow.h"
 #include "formulaview.h"
+#include "mainwindow.h"
+
+#include <qapplication.h>
+#include <qbuffer.h>
+#include <qcheckbox.h>
+#include <qcombobox.h>
+#include <qdebug.h>
+#include <qfiledialog.h>
+#include <qstatusbar.h>
 #include <qtoolbar.h>
 #include <qtoolbutton.h>
-#include <qfiledialog.h>
-#include <qbuffer.h>
-#include <qstatusbar.h>
-#include <qdebug.h>
-#include <qcombobox.h>
-#include <qapplication.h>
-#include <qcheckbox.h>
 
 MainWindow::MainWindow()
 {
