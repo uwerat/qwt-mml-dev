@@ -344,14 +344,10 @@ public:
 
     // TextNodes are not xml elements, so they can't have attributes of
     // their own. Everything is taken from the parent.
-    virtual QFont font() const
-    { return m_parent->font(); }
-    virtual int scriptlevel( const QwtMmlNode* = 0 ) const
-    { return m_parent->scriptlevel( this ); }
-    virtual QColor color() const
-    { return m_parent->color(); }
-    virtual QColor background() const
-    { return m_parent->background(); }
+    virtual QFont font() const { return m_parent->font(); }
+    virtual int scriptlevel( const QwtMmlNode* = 0 ) const { return m_parent->scriptlevel( this ); }
+    virtual QColor color() const { return m_parent->color(); }
+    virtual QColor background() const { return m_parent->background(); }
 
 protected:
     virtual void paintSymbol( QPainter *p ) const;
@@ -2299,6 +2295,7 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     painter->translate( r.bottomLeft() );
     painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
     painter->setFont( font() );
+
     painter->drawText( QPointF( 0.0, 0.0), QString( g_radical_char ) );
 
     painter->restore();
@@ -2335,6 +2332,7 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
     QFontMetricsF fm( fn );
 
     painter->save();
+
     painter->setFont( fn );
 
     const QPointF dPos = devicePoint( QPointF() );
