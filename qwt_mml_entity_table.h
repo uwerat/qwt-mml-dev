@@ -8,8 +8,8 @@ class QwtMMLEntityTable
 public:
     struct Spec
     {
-        const char *name;
-        const char *value;
+        const QString name;
+        const QString value;
     };
 
     QString entities() const;

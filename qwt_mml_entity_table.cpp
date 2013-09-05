@@ -1951,7 +1951,7 @@ static const QwtMMLEntityTable::Spec mml_entity_data[] =
     { 0,                                 0                    }
 };
 
-static QString mmlDecodeEntityValue( QString literal )
+static QString mmlDecodeEntityValue( const QString &literal )
 {
     QString result;
 
@@ -2023,7 +2023,6 @@ QString QwtMMLEntityTable::entities() const
 
     return result;
 }
-
 
 const QwtMMLEntityTable::Spec *QwtMMLEntityTable::search(
     const QString &value, const QwtMMLEntityTable::Spec *from ) const
