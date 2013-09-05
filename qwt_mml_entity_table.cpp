@@ -1951,34 +1951,33 @@ static const QwtMMLEntityTable::Spec mml_entity_data[] =
     { 0,                                 0                    }
 };
 
-static QString mmlDecodeEntityValue( const QString &literal )
+static QString mmlDecodeEntityValue( QString literal )
 {
     QString result;
-    QString real_literal = literal;
 
-    while ( !real_literal.isEmpty() )
+    while ( !literal.isEmpty() )
     {
-        if ( !real_literal.startsWith( "&#" ) )
+        if ( !literal.startsWith( "&#" ) )
         {
-            qWarning() << "decodeEntityValue(): bad entity literal: \"" + real_literal + "\"";
+            qWarning() << "decodeEntityValue(): bad entity literal: \"" + literal + "\"";
             return QString::null;
         }
 
-        real_literal = real_literal.right( real_literal.length() - 2 );
+        literal = literal.right( literal.length() - 2 );
 
-        int i = real_literal.indexOf( ';' );
+        int i = literal.indexOf( ';' );
         if ( i == -1 )
         {
-            qWarning() << "decodeEntityValue(): bad entity literal: \"" + real_literal + "\"";
+            qWarning() << "decodeEntityValue(): bad entity literal: \"" + literal + "\"";
             return QString::null;
         }
 
-        QString char_code = real_literal.left( i );
-        real_literal = real_literal.right( real_literal.length() - i - 1 );
+        QString char_code = literal.left( i );
+        literal = literal.right( literal.length() - i - 1 );
 
         if ( char_code.isEmpty() )
         {
-            qWarning() << "decodeEntityValue(): bad entity literal: \"" + real_literal + "\"";
+            qWarning() << "decodeEntityValue(): bad entity literal: \"" + literal + "\"";
             return QString::null;
         }
 
@@ -1989,7 +1988,7 @@ static QString mmlDecodeEntityValue( const QString &literal )
             unsigned c = char_code.toUInt( &ok, 16 );
             if ( !ok )
             {
-                qWarning() << "decodeEntityValue(): bad entity literal: \"" + real_literal + "\"";
+                qWarning() << "decodeEntityValue(): bad entity literal: \"" + literal + "\"";
                 return QString::null;
             }
             result += QChar( c );
@@ -2000,7 +1999,7 @@ static QString mmlDecodeEntityValue( const QString &literal )
             unsigned c = char_code.toUInt( &ok, 10 );
             if ( !ok )
             {
-                qWarning() << "decodeEntityValue(): bad entity literal: \"" + real_literal + "\"";
+                qWarning() << "decodeEntityValue(): bad entity literal: \"" + literal + "\"";
                 return QString::null;
             }
             result += QChar( c );
