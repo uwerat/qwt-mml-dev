@@ -1379,10 +1379,10 @@ void QwtMmlDocument::insertOperator( QwtMmlNode *node, const QString &text )
     QwtMmlNode *text_node = createNode( TextNode, QwtMmlAttributeMap(), text, 0 );
     QwtMmlNode *mo_node = createNode( MoNode, QwtMmlAttributeMap(), QString::null, 0 );
 
-    bool ok = insertChild( node, mo_node, 0 );
-    Q_ASSERT( ok );
-    ok = insertChild( mo_node, text_node, 0 );
-    Q_ASSERT( ok );
+    bool ok1 = insertChild( node, mo_node, 0 );
+    Q_ASSERT( ok1 );
+    bool ok2 = insertChild( mo_node, text_node, 0 );
+    Q_ASSERT( ok2 );
 }
 
 QwtMmlNode *QwtMmlDocument::domToMml( const QDomNode &dom_node, bool *ok,
