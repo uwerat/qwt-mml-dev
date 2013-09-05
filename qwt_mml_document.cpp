@@ -2183,6 +2183,8 @@ static bool zeroLineThickness( const QString &s )
 
 void QwtMmlMfracNode::paintSymbol( QPainter *painter ) const
 {
+    QwtMmlNode::paintSymbol( painter );
+
     QString linethickness_str = inheritAttributeFromMrow( "linethickness", "1" );
 
     /* InterpretSpacing returns an int, which might be 0 even if the thickness
@@ -2285,6 +2287,8 @@ void QwtMmlRootBaseNode::layoutSymbol()
 
 void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
 {
+    QwtMmlNode::paintSymbol( painter );
+
     QRectF r = symbolRect();
     r.moveTopLeft( devicePoint( r.topLeft() ) );
 
@@ -2296,7 +2300,7 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
     painter->setFont( font() );
 
-    painter->drawText( QPointF( 0.0, 0.0), QString( g_radical_char ) );
+    painter->drawText( QPointF( 0.0, 0.0 ), QString( g_radical_char ) );
 
     painter->restore();
 
@@ -2839,6 +2843,8 @@ QwtMml::FrameType QwtMmlMtableNode::rowlines( int idx ) const
 
 void QwtMmlMtableNode::paintSymbol( QPainter *painter ) const
 {
+    QwtMmlNode::paintSymbol( painter );
+
     FrameType f = frame();
     if ( f != FrameNone )
     {
