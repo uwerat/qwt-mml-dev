@@ -16,7 +16,7 @@ static const qreal    g_mfrac_spacing          = 0.1;
 static const qreal    g_mroot_base_margin      = 0.1;
 static const qreal    g_script_size_multiplier = 0.7071; // sqrt(1/2)
 static const QString  g_subsup_horiz_spacing   = "veryverythinmathspace";
-static const qreal    g_subsup_vert_shift      = 0.2;
+static const QString  g_subsup_vert_spacing    = "thinmathspace";
 static const int      g_min_font_point_size    = 8;
 static const QChar    g_radical_char           = QChar( 0x1A, 0x22 );
 static const unsigned g_oper_spec_rows         = 9;
@@ -2379,7 +2379,7 @@ void QwtMmlMsupNode::layoutSymbol()
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
     s->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
-                              b->myRect().top() - g_subsup_vert_shift * b->myRect().height() ) );
+                              b->myRect().top() - interpretSpacing( g_subsup_vert_spacing, 0 ) ) );
 }
 
 void QwtMmlMsubNode::layoutSymbol()
@@ -2389,7 +2389,7 @@ void QwtMmlMsubNode::layoutSymbol()
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
     s->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
-                              b->myRect().bottom() + g_subsup_vert_shift * b->myRect().height() ) );
+                              b->myRect().bottom() + interpretSpacing( g_subsup_vert_spacing, 0 ) ) );
 }
 
 QwtMmlNode *QwtMmlMsubsupNode::base() const
@@ -2420,9 +2420,9 @@ void QwtMmlMsubsupNode::layoutSymbol()
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
     sub->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
-                                b->myRect().bottom() + g_subsup_vert_shift * b->myRect().height() ) );
+                                b->myRect().bottom() + interpretSpacing( g_subsup_vert_spacing, 0 ) ) );
     sup->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
-                                b->myRect().top() - g_subsup_vert_shift * b->myRect().height() ) );
+                                b->myRect().top() - interpretSpacing( g_subsup_vert_spacing, 0 ) ) );
 }
 
 int QwtMmlMsubsupNode::scriptlevel( const QwtMmlNode *child ) const
