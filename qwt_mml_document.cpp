@@ -3735,7 +3735,7 @@ static const QwtMmlOperSpec *searchOperSpecData( const QString &name )
     // invariant holds
     while ( end - begin > 1 )
     {
-        uint mid = ( begin + end ) / 2;
+        uint mid = 0.5 * ( begin + end );
 
         const QwtMmlOperSpec *spec = g_oper_spec_data + mid;
         int cmp = qstrcmp( name_latin1, spec->name );
