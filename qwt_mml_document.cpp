@@ -15,6 +15,7 @@
 static const qreal    g_mfrac_spacing          = 0.1;
 static const qreal    g_mroot_base_margin      = 0.1;
 static const qreal    g_script_size_multiplier = 0.7071; // sqrt(1/2)
+static const qreal    g_subsup_shift           = 0.2;
 static const int      g_min_font_point_size    = 8;
 static const QChar    g_radical_char           = QChar( 0x1A, 0x22 );
 static const unsigned g_oper_spec_rows         = 9;
@@ -2376,7 +2377,7 @@ void QwtMmlMsupNode::layoutSymbol()
     QwtMmlNode *s = sscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    s->setRelOrigin( QPointF( 0.0, b->myRect().top() ) );
+    s->setRelOrigin( QPointF( 0.0, b->myRect().top() - g_subsup_shift * b->myRect().height() ) );
 }
 
 void QwtMmlMsubNode::layoutSymbol()
@@ -2385,7 +2386,7 @@ void QwtMmlMsubNode::layoutSymbol()
     QwtMmlNode *s = sscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    s->setRelOrigin( QPointF( 0.0, b->myRect().bottom() ) );
+    s->setRelOrigin( QPointF( 0.0, b->myRect().bottom() + g_subsup_shift * b->myRect().height() ) );
 }
 
 QwtMmlNode *QwtMmlMsubsupNode::base() const
@@ -2415,8 +2416,8 @@ void QwtMmlMsubsupNode::layoutSymbol()
     QwtMmlNode *sup = superscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    sub->setRelOrigin( QPointF( 0.0, b->myRect().bottom() ) );
-    sup->setRelOrigin( QPointF( 0.0, b->myRect().top() ) );
+    sub->setRelOrigin( QPointF( 0.0, b->myRect().bottom() + g_subsup_shift * b->myRect().height() ) );
+    sup->setRelOrigin( QPointF( 0.0, b->myRect().top() - g_subsup_shift * b->myRect().height() ) );
 }
 
 int QwtMmlMsubsupNode::scriptlevel( const QwtMmlNode *child ) const
