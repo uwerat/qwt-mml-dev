@@ -1132,7 +1132,11 @@ QwtMmlDocument::QwtMmlDocument()
 
     // Some defaults which happen to work on my computer,
     // but probably won't work on other's
+#if defined( Q_OS_LINUX )
+    m_normal_font_name = "Century Schoolbook L";
+#else
     m_normal_font_name = "Times New Roman";
+#endif
     m_fraktur_font_name = "Fraktur";
     m_sans_serif_font_name = "Luxi Sans";
     m_script_font_name = "Urw Chancery L";
