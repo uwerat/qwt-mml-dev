@@ -66,7 +66,7 @@ struct QwtMmlOperSpec
 {
     enum StretchDir { NoStretch, HStretch, VStretch, HVStretch };
 
-    const char *name;
+    const QString name;
     QwtMml::FormType form;
     const char *attributes[g_oper_spec_rows];
     StretchDir stretch_dir;
@@ -3717,12 +3717,10 @@ const QwtMmlOperSpec *&OperSpecSearchResult::getForm( QwtMml::FormType f )
 */
 static const QwtMmlOperSpec *searchOperSpecData( const QString &name )
 {
-    const char *name_latin1 = name.toLatin1().data();
-
     // binary search
     // establish invariant g_oper_spec_data[begin].name < name < g_oper_spec_data[end].name
 
-    int cmp = qstrcmp( name_latin1, g_oper_spec_data[0].name );
+    int cmp = name.compare( g_oper_spec_data[0].name );
     if ( cmp < 0 )
         return 0;
 
@@ -3738,7 +3736,7 @@ static const QwtMmlOperSpec *searchOperSpecData( const QString &name )
         uint mid = 0.5 * ( begin + end );
 
         const QwtMmlOperSpec *spec = g_oper_spec_data + mid;
-        int cmp = qstrcmp( name_latin1, spec->name );
+        int cmp = name.compare( spec->name );
         if ( cmp < 0 )
             end = mid;
         else if ( cmp > 0 )
@@ -3770,10 +3768,8 @@ static OperSpecSearchResult _mmlFindOperSpec( const QStringList &name_list,
         if ( spec == 0 )
             continue;
 
-        const char *name_latin1 = name.toLatin1().data();
-
         // backtrack to the first instance of name
-        while ( spec > g_oper_spec_data && qstrcmp( ( spec - 1 )->name, name_latin1 ) == 0 )
+        while ( spec > g_oper_spec_data && ( spec - 1 )->name.compare( name ) == 0 )
             --spec;
 
         // iterate over instances of name until the instances are exhausted or until we
@@ -3784,7 +3780,7 @@ static OperSpecSearchResult _mmlFindOperSpec( const QStringList &name_list,
             if ( result.haveForm( form ) )
                 break;
         }
-        while ( qstrcmp( spec->name, name_latin1 ) == 0 );
+        while ( spec->name.compare( name ) == 0 );
 
         if ( result.haveForm( form ) )
             break;
