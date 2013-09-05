@@ -15,7 +15,8 @@
 static const qreal    g_mfrac_spacing          = 0.1;
 static const qreal    g_mroot_base_margin      = 0.1;
 static const qreal    g_script_size_multiplier = 0.7071; // sqrt(1/2)
-static const qreal    g_subsup_shift           = 0.2;
+static const QString  g_subsup_horiz_spacing   = "veryverythinmathspace";
+static const qreal    g_subsup_vert_shift      = 0.2;
 static const int      g_min_font_point_size    = 8;
 static const QChar    g_radical_char           = QChar( 0x1A, 0x22 );
 static const unsigned g_oper_spec_rows         = 9;
@@ -2377,7 +2378,8 @@ void QwtMmlMsupNode::layoutSymbol()
     QwtMmlNode *s = sscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    s->setRelOrigin( QPointF( 0.0, b->myRect().top() - g_subsup_shift * b->myRect().height() ) );
+    s->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
+                              b->myRect().top() - g_subsup_vert_shift * b->myRect().height() ) );
 }
 
 void QwtMmlMsubNode::layoutSymbol()
@@ -2386,7 +2388,8 @@ void QwtMmlMsubNode::layoutSymbol()
     QwtMmlNode *s = sscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    s->setRelOrigin( QPointF( 0.0, b->myRect().bottom() + g_subsup_shift * b->myRect().height() ) );
+    s->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
+                              b->myRect().bottom() + g_subsup_vert_shift * b->myRect().height() ) );
 }
 
 QwtMmlNode *QwtMmlMsubsupNode::base() const
@@ -2416,8 +2419,10 @@ void QwtMmlMsubsupNode::layoutSymbol()
     QwtMmlNode *sup = superscript();
 
     b->setRelOrigin( QPointF( -b->myRect().width(), 0.0 ) );
-    sub->setRelOrigin( QPointF( 0.0, b->myRect().bottom() + g_subsup_shift * b->myRect().height() ) );
-    sup->setRelOrigin( QPointF( 0.0, b->myRect().top() - g_subsup_shift * b->myRect().height() ) );
+    sub->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
+                                b->myRect().bottom() + g_subsup_vert_shift * b->myRect().height() ) );
+    sup->setRelOrigin( QPointF( interpretSpacing( g_subsup_horiz_spacing, 0 ),
+                                b->myRect().top() - g_subsup_vert_shift * b->myRect().height() ) );
 }
 
 int QwtMmlMsubsupNode::scriptlevel( const QwtMmlNode *child ) const
