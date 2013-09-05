@@ -68,18 +68,18 @@ struct QwtMmlOperSpec
 
     const QString name;
     QwtMml::FormType form;
-    const char *attributes[g_oper_spec_rows];
+    const QString attributes[g_oper_spec_rows];
     StretchDir stretch_dir;
 };
 
 struct QwtMmlNodeSpec
 {
     QwtMml::NodeType type;
-    const char *tag;
-    const char *type_str;
+    const QString tag;
+    const QString type_str;
     int child_spec;
-    const char *child_types;
-    const char *attributes;
+    const QString child_types;
+    const QString attributes;
 
     enum ChildSpec
     {
@@ -673,7 +673,7 @@ static const QwtMmlNodeSpec g_node_spec_data[] =
     { QwtMml::NoNode,         0,            0,                0,                            0,                       0                                                                     }
 };
 
-static const char *g_oper_spec_names[g_oper_spec_rows] =
+static const QString g_oper_spec_names[g_oper_spec_rows] =
 {
     "accent", "fence", "largeop", "lspace", "minsize", "movablelimits",
     "rspace", "separator", "stretchy" /* stretchdir */
@@ -3387,7 +3387,7 @@ static qreal mmlInterpretSpacing( QString value, int em, int ex, bool *ok )
 
     struct HSpacingValue
     {
-        const char *name;
+        const QString name;
         qreal factor;
     };
 
@@ -3859,7 +3859,7 @@ static uint mmlInterpretMathVariant( const QString &value, bool *ok )
 {
     struct MathVariantValue
     {
-        const char *value;
+        const QString value;
         uint mv;
     };
 
