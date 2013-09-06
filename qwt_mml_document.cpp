@@ -2369,9 +2369,10 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     // Note: the abscissa of the first point really ought to be r.right(), but
     //       then it a small gap might be occur between the top-right of the
     //       radical and the line, so we shift the abscissa of the first point
-    //       slightly to the left. It's a bit black magic, but from what I have
-    //       seen all MathML renderers have one or several problems when it
-    //       comes to rendering radicals...
+    //       slightly to the left. It's a bit of black magic and may not
+    //       therefore be 100% bullet-proof, but from what I have seen all
+    //       MathML renderers have one or several problems when it comes to
+    //       rendering radicals...
 
     painter->restore();
 }
