@@ -1,0 +1,23 @@
+<math>
+    <mfrac linethickness="3px">
+        <mfrac bevelled="true">
+            <mn>
+                1
+            </mn>
+            <mi>
+                x
+            </mi>
+        </mfrac>
+        <mrow>
+            <mi>
+                y
+            </mi>
+            <mo>
+                &minus;
+            </mo>
+            <mn>
+                2
+            </mn>
+        </mrow>
+    </mfrac>
+</math>
