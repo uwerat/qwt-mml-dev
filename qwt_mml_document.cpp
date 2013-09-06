@@ -2294,8 +2294,8 @@ QRectF QwtMmlRootBaseNode::symbolRect() const
     qreal tail_width = tailWidth();
     qreal line_width = g_mroot_base_line * lineWidth();
 
-    return QRectF( -tail_width - margin, base_rect.top() - margin - line_width,
-                    tail_width + base_rect.width() + 2.0 * margin, base_rect.height() + 2.0 * margin + line_width );
+    return QRectF( -tail_width, base_rect.top() - margin - line_width,
+                    tail_width + base_rect.width() + margin, base_rect.height() + 2.0 * margin + line_width );
 }
 
 qreal QwtMmlRootBaseNode::tailWidth() const
