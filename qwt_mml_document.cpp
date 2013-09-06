@@ -20,6 +20,7 @@ static const QString g_subsup_horiz_spacing   = "veryverythinmathspace";
 static const QString g_subsup_vert_spacing    = "thinmathspace";
 static const qreal   g_min_font_point_size    = 8.0;
 static const QChar   g_radical_char           = QChar( 0x1A, 0x22 );
+static const qreal   g_radical_scaling        = 1.1;
 static const int     g_oper_spec_rows         = 9;
 
 static QwtMMLEntityTable mmlEntityTable;
@@ -2332,33 +2333,46 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
 
     painter->save();
 
-    QRectF r = symbolRect();
-    r.moveTopLeft( devicePoint( r.topLeft() ) );
+    QRectF sr = symbolRect();
+    sr.moveTopLeft( devicePoint( sr.topLeft() ) );
 
     qreal line_width = g_mroot_base_line * lineWidth();
-    QRectF base_rect = baseRect();
-    qreal margin = g_mroot_base_margin * base_rect.height();
-
-    r.adjust( 0.0, line_width, -base_rect.width() - 2.0 * margin, 0.0 );
+    QRectF r = sr;
+    r.adjust( 0.0, line_width, -(r.width() - tailWidth() ), 0.0 );
 
     QFont fn = font();
     QFontMetricsF fm( fn );
-    QSizeF radixSize = fm.boundingRect( g_radical_char ).size();
+    QSizeF radix_size = fm.boundingRect( g_radical_char ).size();
+    qreal horizontal_scaling = g_radical_scaling * r.height() / radix_size.height();
 
     painter->translate( r.bottomLeft() );
-    painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
+    painter->scale( r.width() / radix_size.width(), horizontal_scaling );
     painter->setFont( fn );
+    painter->setClipRect( QRectF( 0.0, 0.0, radix_size.width(), -sr.height() / horizontal_scaling ) );
+    // Note: we draw the radical taller than it should so as to avoid any kind
+    //       of antialiasing effect in the top-right of the radical, but this
+    //       means that we then have to clip things...
 
     painter->drawText( -fm.boundingRect( g_radical_char ).bottomLeft(), g_radical_char );
 
     painter->restore();
 
+    painter->save();
+
     QPen pen = painter->pen();
     pen.setWidthF( line_width );
     painter->setPen( pen );
 
-    painter->drawLine( QPointF( r.right(), r.top() - 0.5 * line_width ),
-                       QPointF( r.right() + base_rect.width() + 2.0 * margin, r.top() - 0.5 * line_width ) );
+    painter->drawLine( QPointF( r.right() - line_width, r.top() - 0.5 * line_width ),
+                       QPointF( sr.right(), r.top() - 0.5 * line_width ) );
+    // Note: the abscissa of the first point really ought to be r.right(), but
+    //       then it a small gap might be occur between the top-right of the
+    //       radical and the line, so we shift the abscissa of the first point
+    //       slightly to the left. It's a bit black magic, but from what I have
+    //       seen all MathML renderers have one or several problems when it
+    //       comes to rendering radicals...
+
+    painter->restore();
 }
 
 QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
