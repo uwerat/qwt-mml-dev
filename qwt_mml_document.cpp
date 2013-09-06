@@ -2303,13 +2303,14 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     r.moveTopLeft( devicePoint( r.topLeft() ) );
 
     const QFont fn = font();
-    const QSizeF radixSize = QFontMetricsF( fn ).boundingRect( g_radical_char ).size();
+    const QFontMetricsF fm( fn );
+    const QSizeF radixSize = fm.boundingRect( g_radical_char ).size();
 
     painter->translate( r.bottomLeft() );
     painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
     painter->setFont( fn );
 
-    painter->drawText( QPointF( 0.0, 0.0 ), g_radical_char );
+    painter->drawText( -fm.boundingRect( g_radical_char ).bottomLeft(), g_radical_char );
 
     painter->restore();
 
