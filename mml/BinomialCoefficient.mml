@@ -31,11 +31,11 @@
                 <mfrac>
                   <mrow>
                     <mi>n</mi>
-                    <mo lspace="0">!</mo>
+                    <mo lspace="0" rspace="0">!</mo>
                   </mrow>
                   <mrow>
                     <mi>k</mi>
-                    <mo lspace="0">!</mo>
+                    <mo lspace="0" rspace="0">!</mo>
                     <mo rspace="mediummathspace">&InvisibleTimes;</mo>
                     <mfenced>
                       <mrow>
@@ -44,7 +44,7 @@
                         <mi>k</mi>
                       </mrow>
                     </mfenced>
-                    <mo lspace="0">!</mo>
+                    <mo lspace="0" rspace="0">!</mo>
                   </mrow>
                 </mfrac>
               </mrow>
