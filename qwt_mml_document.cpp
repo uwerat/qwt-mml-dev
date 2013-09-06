@@ -181,8 +181,6 @@ public:
     virtual void paint( QPainter *p );
 
     qreal basePos() const;
-    qreal overlinePos() const;
-    qreal underlinePos() const;
 
     qreal em() const;
     qreal ex() const;
@@ -1698,18 +1696,6 @@ qreal QwtMmlNode::basePos() const
     return fm.strikeOutPos();
 }
 
-qreal QwtMmlNode::underlinePos() const
-{
-    QFontMetricsF fm( font() );
-    return basePos() + fm.underlinePos();
-}
-
-qreal QwtMmlNode::overlinePos() const
-{
-    QFontMetricsF fm( font() );
-    return basePos() - fm.overlinePos();
-}
-
 QwtMmlNode *QwtMmlNode::lastSibling() const
 {
     const QwtMmlNode *n = this;
@@ -2271,8 +2257,8 @@ QRectF QwtMmlRootBaseNode::symbolRect() const
     else
         base_rect = base()->myRect();
 
-    qreal margin = g_mroot_base_margin * base_rect.height();
-    qreal tw = tailWidth();
+    const qreal margin = g_mroot_base_margin * base_rect.height();
+    const qreal tw = tailWidth();
 
     return QRectF( -tw, base_rect.top() - margin, tw,
                    base_rect.height() + 2.0 * margin );
@@ -2301,10 +2287,8 @@ void QwtMmlRootBaseNode::layoutSymbol()
     QwtMmlNode *i = index();
     if ( i != 0 )
     {
-        const qreal tw = tailWidth();
-
         QRectF i_rect = i->myRect();
-        i->setRelOrigin( QPointF( -0.5 * tw - i_rect.width(),
+        i->setRelOrigin( QPointF( -0.5 * tailWidth() - i_rect.width(),
                                   -i_rect.bottom() - 4.0 ) );
     }
 }
@@ -2358,24 +2342,18 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
 
     painter->save();
 
-    QFont fn = font();
-
-    QFontMetricsF fm( fn );
-
-    painter->setFont( fn );
+    painter->setFont( font() );
 
     const QPointF dPos = devicePoint( QPointF() );
-    painter->drawText( QPointF( dPos.x(), dPos.y() + fm.strikeOutPos() ), m_text );
+    painter->drawText( QPointF( dPos.x(), dPos.y() + basePos() ), m_text );
 
     painter->restore();
 }
 
 QRectF QwtMmlTextNode::symbolRect() const
 {
-    QFontMetricsF fm( font() );
-
-    QRectF br = fm.tightBoundingRect( m_text );
-    br.translate( 0.0, fm.strikeOutPos() );
+    QRectF br = QFontMetricsF( font() ).tightBoundingRect( m_text );
+    br.translate( 0.0, basePos() );
 
     return br;
 }
