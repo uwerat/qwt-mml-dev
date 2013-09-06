@@ -14,6 +14,7 @@
 
 static const qreal   g_mfrac_spacing          = 0.05;
 static const qreal   g_mroot_base_margin      = 0.1;
+static const qreal   g_mroot_base_line        = 0.3;
 static const qreal   g_script_size_multiplier = 0.7071; // sqrt(1/2)
 static const QString g_subsup_horiz_spacing   = "veryverythinmathspace";
 static const QString g_subsup_vert_spacing    = "thinmathspace";
@@ -2290,9 +2291,10 @@ QRectF QwtMmlRootBaseNode::symbolRect() const
     QRectF base_rect = baseRect();
     qreal margin = g_mroot_base_margin * base_rect.height();
     qreal tw = tailWidth();
+    qreal linewidth = g_mroot_base_line * lineWidth();
 
-    return QRectF( -tw - margin, base_rect.top() - margin,
-                    tw + base_rect.width() + 2.0 * margin, base_rect.height() + 2.0 * margin );
+    return QRectF( -tw - margin, base_rect.top() - margin - linewidth,
+                    tw + base_rect.width() + 2.0 * margin, base_rect.height() + 2.0 * margin + linewidth );
 }
 
 qreal QwtMmlRootBaseNode::tailWidth() const
@@ -2333,10 +2335,11 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     QRectF r = symbolRect();
     r.moveTopLeft( devicePoint( r.topLeft() ) );
 
+    qreal linewidth = g_mroot_base_line * lineWidth();
     QRectF base_rect = baseRect();
     qreal margin = g_mroot_base_margin * base_rect.height();
 
-    r.adjust( 0.0, 0.0, -base_rect.width() - 2.0 * margin, 0.0 );
+    r.adjust( 0.0, linewidth, -base_rect.width() - 2.0 * margin, 0.0 );
 
     QFont fn = font();
     QFontMetricsF fm( fn );
@@ -2350,8 +2353,12 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
 
     painter->restore();
 
-    painter->drawLine( QPointF( r.right(), r.top() ),
-                       QPointF( r.right() + m_my_rect.width(), r.top() ) );
+    QPen pen = painter->pen();
+    pen.setWidthF( linewidth );
+    painter->setPen( pen );
+
+    painter->drawLine( QPointF( r.right(), r.top() - 0.5 * linewidth ),
+                       QPointF( r.right() + base_rect.width() + 2.0 * margin, r.top() - 0.5 * linewidth ) );
 }
 
 QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
