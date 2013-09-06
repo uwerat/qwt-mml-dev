@@ -316,6 +316,9 @@ protected:
     virtual void paintSymbol( QPainter *p ) const;
     virtual QRectF symbolRect() const;
     qreal tailWidth() const;
+
+private:
+    QRectF baseRect() const;
 };
 
 class QwtMmlMrootNode : public QwtMmlRootBaseNode
@@ -2248,20 +2251,23 @@ int QwtMmlRootBaseNode::scriptlevel( const QwtMmlNode *child ) const
         return sl;
 }
 
-QRectF QwtMmlRootBaseNode::symbolRect() const
+QRectF QwtMmlRootBaseNode::baseRect() const
 {
     QwtMmlNode *b = base();
-    QRectF base_rect;
     if ( b == 0 )
-        base_rect = QRectF( 0.0, 0.0, 1.0, 1.0 );
+        return QRectF( 0.0, 0.0, 1.0, 1.0 );
     else
-        base_rect = base()->myRect();
+        return b->myRect();
+}
 
+QRectF QwtMmlRootBaseNode::symbolRect() const
+{
+    QRectF base_rect = baseRect();
     qreal margin = g_mroot_base_margin * base_rect.height();
     qreal tw = tailWidth();
 
-    return QRectF( -tw, base_rect.top() - margin, tw,
-                   base_rect.height() + 2.0 * margin );
+    return QRectF( -tw - margin, base_rect.top() - margin,
+                    tw + base_rect.width() + 2.0 * margin, base_rect.height() + 2.0 * margin );
 }
 
 qreal QwtMmlRootBaseNode::tailWidth() const
@@ -2301,6 +2307,11 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
 
     QRectF r = symbolRect();
     r.moveTopLeft( devicePoint( r.topLeft() ) );
+
+    QRectF base_rect = baseRect();
+    qreal margin = g_mroot_base_margin * base_rect.height();
+
+    r.adjust( 0.0, 0.0, -base_rect.width() - 2.0 * margin, 0.0 );
 
     QFont fn = font();
     QFontMetricsF fm( fn );
