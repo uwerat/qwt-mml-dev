@@ -66,20 +66,20 @@ struct QwtMmlOperSpec
 {
     enum StretchDir { NoStretch, HStretch, VStretch, HVStretch };
 
-    const QString name;
+    QString name;
     QwtMml::FormType form;
-    const QString attributes[g_oper_spec_rows];
+    QString attributes[g_oper_spec_rows];
     StretchDir stretch_dir;
 };
 
 struct QwtMmlNodeSpec
 {
     QwtMml::NodeType type;
-    const QString tag;
-    const QString type_str;
+    QString tag;
+    QString type_str;
     int child_spec;
-    const QString child_types;
-    const QString attributes;
+    QString child_types;
+    QString attributes;
 
     enum ChildSpec
     {
@@ -2257,8 +2257,8 @@ QRectF QwtMmlRootBaseNode::symbolRect() const
     else
         base_rect = base()->myRect();
 
-    const qreal margin = g_mroot_base_margin * base_rect.height();
-    const qreal tw = tailWidth();
+    qreal margin = g_mroot_base_margin * base_rect.height();
+    qreal tw = tailWidth();
 
     return QRectF( -tw, base_rect.top() - margin, tw,
                    base_rect.height() + 2.0 * margin );
@@ -2302,9 +2302,9 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     QRectF r = symbolRect();
     r.moveTopLeft( devicePoint( r.topLeft() ) );
 
-    const QFont fn = font();
-    const QFontMetricsF fm( fn );
-    const QSizeF radixSize = fm.boundingRect( g_radical_char ).size();
+    QFont fn = font();
+    QFontMetricsF fm( fn );
+    QSizeF radixSize = fm.boundingRect( g_radical_char ).size();
 
     painter->translate( r.bottomLeft() );
     painter->scale( r.width() / radixSize.width(), r.height() / radixSize.height() );
@@ -2345,7 +2345,7 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
 
     painter->setFont( font() );
 
-    const QPointF dPos = devicePoint( QPointF() );
+    QPointF dPos = devicePoint( QPointF() );
     painter->drawText( QPointF( dPos.x(), dPos.y() + basePos() ), m_text );
 
     painter->restore();
@@ -3396,7 +3396,7 @@ static qreal mmlInterpretSpacing(
 
     struct HSpacingValue
     {
-        const QString name;
+        QString name;
         qreal factor;
     };
 
@@ -3697,8 +3697,8 @@ struct OperSpecSearchResult
     OperSpecSearchResult() { prefix_form = infix_form = postfix_form = 0; }
 
     const QwtMmlOperSpec *prefix_form,
-          *infix_form,
-          *postfix_form;
+                         *infix_form,
+                         *postfix_form;
 
     const QwtMmlOperSpec *&getForm( const QwtMml::FormType &f );
     bool haveForm( const QwtMml::FormType &f ) { return getForm( f ) != 0; }
@@ -3868,7 +3868,7 @@ static int mmlInterpretMathVariant( const QString &value, bool *ok )
 {
     struct MathVariantValue
     {
-        const QString value;
+        QString value;
         int mv;
     };
 
@@ -3932,7 +3932,7 @@ static QwtMml::FormType mmlInterpretForm( const QString &value, bool *ok )
 static QwtMml::ColAlign mmlInterpretColAlign(
     const QString &value_list, const int &colnum, bool *ok )
 {
-    const QString value = mmlInterpretListAttr( value_list, colnum, "center" );
+    QString value = mmlInterpretListAttr( value_list, colnum, "center" );
 
     if ( ok != 0 )
         *ok = true;
@@ -3954,7 +3954,7 @@ static QwtMml::ColAlign mmlInterpretColAlign(
 static QwtMml::RowAlign mmlInterpretRowAlign(
     const QString &value_list, const int &rownum, bool *ok )
 {
-    const QString value = mmlInterpretListAttr( value_list, rownum, "axis" );
+    QString value = mmlInterpretListAttr( value_list, rownum, "axis" );
 
     if ( ok != 0 )
         *ok = true;
