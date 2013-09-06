@@ -49,9 +49,20 @@
                         1
                     </mn>
                 </mrow>
-                <mn>
-                    3
-                </mn>
+                <mrow>
+                    <mn>
+                        2
+                    </mn>
+                    <mi>
+                        x
+                    </mi>
+                    <mo>
+                        -
+                    </mo>
+                    <mn>
+                        3
+                    </mn>
+                </mrow>
             </mfrac>
         </mroot>
     </mrow>

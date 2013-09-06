@@ -2323,8 +2323,8 @@ void QwtMmlRootBaseNode::layoutSymbol()
     if ( i != 0 )
     {
         QRectF i_rect = i->myRect();
-        i->setRelOrigin( QPointF( -0.5 * tailWidth() - i_rect.width(),
-                                  -i_rect.bottom() - 4.0 ) );
+        i->setRelOrigin( QPointF( -0.3 * tailWidth() - i_rect.width(),
+                                  -symbolRect().height() / 3.0 - i_rect.bottom() ) );
     }
 }
 
