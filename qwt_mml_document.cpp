@@ -21,8 +21,20 @@ static const QString g_subsup_horiz_spacing   = "veryverythinmathspace";
 static const QString g_subsup_vert_spacing    = "thinmathspace";
 static const qreal   g_min_font_point_size    = 8.0;
 static const QChar   g_radical_char           = QChar( 0x1A, 0x22 );
-static const qreal   g_radical_scaling        = 1.1;
 static const int     g_oper_spec_rows         = 9;
+
+static const int g_radical_points_size = 11;
+static const QPointF g_radical_points[] = { QPointF( 0.0,         0.671606924 ),
+                                            QPointF( 0.217181096, 0.600471048 ),
+                                            QPointF( 0.557377049, 0.901960784 ),
+                                            QPointF( 0.942686988, 0.0         ),
+                                            QPointF( 1.0,         0.0         ),
+                                            QPointF( 1.0,         0.046587776 ),
+                                            QPointF( 1.0,         0.046587776 ),
+                                            QPointF( 0.594230277, 1.0         ),
+                                            QPointF( 0.516457480, 1.0         ),
+                                            QPointF( 0.135213883, 0.664234835 ),
+                                            QPointF( 0.024654201, 0.698510263 ) };
 
 static QwtMMLEntityTable mmlEntityTable;
 
@@ -2341,38 +2353,35 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     QRectF r = sr;
     r.adjust( 0.0, line_width, -(r.width() - tailWidth() ), 0.0 );
 
-    QFont fn = font();
-    QFontMetricsF fm( fn );
-    QRectF radix_rect = fm.boundingRect( g_radical_char );
-    qreal vertical_scaling = g_radical_scaling * r.height() / radix_rect.height();
+    QFontMetricsF fm( font() );
+    QRectF radical_rect = fm.boundingRect( g_radical_char );
+    qreal vertical_scaling = r.height() / radical_rect.height();
 
     painter->translate( r.bottomLeft() );
-    painter->scale( r.width() / radix_rect.width(), vertical_scaling );
-    painter->setFont( fn );
-    painter->setClipRect( QRectF( 0.0, 0.0, radix_rect.width(), -sr.height() / vertical_scaling ) );
-    // Note: we draw the radical taller than it should so as to avoid any kind
-    //       of antialiasing effect in the top-right of the radical, but this
-    //       means that we then have to clip things...
+    painter->scale( r.width() / radical_rect.width(), vertical_scaling );
 
-    painter->drawText( -radix_rect.bottomLeft(), g_radical_char );
+    qreal height = -sr.height() / vertical_scaling;
 
-    painter->restore();
+    QPointF radical_points[ g_radical_points_size ];
 
-    painter->save();
+    for ( int i = 0; i < g_radical_points_size; ++i)
+    {
+        if ( i < 4 || i > 5 )
+            radical_points[ i ].setX( radical_rect.width() * g_radical_points[ i ].x() );
+        else
+            radical_points[ i ].setX( sr.width() );
 
-    QPen pen = painter->pen();
-    pen.setWidthF( line_width );
-    painter->setPen( pen );
+        radical_points[ i ].setY( height * ( 1.0 - g_radical_points[ i ].y() ) );
+    }
 
-    painter->drawLine( QPointF( r.right() - line_width, r.top() - 0.5 * line_width ),
-                       QPointF( sr.right(), r.top() - 0.5 * line_width ) );
-    // Note: the abscissa of the first point really ought to be r.right(), but
-    //       then it a small gap might be occur between the top-right of the
-    //       radical and the line, so we shift the abscissa of the first point
-    //       slightly to the left. It's a bit of black magic and may not
-    //       therefore be 100% bullet-proof, but from what I have seen all
-    //       MathML renderers have one or several problems when it comes to
-    //       rendering radicals...
+    QBrush brush = painter->brush();
+    brush.setColor( painter->pen().color() );
+    brush.setStyle( Qt::SolidPattern );
+    painter->setBrush( brush );
+
+    painter->setRenderHint( QPainter::Antialiasing, true );
+
+    painter->drawPolygon( radical_points, g_radical_points_size );
 
     painter->restore();
 }
