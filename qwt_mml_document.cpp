@@ -2343,18 +2343,18 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
 
     QFont fn = font();
     QFontMetricsF fm( fn );
-    QSizeF radix_size = fm.boundingRect( g_radical_char ).size();
-    qreal vertical_scaling = g_radical_scaling * r.height() / radix_size.height();
+    QRectF radix_rect = fm.boundingRect( g_radical_char );
+    qreal vertical_scaling = g_radical_scaling * r.height() / radix_rect.height();
 
     painter->translate( r.bottomLeft() );
-    painter->scale( r.width() / radix_size.width(), vertical_scaling );
+    painter->scale( r.width() / radix_rect.width(), vertical_scaling );
     painter->setFont( fn );
-    painter->setClipRect( QRectF( 0.0, 0.0, radix_size.width(), -sr.height() / vertical_scaling ) );
+    painter->setClipRect( QRectF( 0.0, 0.0, radix_rect.width(), -sr.height() / vertical_scaling ) );
     // Note: we draw the radical taller than it should so as to avoid any kind
     //       of antialiasing effect in the top-right of the radical, but this
     //       means that we then have to clip things...
 
-    painter->drawText( -fm.boundingRect( g_radical_char ).bottomLeft(), g_radical_char );
+    painter->drawText( -radix_rect.bottomLeft(), g_radical_char );
 
     painter->restore();
 
