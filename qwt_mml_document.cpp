@@ -335,10 +335,12 @@ protected:
     virtual void layoutSymbol();
     virtual void paintSymbol( QPainter *p ) const;
     virtual QRectF symbolRect() const;
-    qreal tailWidth() const;
 
 private:
     QRectF baseRect() const;
+    QRectF radicalRect() const;
+    qreal margin() const;
+    qreal lineWidth() const;
 };
 
 class QwtMmlMrootNode : public QwtMmlRootBaseNode
@@ -2300,21 +2302,31 @@ QRectF QwtMmlRootBaseNode::baseRect() const
         return b->myRect();
 }
 
+QRectF QwtMmlRootBaseNode::radicalRect() const
+{
+    QFontMetricsF fm( font() );
+    return fm.boundingRect( g_radical_char );
+}
+
+qreal QwtMmlRootBaseNode::margin() const
+{
+    return g_mroot_base_margin * baseRect().height();
+}
+
+qreal QwtMmlRootBaseNode::lineWidth() const
+{
+    return g_radical_points[ 5 ].y() * ( baseRect().height() + 2.0 * margin() ) / ( 1.0 - g_radical_points[ 5 ].y() );
+}
+
 QRectF QwtMmlRootBaseNode::symbolRect() const
 {
     QRectF base_rect = baseRect();
-    qreal margin = g_mroot_base_margin * base_rect.height();
-    qreal tail_width = tailWidth();
-    int line_width = qCeil( g_mroot_base_line * lineWidth() );
+    qreal m = margin();
+    qreal radical_width = radicalRect().width();
+    qreal line_width = lineWidth();
 
-    return QRectF( -tail_width, base_rect.top() - margin - line_width,
-                    tail_width + base_rect.width() + margin, base_rect.height() + 2.0 * margin + line_width );
-}
-
-qreal QwtMmlRootBaseNode::tailWidth() const
-{
-    QFontMetricsF fm( font() );
-    return fm.boundingRect( g_radical_char ).width();
+    return QRectF( -radical_width, base_rect.top() - m - line_width,
+                    radical_width + base_rect.width() + m, base_rect.height() + 2.0 * m + line_width );
 }
 
 void QwtMmlRootBaseNode::layoutSymbol()
@@ -2335,7 +2347,7 @@ void QwtMmlRootBaseNode::layoutSymbol()
     if ( i != 0 )
     {
         QRectF i_rect = i->myRect();
-        i->setRelOrigin( QPointF( -0.3 * tailWidth() - i_rect.width(),
+        i->setRelOrigin( QPointF( -0.3 * radicalRect().width() - i_rect.width(),
                                   -symbolRect().height() / 3.0 - i_rect.bottom() ) );
     }
 }
@@ -2349,20 +2361,18 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     QRectF sr = symbolRect();
     sr.moveTopLeft( devicePoint( sr.topLeft() ) );
 
-    int line_width = qCeil( g_mroot_base_line * lineWidth() );
-    QRectF r = sr;
-    r.adjust( 0.0, line_width, -(r.width() - tailWidth() ), 0.0 );
+    QRectF radical_rect = QFontMetricsF( font() ).boundingRect( g_radical_char );
 
-    QFontMetricsF fm( font() );
-    QRectF radical_rect = fm.boundingRect( g_radical_char );
+    QRectF r = sr;
+    r.adjust( 0.0, lineWidth(), -(r.width() - radical_rect.width() ), 0.0 );
+
     qreal vertical_scaling = r.height() / radical_rect.height();
 
     painter->translate( r.bottomLeft() );
     painter->scale( r.width() / radical_rect.width(), vertical_scaling );
 
-    qreal height = -sr.height() / vertical_scaling;
-
     QPointF radical_points[ g_radical_points_size ];
+    qreal radical_height = -sr.height() / vertical_scaling;
 
     for ( int i = 0; i < g_radical_points_size; ++i)
     {
@@ -2371,7 +2381,7 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
         else
             radical_points[ i ].setX( sr.width() );
 
-        radical_points[ i ].setY( height * ( 1.0 - g_radical_points[ i ].y() ) );
+        radical_points[ i ].setY( radical_height * ( 1.0 - g_radical_points[ i ].y() ) );
     }
 
     QBrush brush = painter->brush();
