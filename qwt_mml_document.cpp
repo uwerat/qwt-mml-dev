@@ -24,17 +24,17 @@ static const QChar   g_radical_char           = QChar( 0x1A, 0x22 );
 static const int     g_oper_spec_rows         = 9;
 
 static const int g_radical_points_size = 11;
-static const QPointF g_radical_points[] = { QPointF( 0.0,         0.671606924 ),
-                                            QPointF( 0.217181096, 0.600471048 ),
-                                            QPointF( 0.557377049, 0.901960784 ),
-                                            QPointF( 0.942686988, 0.0         ),
-                                            QPointF( 1.0,         0.0         ),
-                                            QPointF( 1.0,         0.046587776 ),
-                                            QPointF( 1.0,         0.046587776 ),
-                                            QPointF( 0.594230277, 1.0         ),
-                                            QPointF( 0.516457480, 1.0         ),
-                                            QPointF( 0.135213883, 0.664234835 ),
-                                            QPointF( 0.024654201, 0.698510263 ) };
+static const QPointF g_radical_points[] = { QPointF( 0.0,         0.328393076 ),
+                                            QPointF( 0.217181096, 0.399528952 ),
+                                            QPointF( 0.557377049, 0.098039216 ),
+                                            QPointF( 0.942686988, 1.0         ),
+                                            QPointF( 1.0,         1.0         ),
+                                            QPointF( 1.0,         0.953412224 ),
+                                            QPointF( 1.0,         0.953412224 ),
+                                            QPointF( 0.594230277, 0.0         ),
+                                            QPointF( 0.516457480, 0.0         ),
+                                            QPointF( 0.135213883, 0.335765165 ),
+                                            QPointF( 0.024654201, 0.301489737 ) };
 
 static QwtMMLEntityTable mmlEntityTable;
 
@@ -2315,7 +2315,7 @@ qreal QwtMmlRootBaseNode::margin() const
 
 qreal QwtMmlRootBaseNode::lineWidth() const
 {
-    return g_radical_points[ 5 ].y() * ( baseRect().height() + 2.0 * margin() ) / ( 1.0 - g_radical_points[ 5 ].y() );
+    return ( 1.0 - g_radical_points[ 5 ].y() ) * ( baseRect().height() + 2.0 * margin() ) / g_radical_points[ 5 ].y();
 }
 
 QRectF QwtMmlRootBaseNode::symbolRect() const
@@ -2347,7 +2347,7 @@ void QwtMmlRootBaseNode::layoutSymbol()
     if ( i != 0 )
     {
         QRectF i_rect = i->myRect();
-        i->setRelOrigin( QPointF( -0.3 * radicalRect().width() - i_rect.width(),
+        i->setRelOrigin( QPointF( -g_radical_points[ 8 ].x() * radicalRect().width() - i_rect.width(),
                                   -symbolRect().height() / 3.0 - i_rect.bottom() ) );
     }
 }
@@ -2381,7 +2381,7 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
         else
             radical_points[ i ].setX( sr.width() );
 
-        radical_points[ i ].setY( radical_height * ( 1.0 - g_radical_points[ i ].y() ) );
+        radical_points[ i ].setY( radical_height * g_radical_points[ i ].y() );
     }
 
     QBrush brush = painter->brush();
