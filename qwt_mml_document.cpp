@@ -310,7 +310,7 @@ protected:
     virtual QRectF symbolRect() const;
 
 private:
-    qreal lineThickness() const;
+    int lineThickness() const;
 };
 
 class QwtMmlMrowNode : public QwtMmlNode
@@ -2190,7 +2190,7 @@ QRectF QwtMmlMfracNode::symbolRect() const
     QRectF denom_rect = denominator()->myRect();
     qreal spacing = g_mfrac_spacing * ( num_rect.height() + denom_rect.height() );
     qreal my_width = qMax( num_rect.width(), denom_rect.width() ) + 2.0 * spacing;
-    int line_thickness = qCeil( lineThickness() );
+    int line_thickness = lineThickness();
 
     return QRectF( -0.5 * my_width, -0.5 * line_thickness,
                    my_width, line_thickness );
@@ -2203,7 +2203,7 @@ void QwtMmlMfracNode::layoutSymbol()
     QRectF num_rect = num->myRect();
     QRectF denom_rect = denom->myRect();
     qreal spacing = g_mfrac_spacing * ( num_rect.height() + denom_rect.height() );
-    int line_thickness = qCeil( lineThickness() );
+    int line_thickness = lineThickness();
 
     num->setRelOrigin( QPointF( -0.5 * num_rect.width(), - spacing - num_rect.bottom() - 0.5 * line_thickness ) );
     denom->setRelOrigin( QPointF( -0.5 * denom_rect.width(), spacing - denom_rect.top() + 0.5 * line_thickness ) );
@@ -2223,7 +2223,7 @@ static bool zeroLineThickness( const QString &s )
     return true;
 }
 
-qreal QwtMmlMfracNode::lineThickness() const
+int QwtMmlMfracNode::lineThickness() const
 {
     QString linethickness_str = inheritAttributeFromMrow( "linethickness", QString::number( 0.75 * lineWidth () ) );
 
@@ -2237,11 +2237,11 @@ qreal QwtMmlMfracNode::lineThickness() const
         if ( !ok || !line_thickness )
             line_thickness = 1.0;
 
-        return line_thickness;
+        return qCeil( line_thickness );
     }
     else
     {
-        return 0.0;
+        return 0;
     }
 }
 
@@ -2249,7 +2249,7 @@ void QwtMmlMfracNode::paintSymbol( QPainter *painter ) const
 {
     QwtMmlNode::paintSymbol( painter );
 
-    int line_thickness = qCeil( lineThickness() );
+    int line_thickness = lineThickness();
 
     if ( line_thickness != 0.0 )
     {
