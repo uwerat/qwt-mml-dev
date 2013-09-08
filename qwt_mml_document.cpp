@@ -15,7 +15,7 @@
 
 static const qreal   g_mfrac_spacing          = 0.05;
 static const qreal   g_mroot_base_margin      = 0.1;
-static const qreal   g_mroot_base_line        = 0.3;
+static const qreal   g_mroot_base_line        = 0.5;
 static const qreal   g_script_size_multiplier = 0.7071; // sqrt(1/2)
 static const QString g_subsup_horiz_spacing   = "veryverythinmathspace";
 static const QString g_subsup_vert_spacing    = "thinmathspace";
@@ -24,17 +24,17 @@ static const QChar   g_radical_char           = QChar( 0x1A, 0x22 );
 static const int     g_oper_spec_rows         = 9;
 
 static const int g_radical_points_size = 11;
-static const QPointF g_radical_points[] = { QPointF( 0.0,         0.328393076 ),
-                                            QPointF( 0.217181096, 0.399528952 ),
-                                            QPointF( 0.557377049, 0.098039216 ),
-                                            QPointF( 0.942686988, 1.0         ),
+static const QPointF g_radical_points[] = { QPointF( 0.0,         0.344439758 ),
+                                            QPointF( 0.217181096, 0.419051636 ),
+                                            QPointF( 0.557377049, 0.102829829 ),
+                                            QPointF( 0.942686988, 1.048864253 ),
+                                            QPointF( 1.0,         1.048864253 ),
                                             QPointF( 1.0,         1.0         ),
-                                            QPointF( 1.0,         0.953412224 ),
-                                            QPointF( 1.0,         0.953412224 ),
+                                            QPointF( 1.0,         1.0         ),
                                             QPointF( 0.594230277, 0.0         ),
                                             QPointF( 0.516457480, 0.0         ),
-                                            QPointF( 0.135213883, 0.335765165 ),
-                                            QPointF( 0.024654201, 0.301489737 ) };
+                                            QPointF( 0.135213883, 0.352172079 ),
+                                            QPointF( 0.024654201, 0.316221808 ) };
 
 static QwtMMLEntityTable mmlEntityTable;
 
@@ -310,7 +310,7 @@ protected:
     virtual QRectF symbolRect() const;
 
 private:
-    int lineThickness() const;
+    qreal lineThickness() const;
 };
 
 class QwtMmlMrowNode : public QwtMmlNode
@@ -339,8 +339,8 @@ protected:
 private:
     QRectF baseRect() const;
     QRectF radicalRect() const;
-    qreal margin() const;
-    qreal lineWidth() const;
+    qreal radicalMargin() const;
+    qreal radicalLineWidth() const;
 };
 
 class QwtMmlMrootNode : public QwtMmlRootBaseNode
@@ -2190,7 +2190,7 @@ QRectF QwtMmlMfracNode::symbolRect() const
     QRectF denom_rect = denominator()->myRect();
     qreal spacing = g_mfrac_spacing * ( num_rect.height() + denom_rect.height() );
     qreal my_width = qMax( num_rect.width(), denom_rect.width() ) + 2.0 * spacing;
-    int line_thickness = lineThickness();
+    int line_thickness = qCeil( lineThickness() );
 
     return QRectF( -0.5 * my_width, -0.5 * line_thickness,
                    my_width, line_thickness );
@@ -2203,7 +2203,7 @@ void QwtMmlMfracNode::layoutSymbol()
     QRectF num_rect = num->myRect();
     QRectF denom_rect = denom->myRect();
     qreal spacing = g_mfrac_spacing * ( num_rect.height() + denom_rect.height() );
-    int line_thickness = lineThickness();
+    int line_thickness = qCeil( lineThickness() );
 
     num->setRelOrigin( QPointF( -0.5 * num_rect.width(), - spacing - num_rect.bottom() - 0.5 * line_thickness ) );
     denom->setRelOrigin( QPointF( -0.5 * denom_rect.width(), spacing - denom_rect.top() + 0.5 * line_thickness ) );
@@ -2223,7 +2223,7 @@ static bool zeroLineThickness( const QString &s )
     return true;
 }
 
-int QwtMmlMfracNode::lineThickness() const
+qreal QwtMmlMfracNode::lineThickness() const
 {
     QString linethickness_str = inheritAttributeFromMrow( "linethickness", QString::number( 0.75 * lineWidth () ) );
 
@@ -2237,11 +2237,11 @@ int QwtMmlMfracNode::lineThickness() const
         if ( !ok || !line_thickness )
             line_thickness = 1.0;
 
-        return qCeil( line_thickness );
+        return line_thickness;
     }
     else
     {
-        return 0;
+        return 0.0;
     }
 }
 
@@ -2249,7 +2249,7 @@ void QwtMmlMfracNode::paintSymbol( QPainter *painter ) const
 {
     QwtMmlNode::paintSymbol( painter );
 
-    int line_thickness = lineThickness();
+    int line_thickness = qCeil( lineThickness() );
 
     if ( line_thickness != 0.0 )
     {
@@ -2308,46 +2308,38 @@ QRectF QwtMmlRootBaseNode::radicalRect() const
     return fm.boundingRect( g_radical_char );
 }
 
-qreal QwtMmlRootBaseNode::margin() const
+qreal QwtMmlRootBaseNode::radicalMargin() const
 {
     return g_mroot_base_margin * baseRect().height();
 }
 
-qreal QwtMmlRootBaseNode::lineWidth() const
+qreal QwtMmlRootBaseNode::radicalLineWidth() const
 {
-    return ( 1.0 - g_radical_points[ 5 ].y() ) * ( baseRect().height() + 2.0 * margin() ) / g_radical_points[ 5 ].y();
+    return g_mroot_base_line * lineWidth();
 }
 
 QRectF QwtMmlRootBaseNode::symbolRect() const
 {
     QRectF base_rect = baseRect();
-    qreal m = margin();
+    qreal radical_margin = radicalMargin();
     qreal radical_width = radicalRect().width();
-    qreal line_width = lineWidth();
+    int radical_line_width = qCeil( radicalLineWidth() );
 
-    return QRectF( -radical_width, base_rect.top() - m - line_width,
-                    radical_width + base_rect.width() + m, base_rect.height() + 2.0 * m + line_width );
+    return QRectF( -radical_width, base_rect.top() - radical_margin - radical_line_width,
+                    radical_width + base_rect.width() + radical_margin, base_rect.height() + 2.0 * radical_margin + radical_line_width );
 }
 
 void QwtMmlRootBaseNode::layoutSymbol()
 {
     QwtMmlNode *b = base();
-    QSizeF base_size;
     if ( b != 0 )
-    {
         b->setRelOrigin( QPointF( 0.0, 0.0 ) );
-        base_size = base()->myRect().size();
-    }
-    else
-    {
-        base_size = QSizeF( 1.0, 1.0 );
-    }
 
     QwtMmlNode *i = index();
     if ( i != 0 )
     {
         QRectF i_rect = i->myRect();
-        i->setRelOrigin( QPointF( -g_radical_points[ 8 ].x() * radicalRect().width() - i_rect.width(),
+        i->setRelOrigin( QPointF( -0.33 * radicalRect().width() - i_rect.width(),
                                   -symbolRect().height() / 3.0 - i_rect.bottom() ) );
     }
 }
@@ -2364,25 +2356,33 @@ void QwtMmlRootBaseNode::paintSymbol( QPainter *painter ) const
     QRectF radical_rect = QFontMetricsF( font() ).boundingRect( g_radical_char );
 
     QRectF r = sr;
-    r.adjust( 0.0, lineWidth(), -(r.width() - radical_rect.width() ), 0.0 );
-
-    qreal vertical_scaling = r.height() / radical_rect.height();
+    r.adjust(  0.0, qCeil( radicalLineWidth() ),
+              -(r.width() - radical_rect.width() ), 0.0 );
 
     painter->translate( r.bottomLeft() );
-    painter->scale( r.width() / radical_rect.width(), vertical_scaling );
 
     QPointF radical_points[ g_radical_points_size ];
-    qreal radical_height = -sr.height() / vertical_scaling;
 
-    for ( int i = 0; i < g_radical_points_size; ++i)
+    for ( int i = 0; i < g_radical_points_size; ++i )
     {
-        if ( i < 4 || i > 5 )
-            radical_points[ i ].setX( radical_rect.width() * g_radical_points[ i ].x() );
-        else
-            radical_points[ i ].setX( sr.width() );
-
-        radical_points[ i ].setY( radical_height * g_radical_points[ i ].y() );
+        radical_points[ i ].setX( radical_rect.width() * g_radical_points[ i ].x() );
+        radical_points[ i ].setY( -r.height() * g_radical_points[ i ].y() );
     }
+
+    qreal x2 = radical_points[ 2 ].x();
+    qreal y2 = radical_points[ 2 ].y();
+    qreal x3 = radical_points[ 3 ].x();
+    qreal y3 = radical_points[ 3 ].y();
+
+    radical_points[ 4 ].setX( sr.width() );
+    radical_points[ 5 ].setX( sr.width() );
+
+    radical_points[ 3 ].setY( -sr.height() );
+    radical_points[ 4 ].setY( -sr.height() );
+
+    qreal new_y3 = radical_points[ 3 ].y();
+
+    radical_points[ 3 ].setX( x2 + ( x3 - x2 ) * ( new_y3 - y2 ) / ( y3 - y2 ) );
 
     QBrush brush = painter->brush();
     brush.setColor( painter->pen().color() );
