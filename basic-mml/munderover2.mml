@@ -1,0 +1,21 @@
+<math>
+    <munderover>
+        <mo>
+            &sum;
+        </mo>
+        <mrow>
+            <mi>
+                n
+            </mi>
+            <mo>
+                =
+            </mo>
+            <mn>
+                0
+            </mn>
+        </mrow>
+        <mi>
+            k
+        </mi>
+    </munderover>
+</math>
