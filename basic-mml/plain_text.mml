@@ -1,0 +1,43 @@
+<math>
+    <mrow>
+        <mtext>
+            if
+        </mtext>
+        <mspace depth="0.5ex" height="0.5ex" width="1ex"/>
+        <mrow>
+            <mi>
+                x
+            </mi>
+            <mo>
+                =
+            </mo>
+            <mi>
+                y
+            </mi>
+        </mrow>
+        <mspace depth="0.5ex" height="0.5ex" width="1ex"/>
+        <mtext>
+            then
+        </mtext>
+        <mspace depth="0.5ex" height="0.5ex" width="1ex"/>
+        <mrow>
+            <mrow>
+                <mi>
+                    a
+                </mi>
+                <mi>
+                    x
+                </mi>
+            </mrow>
+            <mo>=</mo>
+            <mrow>
+                <mi>
+                    a
+                </mi>
+                <mi>
+                    y
+                </mi>
+            </mrow>
+        </mrow>
+    </mrow>
+</math>
