@@ -7,9 +7,9 @@
             <mi>
                 &imath;
             </mi>
-            <mo>
+            <mi>
                 ^
-            </mo>
+            </mi>
         </mover>
         <mo>
             +
@@ -21,9 +21,9 @@
             <mi>
                 &jmath;
             </mi>
-            <mo>
+            <mi>
                 ^
-            </mo>
+            </mi>
         </mover>
         <mo>
             +
@@ -35,9 +35,9 @@
             <mi>
                 k
             </mi>
-            <mo>
+            <mi>
                 ^
-            </mo>
+            </mi>
         </mover>
     </mrow>
 </math>
