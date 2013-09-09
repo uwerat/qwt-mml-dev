@@ -1,0 +1,52 @@
+<math>
+    <mrow>
+        <msub>
+            <mi mathvariant="italic">
+                proj
+            </mi>
+            <mi mathvariant="bold">
+                v
+            </mi>
+        </msub>
+        <mo>
+            &ApplyFunction;
+        </mo>
+        <mi mathvariant="bold">
+            a
+        </mi>
+        <mo>
+            =
+        </mo>
+        <mstyle displaystyle="true">
+            <mfrac>
+                <mrow>
+                    <mi mathvariant="bold">
+                        a
+                    </mi>
+                    <mo>
+                        &sdot;
+                    </mo>
+                    <mi mathvariant="bold">
+                        v
+                    </mi>
+                </mrow>
+                <msup>
+                    <mfenced open="&Vert;" close="&Vert;">
+                        <mi mathvariant="bold">
+                            v
+                        </mi>
+                    </mfenced>
+                    <mn>
+                        2
+                    </mn>
+                </msup>
+            </mfrac>
+        </mstyle>
+        <mo>
+            &InvisibleTimes;
+        </mo>
+        <mi mathvariant="bold">
+            v
+        </mi>
+    </mrow>
+</math>
