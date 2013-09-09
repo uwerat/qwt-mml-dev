@@ -3220,7 +3220,9 @@ void QwtMmlMoverNode::layoutSymbol()
     QRectF base_rect = base->myRect();
     QRectF over_rect = over->myRect();
 
-    qreal spacing = g_mfrac_spacing * ( over_rect.height() + base_rect.height() );
+    qreal spacing = ( explicitAttribute( "accent" ) == "true" ) ?
+                        0.0 :
+                        g_mfrac_spacing * ( over_rect.height() + base_rect.height() );
 
     base->setRelOrigin( QPointF( -0.5 * base_rect.width(), 0.0 ) );
     over->setRelOrigin( QPointF( -0.5 * over_rect.width(),
@@ -3251,7 +3253,9 @@ void QwtMmlMunderNode::layoutSymbol()
     QRectF base_rect = base->myRect();
     QRectF under_rect = under->myRect();
 
-    qreal spacing = g_mfrac_spacing * ( under_rect.height() + base_rect.height() );
+    qreal spacing = ( explicitAttribute( "accentunder" ) == "true" ) ?
+                        0.0 :
+                        g_mfrac_spacing * ( under_rect.height() + base_rect.height() );
 
     base->setRelOrigin( QPointF( -0.5 * base_rect.width(), 0.0 ) );
     under->setRelOrigin( QPointF( -0.5 * under_rect.width(), base_rect.bottom() + spacing - under_rect.top() ) );
@@ -3284,11 +3288,16 @@ void QwtMmlMunderoverNode::layoutSymbol()
     QRectF under_rect = under->myRect();
     QRectF over_rect = over->myRect();
 
-    qreal spacing = g_mfrac_spacing * ( base_rect.height() + under_rect.height() + over_rect.height() );
+    qreal over_spacing = ( explicitAttribute( "accent" ) == "true" ) ?
+                             0.0 :
+                             g_mfrac_spacing * ( base_rect.height() + under_rect.height() + over_rect.height() );
+    qreal under_spacing = ( explicitAttribute( "accentunder" ) == "true" ) ?
+                              0.0 :
+                              g_mfrac_spacing * ( base_rect.height() + under_rect.height() + over_rect.height() );
 
     base->setRelOrigin( QPointF( -0.5 * base_rect.width(), 0.0 ) );
-    under->setRelOrigin( QPointF( -0.5 * under_rect.width(), base_rect.bottom() + spacing - under_rect.top() ) );
-    over->setRelOrigin( QPointF( -0.5 * over_rect.width(), base_rect.top() - spacing - under_rect.bottom() ) );
+    under->setRelOrigin( QPointF( -0.5 * under_rect.width(), base_rect.bottom() + under_spacing - under_rect.top() ) );
+    over->setRelOrigin( QPointF( -0.5 * over_rect.width(), base_rect.top() - over_spacing - under_rect.bottom() ) );
 }
 
 int QwtMmlMunderoverNode::scriptlevel( const QwtMmlNode *node ) const

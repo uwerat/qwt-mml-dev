@@ -3,7 +3,7 @@
         <mn>
             3
         </mn>
-        <mover>
+        <mover accent="true">
             <mi>
                 &imath;
             </mi>
@@ -17,7 +17,7 @@
         <mn>
             2
         </mn>
-        <mover>
+        <mover accent="true">
             <mi>
                 &jmath;
             </mi>
@@ -31,7 +31,7 @@
         <mn>
             5
         </mn>
-        <mover>
+        <mover accent="true">
             <mi>
                 k
             </mi>
