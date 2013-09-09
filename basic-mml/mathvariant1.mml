@@ -1,17 +1,19 @@
 <math>
-    <mn mathvariant="bold">
-        0
-    </mn>
-    <mo>
-        &sdot;
-    </mo>
-    <mi mathvariant="bold">
-        v
-    </mi>
-    <mo>
-        =
-    </mo>
-    <mn>
-        0
-    </mn>
+    <mrow>
+        <mn mathvariant="bold">
+            0
+        </mn>
+        <mo>
+            &sdot;
+        </mo>
+        <mi mathvariant="bold">
+            v
+        </mi>
+        <mo>
+            =
+        </mo>
+        <mn>
+            0
+        </mn>
+    </mrow>
 </math>

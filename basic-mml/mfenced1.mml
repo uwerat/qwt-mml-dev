@@ -1,16 +1,18 @@
 <math>
-    <mi mathvariant="bold">
-        F
-    </mi>
-    <mfenced>
-        <mi>
-            x
+    <mrow>
+        <mi mathvariant="bold">
+            F
         </mi>
-        <mi>
-            y
-        </mi>
-        <mi>
-            z
-        </mi>
-    </mfenced>
+        <mfenced>
+            <mi>
+                x
+            </mi>
+            <mi>
+                y
+            </mi>
+            <mi>
+                z
+            </mi>
+        </mfenced>
+    </mrow>
 </math>

@@ -1,46 +1,48 @@
 <math>
-    <mi mathvariant="bold">
-        v
-    </mi>
-    <mo>
-        =
-    </mo>
     <mrow>
+        <mi mathvariant="bold">
+            v
+        </mi>
         <mo>
-            (
+            =
         </mo>
-        <msub>
-            <mi>
-                v
-            </mi>
-            <mn>
-                1
-            </mn>
-        </msub>
-        <mo>
-            ,
-        </mo>
-        <msub>
-            <mi>
-                v
-            </mi>
-            <mn>
-                2
-            </mn>
-        </msub>
-        <mo>
-            ,
-        </mo>
-        <msub>
-            <mi>
-                v
-            </mi>
-            <mn>
-                3
-            </mn>
-        </msub>
-        <mo>
-            )
-        </mo>
+        <mrow>
+            <mo>
+                (
+            </mo>
+            <msub>
+                <mi>
+                    v
+                </mi>
+                <mn>
+                    1
+                </mn>
+            </msub>
+            <mo>
+                ,
+            </mo>
+            <msub>
+                <mi>
+                    v
+                </mi>
+                <mn>
+                    2
+                </mn>
+            </msub>
+            <mo>
+                ,
+            </mo>
+            <msub>
+                <mi>
+                    v
+                </mi>
+                <mn>
+                    3
+                </mn>
+            </msub>
+            <mo>
+                )
+            </mo>
+        </mrow>
     </mrow>
 </math>

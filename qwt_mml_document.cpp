@@ -2416,8 +2416,8 @@ QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
     m_text.remove( QRegExp( "^[^\\S\\x00a0\\x2009]+" ) );
     m_text.remove( QRegExp( "[^\\S\\x00a0\\x2009]+$" ) );
 
-    if ( m_text == QString( QChar( 0x62, 0x20 ) )    // &InvisibleTimes;
-            || m_text == QString( QChar( 0x63, 0x20 ) ) // &InvisibleComma;
+    if ( m_text == QString( QChar( 0x62, 0x20 ) )         // &InvisibleTimes;
+            || m_text == QString( QChar( 0x63, 0x20 ) )   // &InvisibleComma;
             || m_text == QString( QChar( 0x61, 0x20 ) ) ) // &ApplyFunction;
         m_text = "";
 }
