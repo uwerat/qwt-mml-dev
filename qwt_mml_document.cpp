@@ -3318,6 +3318,9 @@ qreal QwtMmlSpacingNode::interpretSpacing(
     while ( idx < value.length() && ( value.at( idx ).isDigit() || value.at( idx ) == '.' ) )
         factor_str.append( value.at( idx++ ) );
 
+    if ( factor_str == "" )
+        factor_str = "1.0";
+
     // extract the % sign
     if ( idx < value.length() && value.at( idx ) == '%' )
     {
@@ -3358,7 +3361,14 @@ qreal QwtMmlSpacingNode::interpretSpacing(
     else
     {
         bool unit_ok;
-        unit_size = QwtMmlNode::interpretSpacing( "1" + pseudo_unit, &unit_ok );
+
+        if (    pseudo_unit == "em" || pseudo_unit == "ex"
+             || pseudo_unit == "cm" || pseudo_unit == "mm"
+             || pseudo_unit == "in" || pseudo_unit == "px" )
+            unit_size = QwtMmlNode::interpretSpacing( "1" + pseudo_unit, &unit_ok );
+        else
+            unit_size = QwtMmlNode::interpretSpacing( pseudo_unit, &unit_ok );
+
         if ( !unit_ok )
         {
             qWarning( "QwtMmlSpacingNode::interpretSpacing(): could not parse \"%s\"", qPrintable( value ) );
