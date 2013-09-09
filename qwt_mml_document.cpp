@@ -380,6 +380,9 @@ protected:
     virtual QRectF symbolRect() const;
 
     QString m_text;
+
+private:
+    bool isInvisibleOperator() const;
 };
 
 class QwtMmlMiNode : public QwtMmlTokenNode
@@ -1068,6 +1071,7 @@ static const QwtMmlOperSpec g_oper_spec_data[] =
     { "||",                                QwtMml::InfixForm,   { 0,       0,       0,       "mediummathspace",   0,      0,            "mediummathspace",       0,        0        }, QwtMmlOperSpec::NoStretch }, // "||"
     { "}",                                 QwtMml::PostfixForm, { 0,       "true",  0,       "0em",               0,      0,            "0em",                   0,        "true"   }, QwtMmlOperSpec::VStretch  }, // "}"
     { "~",                                 QwtMml::InfixForm,   { 0,       0,       0,       "verythinmathspace", 0,      0,            "verythinmathspace",     0,        0        }, QwtMmlOperSpec::NoStretch }, // "~"
+    { QString( QChar( 0x64, 0x20 ) ),      QwtMml::InfixForm,   { 0,       0,       0,       "0em",               0,      0,            "0em",                   0,        0        }, QwtMmlOperSpec::NoStretch }, // Invisible addition
     { 0,                                   QwtMml::InfixForm,   { 0,       0,       0,       0,                   0,      0,            0,                       0,        0        }, QwtMmlOperSpec::NoStretch }
 };
 
@@ -2415,11 +2419,6 @@ QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
     // Trim whitespace from ends, but keep nbsp and thinsp
     m_text.remove( QRegExp( "^[^\\S\\x00a0\\x2009]+" ) );
     m_text.remove( QRegExp( "[^\\S\\x00a0\\x2009]+$" ) );
-
-    if ( m_text == QString( QChar( 0x62, 0x20 ) )         // &InvisibleTimes;
-            || m_text == QString( QChar( 0x63, 0x20 ) )   // &InvisibleComma;
-            || m_text == QString( QChar( 0x61, 0x20 ) ) ) // &ApplyFunction;
-        m_text = "";
 }
 
 QString QwtMmlTextNode::toStr() const
@@ -2427,9 +2426,20 @@ QString QwtMmlTextNode::toStr() const
     return QwtMmlNode::toStr() + ", text=\"" + m_text + "\"";
 }
 
+bool QwtMmlTextNode::isInvisibleOperator() const
+{
+    return    m_text == QString( QChar( 0x61, 0x20 ) )  // &ApplyFunction;
+           || m_text == QString( QChar( 0x62, 0x20 ) )  // &InvisibleTimes;
+           || m_text == QString( QChar( 0x63, 0x20 ) )  // &InvisibleComma;
+           || m_text == QString( QChar( 0x64, 0x20 ) ); // Invisible addition
+}
+
 void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
 {
     QwtMmlNode::paintSymbol( painter );
+
+    if ( isInvisibleOperator() )
+        return;
 
     painter->save();
 
@@ -2443,7 +2453,7 @@ void QwtMmlTextNode::paintSymbol( QPainter *painter ) const
 
 QRectF QwtMmlTextNode::symbolRect() const
 {
-    QRectF br = QFontMetricsF( font() ).tightBoundingRect( m_text );
+    QRectF br = isInvisibleOperator() ? QRectF() : QFontMetricsF( font() ).tightBoundingRect( m_text );
     br.translate( 0.0, basePos() );
 
     return br;
