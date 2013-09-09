@@ -1277,7 +1277,6 @@ bool QwtMmlDocument::setContent(
     insertChild( 0, root_node, 0 );
     layout();
 
-
     return true;
 }
 
@@ -2423,7 +2422,7 @@ QwtMmlTextNode::QwtMmlTextNode( const QString &text, QwtMmlDocument *document )
 
 QString QwtMmlTextNode::toStr() const
 {
-    return QwtMmlNode::toStr() + ", text=\"" + m_text + "\"";
+    return QwtMmlNode::toStr() + " text=\"" + m_text + "\"";
 }
 
 bool QwtMmlTextNode::isInvisibleOperator() const
