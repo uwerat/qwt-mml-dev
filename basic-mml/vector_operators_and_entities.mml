@@ -1,0 +1,39 @@
+<math>
+    <mi mathvariant="bold">
+        F
+    </mi>
+    <mo>
+        &compfn;
+    </mo>
+    <mi mathvariant="bold">
+        G
+    </mi>
+    <mo>
+        :
+    </mo>
+    <mi>
+        U
+    </mi>
+    <mo>
+        &sube;
+    </mo>
+    <msup>
+        <mi mathvariant="double-struck">
+            R
+        </mi>
+        <mn>
+            3
+        </mn>
+    </msup>
+    <mo>
+        &rarr;
+    </mo>
+    <msup>
+        <mi mathvariant="double-struck">
+            R
+        </mi>
+        <mn>
+            2
+        </mn>
+    </msup>
+</math>

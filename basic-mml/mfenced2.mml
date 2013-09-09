@@ -1,0 +1,13 @@
+<math>
+    <mfenced open="&lang;" close="&rang;">
+        <mi>
+            x
+        </mi>
+        <mi>
+            y
+        </mi>
+        <mi>
+            z
+        </mi>
+    </mfenced>
+</math>

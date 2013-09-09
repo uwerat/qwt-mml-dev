@@ -1,0 +1,28 @@
+<math>
+    <msup>
+        <mfenced separators="">
+            <mrow>
+                <mn>
+                    3
+                </mn>
+                <mi>
+                    x
+                </mi>
+            </mrow>
+            <mo>
+                &minus;
+            </mo>
+            <mrow>
+                <mn>
+                    2
+                </mn>
+                <mi>
+                    y
+                </mi>
+            </mrow>
+        </mfenced>
+        <mn>
+            2
+        </mn>
+    </msup>
+</math>
