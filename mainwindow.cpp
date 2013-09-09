@@ -52,12 +52,10 @@ MainWindow::MainWindow()
 
     QCheckBox *checkDrawFrames = new QCheckBox( toolBar );
     checkDrawFrames->setText( "Draw frames" );
-    checkDrawFrames->setChecked( true );
     toolBar->addWidget( checkDrawFrames );
 
     QCheckBox *checkColors = new QCheckBox( toolBar );
     checkColors->setText( "Colors" );
-    checkColors->setChecked( true );
     toolBar->addWidget( checkColors );
 
     addToolBar( toolBar );
