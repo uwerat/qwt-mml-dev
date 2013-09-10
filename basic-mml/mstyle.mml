@@ -1,0 +1,21 @@
+<math>
+    <mstyle mathbackground="yellow" mathcolor="navy" mathsize="16pt" mathvariant="bold">
+        <mrow>
+            <mi>
+                x
+            </mi>
+            <mo>
+                +
+            </mo>
+            <mi>
+                y
+            </mi>
+        </mrow>
+        <mo>
+            =
+        </mo>
+        <mn mathcolor="red">
+            2
+        </mn>
+    </mstyle>
+</math>

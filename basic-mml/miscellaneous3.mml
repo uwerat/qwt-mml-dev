@@ -1,0 +1,70 @@
+<math>
+    <mtable>
+        <mtr>
+            <mtd>
+                <mtext>
+                    Gauss' law
+                </mtext>
+            </mtd>
+            <mtd>
+                <mrow>
+                    <mrow>
+                        <mo>
+                            &#8711;
+                        </mo>
+                        <mo>
+                            &#8729;
+                        </mo>
+                        <mi mathvariant="normal">
+                            E
+                        </mi>
+                    </mrow>
+                    <mo>
+                        =
+                    </mo>
+                    <mfrac>
+                        <mi>
+                            &#961;
+                        </mi>
+                        <msub>
+                            <mi>
+                                &#949;
+                            </mi>
+                            <mn>
+                                0
+                            </mn>
+                        </msub>
+                    </mfrac>
+                </mrow>
+            </mtd>
+        </mtr>
+        <mtr>
+            <mtd>
+                <mtext>
+                    Gauss's law for magnetism
+                </mtext>
+            </mtd>
+            <mtd>
+                <mrow>
+                    <mrow>
+                        <mo>
+                            &#8711;
+                        </mo>
+                        <mo>
+                            &#8729;
+                        </mo>
+                        <mi mathvariant="normal">
+                            B
+                        </mi>
+                    </mrow>
+                    <mo>
+                        =
+                    </mo>
+                    <mn>
+                        0
+                    </mn>
+                </mrow>
+            </mtd>
+        </mtr>
+    </mtable>
+</math>
