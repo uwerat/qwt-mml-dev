@@ -2052,19 +2052,6 @@ QRectF QwtMmlNode::deviceRect() const
     if ( m_parent == 0 )
         return QRectF( m_rel_origin + m_my_rect.topLeft(), m_my_rect.size() );
 
-#if 0
-    if ( !m_stretched )
-    {
-        QRectF pdr = m_parent->deviceRect();
-        QRectF pmr = m_parent->myRect();
-        QRectF pr = parentRect();
-
-        return QRectF( pdr.left() + pr.left() - pmr.left(),
-            pdr.top()  + pr.top() - pmr.top(),
-            m_my_rect.width(), m_my_rect.height() );
-    }
-#endif
-
     QRectF pdr = m_parent->deviceRect();
     QRectF pr = parentRect();
     QRectF pmr = m_parent->myRect();
