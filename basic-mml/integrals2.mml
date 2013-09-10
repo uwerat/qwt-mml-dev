@@ -1,0 +1,28 @@
+<math>
+    <mrow>
+        <munderover>
+            <mo>
+                &#8747;
+            </mo>
+            <mn>
+                -1
+            </mn>
+            <mn>
+                +1
+            </mn>
+        </munderover>
+        <mfrac>
+            <mrow>
+                <mi>
+                    d
+                </mi>
+                <mi>
+                    x
+                </mi>
+            </mrow>
+            <mi>
+                x
+            </mi>
+        </mfrac>
+    </mrow>
+</math>
