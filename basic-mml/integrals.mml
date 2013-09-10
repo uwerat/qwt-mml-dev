@@ -1,0 +1,62 @@
+<math>
+    <mrow>
+        <msub>
+            <mo>
+                &conint;
+            </mo>
+            <mrow>
+                <mo>&
+                    part;
+                </mo>
+                <mi>
+                    S
+                </mi>
+            </mrow>
+        </msub>
+        <mi mathvariant="bold">
+            F
+        </mi>
+        <mo>
+            &sdot;
+        </mo>
+        <mrow>
+            <mi>
+                d
+            </mi>
+            <mi mathvariant="bold">
+                s
+            </mi>
+        </mrow>
+        <mo>
+            =
+        </mo>
+        <msub>
+            <mo>
+                &Int;
+            </mo>
+            <mi>
+                S
+            </mi>
+        </msub>
+        <mo>
+            &Del;
+        </mo>
+        <mo>
+            &times;
+        </mo>
+        <mi mathvariant="bold">
+            F
+        </mi>
+        <mo>
+            &sdot;
+        </mo>
+        <mrow>
+            <mi>
+                d
+            </mi>
+            <mi mathvariant="bold">
+                s
+            </mi>
+        </mrow>
+    </mrow>
+</math>
