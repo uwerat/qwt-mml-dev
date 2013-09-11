@@ -2113,7 +2113,7 @@ void QwtMmlNode::paint( QPainter *painter )
         painter->save();
 
         const QColor bg = background();
-        const QRectF d_rect = m_my_rect.translated( devicePoint( QPointF() ) );
+        const QRectF d_rect = deviceRect();
         if ( bg.isValid() )
         {
             painter->fillRect( d_rect, bg );
@@ -2148,19 +2148,21 @@ void QwtMmlNode::paint( QPainter *painter )
 
 void QwtMmlNode::paintSymbol( QPainter *painter ) const
 {
-    if ( m_document->drawFrames() && m_my_rect.isValid() )
+    QRectF d_rect = deviceRect();
+
+    if ( m_document->drawFrames() && d_rect.isValid() )
     {
         painter->save();
 
         painter->setPen( QPen( Qt::red, 0 ) );
 
-        const QPointF d_pos = devicePoint( QPointF() );
-        const QRectF d_rect = m_my_rect.translated( d_pos );
         painter->drawRect( d_rect );
 
         QPen pen = painter->pen();
         pen.setStyle( Qt::DotLine );
         painter->setPen( pen );
+
+        const QPointF d_pos = devicePoint( QPointF() );
 
         painter->drawLine( QPointF( d_rect.left(), d_pos.y() ),
                            QPointF ( d_rect.right(), d_pos.y() ) );
@@ -2639,6 +2641,8 @@ void QwtMmlMoNode::stretch()
             && ( m_previous_sibling != 0 || m_next_sibling != 0) )
         return;
 
+    Q_ASSERT( m_first_child != 0 );
+
     QRectF pmr = m_parent->myRect();
     QRectF pr = parentRect();
 
@@ -2646,12 +2650,15 @@ void QwtMmlMoNode::stretch()
     {
         case QwtMmlOperSpec::VStretch:
             stretchTo( QRectF( pr.left(), pmr.top(), pr.width(), pmr.height() ) );
+            m_first_child->stretchTo( QRectF( pr.left(), pmr.top(), pr.width(), pmr.height() ) );
             break;
         case QwtMmlOperSpec::HStretch:
             stretchTo( QRectF( pmr.left(), pr.top(), pmr.width(), pr.height() ) );
+            m_first_child->stretchTo( QRectF( pmr.left(), pr.top(), pmr.width(), pr.height() ) );
             break;
         case QwtMmlOperSpec::HVStretch:
             stretchTo( pmr );
+            m_first_child->stretchTo( pmr );
             break;
         case QwtMmlOperSpec::NoStretch:
             break;
