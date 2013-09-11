@@ -2113,14 +2113,13 @@ void QwtMmlNode::paint( QPainter *painter )
         painter->save();
 
         const QColor bg = background();
-        const QRectF d_rect = deviceRect();
         if ( bg.isValid() )
         {
-            painter->fillRect( d_rect, bg );
+            painter->fillRect( deviceRect(), bg );
         }
         else
         {
-            painter->fillRect( d_rect, m_document->backgroundColor() );
+            painter->fillRect( deviceRect(), m_document->backgroundColor() );
         }
 
         const QColor fg = color();
