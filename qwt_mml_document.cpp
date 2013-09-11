@@ -5,6 +5,7 @@
 #include <qdebug.h>
 #include <qdesktopwidget.h>
 #include <qdom.h>
+#include <qfontdatabase.h>
 #include <qmap.h>
 #include <qmath.h>
 #include <qpainter.h>
@@ -1184,10 +1185,29 @@ QwtMmlDocument::QwtMmlDocument()
 {
     m_root_node = 0;
 
-    // Some defaults which happen to work on my computer,
-    // but probably won't work on other's
-#if defined( Q_OS_LINUX )
+    // We set m_normal_font_name based on the information available at
+    // https://vismor.com/documents/site_implementation/viewing_mathematics/S7.php
+    // Note: on Linux, the Ubuntu, DejaVu Serif, FreeSerif and Liberation Serif
+    //       either don't look that great or have rendering problems (e.g.
+    //       FreeSerif doesn't render 0 properly!), so we simply use Century
+    //       Schoolbook L...
+
+    QFontDatabase font_database;
+
+#if defined( Q_OS_WIN )
+    if ( font_database.hasFamily( "Cambria" ) )
+        m_normal_font_name = "Cambria";
+    else if ( font_database.hasFamily( "Lucida Sans Unicode" ) )
+        m_normal_font_name = "Lucida Sans Unicode";
+    else
+        m_normal_font_name = "Times New Roman";
+#elif defined( Q_OS_LINUX )
     m_normal_font_name = "Century Schoolbook L";
+#elif defined( Q_OS_MAC )
+    if ( font_database.hasFamily( "STIXGeneral" ) )
+        m_normal_font_name = "STIXGeneral";
+    else
+        m_normal_font_name = "Times New Roman";
 #else
     m_normal_font_name = "Times New Roman";
 #endif
