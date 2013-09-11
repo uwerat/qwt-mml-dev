@@ -2215,8 +2215,8 @@ QRectF QwtMmlMfracNode::symbolRect() const
     qreal my_width = qMax( num_rect.width(), denom_rect.width() ) + 2.0 * spacing;
     int line_thickness = qCeil( lineThickness() );
 
-    return QRectF( -0.5 * my_width, -0.5 * line_thickness,
-                   my_width, line_thickness );
+    return QRectF( -0.5 * ( my_width + line_thickness ), -0.5 * line_thickness,
+                   my_width + line_thickness, line_thickness );
 }
 
 void QwtMmlMfracNode::layoutSymbol()
@@ -2285,8 +2285,8 @@ void QwtMmlMfracNode::paintSymbol( QPainter *painter ) const
         QRectF r = symbolRect();
         r.moveTopLeft( devicePoint( r.topLeft() ) );
 
-        painter->drawLine( QPointF( r.left(), r.center().y() ),
-                           QPointF( r.right(), r.center().y() ) );
+        painter->drawLine( QPointF( r.left() + 0.5 * line_thickness, r.center().y() ),
+                           QPointF( r.right() - 0.5 * line_thickness, r.center().y() ) );
 
         painter->restore();
     }
