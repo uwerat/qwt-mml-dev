@@ -2159,7 +2159,7 @@ void QwtMmlNode::paintSymbol( QPainter *painter ) const
         const QPointF d_pos = devicePoint( QPointF() );
 
         painter->drawLine( QPointF( d_rect.left(), d_pos.y() ),
-                           QPointF ( d_rect.right(), d_pos.y() ) );
+                           QPointF( d_rect.right(), d_pos.y() ) );
 
         painter->restore();
     }
