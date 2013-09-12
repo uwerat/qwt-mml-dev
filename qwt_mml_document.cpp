@@ -2112,7 +2112,8 @@ void QwtMmlNode::paint( QPainter *painter )
 
     QRectF d_rect = deviceRect();
 
-    painter->scale( d_rect.width() / m_my_rect.width(), d_rect.height() / m_my_rect.height() );
+    if ( m_stretched )
+        painter->scale( d_rect.width() / m_my_rect.width(), d_rect.height() / m_my_rect.height() );
 
     if ( m_node_type != UnknownNode )
     {
