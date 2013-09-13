@@ -12,9 +12,11 @@
                     <munder>
                         <munder>
                             <mrow>
+                                <mspace width="1.1em" />
                                 <mi>
                                     a
                                 </mi>
+                                <mspace width="1.1em" />
                             </mrow>
                             <mo>
                                 &UnderBrace;
@@ -30,6 +32,7 @@
                     <munder>
                         <munder>
                             <mrow>
+                                <mspace width="1.1em" />
                                 <mi>
                                     b
                                 </mi>
@@ -39,6 +42,7 @@
                                 <mi>
                                     &ImaginaryI;
                                 </mi>
+                                <mspace width="1.1em" />
                             </mrow>
                             <mo>
                                 &UnderBrace;
