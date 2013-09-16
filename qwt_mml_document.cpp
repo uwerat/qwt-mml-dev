@@ -2973,28 +2973,26 @@ void QwtMmlMtableNode::paintSymbol(
 {
     QwtMmlNode::paintSymbol( painter, x_scaling, y_scaling );
 
+    painter->save();
+
+    painter->translate( devicePoint( QPointF() ) );
+
+    QPen pen = painter->pen();
+
     FrameType frame_type = frame();
     if ( frame_type != FrameNone )
     {
-        painter->save();
-
-        QPen pen = painter->pen();
         if ( frame_type == FrameDashed )
             pen.setStyle( Qt::DashLine );
         else
             pen.setStyle( Qt::SolidLine );
         painter->setPen( pen );
         painter->drawRect( m_my_rect );
-
-        painter->restore();
     }
-
-    painter->save();
 
     qreal col_spc = columnspacing();
     qreal row_spc = rowspacing();
 
-    QPen pen = painter->pen();
     qreal col_offset = 0.0;
     int i;
     for ( i = 0; i < m_cell_size_data.numCols() - 1; ++i )
