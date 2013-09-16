@@ -2450,10 +2450,14 @@ void QwtMmlTextNode::paintSymbol(
 
     painter->save();
 
+    QPointF d_pos = devicePoint( QPointF() );
+    QPointF s_pos = symbolRect().topLeft();
+
+    painter->translate( d_pos + s_pos );
+    painter->scale( x_scaling, y_scaling );
     painter->setFont( font() );
 
-    QPointF d_pos = devicePoint( QPointF() );
-    painter->drawText( QPointF( d_pos.x(), d_pos.y() + basePos() ), m_text );
+    painter->drawText( QPointF( 0.0, basePos() ) - s_pos, m_text );
 
     painter->restore();
 }
