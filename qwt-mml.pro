@@ -11,6 +11,8 @@ QT += widgets
 MOC_DIR      = moc
 OBJECTS_DIR  = obj
 
+# DEFINES += MML_TEST
+
 HEADERS = \
 	qwt_mml_document.h \
 	qwt_mml_entity_table.h \
