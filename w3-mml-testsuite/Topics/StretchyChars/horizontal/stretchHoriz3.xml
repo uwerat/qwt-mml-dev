@@ -53,28 +53,28 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi>H</mi> 
-      <mover> 
-        <mo>&#x02192;</mo> 
-        <mtext>This is a long stretched arrow 
-        </mtext> 
-      </mover> 
-      <mi>H</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>H</mi>
+      <mover>
+        <mo>&#x02192;</mo>
+        <mtext>This is a long stretched arrow
+        </mtext>
+      </mover>
+      <mi>H</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mover> 
-        &lt;mo>&amp;rarr;&lt;/mo> 
-        &lt;mtext>This is a long stretched arrow 
-        &lt;/mtext> 
-      &lt;/mover> 
-      &lt;mi>H&lt;/mi> 
+    &lt;math>
+      &lt;mi>H&lt;/mi>
+      &lt;mover>
+        &lt;mo>&amp;rarr;&lt;/mo>
+        &lt;mtext>This is a long stretched arrow
+        &lt;/mtext>
+      &lt;/mover>
+      &lt;mi>H&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

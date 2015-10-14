@@ -46,62 +46,62 @@
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfenced open="{" separators=",."> 
-        <mfrac> 
-          <mn>1</mn> 
-          <mn>78</mn> 
-        </mfrac> 
-        <mrow> 
-          <mo>sin</mo> 
-          <mi>x</mi> 
-        </mrow> 
-        <mi>y</mi> 
-      </mfenced> 
-      <mo>&#x000D7;</mo> 
-      <msup> 
-        <mi mathvariant="fraktur">a</mi> 
-        <mrow> 
-          <mn>2</mn> 
-          <mi>x</mi> 
-        </mrow> 
-      </msup> 
-      <mo>+</mo> 
-      <msub> 
-        <mn>2</mn> 
-        <mi>j</mi> 
-      </msub> 
-      <mi>x</mi> 
-      <mo>+</mo> 
-      <mfrac> 
-        <mn>45</mn> 
-        <mfrac> 
-          <mn>1</mn> 
-          <mn>78</mn> 
-        </mfrac> 
-      </mfrac> 
-      <mo>*</mo> 
-      <mstyle color="blue" background="red" fontsize="24pt"> 
-        <msubsup> 
-          <mi>x</mi> 
-          <mn color="green">2</mn> 
-          <mn>3</mn> 
-        </msubsup> 
-      </mstyle> 
-      <mo>=</mo> 
-      <mstyle color="blue" background="lightblue" fontsize="16pt"> 
-        <mroot> 
-          <mfrac> 
-            <mn>1</mn> 
-            <mrow> 
-              <mn>23</mn> 
-              <mo>+</mo> 
-              <mn>&#x003B2;</mn> 
-            </mrow> 
-          </mfrac> 
-          <mn>3</mn> 
-        </mroot> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced open="{" separators=",.">
+        <mfrac>
+          <mn>1</mn>
+          <mn>78</mn>
+        </mfrac>
+        <mrow>
+          <mo>sin</mo>
+          <mi>x</mi>
+        </mrow>
+        <mi>y</mi>
+      </mfenced>
+      <mo>&#x000D7;</mo>
+      <msup>
+        <mi mathvariant="fraktur">a</mi>
+        <mrow>
+          <mn>2</mn>
+          <mi>x</mi>
+        </mrow>
+      </msup>
+      <mo>+</mo>
+      <msub>
+        <mn>2</mn>
+        <mi>j</mi>
+      </msub>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mfrac>
+        <mn>45</mn>
+        <mfrac>
+          <mn>1</mn>
+          <mn>78</mn>
+        </mfrac>
+      </mfrac>
+      <mo>*</mo>
+      <mstyle color="blue" background="red" fontsize="24pt">
+        <msubsup>
+          <mi>x</mi>
+          <mn color="green">2</mn>
+          <mn>3</mn>
+        </msubsup>
+      </mstyle>
+      <mo>=</mo>
+      <mstyle color="blue" background="lightblue" fontsize="16pt">
+        <mroot>
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mn>23</mn>
+              <mo>+</mo>
+              <mn>&#x003B2;</mn>
+            </mrow>
+          </mfrac>
+          <mn>3</mn>
+        </mroot>
+      </mstyle>
       <ms lquote="#" rquote="&#x00022;">This is my string!
       </ms>
     </math>
@@ -111,61 +111,61 @@
       <b>Source Code</b>:</p>
     <pre>
     &lt;math>
-      &lt;mfenced open="{" separators=",."> 
-        &lt;mfrac> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mn>78&lt;/mn> 
-        &lt;/mfrac> 
-        &lt;mrow> 
-          &lt;mo>sin&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/mrow> 
-        &lt;mi>y&lt;/mi> 
-      &lt;/mfenced> 
-      &lt;mo>&amp;times;&lt;/mo> 
-      &lt;msup> 
-        &lt;mi mathvariant="fraktur">a&lt;/mi> 
-        &lt;mrow> 
-          &lt;mn>2&lt;/mn> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/mrow> 
-      &lt;/msup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;msub> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mi>j&lt;/mi> 
-      &lt;/msub> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mfrac> 
-        &lt;mn>45&lt;/mn> 
-        &lt;mfrac> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mn>78&lt;/mn> 
-        &lt;/mfrac> 
-      &lt;/mfrac> 
-      &lt;mo>*&lt;/mo> 
-      &lt;mstyle color="blue" background="red" fontsize="24pt"> 
-        &lt;msubsup> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn color="green">2&lt;/mn> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/msubsup> 
-      &lt;/mstyle> 
-      &lt;mo>=&lt;/mo> 
-      &lt;mstyle color="blue" background="lightblue" fontsize="16pt"> 
-        &lt;mroot> 
-          &lt;mfrac> 
-            &lt;mn>1&lt;/mn> 
-            &lt;mrow> 
-              &lt;mn>23&lt;/mn> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn>&amp;beta;&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mfrac> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mroot> 
-      &lt;/mstyle> 
+      &lt;mfenced open="{" separators=",.">
+        &lt;mfrac>
+          &lt;mn>1&lt;/mn>
+          &lt;mn>78&lt;/mn>
+        &lt;/mfrac>
+        &lt;mrow>
+          &lt;mo>sin&lt;/mo>
+          &lt;mi>x&lt;/mi>
+        &lt;/mrow>
+        &lt;mi>y&lt;/mi>
+      &lt;/mfenced>
+      &lt;mo>&amp;times;&lt;/mo>
+      &lt;msup>
+        &lt;mi mathvariant="fraktur">a&lt;/mi>
+        &lt;mrow>
+          &lt;mn>2&lt;/mn>
+          &lt;mi>x&lt;/mi>
+        &lt;/mrow>
+      &lt;/msup>
+      &lt;mo>+&lt;/mo>
+      &lt;msub>
+        &lt;mn>2&lt;/mn>
+        &lt;mi>j&lt;/mi>
+      &lt;/msub>
+      &lt;mi>x&lt;/mi>
+      &lt;mo>+&lt;/mo>
+      &lt;mfrac>
+        &lt;mn>45&lt;/mn>
+        &lt;mfrac>
+          &lt;mn>1&lt;/mn>
+          &lt;mn>78&lt;/mn>
+        &lt;/mfrac>
+      &lt;/mfrac>
+      &lt;mo>*&lt;/mo>
+      &lt;mstyle color="blue" background="red" fontsize="24pt">
+        &lt;msubsup>
+          &lt;mi>x&lt;/mi>
+          &lt;mn color="green">2&lt;/mn>
+          &lt;mn>3&lt;/mn>
+        &lt;/msubsup>
+      &lt;/mstyle>
+      &lt;mo>=&lt;/mo>
+      &lt;mstyle color="blue" background="lightblue" fontsize="16pt">
+        &lt;mroot>
+          &lt;mfrac>
+            &lt;mn>1&lt;/mn>
+            &lt;mrow>
+              &lt;mn>23&lt;/mn>
+              &lt;mo>+&lt;/mo>
+              &lt;mn>&amp;beta;&lt;/mn>
+            &lt;/mrow>
+          &lt;/mfrac>
+          &lt;mn>3&lt;/mn>
+        &lt;/mroot>
+      &lt;/mstyle>
       &lt;ms lquote="#" rquote="&amp;quot;">This is my string!
       &lt;/ms>
     &lt;/math>

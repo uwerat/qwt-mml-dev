@@ -20,7 +20,7 @@
           <mtd>
             <mi>c</mi>
           </mtd>
-        </mlabeledtr> 
+        </mlabeledtr>
         <mlabeledtr>
           <mtd>
             <mtext>2nd</mtext>
@@ -42,7 +42,7 @@
           <mtd>
             <mi>z</mi>
           </mtd>
-        </mlabeledtr> 
+        </mlabeledtr>
         <mlabeledtr>
           <mtd>
             <mtext>3rd</mtext>
@@ -57,5 +57,5 @@
             <mn>5</mn>
           </mtd>
         </mlabeledtr>
-      </mtable> 
+      </mtable>
     </math>

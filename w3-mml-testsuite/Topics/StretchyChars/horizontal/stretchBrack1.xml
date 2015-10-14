@@ -53,46 +53,46 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mover> 
-        <mrow> 
-          <mi>H</mi> 
-          <mo>&#x000D7;</mo> 
-          <mi>G</mi> 
-        </mrow> 
-        <mo>&#x0FE37;</mo> 
-      </mover> 
-      <munder> 
-        <mrow> 
-          <mi>H</mi> 
-          <mo>&#x000D7;</mo> 
-          <mi>G</mi> 
-        </mrow> 
-        <mo>&#x0FE38;</mo> 
-      </munder> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mover>
+        <mrow>
+          <mi>H</mi>
+          <mo>&#x000D7;</mo>
+          <mi>G</mi>
+        </mrow>
+        <mo>&#x0FE37;</mo>
+      </mover>
+      <munder>
+        <mrow>
+          <mi>H</mi>
+          <mo>&#x000D7;</mo>
+          <mi>G</mi>
+        </mrow>
+        <mo>&#x0FE38;</mo>
+      </munder>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mover> 
-        &lt;mrow> 
-          &lt;mi>H&lt;/mi> 
-          &lt;mo>&amp;times;&lt;/mo> 
-          &lt;mi>G&lt;/mi> 
-        &lt;/mrow> 
-        &lt;mo>&amp;OverBrace;&lt;/mo> 
-      &lt;/mover> 
-      &lt;munder> 
-        &lt;mrow> 
-          &lt;mi>H&lt;/mi> 
-          &lt;mo>&amp;times;&lt;/mo> 
-          &lt;mi>G&lt;/mi> 
-        &lt;/mrow> 
-        &lt;mo>&amp;UnderBrace;&lt;/mo> 
-      &lt;/munder> 
+    &lt;math>
+      &lt;mover>
+        &lt;mrow>
+          &lt;mi>H&lt;/mi>
+          &lt;mo>&amp;times;&lt;/mo>
+          &lt;mi>G&lt;/mi>
+        &lt;/mrow>
+        &lt;mo>&amp;OverBrace;&lt;/mo>
+      &lt;/mover>
+      &lt;munder>
+        &lt;mrow>
+          &lt;mi>H&lt;/mi>
+          &lt;mo>&amp;times;&lt;/mo>
+          &lt;mi>G&lt;/mi>
+        &lt;/mrow>
+        &lt;mo>&amp;UnderBrace;&lt;/mo>
+      &lt;/munder>
     &lt;/math>
   </pre>
     <p style="text-align: right">

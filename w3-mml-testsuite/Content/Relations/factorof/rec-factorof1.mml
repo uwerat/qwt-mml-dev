@@ -1,7 +1,7 @@
-    <math> 
-      <apply> 
-        <factorof/> 
-        <ci> a </ci> 
-        <ci> b </ci> 
-      </apply> 
+    <math>
+      <apply>
+        <factorof/>
+        <ci> a </ci>
+        <ci> b </ci>
+      </apply>
     </math>

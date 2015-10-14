@@ -48,42 +48,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi>B</mi> 
-      <mo>-</mo> 
-      <mi>B</mi> 
-      <mo>-</mo> 
-      <mi>B</mi> 
-      <mspace linebreak="nobreak"/> 
-      <mo>-</mo> 
-      <mi>a</mi> 
-      <mo>-</mo> 
-      <mi>a</mi> 
-      <mo>-</mo> 
-      <mi>a</mi> 
-      <mo>-</mo> 
-      <mi>a</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>B</mi>
+      <mo>-</mo>
+      <mi>B</mi>
+      <mo>-</mo>
+      <mi>B</mi>
+      <mspace linebreak="nobreak"/>
+      <mo>-</mo>
+      <mi>a</mi>
+      <mo>-</mo>
+      <mi>a</mi>
+      <mo>-</mo>
+      <mi>a</mi>
+      <mo>-</mo>
+      <mi>a</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mspace linebreak="nobreak"/> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>a&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>a&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>a&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>a&lt;/mi> 
+    &lt;math>
+      &lt;mi>B&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>B&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>B&lt;/mi>
+      &lt;mspace linebreak="nobreak"/>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>a&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>a&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>a&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>a&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

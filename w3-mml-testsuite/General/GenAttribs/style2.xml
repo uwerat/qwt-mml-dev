@@ -53,22 +53,22 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML" style="color:#9933CC"> 
-      <msqrt style="background:yellow"> 
-        <mn style="font-size:24pt; font-weight:bold">2 
-        </mn> 
-      </msqrt> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML" style="color:#9933CC">
+      <msqrt style="background:yellow">
+        <mn style="font-size:24pt; font-weight:bold">2
+        </mn>
+      </msqrt>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math style="color:#9933CC"> 
-      &lt;msqrt style="background:yellow"> 
-        &lt;mn style="font-size:24pt; font-weight:bold">2 
-        &lt;/mn> 
-      &lt;/msqrt> 
+    &lt;math style="color:#9933CC">
+      &lt;msqrt style="background:yellow">
+        &lt;mn style="font-size:24pt; font-weight:bold">2
+        &lt;/mn>
+      &lt;/msqrt>
     &lt;/math>
   </pre>
     <p style="text-align: right">

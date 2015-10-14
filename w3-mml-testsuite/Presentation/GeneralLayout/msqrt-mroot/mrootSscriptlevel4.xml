@@ -54,112 +54,112 @@ scriptlevel by 2 and sets displaystyle to false in the index.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle displaystyle="true"> 
-        <mroot> 
-          <mrow> 
-            <mi>x</mi> 
-            <mo>-</mo> 
-            <mfrac> 
-              <mi>x</mi> 
-              <mn>3</mn> 
-            </mfrac> 
-          </mrow> 
-          <mfrac> 
-            <mi>x</mi> 
-            <mn>3</mn> 
-          </mfrac> 
-        </mroot> 
-      </mstyle> 
-      <mo>+</mo> 
-      <mstyle scriptlevel="2"> 
-        <mroot> 
-          <mrow> 
-            <mi>x</mi> 
-            <mo>-</mo> 
-            <mn>3</mn> 
-          </mrow> 
-          <mfrac> 
-            <mi>x</mi> 
-            <mn>3</mn> 
-          </mfrac> 
-        </mroot> 
-      </mstyle> 
-      <mo>+</mo> 
-      <mroot> 
-        <mrow> 
-          <mi>x</mi> 
-          <mo>-</mo> 
-          <mn>3</mn> 
-        </mrow> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mn>3</mn> 
-        </mfrac> 
-      </mroot> 
-      <mo>+</mo> 
-      <mstyle scriptlevel="2" displaystyle="true"> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mn>3</mn> 
-        </mfrac> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle displaystyle="true">
+        <mroot>
+          <mrow>
+            <mi>x</mi>
+            <mo>-</mo>
+            <mfrac>
+              <mi>x</mi>
+              <mn>3</mn>
+            </mfrac>
+          </mrow>
+          <mfrac>
+            <mi>x</mi>
+            <mn>3</mn>
+          </mfrac>
+        </mroot>
+      </mstyle>
+      <mo>+</mo>
+      <mstyle scriptlevel="2">
+        <mroot>
+          <mrow>
+            <mi>x</mi>
+            <mo>-</mo>
+            <mn>3</mn>
+          </mrow>
+          <mfrac>
+            <mi>x</mi>
+            <mn>3</mn>
+          </mfrac>
+        </mroot>
+      </mstyle>
+      <mo>+</mo>
+      <mroot>
+        <mrow>
+          <mi>x</mi>
+          <mo>-</mo>
+          <mn>3</mn>
+        </mrow>
+        <mfrac>
+          <mi>x</mi>
+          <mn>3</mn>
+        </mfrac>
+      </mroot>
+      <mo>+</mo>
+      <mstyle scriptlevel="2" displaystyle="true">
+        <mfrac>
+          <mi>x</mi>
+          <mn>3</mn>
+        </mfrac>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;mroot> 
-          &lt;mrow> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mfrac> 
-              &lt;mi>x&lt;/mi> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/mfrac> 
-          &lt;/mrow> 
-          &lt;mfrac> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mroot> 
-      &lt;/mstyle> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle scriptlevel='2'> 
-        &lt;mroot> 
-          &lt;mrow> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mrow> 
-          &lt;mfrac> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mroot> 
-      &lt;/mstyle> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mroot> 
-        &lt;mrow> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>-&lt;/mo> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mrow> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mfrac> 
-      &lt;/mroot> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle scriptlevel='2' displaystyle='true'> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle displaystyle='true'>
+        &lt;mroot>
+          &lt;mrow>
+            &lt;mi>x&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mfrac>
+              &lt;mi>x&lt;/mi>
+              &lt;mn>3&lt;/mn>
+            &lt;/mfrac>
+          &lt;/mrow>
+          &lt;mfrac>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>3&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mroot>
+      &lt;/mstyle>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle scriptlevel='2'>
+        &lt;mroot>
+          &lt;mrow>
+            &lt;mi>x&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mn>3&lt;/mn>
+          &lt;/mrow>
+          &lt;mfrac>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>3&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mroot>
+      &lt;/mstyle>
+      &lt;mo>+&lt;/mo>
+      &lt;mroot>
+        &lt;mrow>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>-&lt;/mo>
+          &lt;mn>3&lt;/mn>
+        &lt;/mrow>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>3&lt;/mn>
+        &lt;/mfrac>
+      &lt;/mroot>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle scriptlevel='2' displaystyle='true'>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>3&lt;/mn>
+        &lt;/mfrac>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

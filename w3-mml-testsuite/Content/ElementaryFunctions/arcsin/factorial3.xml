@@ -55,20 +55,20 @@ http://www.w3.org/Consortium/Legal/.
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <apply>
-        <times/> 
+        <times/>
         <apply>
-          <arcsin/> 
+          <arcsin/>
           <apply>
-            <times/> 
-            <ci> x </ci> 
-            <ci> y </ci> 
-          </apply> 
-        </apply> 
+            <times/>
+            <ci> x </ci>
+            <ci> y </ci>
+          </apply>
+        </apply>
         <apply>
-          <times/> 
-          <cn>2</cn> 
-          <ci>b</ci> 
-        </apply> 
+          <times/>
+          <cn>2</cn>
+          <ci>b</ci>
+        </apply>
       </apply>
     </math>
   </p>
@@ -78,20 +78,20 @@ http://www.w3.org/Consortium/Legal/.
     <pre>
     &lt;math>
       &lt;apply>
-        &lt;times/> 
+        &lt;times/>
         &lt;apply>
-          &lt;arcsin/> 
+          &lt;arcsin/>
           &lt;apply>
-            &lt;times/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;ci> y &lt;/ci> 
-          &lt;/apply> 
-        &lt;/apply> 
+            &lt;times/>
+            &lt;ci> x &lt;/ci>
+            &lt;ci> y &lt;/ci>
+          &lt;/apply>
+        &lt;/apply>
         &lt;apply>
-          &lt;times/> 
-          &lt;cn>2&lt;/cn> 
-          &lt;ci>b&lt;/ci> 
-        &lt;/apply> 
+          &lt;times/>
+          &lt;cn>2&lt;/cn>
+          &lt;ci>b&lt;/ci>
+        &lt;/apply>
       &lt;/apply>
     &lt;/math>
   </pre>

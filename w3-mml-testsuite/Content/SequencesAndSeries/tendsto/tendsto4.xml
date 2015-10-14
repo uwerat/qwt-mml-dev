@@ -53,60 +53,60 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <reln> 
-        <tendsto/> 
-        <vector> 
-          <ci> x </ci> 
-          <ci> y </ci> 
-        </vector> 
-        <vector> 
-          <apply> 
-            <fn> 
-              <ci> f </ci> 
-            </fn> 
-            <ci> x </ci> 
-            <ci> y </ci> 
-          </apply> 
-          <apply> 
-            <fn> 
-              <ci> g </ci> 
-            </fn> 
-            <ci> x </ci> 
-            <ci> y </ci> 
-          </apply> 
-        </vector> 
-      </reln> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <reln>
+        <tendsto/>
+        <vector>
+          <ci> x </ci>
+          <ci> y </ci>
+        </vector>
+        <vector>
+          <apply>
+            <fn>
+              <ci> f </ci>
+            </fn>
+            <ci> x </ci>
+            <ci> y </ci>
+          </apply>
+          <apply>
+            <fn>
+              <ci> g </ci>
+            </fn>
+            <ci> x </ci>
+            <ci> y </ci>
+          </apply>
+        </vector>
+      </reln>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;reln> 
-        &lt;tendsto/> 
-        &lt;vector> 
-          &lt;ci> x &lt;/ci> 
-          &lt;ci> y &lt;/ci> 
-        &lt;/vector> 
-        &lt;vector> 
-          &lt;apply> 
-            &lt;fn> 
-              &lt;ci> f &lt;/ci> 
-            &lt;/fn> 
-            &lt;ci> x &lt;/ci> 
-            &lt;ci> y &lt;/ci> 
-          &lt;/apply> 
-          &lt;apply> 
-            &lt;fn> 
-              &lt;ci> g &lt;/ci> 
-            &lt;/fn> 
-            &lt;ci> x &lt;/ci> 
-            &lt;ci> y &lt;/ci> 
-          &lt;/apply> 
-        &lt;/vector> 
-      &lt;/reln> 
+    &lt;math>
+      &lt;reln>
+        &lt;tendsto/>
+        &lt;vector>
+          &lt;ci> x &lt;/ci>
+          &lt;ci> y &lt;/ci>
+        &lt;/vector>
+        &lt;vector>
+          &lt;apply>
+            &lt;fn>
+              &lt;ci> f &lt;/ci>
+            &lt;/fn>
+            &lt;ci> x &lt;/ci>
+            &lt;ci> y &lt;/ci>
+          &lt;/apply>
+          &lt;apply>
+            &lt;fn>
+              &lt;ci> g &lt;/ci>
+            &lt;/fn>
+            &lt;ci> x &lt;/ci>
+            &lt;ci> y &lt;/ci>
+          &lt;/apply>
+        &lt;/vector>
+      &lt;/reln>
     &lt;/math>
   </pre>
     <p style="text-align: right">

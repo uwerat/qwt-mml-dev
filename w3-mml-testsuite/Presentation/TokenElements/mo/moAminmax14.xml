@@ -56,44 +56,44 @@ default, numbers without units should be treated as multipliers.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mo>(</mo> 
-        <mfrac> 
-          <mi>y</mi> 
-          <mi>z</mi> 
-        </mfrac> 
-        <mo minsize="2cm">)</mo> 
-        <mo>+</mo> 
-        <mo maxsize=".9">(</mo> 
-        <mfrac> 
-          <mi>y</mi> 
-          <mi>z</mi> 
-        </mfrac> 
-        <mo maxsize="infinity">)</mo> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <mi>y</mi>
+          <mi>z</mi>
+        </mfrac>
+        <mo minsize="2cm">)</mo>
+        <mo>+</mo>
+        <mo maxsize=".9">(</mo>
+        <mfrac>
+          <mi>y</mi>
+          <mi>z</mi>
+        </mfrac>
+        <mo maxsize="infinity">)</mo>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mo>(&lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>y&lt;/mi> 
-          &lt;mi>z&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mo minsize='2cm'>)&lt;/mo> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mo maxsize='.9'>(&lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>y&lt;/mi> 
-          &lt;mi>z&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mo maxsize='infinity'>)&lt;/mo> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mo>(&lt;/mo>
+        &lt;mfrac>
+          &lt;mi>y&lt;/mi>
+          &lt;mi>z&lt;/mi>
+        &lt;/mfrac>
+        &lt;mo minsize='2cm'>)&lt;/mo>
+        &lt;mo>+&lt;/mo>
+        &lt;mo maxsize='.9'>(&lt;/mo>
+        &lt;mfrac>
+          &lt;mi>y&lt;/mi>
+          &lt;mi>z&lt;/mi>
+        &lt;/mfrac>
+        &lt;mo maxsize='infinity'>)&lt;/mo>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

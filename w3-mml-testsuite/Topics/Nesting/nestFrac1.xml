@@ -53,142 +53,142 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle displaystyle="true" scriptlevel="0"> 
-        <mfrac linethickness="2"> 
-          <mn>1</mn> 
-          <mrow> 
-            <msqrt> 
-              <mn>2</mn> 
-            </msqrt> 
-            <mo form="infix">+</mo> 
-            <mrow> 
-              <mstyle displaystyle="true" scriptlevel="0"> 
-                <mfrac> 
-                  <mn>1</mn> 
-                  <mrow> 
-                    <msqrt> 
-                      <mn>3</mn> 
-                    </msqrt> 
-                    <mo form="infix">+</mo> 
-                    <mrow> 
-                      <mstyle displaystyle="true" scriptlevel="0"> 
-                        <mfrac> 
-                          <mn>1</mn> 
-                          <mrow> 
-                            <msqrt> 
-                              <mn>4</mn> 
-                            </msqrt> 
-                            <mo form="infix">+</mo> 
-                            <mrow> 
-                              <mstyle displaystyle="true" scriptlevel="0"> 
-                                <mfrac> 
-                                  <mn>1</mn> 
-                                  <mrow> 
-                                    <msqrt> 
-                                      <mn>5</mn> 
-                                    </msqrt> 
-                                    <mo form="infix">+</mo> 
-                                    <mrow> 
-                                      <mstyle displaystyle="true" scriptlevel="0"> 
-                                        <mfrac> 
-                                          <mn>1</mn> 
-                                          <mrow> 
-                                            <msqrt> 
-                                              <mn>6</mn> 
-                                            </msqrt> 
-                                            <mo form="infix">+</mo> 
-                                            <mi>&#x02026;</mi> 
-                                          </mrow> 
-                                        </mfrac> 
-                                      </mstyle> 
-                                    </mrow> 
-                                  </mrow> 
-                                </mfrac> 
-                              </mstyle> 
-                            </mrow> 
-                          </mrow> 
-                        </mfrac> 
-                      </mstyle> 
-                    </mrow> 
-                  </mrow> 
-                </mfrac> 
-              </mstyle> 
-            </mrow> 
-          </mrow> 
-        </mfrac> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mfrac linethickness="2">
+          <mn>1</mn>
+          <mrow>
+            <msqrt>
+              <mn>2</mn>
+            </msqrt>
+            <mo form="infix">+</mo>
+            <mrow>
+              <mstyle displaystyle="true" scriptlevel="0">
+                <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                    <msqrt>
+                      <mn>3</mn>
+                    </msqrt>
+                    <mo form="infix">+</mo>
+                    <mrow>
+                      <mstyle displaystyle="true" scriptlevel="0">
+                        <mfrac>
+                          <mn>1</mn>
+                          <mrow>
+                            <msqrt>
+                              <mn>4</mn>
+                            </msqrt>
+                            <mo form="infix">+</mo>
+                            <mrow>
+                              <mstyle displaystyle="true" scriptlevel="0">
+                                <mfrac>
+                                  <mn>1</mn>
+                                  <mrow>
+                                    <msqrt>
+                                      <mn>5</mn>
+                                    </msqrt>
+                                    <mo form="infix">+</mo>
+                                    <mrow>
+                                      <mstyle displaystyle="true" scriptlevel="0">
+                                        <mfrac>
+                                          <mn>1</mn>
+                                          <mrow>
+                                            <msqrt>
+                                              <mn>6</mn>
+                                            </msqrt>
+                                            <mo form="infix">+</mo>
+                                            <mi>&#x02026;</mi>
+                                          </mrow>
+                                        </mfrac>
+                                      </mstyle>
+                                    </mrow>
+                                  </mrow>
+                                </mfrac>
+                              </mstyle>
+                            </mrow>
+                          </mrow>
+                        </mfrac>
+                      </mstyle>
+                    </mrow>
+                  </mrow>
+                </mfrac>
+              </mstyle>
+            </mrow>
+          </mrow>
+        </mfrac>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle displaystyle="true" scriptlevel="0"> 
-        &lt;mfrac linethickness="2"> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mrow> 
-            &lt;msqrt> 
-              &lt;mn>2&lt;/mn> 
-            &lt;/msqrt> 
-            &lt;mo form="infix">+&lt;/mo> 
-            &lt;mrow> 
-              &lt;mstyle displaystyle="true" scriptlevel="0"> 
-                &lt;mfrac> 
-                  &lt;mn>1&lt;/mn> 
-                  &lt;mrow> 
-                    &lt;msqrt> 
-                      &lt;mn>3&lt;/mn> 
-                    &lt;/msqrt> 
-                    &lt;mo form="infix">+&lt;/mo> 
-                    &lt;mrow> 
-                      &lt;mstyle displaystyle="true" scriptlevel="0"> 
-                        &lt;mfrac> 
-                          &lt;mn>1&lt;/mn> 
-                          &lt;mrow> 
-                            &lt;msqrt> 
-                              &lt;mn>4&lt;/mn> 
-                            &lt;/msqrt> 
-                            &lt;mo form="infix">+&lt;/mo> 
-                            &lt;mrow> 
-                              &lt;mstyle displaystyle="true" scriptlevel="0"> 
-                                &lt;mfrac> 
-                                  &lt;mn>1&lt;/mn> 
-                                  &lt;mrow> 
-                                    &lt;msqrt> 
-                                      &lt;mn>5&lt;/mn> 
-                                    &lt;/msqrt> 
-                                    &lt;mo form="infix">+&lt;/mo> 
-                                    &lt;mrow> 
-                                      &lt;mstyle displaystyle="true" scriptlevel="0"> 
-                                        &lt;mfrac> 
-                                          &lt;mn>1&lt;/mn> 
-                                          &lt;mrow> 
-                                            &lt;msqrt> 
-                                              &lt;mn>6&lt;/mn> 
-                                            &lt;/msqrt> 
-                                            &lt;mo form="infix">+&lt;/mo> 
-                                            &lt;mi>&amp;hellip;&lt;/mi> 
-                                          &lt;/mrow> 
-                                        &lt;/mfrac> 
-                                      &lt;/mstyle> 
-                                    &lt;/mrow> 
-                                  &lt;/mrow> 
-                                &lt;/mfrac> 
-                              &lt;/mstyle> 
-                            &lt;/mrow> 
-                          &lt;/mrow> 
-                        &lt;/mfrac> 
-                      &lt;/mstyle> 
-                    &lt;/mrow> 
-                  &lt;/mrow> 
-                &lt;/mfrac> 
-              &lt;/mstyle> 
-            &lt;/mrow> 
-          &lt;/mrow> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle displaystyle="true" scriptlevel="0">
+        &lt;mfrac linethickness="2">
+          &lt;mn>1&lt;/mn>
+          &lt;mrow>
+            &lt;msqrt>
+              &lt;mn>2&lt;/mn>
+            &lt;/msqrt>
+            &lt;mo form="infix">+&lt;/mo>
+            &lt;mrow>
+              &lt;mstyle displaystyle="true" scriptlevel="0">
+                &lt;mfrac>
+                  &lt;mn>1&lt;/mn>
+                  &lt;mrow>
+                    &lt;msqrt>
+                      &lt;mn>3&lt;/mn>
+                    &lt;/msqrt>
+                    &lt;mo form="infix">+&lt;/mo>
+                    &lt;mrow>
+                      &lt;mstyle displaystyle="true" scriptlevel="0">
+                        &lt;mfrac>
+                          &lt;mn>1&lt;/mn>
+                          &lt;mrow>
+                            &lt;msqrt>
+                              &lt;mn>4&lt;/mn>
+                            &lt;/msqrt>
+                            &lt;mo form="infix">+&lt;/mo>
+                            &lt;mrow>
+                              &lt;mstyle displaystyle="true" scriptlevel="0">
+                                &lt;mfrac>
+                                  &lt;mn>1&lt;/mn>
+                                  &lt;mrow>
+                                    &lt;msqrt>
+                                      &lt;mn>5&lt;/mn>
+                                    &lt;/msqrt>
+                                    &lt;mo form="infix">+&lt;/mo>
+                                    &lt;mrow>
+                                      &lt;mstyle displaystyle="true" scriptlevel="0">
+                                        &lt;mfrac>
+                                          &lt;mn>1&lt;/mn>
+                                          &lt;mrow>
+                                            &lt;msqrt>
+                                              &lt;mn>6&lt;/mn>
+                                            &lt;/msqrt>
+                                            &lt;mo form="infix">+&lt;/mo>
+                                            &lt;mi>&amp;hellip;&lt;/mi>
+                                          &lt;/mrow>
+                                        &lt;/mfrac>
+                                      &lt;/mstyle>
+                                    &lt;/mrow>
+                                  &lt;/mrow>
+                                &lt;/mfrac>
+                              &lt;/mstyle>
+                            &lt;/mrow>
+                          &lt;/mrow>
+                        &lt;/mfrac>
+                      &lt;/mstyle>
+                    &lt;/mrow>
+                  &lt;/mrow>
+                &lt;/mfrac>
+              &lt;/mstyle>
+            &lt;/mrow>
+          &lt;/mrow>
+        &lt;/mfrac>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

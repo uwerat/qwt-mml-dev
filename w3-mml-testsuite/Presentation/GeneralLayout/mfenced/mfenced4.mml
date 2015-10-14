@@ -1,9 +1,9 @@
-    <math> 
-      <mfenced> 
-        <mrow> 
-          <mi> a </mi> 
-          <mo> + </mo> 
-          <mi> b </mi> 
-        </mrow> 
-      </mfenced> 
+    <math>
+      <mfenced>
+        <mrow>
+          <mi> a </mi>
+          <mo> + </mo>
+          <mi> b </mi>
+        </mrow>
+      </mfenced>
     </math>

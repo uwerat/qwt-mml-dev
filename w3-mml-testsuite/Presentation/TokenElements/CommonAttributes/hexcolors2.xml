@@ -55,72 +55,72 @@ attribute of the &lt;mi> and &lt;mn> elements.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd> 
-            <mrow> 
-              <mi color="#f00">A</mi> 
-              <mo>+</mo> 
-              <mi color="#0000ff">A</mi> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mrow> 
-              <mn mathcolor="#f00">1</mn> 
-              <mo>+</mo> 
-              <mn mathcolor="#0000ff">1</mn> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mrow> 
-              <mn mathbackground="#f00">1</mn> 
-              <mo>+</mo> 
-              <mn mathbackground="#0000ff">1</mn> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd>
+            <mrow>
+              <mi color="#f00">A</mi>
+              <mo>+</mo>
+              <mi color="#0000ff">A</mi>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mrow>
+              <mn mathcolor="#f00">1</mn>
+              <mo>+</mo>
+              <mn mathcolor="#0000ff">1</mn>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mrow>
+              <mn mathbackground="#f00">1</mn>
+              <mo>+</mo>
+              <mn mathbackground="#0000ff">1</mn>
+            </mrow>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mrow> 
-              &lt;mi color='#f00'>A&lt;/mi> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mi color='#0000ff'>A&lt;/mi> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mrow> 
-              &lt;mn mathcolor='#f00'>1&lt;/mn> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn mathcolor='#0000ff'>1&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mrow> 
-              &lt;mn mathbackground='#f00'>1&lt;/mn> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn mathbackground='#0000ff'>1&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mi color='#f00'>A&lt;/mi>
+              &lt;mo>+&lt;/mo>
+              &lt;mi color='#0000ff'>A&lt;/mi>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mn mathcolor='#f00'>1&lt;/mn>
+              &lt;mo>+&lt;/mo>
+              &lt;mn mathcolor='#0000ff'>1&lt;/mn>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mn mathbackground='#f00'>1&lt;/mn>
+              &lt;mo>+&lt;/mo>
+              &lt;mn mathbackground='#0000ff'>1&lt;/mn>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

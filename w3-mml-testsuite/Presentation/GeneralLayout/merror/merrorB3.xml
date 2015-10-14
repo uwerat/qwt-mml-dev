@@ -53,42 +53,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <merror> 
-        <mtext> Unrecognized element: &#x003c;mfraction&#x0003E; arguments were: 
-        </mtext> 
-        <mrow> 
-          <mn>1</mn> 
-          <mo>+</mo> 
-          <msqrt> 
-            <mn>5</mn> 
-          </msqrt> 
-        </mrow> 
-        <mtext> &#x0205F; and &#x0205F; 
-        </mtext> 
-        <mn>2</mn> 
-      </merror> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <merror>
+        <mtext> Unrecognized element: &#x003c;mfraction&#x0003E; arguments were:
+        </mtext>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <msqrt>
+            <mn>5</mn>
+          </msqrt>
+        </mrow>
+        <mtext> &#x0205F; and &#x0205F;
+        </mtext>
+        <mn>2</mn>
+      </merror>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;merror> 
-        &lt;mtext> Unrecognized element: &amp;lt;mfraction&amp;gt; arguments were: 
-        &lt;/mtext> 
-        &lt;mrow> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;msqrt> 
-            &lt;mn>5&lt;/mn> 
-          &lt;/msqrt> 
-        &lt;/mrow> 
-        &lt;mtext> &amp;MediumSpace; and &amp;MediumSpace; 
-        &lt;/mtext> 
-        &lt;mn>2&lt;/mn> 
-      &lt;/merror> 
+    &lt;math>
+      &lt;merror>
+        &lt;mtext> Unrecognized element: &amp;lt;mfraction&amp;gt; arguments were:
+        &lt;/mtext>
+        &lt;mrow>
+          &lt;mn>1&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;msqrt>
+            &lt;mn>5&lt;/mn>
+          &lt;/msqrt>
+        &lt;/mrow>
+        &lt;mtext> &amp;MediumSpace; and &amp;MediumSpace;
+        &lt;/mtext>
+        &lt;mn>2&lt;/mn>
+      &lt;/merror>
     &lt;/math>
   </pre>
     <p style="text-align: right">

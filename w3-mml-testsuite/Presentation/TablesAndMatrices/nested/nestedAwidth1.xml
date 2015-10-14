@@ -74,11 +74,11 @@ http://www.w3.org/Consortium/Legal/.
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
         <mtr>
-          <mtd> 
+          <mtd>
             <mtable frame="solid" width="50%">
               <mtr>
                 <mtd>
@@ -96,11 +96,11 @@ http://www.w3.org/Consortium/Legal/.
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
         <mtr>
-          <mtd> 
+          <mtd>
             <mtable frame="solid" width="200px">
               <mtr>
                 <mtd>
@@ -118,7 +118,7 @@ http://www.w3.org/Consortium/Legal/.
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
       </mtable>
@@ -149,11 +149,11 @@ http://www.w3.org/Consortium/Legal/.
                   &lt;mi>y&lt;/mi>
                 &lt;/mtd>
               &lt;/mtr>
-            &lt;/mtable> 
+            &lt;/mtable>
           &lt;/mtd>
         &lt;/mtr>
         &lt;mtr>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mtable frame="solid" width="50%">
               &lt;mtr>
                 &lt;mtd>
@@ -171,11 +171,11 @@ http://www.w3.org/Consortium/Legal/.
                   &lt;mi>y&lt;/mi>
                 &lt;/mtd>
               &lt;/mtr>
-            &lt;/mtable> 
+            &lt;/mtable>
           &lt;/mtd>
         &lt;/mtr>
         &lt;mtr>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mtable frame="solid" width="200px">
               &lt;mtr>
                 &lt;mtd>
@@ -193,7 +193,7 @@ http://www.w3.org/Consortium/Legal/.
                   &lt;mi>y&lt;/mi>
                 &lt;/mtd>
               &lt;/mtr>
-            &lt;/mtable> 
+            &lt;/mtable>
           &lt;/mtd>
         &lt;/mtr>
       &lt;/mtable>

@@ -58,7 +58,7 @@ http://www.w3.org/Consortium/Legal/.
       <mstyle displaystyle="true">
         <mo>&#x0222B;</mo>
         <mi>f</mi>
-        <mrow> 
+        <mrow>
           <mo>(</mo>
           <mfrac>
             <mi>x</mi>
@@ -80,7 +80,7 @@ http://www.w3.org/Consortium/Legal/.
       &lt;mstyle displaystyle='true'>
         &lt;mo>&amp;int;&lt;/mo>
         &lt;mi>f&lt;/mi>
-        &lt;mrow> 
+        &lt;mrow>
           &lt;mo>(&lt;/mo>
           &lt;mfrac>
             &lt;mi>x&lt;/mi>

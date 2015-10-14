@@ -1,11 +1,11 @@
-    <math> 
-      <apply> 
-        <eq/> 
-        <apply> 
-          <power/> 
-          <imaginaryi/> 
-          <cn>2</cn> 
-        </apply> 
-        <cn>-1</cn> 
-      </apply> 
+    <math>
+      <apply>
+        <eq/>
+        <apply>
+          <power/>
+          <imaginaryi/>
+          <cn>2</cn>
+        </apply>
+        <cn>-1</cn>
+      </apply>
     </math>

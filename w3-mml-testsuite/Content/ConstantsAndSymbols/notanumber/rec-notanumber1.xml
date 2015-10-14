@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <eq/> 
-        <apply> 
-          <divide/> 
-          <cn>0</cn> 
-          <cn>0</cn> 
-        </apply> 
-        <notanumber/> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <eq/>
+        <apply>
+          <divide/>
+          <cn>0</cn>
+          <cn>0</cn>
+        </apply>
+        <notanumber/>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;eq/> 
-        &lt;apply> 
-          &lt;divide/> 
-          &lt;cn>0&lt;/cn> 
-          &lt;cn>0&lt;/cn> 
-        &lt;/apply> 
-        &lt;notanumber/> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;eq/>
+        &lt;apply>
+          &lt;divide/>
+          &lt;cn>0&lt;/cn>
+          &lt;cn>0&lt;/cn>
+        &lt;/apply>
+        &lt;notanumber/>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

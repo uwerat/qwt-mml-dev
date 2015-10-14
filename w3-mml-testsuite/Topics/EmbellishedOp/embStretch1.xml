@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mo>(</mo> 
-      <mfrac> 
-        <mn>2</mn> 
-        <mi>x</mi> 
-      </mfrac> 
-      <msup> 
-        <mo>)</mo> 
-        <mo>-</mo> 
-      </msup> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo>(</mo>
+      <mfrac>
+        <mn>2</mn>
+        <mi>x</mi>
+      </mfrac>
+      <msup>
+        <mo>)</mo>
+        <mo>-</mo>
+      </msup>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mo>(&lt;/mo> 
-      &lt;mfrac> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mfrac> 
-      &lt;msup> 
-        &lt;mo>)&lt;/mo> 
-        &lt;mo>-&lt;/mo> 
-      &lt;/msup> 
+    &lt;math>
+      &lt;mo>(&lt;/mo>
+      &lt;mfrac>
+        &lt;mn>2&lt;/mn>
+        &lt;mi>x&lt;/mi>
+      &lt;/mfrac>
+      &lt;msup>
+        &lt;mo>)&lt;/mo>
+        &lt;mo>-&lt;/mo>
+      &lt;/msup>
     &lt;/math>
   </pre>
     <p style="text-align: right">

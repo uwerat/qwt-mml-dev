@@ -53,26 +53,26 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msqrt> 
-        <mrow> 
-          <mo> - </mo> 
-          <mn> 1 </mn> 
-        </mrow> 
-      </msqrt> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msqrt>
+        <mrow>
+          <mo> - </mo>
+          <mn> 1 </mn>
+        </mrow>
+      </msqrt>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;msqrt> 
-        &lt;mrow> 
-          &lt;mo> - &lt;/mo> 
-          &lt;mn> 1 &lt;/mn> 
-        &lt;/mrow> 
-      &lt;/msqrt> 
+    &lt;math>
+      &lt;msqrt>
+        &lt;mrow>
+          &lt;mo> - &lt;/mo>
+          &lt;mn> 1 &lt;/mn>
+        &lt;/mrow>
+      &lt;/msqrt>
     &lt;/math>
   </pre>
     <p style="text-align: right">

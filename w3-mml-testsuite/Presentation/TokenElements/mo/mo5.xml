@@ -53,30 +53,30 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mo maxsize="1"> ( </mo> 
-        <mfrac> 
-          <mi> a </mi> 
-          <mi> b </mi> 
-        </mfrac> 
-        <mo maxsize="1"> ) </mo> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo maxsize="1"> ( </mo>
+        <mfrac>
+          <mi> a </mi>
+          <mi> b </mi>
+        </mfrac>
+        <mo maxsize="1"> ) </mo>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mo maxsize="1"> ( &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi> a &lt;/mi> 
-          &lt;mi> b &lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mo maxsize="1"> ) &lt;/mo> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mo maxsize="1"> ( &lt;/mo>
+        &lt;mfrac>
+          &lt;mi> a &lt;/mi>
+          &lt;mi> b &lt;/mi>
+        &lt;/mfrac>
+        &lt;mo maxsize="1"> ) &lt;/mo>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

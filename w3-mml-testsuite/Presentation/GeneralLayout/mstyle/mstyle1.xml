@@ -53,36 +53,36 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle maxsize="1"> 
-        <mrow> 
-          <!-- comment --> 
-          <mo> ( </mo> 
-          <mfrac> 
-            <mi> a </mi> 
-            <mi> b </mi> 
-          </mfrac> 
-          <mo> ) </mo> 
-        </mrow> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle maxsize="1">
+        <mrow>
+          <!-- comment -->
+          <mo> ( </mo>
+          <mfrac>
+            <mi> a </mi>
+            <mi> b </mi>
+          </mfrac>
+          <mo> ) </mo>
+        </mrow>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle maxsize="1"> 
-        &lt;mrow> 
-          &lt;!-- comment --> 
-          &lt;mo> ( &lt;/mo> 
-          &lt;mfrac> 
-            &lt;mi> a &lt;/mi> 
-            &lt;mi> b &lt;/mi> 
-          &lt;/mfrac> 
-          &lt;mo> ) &lt;/mo> 
-        &lt;/mrow> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle maxsize="1">
+        &lt;mrow>
+          &lt;!-- comment -->
+          &lt;mo> ( &lt;/mo>
+          &lt;mfrac>
+            &lt;mi> a &lt;/mi>
+            &lt;mi> b &lt;/mi>
+          &lt;/mfrac>
+          &lt;mo> ) &lt;/mo>
+        &lt;/mrow>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

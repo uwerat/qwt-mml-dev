@@ -56,32 +56,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mi>h</mi> 
-        <mo>+</mo> 
-        <mi>hhh</mi> 
-        <mo>+</mo> 
-        <mi mathvariant="normal">h</mi> 
-        <mo>+</mo> 
-        <mi mathvariant="normal">hhh</mi> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi>h</mi>
+        <mo>+</mo>
+        <mi>hhh</mi>
+        <mo>+</mo>
+        <mi mathvariant="normal">h</mi>
+        <mo>+</mo>
+        <mi mathvariant="normal">hhh</mi>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mi>h&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi>hhh&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathvariant='normal'>h&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathvariant='normal'>hhh&lt;/mi> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mi>h&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi>hhh&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathvariant='normal'>h&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathvariant='normal'>hhh&lt;/mi>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

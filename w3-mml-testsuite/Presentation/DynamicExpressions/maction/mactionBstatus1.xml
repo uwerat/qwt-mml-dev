@@ -54,12 +54,12 @@ http://www.w3.org/Consortium/Legal/.
       <b>Your browser's rendering</b>:</p>
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <maction actiontype="statusline"> 
-        <mrow> 
-          <mn>2</mn> 
-          <mo>+</mo> 
-          <mi>x</mi> 
-        </mrow> 
+      <maction actiontype="statusline">
+        <mrow>
+          <mn>2</mn>
+          <mo>+</mo>
+          <mi>x</mi>
+        </mrow>
         <mtext>Add 2 to the value of x</mtext>
       </maction>
     </math>
@@ -69,12 +69,12 @@ http://www.w3.org/Consortium/Legal/.
       <b>Source Code</b>:</p>
     <pre>
     &lt;math>
-      &lt;maction actiontype="statusline"> 
-        &lt;mrow> 
-          &lt;mn>2&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/mrow> 
+      &lt;maction actiontype="statusline">
+        &lt;mrow>
+          &lt;mn>2&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mi>x&lt;/mi>
+        &lt;/mrow>
         &lt;mtext>Add 2 to the value of x&lt;/mtext>
       &lt;/maction>
     &lt;/math>

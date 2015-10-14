@@ -53,34 +53,34 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <matrix> 
-        <matrixrow> 
-          <cn> 1 </cn> 
-          <cn> 2 </cn> 
-        </matrixrow> 
-        <matrixrow> 
-          <cn> 3 </cn> 
-          <cn> 4 </cn> 
-        </matrixrow> 
-      </matrix> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <matrix>
+        <matrixrow>
+          <cn> 1 </cn>
+          <cn> 2 </cn>
+        </matrixrow>
+        <matrixrow>
+          <cn> 3 </cn>
+          <cn> 4 </cn>
+        </matrixrow>
+      </matrix>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;matrix> 
-        &lt;matrixrow> 
-          &lt;cn> 1 &lt;/cn> 
-          &lt;cn> 2 &lt;/cn> 
-        &lt;/matrixrow> 
-        &lt;matrixrow> 
-          &lt;cn> 3 &lt;/cn> 
-          &lt;cn> 4 &lt;/cn> 
-        &lt;/matrixrow> 
-      &lt;/matrix> 
+    &lt;math>
+      &lt;matrix>
+        &lt;matrixrow>
+          &lt;cn> 1 &lt;/cn>
+          &lt;cn> 2 &lt;/cn>
+        &lt;/matrixrow>
+        &lt;matrixrow>
+          &lt;cn> 3 &lt;/cn>
+          &lt;cn> 4 &lt;/cn>
+        &lt;/matrixrow>
+      &lt;/matrix>
     &lt;/math>
   </pre>
     <p style="text-align: right">

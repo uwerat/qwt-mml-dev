@@ -53,36 +53,36 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mmultiscripts> 
-        <mi> R </mi> 
-        <mi> i </mi> 
-        <none/> 
-        <none/> 
-        <mi> j </mi> 
-        <mi> k </mi> 
-        <none/> 
-        <mi> l </mi> 
-        <none/> 
-      </mmultiscripts> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mmultiscripts>
+        <mi> R </mi>
+        <mi> i </mi>
+        <none/>
+        <none/>
+        <mi> j </mi>
+        <mi> k </mi>
+        <none/>
+        <mi> l </mi>
+        <none/>
+      </mmultiscripts>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mmultiscripts> 
-        &lt;mi> R &lt;/mi> 
-        &lt;mi> i &lt;/mi> 
-        &lt;none/> 
-        &lt;none/> 
-        &lt;mi> j &lt;/mi> 
-        &lt;mi> k &lt;/mi> 
-        &lt;none/> 
-        &lt;mi> l &lt;/mi> 
-        &lt;none/> 
-      &lt;/mmultiscripts> 
+    &lt;math>
+      &lt;mmultiscripts>
+        &lt;mi> R &lt;/mi>
+        &lt;mi> i &lt;/mi>
+        &lt;none/>
+        &lt;none/>
+        &lt;mi> j &lt;/mi>
+        &lt;mi> k &lt;/mi>
+        &lt;none/>
+        &lt;mi> l &lt;/mi>
+        &lt;none/>
+      &lt;/mmultiscripts>
     &lt;/math>
   </pre>
     <p style="text-align: right">

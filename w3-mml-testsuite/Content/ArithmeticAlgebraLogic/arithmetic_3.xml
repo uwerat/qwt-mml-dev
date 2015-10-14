@@ -53,34 +53,34 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <ci>x</ci> 
-        <apply> 
-          <times/> 
-          <ci>y</ci> 
-          <ci>z</ci> 
-        </apply> 
-        <ci>z</ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci>x</ci>
+        <apply>
+          <times/>
+          <ci>y</ci>
+          <ci>z</ci>
+        </apply>
+        <ci>z</ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;ci>x&lt;/ci> 
-        &lt;apply> 
-          &lt;times/> 
-          &lt;ci>y&lt;/ci> 
-          &lt;ci>z&lt;/ci> 
-        &lt;/apply> 
-        &lt;ci>z&lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;ci>x&lt;/ci>
+        &lt;apply>
+          &lt;times/>
+          &lt;ci>y&lt;/ci>
+          &lt;ci>z&lt;/ci>
+        &lt;/apply>
+        &lt;ci>z&lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

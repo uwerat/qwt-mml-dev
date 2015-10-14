@@ -19,11 +19,11 @@
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
         <mtr>
-          <mtd> 
+          <mtd>
             <mtable frame="solid" width="50%">
               <mtr>
                 <mtd>
@@ -41,11 +41,11 @@
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
         <mtr>
-          <mtd> 
+          <mtd>
             <mtable frame="solid" width="200px">
               <mtr>
                 <mtd>
@@ -63,7 +63,7 @@
                   <mi>y</mi>
                 </mtd>
               </mtr>
-            </mtable> 
+            </mtable>
           </mtd>
         </mtr>
       </mtable>

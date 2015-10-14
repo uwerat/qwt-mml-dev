@@ -1,12 +1,12 @@
-    <math> 
-      <apply> 
-        <moment/> 
-        <degree> 
-          <cn> 3 </cn> 
-        </degree> 
-        <momentabout> 
-          <ci> p </ci> 
-        </momentabout> 
-        <ci> X </ci> 
-      </apply> 
+    <math>
+      <apply>
+        <moment/>
+        <degree>
+          <cn> 3 </cn>
+        </degree>
+        <momentabout>
+          <ci> p </ci>
+        </momentabout>
+        <ci> X </ci>
+      </apply>
     </math>

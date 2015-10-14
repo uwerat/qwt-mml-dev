@@ -54,82 +54,82 @@ environment with scriptlevel increased by 1.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mstyle scriptlevel="+1"> 
-          <mrow> 
-            <mn>5</mn> 
-            <mo>+</mo> 
-            <mn fontweight="bold">3</mn> 
-            <mo>+</mo> 
-            <mn fontstyle="normal">12.3</mn> 
-            <mo>+</mo> 
-            <mn fontfamily="Helvetica" color="#009900">10000 
-            </mn> 
-            <mo>+</mo> 
-            <mn fontsize="36pt">0.01</mn> 
-            <mo>+</mo> 
-            <mn fontweight="bold" fontstyle="normal">2 
-            </mn> 
-          </mrow> 
-        </mstyle> 
-        <mrow> 
-          <mn>5</mn> 
-          <mo>+</mo> 
-          <mn fontweight="bold">3</mn> 
-          <mo>+</mo> 
-          <mn fontstyle="normal">12.3</mn> 
-          <mo>+</mo> 
-          <mn fontfamily="Times" color="#009900">10000 
-          </mn> 
-          <mo>+</mo> 
-          <mn fontsize="36pt">0.01</mn> 
-          <mo>+</mo> 
-          <mn fontweight="bold" fontstyle="normal">2 
-          </mn> 
-        </mrow> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mstyle scriptlevel="+1">
+          <mrow>
+            <mn>5</mn>
+            <mo>+</mo>
+            <mn fontweight="bold">3</mn>
+            <mo>+</mo>
+            <mn fontstyle="normal">12.3</mn>
+            <mo>+</mo>
+            <mn fontfamily="Helvetica" color="#009900">10000
+            </mn>
+            <mo>+</mo>
+            <mn fontsize="36pt">0.01</mn>
+            <mo>+</mo>
+            <mn fontweight="bold" fontstyle="normal">2
+            </mn>
+          </mrow>
+        </mstyle>
+        <mrow>
+          <mn>5</mn>
+          <mo>+</mo>
+          <mn fontweight="bold">3</mn>
+          <mo>+</mo>
+          <mn fontstyle="normal">12.3</mn>
+          <mo>+</mo>
+          <mn fontfamily="Times" color="#009900">10000
+          </mn>
+          <mo>+</mo>
+          <mn fontsize="36pt">0.01</mn>
+          <mo>+</mo>
+          <mn fontweight="bold" fontstyle="normal">2
+          </mn>
+        </mrow>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mstyle scriptlevel='+1'> 
-          &lt;mrow> 
-            &lt;mn>5&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn fontweight='bold'>3&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn fontstyle='normal'>12.3&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn fontfamily='Helvetica' color='#009900'>10000 
-            &lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn fontsize='36pt'>0.01&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn fontweight='bold' fontstyle='normal'>2 
-            &lt;/mn> 
-          &lt;/mrow> 
-        &lt;/mstyle> 
-        &lt;mrow> 
-          &lt;mn>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontweight='bold'>3&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontstyle='normal'>12.3&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontfamily='Times' color='#009900'>10000 
-          &lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontsize='36pt'>0.01&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontweight='bold' fontstyle='normal'>2 
-          &lt;/mn> 
-        &lt;/mrow> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mstyle scriptlevel='+1'>
+          &lt;mrow>
+            &lt;mn>5&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mn fontweight='bold'>3&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mn fontstyle='normal'>12.3&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mn fontfamily='Helvetica' color='#009900'>10000
+            &lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mn fontsize='36pt'>0.01&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mn fontweight='bold' fontstyle='normal'>2
+            &lt;/mn>
+          &lt;/mrow>
+        &lt;/mstyle>
+        &lt;mrow>
+          &lt;mn>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontweight='bold'>3&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontstyle='normal'>12.3&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontfamily='Times' color='#009900'>10000
+          &lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontsize='36pt'>0.01&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontweight='bold' fontstyle='normal'>2
+          &lt;/mn>
+        &lt;/mrow>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

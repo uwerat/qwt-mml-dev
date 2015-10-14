@@ -53,48 +53,48 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <limit/> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <condition> 
-          <reln> 
-            <tendsto type="above"/> 
-            <ci> x </ci> 
-            <ci> a </ci> 
-          </reln> 
-        </condition> 
-        <apply> 
-          <sin/> 
-          <ci> x </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <limit/>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <condition>
+          <reln>
+            <tendsto type="above"/>
+            <ci> x </ci>
+            <ci> a </ci>
+          </reln>
+        </condition>
+        <apply>
+          <sin/>
+          <ci> x </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;limit/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/bvar> 
-        &lt;condition> 
-          &lt;reln> 
-            &lt;tendsto type="above"/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;ci> a &lt;/ci> 
-          &lt;/reln> 
-        &lt;/condition> 
-        &lt;apply> 
-          &lt;sin/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;limit/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+        &lt;/bvar>
+        &lt;condition>
+          &lt;reln>
+            &lt;tendsto type="above"/>
+            &lt;ci> x &lt;/ci>
+            &lt;ci> a &lt;/ci>
+          &lt;/reln>
+        &lt;/condition>
+        &lt;apply>
+          &lt;sin/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

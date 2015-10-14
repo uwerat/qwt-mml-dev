@@ -55,96 +55,96 @@ values.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd> 
-            <mi fontsize="14pt">a</mi> 
-            <mo color="black">+</mo> 
-            <mstyle fontsize="24pt" color="GREEN"> 
-              <mi>a</mi> 
-              <mo color="red">+</mo> 
-              <mi color="red">a</mi> 
-            </mstyle> 
-            <mo>+</mo> 
-            <mi>a</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi mathsize="14pt">a</mi> 
-            <mo mathcolor="black">+</mo> 
-            <mstyle mathsize="24pt" mathcolor="GREEN"> 
-              <mi>a</mi> 
-              <mo mathcolor="red">+</mo> 
-              <mi mathcolor="red">a</mi> 
-            </mstyle> 
-            <mo>+</mo> 
-            <mi>a</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi mathsize="14pt">a</mi> 
-            <mo mathcolor="black">+</mo> 
-            <mstyle mathsize="24pt" mathcolor="GREEN"> 
-              <mi>a</mi> 
-              <mo color="red">+</mo> 
-              <mi fontsize="14pt">a</mi> 
-            </mstyle> 
-            <mo>+</mo> 
-            <mi>a</mi> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd>
+            <mi fontsize="14pt">a</mi>
+            <mo color="black">+</mo>
+            <mstyle fontsize="24pt" color="GREEN">
+              <mi>a</mi>
+              <mo color="red">+</mo>
+              <mi color="red">a</mi>
+            </mstyle>
+            <mo>+</mo>
+            <mi>a</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi mathsize="14pt">a</mi>
+            <mo mathcolor="black">+</mo>
+            <mstyle mathsize="24pt" mathcolor="GREEN">
+              <mi>a</mi>
+              <mo mathcolor="red">+</mo>
+              <mi mathcolor="red">a</mi>
+            </mstyle>
+            <mo>+</mo>
+            <mi>a</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi mathsize="14pt">a</mi>
+            <mo mathcolor="black">+</mo>
+            <mstyle mathsize="24pt" mathcolor="GREEN">
+              <mi>a</mi>
+              <mo color="red">+</mo>
+              <mi fontsize="14pt">a</mi>
+            </mstyle>
+            <mo>+</mo>
+            <mi>a</mi>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi fontsize='14pt'>a&lt;/mi> 
-            &lt;mo color='black'>+&lt;/mo> 
-            &lt;mstyle fontsize='24pt' color='GREEN'> 
-              &lt;mi>a&lt;/mi> 
-              &lt;mo color='red'>+&lt;/mo> 
-              &lt;mi color='red'>a&lt;/mi> 
-            &lt;/mstyle> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>a&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi mathsize='14pt'>a&lt;/mi> 
-            &lt;mo mathcolor='black'>+&lt;/mo> 
-            &lt;mstyle mathsize='24pt' mathcolor='GREEN'> 
-              &lt;mi>a&lt;/mi> 
-              &lt;mo mathcolor='red'>+&lt;/mo> 
-              &lt;mi mathcolor='red'>a&lt;/mi> 
-            &lt;/mstyle> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>a&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi mathsize='14pt'>a&lt;/mi> 
-            &lt;mo mathcolor='black'>+&lt;/mo> 
-            &lt;mstyle mathsize='24pt' mathcolor='GREEN'> 
-              &lt;mi>a&lt;/mi> 
-              &lt;mo color='red'>+&lt;/mo> 
-              &lt;mi fontsize='14pt'>a&lt;/mi> 
-            &lt;/mstyle> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>a&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi fontsize='14pt'>a&lt;/mi>
+            &lt;mo color='black'>+&lt;/mo>
+            &lt;mstyle fontsize='24pt' color='GREEN'>
+              &lt;mi>a&lt;/mi>
+              &lt;mo color='red'>+&lt;/mo>
+              &lt;mi color='red'>a&lt;/mi>
+            &lt;/mstyle>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>a&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi mathsize='14pt'>a&lt;/mi>
+            &lt;mo mathcolor='black'>+&lt;/mo>
+            &lt;mstyle mathsize='24pt' mathcolor='GREEN'>
+              &lt;mi>a&lt;/mi>
+              &lt;mo mathcolor='red'>+&lt;/mo>
+              &lt;mi mathcolor='red'>a&lt;/mi>
+            &lt;/mstyle>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>a&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi mathsize='14pt'>a&lt;/mi>
+            &lt;mo mathcolor='black'>+&lt;/mo>
+            &lt;mstyle mathsize='24pt' mathcolor='GREEN'>
+              &lt;mi>a&lt;/mi>
+              &lt;mo color='red'>+&lt;/mo>
+              &lt;mi fontsize='14pt'>a&lt;/mi>
+            &lt;/mstyle>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>a&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

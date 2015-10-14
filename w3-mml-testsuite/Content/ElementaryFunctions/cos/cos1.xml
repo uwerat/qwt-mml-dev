@@ -53,22 +53,22 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <cos/> 
-        <cn>&#x003C0;</cn> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <cos/>
+        <cn>&#x003C0;</cn>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;cos/> 
-        &lt;cn>&amp;pi;&lt;/cn> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;cos/>
+        &lt;cn>&amp;pi;&lt;/cn>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

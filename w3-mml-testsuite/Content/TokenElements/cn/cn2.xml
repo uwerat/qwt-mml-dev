@@ -53,56 +53,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <cn type="real"> 4.56 </cn> 
-        <cn type="integer"> 4.56 </cn> 
-        <cn type="rational"> 4 
-          <sep/> 5 
-        </cn> 
-        <cn type="complex-cartesian"> 4 
-          <sep/> 5 
-        </cn> 
-        <cn type="complex-polar"> 4.56 
-          <sep/> 4.56 
-        </cn> 
-        <cn type="constant"> &#x003C0; </cn> 
-        <cn> &#x02147; </cn> 
-        <cn> &#x02147; </cn> 
-        <cn> &#x02148; </cn> 
-        <cn> &#x02148; </cn> 
-        <cn> &#x003B3; </cn> 
-        <cn> &#x0221E; </cn> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <cn type="real"> 4.56 </cn>
+        <cn type="integer"> 4.56 </cn>
+        <cn type="rational"> 4
+          <sep/> 5
+        </cn>
+        <cn type="complex-cartesian"> 4
+          <sep/> 5
+        </cn>
+        <cn type="complex-polar"> 4.56
+          <sep/> 4.56
+        </cn>
+        <cn type="constant"> &#x003C0; </cn>
+        <cn> &#x02147; </cn>
+        <cn> &#x02147; </cn>
+        <cn> &#x02148; </cn>
+        <cn> &#x02148; </cn>
+        <cn> &#x003B3; </cn>
+        <cn> &#x0221E; </cn>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;cn type="real"> 4.56 &lt;/cn> 
-        &lt;cn type="integer"> 4.56 &lt;/cn> 
-        &lt;cn type="rational"> 4 
-          &lt;sep/> 5 
-        &lt;/cn> 
-        &lt;cn type="complex-cartesian"> 4 
-          &lt;sep/> 5 
-        &lt;/cn> 
-        &lt;cn type="complex-polar"> 4.56 
-          &lt;sep/> 4.56 
-        &lt;/cn> 
-        &lt;cn type="constant"> &amp;pi; &lt;/cn> 
-        &lt;cn> &amp;ExponentialE; &lt;/cn> 
-        &lt;cn> &amp;ee; &lt;/cn> 
-        &lt;cn> &amp;ImaginaryI; &lt;/cn> 
-        &lt;cn> &amp;ii; &lt;/cn> 
-        &lt;cn> &amp;gamma; &lt;/cn> 
-        &lt;cn> &amp;infin; &lt;/cn> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;cn type="real"> 4.56 &lt;/cn>
+        &lt;cn type="integer"> 4.56 &lt;/cn>
+        &lt;cn type="rational"> 4
+          &lt;sep/> 5
+        &lt;/cn>
+        &lt;cn type="complex-cartesian"> 4
+          &lt;sep/> 5
+        &lt;/cn>
+        &lt;cn type="complex-polar"> 4.56
+          &lt;sep/> 4.56
+        &lt;/cn>
+        &lt;cn type="constant"> &amp;pi; &lt;/cn>
+        &lt;cn> &amp;ExponentialE; &lt;/cn>
+        &lt;cn> &amp;ee; &lt;/cn>
+        &lt;cn> &amp;ImaginaryI; &lt;/cn>
+        &lt;cn> &amp;ii; &lt;/cn>
+        &lt;cn> &amp;gamma; &lt;/cn>
+        &lt;cn> &amp;infin; &lt;/cn>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,56 +53,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
         <mo stretchy="false" largeop="true">&#x0222B;
-        </mo> 
-        <mi>x</mi> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mi>x</mi>
+      </mrow>
+      <mrow>
         <mo stretchy="false" largeop="false">&#x0222B;
-        </mo> 
-        <mi>M</mi> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mi>M</mi>
+      </mrow>
+      <mrow>
         <mo stretchy="true" largeop="true">&#x0222B;
-        </mo> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mi>o</mi> 
-        </mfrac> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mfrac>
+          <mi>x</mi>
+          <mi>o</mi>
+        </mfrac>
+      </mrow>
+      <mrow>
         <mo stretchy="true" largeop="true">&#x0222B;
-        </mo> 
-        <mfrac> 
-          <mi>A</mi> 
-          <mi>o</mi> 
-        </mfrac> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mfrac>
+          <mi>A</mi>
+          <mi>o</mi>
+        </mfrac>
+      </mrow>
+      <mrow>
         <mo stretchy="true" largeop="true">&#x0222B;
-        </mo> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mi>A</mi> 
-        </mfrac> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mfrac>
+          <mi>x</mi>
+          <mi>A</mi>
+        </mfrac>
+      </mrow>
+      <mrow>
         <mo stretchy="true" largeop="true">&#x0222B;
-        </mo> 
-        <mfrac> 
-          <mi>A</mi> 
-          <mi>M</mi> 
-        </mfrac> 
-      </mrow> 
-      <mrow> 
+        </mo>
+        <mfrac>
+          <mi>A</mi>
+          <mi>M</mi>
+        </mfrac>
+      </mrow>
+      <mrow>
         <mo stretchy="true" largeop="true">&#x0222B;
-        </mo> 
-        <mfrac> 
-          <mi>.</mi> 
-          <mi>''</mi> 
-        </mfrac> 
+        </mo>
+        <mfrac>
+          <mi>.</mi>
+          <mi>''</mi>
+        </mfrac>
       </mrow>
     </math>
   </p>
@@ -110,56 +110,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
+    &lt;math>
+      &lt;mrow>
         &lt;mo stretchy="false" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mi>x&lt;/mi>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="false" largeop="false">&amp;int;
-        &lt;/mo> 
-        &lt;mi>M&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mi>M&lt;/mi>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="true" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mi>o&lt;/mi> 
-        &lt;/mfrac> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mi>o&lt;/mi>
+        &lt;/mfrac>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="true" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>A&lt;/mi> 
-          &lt;mi>o&lt;/mi> 
-        &lt;/mfrac> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mfrac>
+          &lt;mi>A&lt;/mi>
+          &lt;mi>o&lt;/mi>
+        &lt;/mfrac>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="true" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mfrac> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mi>A&lt;/mi>
+        &lt;/mfrac>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="true" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>A&lt;/mi> 
-          &lt;mi>M&lt;/mi> 
-        &lt;/mfrac> 
-      &lt;/mrow> 
-      &lt;mrow> 
+        &lt;/mo>
+        &lt;mfrac>
+          &lt;mi>A&lt;/mi>
+          &lt;mi>M&lt;/mi>
+        &lt;/mfrac>
+      &lt;/mrow>
+      &lt;mrow>
         &lt;mo stretchy="true" largeop="true">&amp;int;
-        &lt;/mo> 
-        &lt;mfrac> 
-          &lt;mi>.&lt;/mi> 
-          &lt;mi>''&lt;/mi> 
-        &lt;/mfrac> 
+        &lt;/mo>
+        &lt;mfrac>
+          &lt;mi>.&lt;/mi>
+          &lt;mi>''&lt;/mi>
+        &lt;/mfrac>
       &lt;/mrow>
     &lt;/math>
   </pre>

@@ -54,96 +54,96 @@ properly from &lt;mstyle>.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mstyle color="Blue" fontweight="bold"> 
-          <mfrac> 
-            <mstyle fontstyle="italic"> 
-              <msqrt> 
-                <mrow> 
-                  <mi>x</mi> 
-                  <mo>-</mo> 
-                  <mn>3</mn> 
-                </mrow> 
-              </msqrt> 
-            </mstyle> 
-            <mstyle fontweight="bold"> 
-              <msqrt> 
-                <mrow> 
-                  <mn>3</mn> 
-                  <mi>x</mi> 
-                </mrow> 
-              </msqrt> 
-            </mstyle> 
-          </mfrac> 
-        </mstyle> 
-        <mfrac> 
-          <mstyle fontstyle="italic"> 
-            <msqrt> 
-              <mn>2</mn> 
-              <mi>x</mi> 
-              <mo>-</mo> 
-              <mn>3</mn> 
-            </msqrt> 
-          </mstyle> 
-          <mstyle fontweight="bold"> 
-            <msqrt> 
-              <mrow> 
-                <mn>3</mn> 
-                <mi>x</mi> 
-              </mrow> 
-            </msqrt> 
-          </mstyle> 
-        </mfrac> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mstyle color="Blue" fontweight="bold">
+          <mfrac>
+            <mstyle fontstyle="italic">
+              <msqrt>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>-</mo>
+                  <mn>3</mn>
+                </mrow>
+              </msqrt>
+            </mstyle>
+            <mstyle fontweight="bold">
+              <msqrt>
+                <mrow>
+                  <mn>3</mn>
+                  <mi>x</mi>
+                </mrow>
+              </msqrt>
+            </mstyle>
+          </mfrac>
+        </mstyle>
+        <mfrac>
+          <mstyle fontstyle="italic">
+            <msqrt>
+              <mn>2</mn>
+              <mi>x</mi>
+              <mo>-</mo>
+              <mn>3</mn>
+            </msqrt>
+          </mstyle>
+          <mstyle fontweight="bold">
+            <msqrt>
+              <mrow>
+                <mn>3</mn>
+                <mi>x</mi>
+              </mrow>
+            </msqrt>
+          </mstyle>
+        </mfrac>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mstyle color='Blue' fontweight='bold'> 
-          &lt;mfrac> 
-            &lt;mstyle fontstyle='italic'> 
-              &lt;msqrt> 
-                &lt;mrow> 
-                  &lt;mi>x&lt;/mi> 
-                  &lt;mo>-&lt;/mo> 
-                  &lt;mn>3&lt;/mn> 
-                &lt;/mrow> 
-              &lt;/msqrt> 
-            &lt;/mstyle> 
-            &lt;mstyle fontweight='bold'> 
-              &lt;msqrt> 
-                &lt;mrow> 
-                  &lt;mn>3&lt;/mn> 
-                  &lt;mi>x&lt;/mi> 
-                &lt;/mrow> 
-              &lt;/msqrt> 
-            &lt;/mstyle> 
-          &lt;/mfrac> 
-        &lt;/mstyle> 
-        &lt;mfrac> 
-          &lt;mstyle fontstyle='italic'> 
-            &lt;msqrt> 
-              &lt;mn>2&lt;/mn> 
-              &lt;mi>x&lt;/mi> 
-              &lt;mo>-&lt;/mo> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/msqrt> 
-          &lt;/mstyle> 
-          &lt;mstyle fontweight='bold'> 
-            &lt;msqrt> 
-              &lt;mrow> 
-                &lt;mn>3&lt;/mn> 
-                &lt;mi>x&lt;/mi> 
-              &lt;/mrow> 
-            &lt;/msqrt> 
-          &lt;/mstyle> 
-        &lt;/mfrac> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mstyle color='Blue' fontweight='bold'>
+          &lt;mfrac>
+            &lt;mstyle fontstyle='italic'>
+              &lt;msqrt>
+                &lt;mrow>
+                  &lt;mi>x&lt;/mi>
+                  &lt;mo>-&lt;/mo>
+                  &lt;mn>3&lt;/mn>
+                &lt;/mrow>
+              &lt;/msqrt>
+            &lt;/mstyle>
+            &lt;mstyle fontweight='bold'>
+              &lt;msqrt>
+                &lt;mrow>
+                  &lt;mn>3&lt;/mn>
+                  &lt;mi>x&lt;/mi>
+                &lt;/mrow>
+              &lt;/msqrt>
+            &lt;/mstyle>
+          &lt;/mfrac>
+        &lt;/mstyle>
+        &lt;mfrac>
+          &lt;mstyle fontstyle='italic'>
+            &lt;msqrt>
+              &lt;mn>2&lt;/mn>
+              &lt;mi>x&lt;/mi>
+              &lt;mo>-&lt;/mo>
+              &lt;mn>3&lt;/mn>
+            &lt;/msqrt>
+          &lt;/mstyle>
+          &lt;mstyle fontweight='bold'>
+            &lt;msqrt>
+              &lt;mrow>
+                &lt;mn>3&lt;/mn>
+                &lt;mi>x&lt;/mi>
+              &lt;/mrow>
+            &lt;/msqrt>
+          &lt;/mstyle>
+        &lt;/mfrac>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

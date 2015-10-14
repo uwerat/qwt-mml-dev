@@ -53,19 +53,19 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <apply> 
-          <power/> 
-          <sin/> 
-          <cn>2</cn> 
-        </apply> 
-        <apply> 
-          <power/> 
-          <cos/> 
-          <cn>2</cn> 
-        </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <apply>
+          <power/>
+          <sin/>
+          <cn>2</cn>
+        </apply>
+        <apply>
+          <power/>
+          <cos/>
+          <cn>2</cn>
+        </apply>
       </apply>
     </math>
   </p>
@@ -73,19 +73,19 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;apply> 
-          &lt;power/> 
-          &lt;sin/> 
-          &lt;cn>2&lt;/cn> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;power/> 
-          &lt;cos/> 
-          &lt;cn>2&lt;/cn> 
-        &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;apply>
+          &lt;power/>
+          &lt;sin/>
+          &lt;cn>2&lt;/cn>
+        &lt;/apply>
+        &lt;apply>
+          &lt;power/>
+          &lt;cos/>
+          &lt;cn>2&lt;/cn>
+        &lt;/apply>
       &lt;/apply>
     &lt;/math>
   </pre>

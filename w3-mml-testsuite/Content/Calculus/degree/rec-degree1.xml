@@ -53,60 +53,60 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <partialdiff/> 
-        <bvar> 
-          <ci> x </ci> 
-          <degree> 
-            <ci> n </ci> 
-          </degree> 
-        </bvar> 
-        <bvar> 
-          <ci> y </ci> 
-          <degree> 
-            <ci> m </ci> 
-          </degree> 
-        </bvar> 
-        <apply> 
-          <sin/> 
-          <apply> 
-            <times/> 
-            <ci> x </ci> 
-            <ci> y </ci> 
-          </apply> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <partialdiff/>
+        <bvar>
+          <ci> x </ci>
+          <degree>
+            <ci> n </ci>
+          </degree>
+        </bvar>
+        <bvar>
+          <ci> y </ci>
+          <degree>
+            <ci> m </ci>
+          </degree>
+        </bvar>
+        <apply>
+          <sin/>
+          <apply>
+            <times/>
+            <ci> x </ci>
+            <ci> y </ci>
+          </apply>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;partialdiff/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-          &lt;degree> 
-            &lt;ci> n &lt;/ci> 
-          &lt;/degree> 
-        &lt;/bvar> 
-        &lt;bvar> 
-          &lt;ci> y &lt;/ci> 
-          &lt;degree> 
-            &lt;ci> m &lt;/ci> 
-          &lt;/degree> 
-        &lt;/bvar> 
-        &lt;apply> 
-          &lt;sin/> 
-          &lt;apply> 
-            &lt;times/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;ci> y &lt;/ci> 
-          &lt;/apply> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;partialdiff/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+          &lt;degree>
+            &lt;ci> n &lt;/ci>
+          &lt;/degree>
+        &lt;/bvar>
+        &lt;bvar>
+          &lt;ci> y &lt;/ci>
+          &lt;degree>
+            &lt;ci> m &lt;/ci>
+          &lt;/degree>
+        &lt;/bvar>
+        &lt;apply>
+          &lt;sin/>
+          &lt;apply>
+            &lt;times/>
+            &lt;ci> x &lt;/ci>
+            &lt;ci> y &lt;/ci>
+          &lt;/apply>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

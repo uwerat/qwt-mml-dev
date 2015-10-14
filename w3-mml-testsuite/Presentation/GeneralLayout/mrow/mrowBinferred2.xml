@@ -53,52 +53,52 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mn>2</mn> 
-      <mo>+</mo> 
-      <msqrt> 
-        <mi>x</mi> 
-        <mo>+</mo> 
-        <mn>1</mn> 
-      </msqrt> 
-      <mspace width="20px"/> 
-      <mrow> 
-        <mn>2</mn> 
-        <mo>+</mo> 
-        <msqrt> 
-          <mrow> 
-            <mi>x</mi> 
-            <mo>+</mo> 
-            <mn>1</mn> 
-          </mrow> 
-        </msqrt> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mn>2</mn>
+      <mo>+</mo>
+      <msqrt>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+      </msqrt>
+      <mspace width="20px"/>
+      <mrow>
+        <mn>2</mn>
+        <mo>+</mo>
+        <msqrt>
+          <mrow>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+          </mrow>
+        </msqrt>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mn>2&lt;/mn> 
-      &lt;mo>+&lt;/mo> 
-      &lt;msqrt> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mn>1&lt;/mn> 
-      &lt;/msqrt> 
-      &lt;mspace width="20px" /> 
-      &lt;mrow> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msqrt> 
-          &lt;mrow> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mrow> 
-        &lt;/msqrt> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mn>2&lt;/mn>
+      &lt;mo>+&lt;/mo>
+      &lt;msqrt>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mn>1&lt;/mn>
+      &lt;/msqrt>
+      &lt;mspace width="20px" />
+      &lt;mrow>
+        &lt;mn>2&lt;/mn>
+        &lt;mo>+&lt;/mo>
+        &lt;msqrt>
+          &lt;mrow>
+            &lt;mi>x&lt;/mi>
+            &lt;mo>+&lt;/mo>
+            &lt;mn>1&lt;/mn>
+          &lt;/mrow>
+        &lt;/msqrt>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

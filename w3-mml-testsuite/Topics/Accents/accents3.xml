@@ -53,54 +53,54 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mover> 
-        <mi>H</mi> 
-        <mi>&#x00302;</mi> 
-      </mover> 
-      <mover> 
-        <mi>H</mi> 
-        <mi>&#x000AF;</mi> 
-      </mover> 
-      <mover> 
-        <mi>H</mi> 
-        <mi>&#x02713;</mi> 
-      </mover> 
-      <mover> 
-        <mi>H</mi> 
-        <mi>&#x0221A;</mi> 
-      </mover> 
-      <mover> 
-        <mi>H</mi> 
-        <mi>&#x002DC;</mi> 
-      </mover> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mover>
+        <mi>H</mi>
+        <mi>&#x00302;</mi>
+      </mover>
+      <mover>
+        <mi>H</mi>
+        <mi>&#x000AF;</mi>
+      </mover>
+      <mover>
+        <mi>H</mi>
+        <mi>&#x02713;</mi>
+      </mover>
+      <mover>
+        <mi>H</mi>
+        <mi>&#x0221A;</mi>
+      </mover>
+      <mover>
+        <mi>H</mi>
+        <mi>&#x002DC;</mi>
+      </mover>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mover> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mi>&amp;Hat;&lt;/mi> 
-      &lt;/mover> 
-      &lt;mover> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mi>&amp;OverBar;&lt;/mi> 
-      &lt;/mover> 
-      &lt;mover> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mi>&amp;check;&lt;/mi> 
-      &lt;/mover> 
-      &lt;mover> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mi>&amp;radic;&lt;/mi> 
-      &lt;/mover> 
-      &lt;mover> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mi>&amp;tilde;&lt;/mi> 
-      &lt;/mover> 
+    &lt;math>
+      &lt;mover>
+        &lt;mi>H&lt;/mi>
+        &lt;mi>&amp;Hat;&lt;/mi>
+      &lt;/mover>
+      &lt;mover>
+        &lt;mi>H&lt;/mi>
+        &lt;mi>&amp;OverBar;&lt;/mi>
+      &lt;/mover>
+      &lt;mover>
+        &lt;mi>H&lt;/mi>
+        &lt;mi>&amp;check;&lt;/mi>
+      &lt;/mover>
+      &lt;mover>
+        &lt;mi>H&lt;/mi>
+        &lt;mi>&amp;radic;&lt;/mi>
+      &lt;/mover>
+      &lt;mover>
+        &lt;mi>H&lt;/mi>
+        &lt;mi>&amp;tilde;&lt;/mi>
+      &lt;/mover>
     &lt;/math>
   </pre>
     <p style="text-align: right">

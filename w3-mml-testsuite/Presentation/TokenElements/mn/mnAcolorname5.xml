@@ -54,52 +54,52 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mn>Five</mn> 
-        <mo color="black">+</mo> 
-        <mn color="GREEN">12</mn> 
-        <mo color="Silver">+</mo> 
-        <mn color="Lime">12</mn> 
-        <mo color="Gray">+</mo> 
-        <mn color="OLIVE">12</mn> 
-        <mo color="white">+</mo> 
-        <mn color="Yellow">12</mn> 
-        <mo color="Maroon">+</mo> 
-        <mn color="Navy">12</mn> 
-        <mo color="Red">+</mo> 
-        <mn color="Blue">12</mn> 
-        <mo color="Purple">+</mo> 
-        <mn color="Teal">12</mn> 
-        <mo color="Fuchsia">+</mo> 
-        <mn color="Aqua">12</mn> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mn>Five</mn>
+        <mo color="black">+</mo>
+        <mn color="GREEN">12</mn>
+        <mo color="Silver">+</mo>
+        <mn color="Lime">12</mn>
+        <mo color="Gray">+</mo>
+        <mn color="OLIVE">12</mn>
+        <mo color="white">+</mo>
+        <mn color="Yellow">12</mn>
+        <mo color="Maroon">+</mo>
+        <mn color="Navy">12</mn>
+        <mo color="Red">+</mo>
+        <mn color="Blue">12</mn>
+        <mo color="Purple">+</mo>
+        <mn color="Teal">12</mn>
+        <mo color="Fuchsia">+</mo>
+        <mn color="Aqua">12</mn>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mn>Five&lt;/mn> 
-        &lt;mo color='black'>+&lt;/mo> 
-        &lt;mn color='GREEN'>12&lt;/mn> 
-        &lt;mo color='Silver'>+&lt;/mo> 
-        &lt;mn color='Lime'>12&lt;/mn> 
-        &lt;mo color='Gray'>+&lt;/mo> 
-        &lt;mn color='OLIVE'>12&lt;/mn> 
-        &lt;mo color='white'>+&lt;/mo> 
-        &lt;mn color='Yellow'>12&lt;/mn> 
-        &lt;mo color='Maroon'>+&lt;/mo> 
-        &lt;mn color='Navy'>12&lt;/mn> 
-        &lt;mo color='Red'>+&lt;/mo> 
-        &lt;mn color='Blue'>12&lt;/mn> 
-        &lt;mo color='Purple'>+&lt;/mo> 
-        &lt;mn color='Teal'>12&lt;/mn> 
-        &lt;mo color='Fuchsia'>+&lt;/mo> 
-        &lt;mn color='Aqua'>12&lt;/mn> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mn>Five&lt;/mn>
+        &lt;mo color='black'>+&lt;/mo>
+        &lt;mn color='GREEN'>12&lt;/mn>
+        &lt;mo color='Silver'>+&lt;/mo>
+        &lt;mn color='Lime'>12&lt;/mn>
+        &lt;mo color='Gray'>+&lt;/mo>
+        &lt;mn color='OLIVE'>12&lt;/mn>
+        &lt;mo color='white'>+&lt;/mo>
+        &lt;mn color='Yellow'>12&lt;/mn>
+        &lt;mo color='Maroon'>+&lt;/mo>
+        &lt;mn color='Navy'>12&lt;/mn>
+        &lt;mo color='Red'>+&lt;/mo>
+        &lt;mn color='Blue'>12&lt;/mn>
+        &lt;mo color='Purple'>+&lt;/mo>
+        &lt;mn color='Teal'>12&lt;/mn>
+        &lt;mo color='Fuchsia'>+&lt;/mo>
+        &lt;mn color='Aqua'>12&lt;/mn>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

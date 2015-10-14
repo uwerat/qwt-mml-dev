@@ -53,66 +53,66 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mspace width="2em"/> 
-      <apply> 
-        <moment/> 
-        <degree> 
-          <cn> 3 </cn> 
-        </degree> 
-        <momentabout> 
-          <cn>0</cn> 
-        </momentabout> 
-        <momentabout> 
-          <cn>4</cn> 
-        </momentabout> 
-        <ci> X </ci> 
-      </apply> 
-      <mspace width="2em"/> 
-      <apply> 
-        <moment/> 
-        <degree> 
-          <cn> 3 </cn> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mspace width="2em"/>
+      <apply>
+        <moment/>
+        <degree>
+          <cn> 3 </cn>
         </degree>
-        <foo>x</foo> 
-        <momentabout> 
-          <cn>0</cn> 
-        </momentabout> 
-        <ci> X </ci> 
-      </apply> 
+        <momentabout>
+          <cn>0</cn>
+        </momentabout>
+        <momentabout>
+          <cn>4</cn>
+        </momentabout>
+        <ci> X </ci>
+      </apply>
+      <mspace width="2em"/>
+      <apply>
+        <moment/>
+        <degree>
+          <cn> 3 </cn>
+        </degree>
+        <foo>x</foo>
+        <momentabout>
+          <cn>0</cn>
+        </momentabout>
+        <ci> X </ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mspace width="2em"/> 
-      &lt;apply> 
-        &lt;moment/> 
-        &lt;degree> 
-          &lt;cn> 3 &lt;/cn> 
-        &lt;/degree> 
-        &lt;momentabout> 
-          &lt;cn>0&lt;/cn> 
-        &lt;/momentabout> 
-        &lt;momentabout> 
-          &lt;cn>4&lt;/cn> 
-        &lt;/momentabout> 
-        &lt;ci> X &lt;/ci> 
-      &lt;/apply> 
-      &lt;mspace width="2em"/> 
-      &lt;apply> 
-        &lt;moment/> 
-        &lt;degree> 
-          &lt;cn> 3 &lt;/cn> 
+    &lt;math>
+      &lt;mspace width="2em"/>
+      &lt;apply>
+        &lt;moment/>
+        &lt;degree>
+          &lt;cn> 3 &lt;/cn>
         &lt;/degree>
-        &lt;foo>x&lt;/foo> 
-        &lt;momentabout> 
-          &lt;cn>0&lt;/cn> 
-        &lt;/momentabout> 
-        &lt;ci> X &lt;/ci> 
-      &lt;/apply> 
+        &lt;momentabout>
+          &lt;cn>0&lt;/cn>
+        &lt;/momentabout>
+        &lt;momentabout>
+          &lt;cn>4&lt;/cn>
+        &lt;/momentabout>
+        &lt;ci> X &lt;/ci>
+      &lt;/apply>
+      &lt;mspace width="2em"/>
+      &lt;apply>
+        &lt;moment/>
+        &lt;degree>
+          &lt;cn> 3 &lt;/cn>
+        &lt;/degree>
+        &lt;foo>x&lt;/foo>
+        &lt;momentabout>
+          &lt;cn>0&lt;/cn>
+        &lt;/momentabout>
+        &lt;ci> X &lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,46 +53,46 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mover> 
-          <munder> 
-            <mo> &#x0222B; </mo> 
-            <mn> 0 </mn> 
-          </munder> 
-          <mi> &#x0221E; </mi> 
-        </mover> 
-        <mtext> &#x02009;&#x0200A;&#x0200A; vs &#x02009;&#x0200A;&#x0200A; 
-        </mtext> 
-        <munderover> 
-          <mo> &#x0222B; </mo> 
-          <mn> 0 </mn> 
-          <mi> &#x0221E; </mi> 
-        </munderover> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mover>
+          <munder>
+            <mo> &#x0222B; </mo>
+            <mn> 0 </mn>
+          </munder>
+          <mi> &#x0221E; </mi>
+        </mover>
+        <mtext> &#x02009;&#x0200A;&#x0200A; vs &#x02009;&#x0200A;&#x0200A;
+        </mtext>
+        <munderover>
+          <mo> &#x0222B; </mo>
+          <mn> 0 </mn>
+          <mi> &#x0221E; </mi>
+        </munderover>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mover> 
-          &lt;munder> 
-            &lt;mo> &amp;int; &lt;/mo> 
-            &lt;mn> 0 &lt;/mn> 
-          &lt;/munder> 
-          &lt;mi> &amp;infin; &lt;/mi> 
-        &lt;/mover> 
-        &lt;mtext> &amp;ThickSpace; vs &amp;ThickSpace; 
-        &lt;/mtext> 
-        &lt;munderover> 
-          &lt;mo> &amp;int; &lt;/mo> 
-          &lt;mn> 0 &lt;/mn> 
-          &lt;mi> &amp;infin; &lt;/mi> 
-        &lt;/munderover> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mover>
+          &lt;munder>
+            &lt;mo> &amp;int; &lt;/mo>
+            &lt;mn> 0 &lt;/mn>
+          &lt;/munder>
+          &lt;mi> &amp;infin; &lt;/mi>
+        &lt;/mover>
+        &lt;mtext> &amp;ThickSpace; vs &amp;ThickSpace;
+        &lt;/mtext>
+        &lt;munderover>
+          &lt;mo> &amp;int; &lt;/mo>
+          &lt;mn> 0 &lt;/mn>
+          &lt;mi> &amp;infin; &lt;/mi>
+        &lt;/munderover>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

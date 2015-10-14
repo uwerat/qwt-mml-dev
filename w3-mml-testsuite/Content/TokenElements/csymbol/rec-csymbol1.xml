@@ -54,34 +54,34 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <!-- reference to OpenMath formal syntax definition of Bessel function --> 
-      <apply> 
-        <csymbol encoding="OpenMath" definitionURL="http://www.openmath.org/cd/BesselFunctions.ocd"> 
-          <msub> 
-            <mi>J</mi> 
-            <mn>0</mn> 
-          </msub> 
-        </csymbol> 
-        <ci>y</ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <!-- reference to OpenMath formal syntax definition of Bessel function -->
+      <apply>
+        <csymbol encoding="OpenMath" definitionURL="http://www.openmath.org/cd/BesselFunctions.ocd">
+          <msub>
+            <mi>J</mi>
+            <mn>0</mn>
+          </msub>
+        </csymbol>
+        <ci>y</ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;!-- reference to OpenMath formal syntax definition of Bessel function --> 
-      &lt;apply> 
-        &lt;csymbol encoding="OpenMath" definitionURL="http://www.openmath.org/cd/BesselFunctions.ocd"> 
-          &lt;msub> 
-            &lt;mi>J&lt;/mi> 
-            &lt;mn>0&lt;/mn> 
-          &lt;/msub> 
-        &lt;/csymbol> 
-        &lt;ci>y&lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;!-- reference to OpenMath formal syntax definition of Bessel function -->
+      &lt;apply>
+        &lt;csymbol encoding="OpenMath" definitionURL="http://www.openmath.org/cd/BesselFunctions.ocd">
+          &lt;msub>
+            &lt;mi>J&lt;/mi>
+            &lt;mn>0&lt;/mn>
+          &lt;/msub>
+        &lt;/csymbol>
+        &lt;ci>y&lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

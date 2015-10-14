@@ -54,11 +54,11 @@ http://www.w3.org/Consortium/Legal/.
       <b>Your browser's rendering</b>:</p>
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <maction actiontype="tooltip"> 
-        <mfrac> 
-          <mn>y</mn> 
-          <mi>x</mi> 
-        </mfrac> 
+      <maction actiontype="tooltip">
+        <mfrac>
+          <mn>y</mn>
+          <mi>x</mi>
+        </mfrac>
         <mtext>Divide y by x</mtext>
       </maction>
     </math>
@@ -68,11 +68,11 @@ http://www.w3.org/Consortium/Legal/.
       <b>Source Code</b>:</p>
     <pre>
     &lt;math>
-      &lt;maction actiontype="tooltip"> 
-        &lt;mfrac> 
-          &lt;mn>y&lt;/mn> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/mfrac> 
+      &lt;maction actiontype="tooltip">
+        &lt;mfrac>
+          &lt;mn>y&lt;/mn>
+          &lt;mi>x&lt;/mi>
+        &lt;/mfrac>
         &lt;mtext>Divide y by x&lt;/mtext>
       &lt;/maction>
     &lt;/math>

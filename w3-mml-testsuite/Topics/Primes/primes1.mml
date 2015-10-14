@@ -2,31 +2,31 @@
       <msup>
         <mi> x </mi>
         <mn> 2 </mn>
-      </msup> 
+      </msup>
       <mo> + </mo>
       <msup>
         <mi> 2 </mi>
         <mn> 2 </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo> &#x02032; </mo>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo>'</mo>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo> '' </mo>
-      </msup> 
+      </msup>
       <mo> + </mo>
       <mi>x</mi>
       <mi>&#x02032;</mi>
-      <mo> + </mo> 
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
@@ -34,15 +34,15 @@
         </msup>
         <mn> ' </mn>
       </msup>
-      <mo> + </mo> 
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
           <mo> ' </mo>
         </msup>
         <mn> 2 </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mrow>
@@ -50,29 +50,29 @@
           <mo> + </mo>
           <mo> ' </mo>
         </mrow>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
           <mo> ' </mo>
         </msup>
         <mn> ' </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <msup>
           <mo> ' </mo>
           <mn> ' </mn>
         </msup>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mo> ' </mo>
         <mn> ' </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mo> ' </mo>
         <mo> ' </mo>

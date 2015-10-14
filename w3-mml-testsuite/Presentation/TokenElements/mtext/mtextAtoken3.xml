@@ -53,30 +53,30 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mtext color="#f05"> Theorem 1: </mtext> 
-        <mtext fontweight="bold"> Now is </mtext> 
-        <mtext fontstyle="italic"> the time 
-        </mtext> 
-        <mtext fontfamily="Helvetica"> for </mtext> 
-        <mtext fontsize="10pt"> MathML </mtext> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mtext color="#f05"> Theorem 1: </mtext>
+        <mtext fontweight="bold"> Now is </mtext>
+        <mtext fontstyle="italic"> the time
+        </mtext>
+        <mtext fontfamily="Helvetica"> for </mtext>
+        <mtext fontsize="10pt"> MathML </mtext>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mtext color='#f05'> Theorem 1: &lt;/mtext> 
-        &lt;mtext fontweight='bold'> Now is &lt;/mtext> 
-        &lt;mtext fontstyle='italic'> the time 
-        &lt;/mtext> 
-        &lt;mtext fontfamily='Helvetica'> for &lt;/mtext> 
-        &lt;mtext fontsize='10pt'> MathML &lt;/mtext> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mtext color='#f05'> Theorem 1: &lt;/mtext>
+        &lt;mtext fontweight='bold'> Now is &lt;/mtext>
+        &lt;mtext fontstyle='italic'> the time
+        &lt;/mtext>
+        &lt;mtext fontfamily='Helvetica'> for &lt;/mtext>
+        &lt;mtext fontsize='10pt'> MathML &lt;/mtext>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,46 +53,46 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <ci type="real"> x </ci> 
-        <ci type="integer"> x </ci> 
-        <ci type="rational"> x </ci> 
-        <ci type="complex-cartesian"> y </ci> 
-        <ci type="complex-polar"> &#x003B8; </ci> 
-        <ci type="vector"> v </ci> 
-        <ci type="constant"> &#x003C0; </ci> 
-        <ci> &#x02147; </ci> 
-        <ci> &#x02147; </ci> 
-        <ci> &#x02148; </ci> 
-        <ci> &#x02148; </ci> 
-        <ci> &#x003B3; </ci> 
-        <ci> &#x0221E; </ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci type="real"> x </ci>
+        <ci type="integer"> x </ci>
+        <ci type="rational"> x </ci>
+        <ci type="complex-cartesian"> y </ci>
+        <ci type="complex-polar"> &#x003B8; </ci>
+        <ci type="vector"> v </ci>
+        <ci type="constant"> &#x003C0; </ci>
+        <ci> &#x02147; </ci>
+        <ci> &#x02147; </ci>
+        <ci> &#x02148; </ci>
+        <ci> &#x02148; </ci>
+        <ci> &#x003B3; </ci>
+        <ci> &#x0221E; </ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;ci type="real"> x &lt;/ci> 
-        &lt;ci type="integer"> x &lt;/ci> 
-        &lt;ci type="rational"> x &lt;/ci> 
-        &lt;ci type="complex-cartesian"> y &lt;/ci> 
-        &lt;ci type="complex-polar"> &amp;theta; &lt;/ci> 
-        &lt;ci type="vector"> v &lt;/ci> 
-        &lt;ci type="constant"> &amp;pi; &lt;/ci> 
-        &lt;ci> &amp;ExponentialE; &lt;/ci> 
-        &lt;ci> &amp;ee; &lt;/ci> 
-        &lt;ci> &amp;ImaginaryI; &lt;/ci> 
-        &lt;ci> &amp;ii; &lt;/ci> 
-        &lt;ci> &amp;gamma; &lt;/ci> 
-        &lt;ci> &amp;infin; &lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;ci type="real"> x &lt;/ci>
+        &lt;ci type="integer"> x &lt;/ci>
+        &lt;ci type="rational"> x &lt;/ci>
+        &lt;ci type="complex-cartesian"> y &lt;/ci>
+        &lt;ci type="complex-polar"> &amp;theta; &lt;/ci>
+        &lt;ci type="vector"> v &lt;/ci>
+        &lt;ci type="constant"> &amp;pi; &lt;/ci>
+        &lt;ci> &amp;ExponentialE; &lt;/ci>
+        &lt;ci> &amp;ee; &lt;/ci>
+        &lt;ci> &amp;ImaginaryI; &lt;/ci>
+        &lt;ci> &amp;ii; &lt;/ci>
+        &lt;ci> &amp;gamma; &lt;/ci>
+        &lt;ci> &amp;infin; &lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

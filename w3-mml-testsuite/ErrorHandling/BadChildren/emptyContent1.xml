@@ -53,112 +53,112 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msub> 
-        <mn/> 
-        <mo> </mo> 
-      </msub> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msub> 
-        <mn/> 
-        <mo> </mo> 
-        <mo> </mo> 
-      </msub> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mroot> 
-        <mn/> 
-        <mo> </mo> 
-        <mo> </mo> 
-      </mroot> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mmultiscripts> 
-        <mo/> 
-        <mtext/> 
-      </mmultiscripts> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <ci/> 
-        <ci/> 
-      </apply> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mpadded> 
-        <mo/> 
-        <mo/> 
-      </mpadded> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="blue"> 
-        <mi/> 
-        <mo/> 
-      </mstyle> 
-    </math> 
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfenced> 
-        <mi/> 
-        <mo/> 
-      </mfenced> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mn/>
+        <mo> </mo>
+      </msub>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mn/>
+        <mo> </mo>
+        <mo> </mo>
+      </msub>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mroot>
+        <mn/>
+        <mo> </mo>
+        <mo> </mo>
+      </mroot>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mmultiscripts>
+        <mo/>
+        <mtext/>
+      </mmultiscripts>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <ci/>
+        <ci/>
+      </apply>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mpadded>
+        <mo/>
+        <mo/>
+      </mpadded>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="blue">
+        <mi/>
+        <mo/>
+      </mstyle>
+    </math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced>
+        <mi/>
+        <mo/>
+      </mfenced>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;msub> 
-        &lt;mn>&lt;/mn> 
-        &lt;mo> &lt;/mo> 
-      &lt;/msub> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;msub> 
-        &lt;mn>&lt;/mn> 
-        &lt;mo> &lt;/mo> 
-        &lt;mo> &lt;/mo> 
-      &lt;/msub> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;mroot> 
-        &lt;mn>&lt;/mn> 
-        &lt;mo> &lt;/mo> 
-        &lt;mo> &lt;/mo> 
-      &lt;/mroot> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;mmultiscripts> 
-        &lt;mo>&lt;/mo> 
-        &lt;mtext>&lt;/mtext> 
-      &lt;/mmultiscripts> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;ci>&lt;/ci> 
-        &lt;ci>&lt;/ci> 
-      &lt;/apply> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;mpadded> 
-        &lt;mo>&lt;/mo> 
-        &lt;mo>&lt;/mo> 
-      &lt;/mpadded> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;mstyle background="blue"> 
-        &lt;mi>&lt;/mi> 
-        &lt;mo>&lt;/mo> 
-      &lt;/mstyle> 
-    &lt;/math> 
-    &lt;math> 
-      &lt;mfenced> 
-        &lt;mi>&lt;/mi> 
-        &lt;mo>&lt;/mo> 
-      &lt;/mfenced> 
+    &lt;math>
+      &lt;msub>
+        &lt;mn>&lt;/mn>
+        &lt;mo> &lt;/mo>
+      &lt;/msub>
+    &lt;/math>
+    &lt;math>
+      &lt;msub>
+        &lt;mn>&lt;/mn>
+        &lt;mo> &lt;/mo>
+        &lt;mo> &lt;/mo>
+      &lt;/msub>
+    &lt;/math>
+    &lt;math>
+      &lt;mroot>
+        &lt;mn>&lt;/mn>
+        &lt;mo> &lt;/mo>
+        &lt;mo> &lt;/mo>
+      &lt;/mroot>
+    &lt;/math>
+    &lt;math>
+      &lt;mmultiscripts>
+        &lt;mo>&lt;/mo>
+        &lt;mtext>&lt;/mtext>
+      &lt;/mmultiscripts>
+    &lt;/math>
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;ci>&lt;/ci>
+        &lt;ci>&lt;/ci>
+      &lt;/apply>
+    &lt;/math>
+    &lt;math>
+      &lt;mpadded>
+        &lt;mo>&lt;/mo>
+        &lt;mo>&lt;/mo>
+      &lt;/mpadded>
+    &lt;/math>
+    &lt;math>
+      &lt;mstyle background="blue">
+        &lt;mi>&lt;/mi>
+        &lt;mo>&lt;/mo>
+      &lt;/mstyle>
+    &lt;/math>
+    &lt;math>
+      &lt;mfenced>
+        &lt;mi>&lt;/mi>
+        &lt;mo>&lt;/mo>
+      &lt;/mfenced>
     &lt;/math>
   </pre>
     <p style="text-align: right">

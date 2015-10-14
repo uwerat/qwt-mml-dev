@@ -53,10 +53,10 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
 
-      <mi>x   </mi> 
-      <mo>  +  </mo> 
+      <mi>x   </mi>
+      <mo>  +  </mo>
       <mi>y</mi>
     </math>
   </p>
@@ -64,10 +64,10 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
+    &lt;math>
 
-      &lt;mi>x   &lt;/mi> 
-      &lt;mo>  +  &lt;/mo> 
+      &lt;mi>x   &lt;/mi>
+      &lt;mo>  +  &lt;/mo>
       &lt;mi>y&lt;/mi>
     &lt;/math>
   </pre>

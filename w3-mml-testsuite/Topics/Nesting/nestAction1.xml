@@ -53,36 +53,36 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <maction xmlns:dsi="http://www.dessci.com/mathml" actiontype="tooltip"> 
-        <maction actiontype="statusline"> 
-          <apply> 
-            <gt/> 
-            <ci>x</ci> 
-            <cn>4</cn> 
-          </apply> 
-          <mtext>X is less than 4</mtext> 
-        </maction> 
-        <mtext>X is less than 4</mtext> 
-      </maction> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <maction xmlns:dsi="http://www.dessci.com/mathml" actiontype="tooltip">
+        <maction actiontype="statusline">
+          <apply>
+            <gt/>
+            <ci>x</ci>
+            <cn>4</cn>
+          </apply>
+          <mtext>X is less than 4</mtext>
+        </maction>
+        <mtext>X is less than 4</mtext>
+      </maction>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math xmlns:dsi="http://www.dessci.com/mathml"> 
-      &lt;maction actiontype="tooltip"> 
-        &lt;maction actiontype="statusline"> 
-          &lt;apply> 
-            &lt;gt/> 
-            &lt;ci>x&lt;/ci> 
-            &lt;cn>4&lt;/cn> 
-          &lt;/apply> 
-          &lt;mtext>X is less than 4&lt;/mtext> 
-        &lt;/maction> 
-        &lt;mtext>X is less than 4&lt;/mtext> 
-      &lt;/maction> 
+    &lt;math xmlns:dsi="http://www.dessci.com/mathml">
+      &lt;maction actiontype="tooltip">
+        &lt;maction actiontype="statusline">
+          &lt;apply>
+            &lt;gt/>
+            &lt;ci>x&lt;/ci>
+            &lt;cn>4&lt;/cn>
+          &lt;/apply>
+          &lt;mtext>X is less than 4&lt;/mtext>
+        &lt;/maction>
+        &lt;mtext>X is less than 4&lt;/mtext>
+      &lt;/maction>
     &lt;/math>
   </pre>
     <p style="text-align: right">

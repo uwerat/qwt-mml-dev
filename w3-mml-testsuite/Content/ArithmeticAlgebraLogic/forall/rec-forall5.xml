@@ -53,50 +53,50 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <forall/> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <condition> 
-          <apply> 
-            <lt/> 
-            <ci> x </ci> 
-            <cn> 9 </cn> 
-          </apply> 
-        </condition> 
-        <apply> 
-          <lt/> 
-          <ci> x </ci> 
-          <cn> 10 </cn> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <forall/>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <condition>
+          <apply>
+            <lt/>
+            <ci> x </ci>
+            <cn> 9 </cn>
+          </apply>
+        </condition>
+        <apply>
+          <lt/>
+          <ci> x </ci>
+          <cn> 10 </cn>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;forall/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/bvar> 
-        &lt;condition> 
-          &lt;apply> 
-            &lt;lt/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;cn> 9 &lt;/cn> 
-          &lt;/apply> 
-        &lt;/condition> 
-        &lt;apply> 
-          &lt;lt/> 
-          &lt;ci> x &lt;/ci> 
-          &lt;cn> 10 &lt;/cn> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;forall/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+        &lt;/bvar>
+        &lt;condition>
+          &lt;apply>
+            &lt;lt/>
+            &lt;ci> x &lt;/ci>
+            &lt;cn> 9 &lt;/cn>
+          &lt;/apply>
+        &lt;/condition>
+        &lt;apply>
+          &lt;lt/>
+          &lt;ci> x &lt;/ci>
+          &lt;cn> 10 &lt;/cn>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -57,36 +57,36 @@ should be ems by default.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi>x</mi> 
-      <mo>+</mo> 
-      <mi>x</mi> 
-      <mo lspace="0px">+</mo> 
-      <mi>x</mi> 
-      <mo rspace="0%">+</mo> 
-      <mi>x</mi> 
-      <mo lspace="2em" rspace="1em">+</mo> 
-      <mi>x</mi> 
-      <mo lspace="1cm" rspace="10px">+</mo> 
-      <mi>x</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>x</mi>
+      <mo lspace="0px">+</mo>
+      <mi>x</mi>
+      <mo rspace="0%">+</mo>
+      <mi>x</mi>
+      <mo lspace="2em" rspace="1em">+</mo>
+      <mi>x</mi>
+      <mo lspace="1cm" rspace="10px">+</mo>
+      <mi>x</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo lspace='0px'>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo rspace='0%'>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo lspace='2em' rspace='1em'>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo lspace='1cm' rspace='10px'>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
+    &lt;math>
+      &lt;mi>x&lt;/mi>
+      &lt;mo>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mo lspace='0px'>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mo rspace='0%'>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mo lspace='2em' rspace='1em'>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mo lspace='1cm' rspace='10px'>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,50 +53,50 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <set> 
-        <set> 
-          <ci>a</ci> 
-          <ci>d</ci> 
-        </set> 
-        <set> 
-          <ci>x</ci> 
-          <ci>y</ci> 
-          <ci>z</ci> 
-        </set> 
-        <set> 
-          <cn>0</cn> 
-          <cn>2</cn> 
-          <cn>6</cn> 
-          <cn>8</cn> 
-          <cn>9</cn> 
-        </set> 
-      </set> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <set>
+        <set>
+          <ci>a</ci>
+          <ci>d</ci>
+        </set>
+        <set>
+          <ci>x</ci>
+          <ci>y</ci>
+          <ci>z</ci>
+        </set>
+        <set>
+          <cn>0</cn>
+          <cn>2</cn>
+          <cn>6</cn>
+          <cn>8</cn>
+          <cn>9</cn>
+        </set>
+      </set>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;set> 
-        &lt;set> 
-          &lt;ci>a&lt;/ci> 
-          &lt;ci>d&lt;/ci> 
-        &lt;/set> 
-        &lt;set> 
-          &lt;ci>x&lt;/ci> 
-          &lt;ci>y&lt;/ci> 
-          &lt;ci>z&lt;/ci> 
-        &lt;/set> 
-        &lt;set> 
-          &lt;cn>0&lt;/cn> 
-          &lt;cn>2&lt;/cn> 
-          &lt;cn>6&lt;/cn> 
-          &lt;cn>8&lt;/cn> 
-          &lt;cn>9&lt;/cn> 
-        &lt;/set> 
-      &lt;/set> 
+    &lt;math>
+      &lt;set>
+        &lt;set>
+          &lt;ci>a&lt;/ci>
+          &lt;ci>d&lt;/ci>
+        &lt;/set>
+        &lt;set>
+          &lt;ci>x&lt;/ci>
+          &lt;ci>y&lt;/ci>
+          &lt;ci>z&lt;/ci>
+        &lt;/set>
+        &lt;set>
+          &lt;cn>0&lt;/cn>
+          &lt;cn>2&lt;/cn>
+          &lt;cn>6&lt;/cn>
+          &lt;cn>8&lt;/cn>
+          &lt;cn>9&lt;/cn>
+        &lt;/set>
+      &lt;/set>
     &lt;/math>
   </pre>
     <p style="text-align: right">

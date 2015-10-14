@@ -53,20 +53,20 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <!-- reference to human readable text description of Boltzmann's constant --> 
-      <csymbol encoding="text" definitionURL="www.example.org/universalconstants/Boltzmann.htm"> k 
-      </csymbol> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <!-- reference to human readable text description of Boltzmann's constant -->
+      <csymbol encoding="text" definitionURL="www.example.org/universalconstants/Boltzmann.htm"> k
+      </csymbol>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;!-- reference to human readable text description of Boltzmann's constant --> 
-      &lt;csymbol encoding="text" definitionURL="www.example.org/universalconstants/Boltzmann.htm"> k 
-      &lt;/csymbol> 
+    &lt;math>
+      &lt;!-- reference to human readable text description of Boltzmann's constant -->
+      &lt;csymbol encoding="text" definitionURL="www.example.org/universalconstants/Boltzmann.htm"> k
+      &lt;/csymbol>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,30 +53,30 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <declare> 
-        <ci> v </ci> 
-        <vector> 
-          <cn> 1 </cn> 
-          <cn> 2 </cn> 
-          <cn> 3 </cn> 
-        </vector> 
-      </declare> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <declare>
+        <ci> v </ci>
+        <vector>
+          <cn> 1 </cn>
+          <cn> 2 </cn>
+          <cn> 3 </cn>
+        </vector>
+      </declare>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;declare> 
-        &lt;ci> v &lt;/ci> 
-        &lt;vector> 
-          &lt;cn> 1 &lt;/cn> 
-          &lt;cn> 2 &lt;/cn> 
-          &lt;cn> 3 &lt;/cn> 
-        &lt;/vector> 
-      &lt;/declare> 
+    &lt;math>
+      &lt;declare>
+        &lt;ci> v &lt;/ci>
+        &lt;vector>
+          &lt;cn> 1 &lt;/cn>
+          &lt;cn> 2 &lt;/cn>
+          &lt;cn> 3 &lt;/cn>
+        &lt;/vector>
+      &lt;/declare>
     &lt;/math>
   </pre>
     <p style="text-align: right">

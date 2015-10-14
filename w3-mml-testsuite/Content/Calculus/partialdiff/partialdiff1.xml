@@ -53,52 +53,52 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <partialdiff/> 
-        <bvar> 
-          <ci> x </ci> 
-          <degree> 
-            <cn> 2 </cn> 
-          </degree> 
-        </bvar> 
-        <bvar> 
-          <ci> y </ci> 
-        </bvar> 
-        <apply> 
-          <fn> 
-            <ci> f </ci> 
-          </fn> 
-          <ci> x </ci> 
-          <ci> y </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <partialdiff/>
+        <bvar>
+          <ci> x </ci>
+          <degree>
+            <cn> 2 </cn>
+          </degree>
+        </bvar>
+        <bvar>
+          <ci> y </ci>
+        </bvar>
+        <apply>
+          <fn>
+            <ci> f </ci>
+          </fn>
+          <ci> x </ci>
+          <ci> y </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;partialdiff/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-          &lt;degree> 
-            &lt;cn> 2 &lt;/cn> 
-          &lt;/degree> 
-        &lt;/bvar> 
-        &lt;bvar> 
-          &lt;ci> y &lt;/ci> 
-        &lt;/bvar> 
-        &lt;apply> 
-          &lt;fn> 
-            &lt;ci> f &lt;/ci> 
-          &lt;/fn> 
-          &lt;ci> x &lt;/ci> 
-          &lt;ci> y &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;partialdiff/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+          &lt;degree>
+            &lt;cn> 2 &lt;/cn>
+          &lt;/degree>
+        &lt;/bvar>
+        &lt;bvar>
+          &lt;ci> y &lt;/ci>
+        &lt;/bvar>
+        &lt;apply>
+          &lt;fn>
+            &lt;ci> f &lt;/ci>
+          &lt;/fn>
+          &lt;ci> x &lt;/ci>
+          &lt;ci> y &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

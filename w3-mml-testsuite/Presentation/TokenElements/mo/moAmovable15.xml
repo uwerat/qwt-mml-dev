@@ -57,96 +57,96 @@ for &amp;sum; it appears to change inside and outside of display style.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <munderover> 
-          <mo>&#x02211;</mo> 
-          <mi>x</mi> 
-          <mn>0</mn> 
-        </munderover> 
-        <mo>=</mo> 
-        <munderover> 
-          <mo movablelimits="true">&#x02211; 
-          </mo> 
-          <mi>x</mi> 
-          <mn>0</mn> 
-        </munderover> 
-        <mo>=</mo> 
-        <munderover> 
-          <mo movablelimits="false">&#x02211; 
-          </mo> 
-          <mi>x</mi> 
-          <mn>0</mn> 
-        </munderover> 
-        <mo>=</mo> 
-        <mstyle displaystyle="true"> 
-          <munderover> 
-            <mo>&#x02211;</mo> 
-            <mi>x</mi> 
-            <mn>0</mn> 
-          </munderover> 
-          <mo>=</mo> 
-          <munderover> 
-            <mo movablelimits="true">&#x02211; 
-            </mo> 
-            <mi>x</mi> 
-            <mn>0</mn> 
-          </munderover> 
-          <mo>=</mo> 
-          <munderover> 
-            <mo movablelimits="false">&#x02211; 
-            </mo> 
-            <mi>x</mi> 
-            <mn>0</mn> 
-          </munderover> 
-        </mstyle> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <munderover>
+          <mo>&#x02211;</mo>
+          <mi>x</mi>
+          <mn>0</mn>
+        </munderover>
+        <mo>=</mo>
+        <munderover>
+          <mo movablelimits="true">&#x02211;
+          </mo>
+          <mi>x</mi>
+          <mn>0</mn>
+        </munderover>
+        <mo>=</mo>
+        <munderover>
+          <mo movablelimits="false">&#x02211;
+          </mo>
+          <mi>x</mi>
+          <mn>0</mn>
+        </munderover>
+        <mo>=</mo>
+        <mstyle displaystyle="true">
+          <munderover>
+            <mo>&#x02211;</mo>
+            <mi>x</mi>
+            <mn>0</mn>
+          </munderover>
+          <mo>=</mo>
+          <munderover>
+            <mo movablelimits="true">&#x02211;
+            </mo>
+            <mi>x</mi>
+            <mn>0</mn>
+          </munderover>
+          <mo>=</mo>
+          <munderover>
+            <mo movablelimits="false">&#x02211;
+            </mo>
+            <mi>x</mi>
+            <mn>0</mn>
+          </munderover>
+        </mstyle>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;munderover> 
-          &lt;mo>&amp;sum;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>0&lt;/mn> 
-        &lt;/munderover> 
-        &lt;mo>=&lt;/mo> 
-        &lt;munderover> 
-          &lt;mo movablelimits='true'>&amp;sum;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>0&lt;/mn> 
-        &lt;/munderover> 
-        &lt;mo>=&lt;/mo> 
-        &lt;munderover> 
-          &lt;mo movablelimits='false'>&amp;sum;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>0&lt;/mn> 
-        &lt;/munderover> 
-        &lt;mo>=&lt;/mo> 
-        &lt;mstyle displaystyle='true'> 
-          &lt;munderover> 
-            &lt;mo>&amp;sum;&lt;/mo> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>0&lt;/mn> 
-          &lt;/munderover> 
-          &lt;mo>=&lt;/mo> 
-          &lt;munderover> 
-            &lt;mo movablelimits='true'>&amp;sum;&lt;/mo> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>0&lt;/mn> 
-          &lt;/munderover> 
-          &lt;mo>=&lt;/mo> 
-          &lt;munderover> 
-            &lt;mo movablelimits='false'>&amp;sum;&lt;/mo> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>0&lt;/mn> 
-          &lt;/munderover> 
-        &lt;/mstyle> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;munderover>
+          &lt;mo>&amp;sum;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>0&lt;/mn>
+        &lt;/munderover>
+        &lt;mo>=&lt;/mo>
+        &lt;munderover>
+          &lt;mo movablelimits='true'>&amp;sum;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>0&lt;/mn>
+        &lt;/munderover>
+        &lt;mo>=&lt;/mo>
+        &lt;munderover>
+          &lt;mo movablelimits='false'>&amp;sum;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>0&lt;/mn>
+        &lt;/munderover>
+        &lt;mo>=&lt;/mo>
+        &lt;mstyle displaystyle='true'>
+          &lt;munderover>
+            &lt;mo>&amp;sum;&lt;/mo>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>0&lt;/mn>
+          &lt;/munderover>
+          &lt;mo>=&lt;/mo>
+          &lt;munderover>
+            &lt;mo movablelimits='true'>&amp;sum;&lt;/mo>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>0&lt;/mn>
+          &lt;/munderover>
+          &lt;mo>=&lt;/mo>
+          &lt;munderover>
+            &lt;mo movablelimits='false'>&amp;sum;&lt;/mo>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>0&lt;/mn>
+          &lt;/munderover>
+        &lt;/mstyle>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

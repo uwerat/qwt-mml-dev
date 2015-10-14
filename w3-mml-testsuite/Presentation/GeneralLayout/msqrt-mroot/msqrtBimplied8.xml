@@ -55,48 +55,48 @@ children except the implied &lt;mrow>.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <msqrt> 
-          <mi>x</mi> 
-          <mo>-</mo> 
-          <mn>3</mn> 
-        </msqrt> 
-        <mo>+</mo> 
-        <msqrt> 
-          <mrow> 
-            <mi>x</mi> 
-            <mo>-</mo> 
-            <mn>3</mn> 
-          </mrow> 
-        </msqrt> 
-        <mo>+</mo> 
-        <msqrt> </msqrt> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msqrt>
+          <mi>x</mi>
+          <mo>-</mo>
+          <mn>3</mn>
+        </msqrt>
+        <mo>+</mo>
+        <msqrt>
+          <mrow>
+            <mi>x</mi>
+            <mo>-</mo>
+            <mn>3</mn>
+          </mrow>
+        </msqrt>
+        <mo>+</mo>
+        <msqrt> </msqrt>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;msqrt> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>-&lt;/mo> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/msqrt> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msqrt> 
-          &lt;mrow> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mrow> 
-        &lt;/msqrt> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msqrt> &lt;/msqrt> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;msqrt>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>-&lt;/mo>
+          &lt;mn>3&lt;/mn>
+        &lt;/msqrt>
+        &lt;mo>+&lt;/mo>
+        &lt;msqrt>
+          &lt;mrow>
+            &lt;mi>x&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mn>3&lt;/mn>
+          &lt;/mrow>
+        &lt;/msqrt>
+        &lt;mo>+&lt;/mo>
+        &lt;msqrt> &lt;/msqrt>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

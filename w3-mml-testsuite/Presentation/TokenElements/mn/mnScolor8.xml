@@ -54,44 +54,44 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle color="#ff0000"> 
-        <mrow> 
-          <mn>5</mn> 
-          <mo>+</mo> 
-          <mn color="blue">5</mn> 
-          <mo>+</mo> 
-          <mn color="#0f0">5</mn> 
-          <mo>+</mo> 
-          <mn color="#9c0fff">5</mn> 
-          <mo>+</mo> 
-          <mn fontstyle="italic">5</mn> 
-          <mo>+</mo> 
-          <mn fontfamily="Helvetica">5</mn> 
-        </mrow> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle color="#ff0000">
+        <mrow>
+          <mn>5</mn>
+          <mo>+</mo>
+          <mn color="blue">5</mn>
+          <mo>+</mo>
+          <mn color="#0f0">5</mn>
+          <mo>+</mo>
+          <mn color="#9c0fff">5</mn>
+          <mo>+</mo>
+          <mn fontstyle="italic">5</mn>
+          <mo>+</mo>
+          <mn fontfamily="Helvetica">5</mn>
+        </mrow>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle color='#ff0000'> 
-        &lt;mrow> 
-          &lt;mn>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn color='blue'>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn color='#0f0'>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn color='#9c0fff'>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontstyle='italic'>5&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn fontfamily='Helvetica'>5&lt;/mn> 
-        &lt;/mrow> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle color='#ff0000'>
+        &lt;mrow>
+          &lt;mn>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn color='blue'>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn color='#0f0'>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn color='#9c0fff'>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontstyle='italic'>5&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn fontfamily='Helvetica'>5&lt;/mn>
+        &lt;/mrow>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

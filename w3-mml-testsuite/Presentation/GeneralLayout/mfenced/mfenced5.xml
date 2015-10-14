@@ -53,22 +53,22 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfenced open="["> 
-        <mn> 0 </mn> 
-        <mn> 1 </mn> 
-      </mfenced> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced open="[">
+        <mn> 0 </mn>
+        <mn> 1 </mn>
+      </mfenced>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfenced open="["> 
-        &lt;mn> 0 &lt;/mn> 
-        &lt;mn> 1 &lt;/mn> 
-      &lt;/mfenced> 
+    &lt;math>
+      &lt;mfenced open="[">
+        &lt;mn> 0 &lt;/mn>
+        &lt;mn> 1 &lt;/mn>
+      &lt;/mfenced>
     &lt;/math>
   </pre>
     <p style="text-align: right">

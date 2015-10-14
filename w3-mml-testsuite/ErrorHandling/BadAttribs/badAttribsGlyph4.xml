@@ -53,44 +53,44 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mn> 
-        <mglyph fontfamily="Arial" index="97" alt="lowercase 'a'"/> 
-      </mn> 
-      <mspace width="10px"/> 
-      <mi> 
-        <mglyph fontfamily="Arial" index="105"/> 
-      </mi> 
-      <mspace width="10px"/> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mn>
+        <mglyph fontfamily="Arial" index="97" alt="lowercase 'a'"/>
+      </mn>
+      <mspace width="10px"/>
+      <mi>
+        <mglyph fontfamily="Arial" index="105"/>
+      </mi>
+      <mspace width="10px"/>
       <mn>
         <mglyph fontfamily="fake-font" index="105"/>
-      </mn> 
-      <mspace width="10px"/> 
-      <mi> 
-        <mglyph index="97" alt="lowercase 'a'"/> 
-      </mi> 
+      </mn>
+      <mspace width="10px"/>
+      <mi>
+        <mglyph index="97" alt="lowercase 'a'"/>
+      </mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mn> 
-        &lt;mglyph fontfamily="Arial" index="97" alt="lowercase 'a'" /> 
-      &lt;/mn> 
-      &lt;mspace width="10px" /> 
-      &lt;mi> 
-        &lt;mglyph fontfamily="Arial" index="105" /> 
-      &lt;/mi> 
-      &lt;mspace width="10px" /> 
+    &lt;math>
+      &lt;mn>
+        &lt;mglyph fontfamily="Arial" index="97" alt="lowercase 'a'" />
+      &lt;/mn>
+      &lt;mspace width="10px" />
+      &lt;mi>
+        &lt;mglyph fontfamily="Arial" index="105" />
+      &lt;/mi>
+      &lt;mspace width="10px" />
       &lt;mn>
         &lt;mglyph fontfamily="fake-font" index="105" />
-      &lt;/mn> 
-      &lt;mspace width="10px" /> 
-      &lt;mi> 
-        &lt;mglyph index="97" alt="lowercase 'a'" /> 
-      &lt;/mi> 
+      &lt;/mn>
+      &lt;mspace width="10px" />
+      &lt;mi>
+        &lt;mglyph index="97" alt="lowercase 'a'" />
+      &lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -55,70 +55,70 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="Blue"> 
-        <mi>A</mi> 
-        <mstyle scriptlevel="2"> 
-          <mphantom> 
-            <mi>A</mi> 
-          </mphantom> 
-        </mstyle> 
-        <mi>A</mi> 
-        <mstyle fontweight="bold"> 
-          <mphantom> 
-            <mi>A</mi> 
-            <mo>+</mo> 
-            <mi>A</mi> 
-          </mphantom> 
-          <mi>A</mi> 
-        </mstyle> 
-      </mstyle> 
-      <mi>A</mi> 
-      <mstyle scriptlevel="2"> 
-        <mi>A</mi> 
-      </mstyle> 
-      <mi>A</mi> 
-      <mstyle fontweight="bold"> 
-        <mi>A</mi> 
-        <mo>+</mo> 
-        <mi>A</mi> 
-        <mi>A</mi> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="Blue">
+        <mi>A</mi>
+        <mstyle scriptlevel="2">
+          <mphantom>
+            <mi>A</mi>
+          </mphantom>
+        </mstyle>
+        <mi>A</mi>
+        <mstyle fontweight="bold">
+          <mphantom>
+            <mi>A</mi>
+            <mo>+</mo>
+            <mi>A</mi>
+          </mphantom>
+          <mi>A</mi>
+        </mstyle>
+      </mstyle>
+      <mi>A</mi>
+      <mstyle scriptlevel="2">
+        <mi>A</mi>
+      </mstyle>
+      <mi>A</mi>
+      <mstyle fontweight="bold">
+        <mi>A</mi>
+        <mo>+</mo>
+        <mi>A</mi>
+        <mi>A</mi>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle background='Blue'> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mstyle scriptlevel='2'> 
-          &lt;mphantom> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mphantom> 
-        &lt;/mstyle> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mstyle fontweight='bold'> 
-          &lt;mphantom> 
-            &lt;mi>A&lt;/mi> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mphantom> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mstyle> 
-      &lt;/mstyle> 
-      &lt;mi>A&lt;/mi> 
-      &lt;mstyle scriptlevel='2'> 
-        &lt;mi>A&lt;/mi> 
-      &lt;/mstyle> 
-      &lt;mi>A&lt;/mi> 
-      &lt;mstyle fontweight='bold'> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mi>A&lt;/mi> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle background='Blue'>
+        &lt;mi>A&lt;/mi>
+        &lt;mstyle scriptlevel='2'>
+          &lt;mphantom>
+            &lt;mi>A&lt;/mi>
+          &lt;/mphantom>
+        &lt;/mstyle>
+        &lt;mi>A&lt;/mi>
+        &lt;mstyle fontweight='bold'>
+          &lt;mphantom>
+            &lt;mi>A&lt;/mi>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>A&lt;/mi>
+          &lt;/mphantom>
+          &lt;mi>A&lt;/mi>
+        &lt;/mstyle>
+      &lt;/mstyle>
+      &lt;mi>A&lt;/mi>
+      &lt;mstyle scriptlevel='2'>
+        &lt;mi>A&lt;/mi>
+      &lt;/mstyle>
+      &lt;mi>A&lt;/mi>
+      &lt;mstyle fontweight='bold'>
+        &lt;mi>A&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi>A&lt;/mi>
+        &lt;mi>A&lt;/mi>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

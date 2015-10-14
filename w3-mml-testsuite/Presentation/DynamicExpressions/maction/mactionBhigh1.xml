@@ -53,30 +53,30 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <maction xmlns:dsi="http://www.dessci.com/mathml" actiontype="highlight" dsi:background="#dddd66" dsi:color="#bb2244"> 
-        <mfrac> 
-          <mn>x</mn> 
-          <mi>2</mi> 
-        </mfrac> 
-      </maction> 
-      <mo xmlns:dsi="http://www.dessci.com/mathml">+</mo> 
-      <mn xmlns:dsi="http://www.dessci.com/mathml">2</mn> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <maction xmlns:dsi="http://www.dessci.com/mathml" actiontype="highlight" dsi:background="#dddd66" dsi:color="#bb2244">
+        <mfrac>
+          <mn>x</mn>
+          <mi>2</mi>
+        </mfrac>
+      </maction>
+      <mo xmlns:dsi="http://www.dessci.com/mathml">+</mo>
+      <mn xmlns:dsi="http://www.dessci.com/mathml">2</mn>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math xmlns:dsi="http://www.dessci.com/mathml"> 
-      &lt;maction actiontype="highlight" dsi:background="#dddd66" dsi:color="#bb2244"> 
-        &lt;mfrac> 
-          &lt;mn>x&lt;/mn> 
-          &lt;mi>2&lt;/mi> 
-        &lt;/mfrac> 
-      &lt;/maction> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mn>2&lt;/mn> 
+    &lt;math xmlns:dsi="http://www.dessci.com/mathml">
+      &lt;maction actiontype="highlight" dsi:background="#dddd66" dsi:color="#bb2244">
+        &lt;mfrac>
+          &lt;mn>x&lt;/mn>
+          &lt;mi>2&lt;/mi>
+        &lt;/mfrac>
+      &lt;/maction>
+      &lt;mo>+&lt;/mo>
+      &lt;mn>2&lt;/mn>
     &lt;/math>
   </pre>
     <p style="text-align: right">

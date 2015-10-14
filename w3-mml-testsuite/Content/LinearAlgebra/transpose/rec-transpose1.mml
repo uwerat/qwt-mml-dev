@@ -1,6 +1,6 @@
-    <math> 
-      <apply> 
-        <transpose/> 
-        <ci type="matrix"> A </ci> 
-      </apply> 
+    <math>
+      <apply>
+        <transpose/>
+        <ci type="matrix"> A </ci>
+      </apply>
     </math>

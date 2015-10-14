@@ -53,54 +53,54 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfrac> 
-        <mrow> 
-          <mi> x </mi> 
-          <mo> + </mo> 
-          <mi> y </mi> 
-          <mo> + </mo> 
-          <mi> z </mi> 
-        </mrow> 
-        <mrow> 
-          <mi> x </mi> 
-          <mphantom> 
-            <mo> + </mo> 
-          </mphantom> 
-          <mphantom> 
-            <mi> y </mi> 
-          </mphantom> 
-          <mo> + </mo> 
-          <mi> z </mi> 
-        </mrow> 
-      </mfrac> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mi> x </mi>
+          <mo> + </mo>
+          <mi> y </mi>
+          <mo> + </mo>
+          <mi> z </mi>
+        </mrow>
+        <mrow>
+          <mi> x </mi>
+          <mphantom>
+            <mo> + </mo>
+          </mphantom>
+          <mphantom>
+            <mi> y </mi>
+          </mphantom>
+          <mo> + </mo>
+          <mi> z </mi>
+        </mrow>
+      </mfrac>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfrac> 
-        &lt;mrow> 
-          &lt;mi> x &lt;/mi> 
-          &lt;mo> + &lt;/mo> 
-          &lt;mi> y &lt;/mi> 
-          &lt;mo> + &lt;/mo> 
-          &lt;mi> z &lt;/mi> 
-        &lt;/mrow> 
-        &lt;mrow> 
-          &lt;mi> x &lt;/mi> 
-          &lt;mphantom> 
-            &lt;mo> + &lt;/mo> 
-          &lt;/mphantom> 
-          &lt;mphantom> 
-            &lt;mi> y &lt;/mi> 
-          &lt;/mphantom> 
-          &lt;mo> + &lt;/mo> 
-          &lt;mi> z &lt;/mi> 
-        &lt;/mrow> 
-      &lt;/mfrac> 
+    &lt;math>
+      &lt;mfrac>
+        &lt;mrow>
+          &lt;mi> x &lt;/mi>
+          &lt;mo> + &lt;/mo>
+          &lt;mi> y &lt;/mi>
+          &lt;mo> + &lt;/mo>
+          &lt;mi> z &lt;/mi>
+        &lt;/mrow>
+        &lt;mrow>
+          &lt;mi> x &lt;/mi>
+          &lt;mphantom>
+            &lt;mo> + &lt;/mo>
+          &lt;/mphantom>
+          &lt;mphantom>
+            &lt;mi> y &lt;/mi>
+          &lt;/mphantom>
+          &lt;mo> + &lt;/mo>
+          &lt;mi> z &lt;/mi>
+        &lt;/mrow>
+      &lt;/mfrac>
     &lt;/math>
   </pre>
     <p style="text-align: right">

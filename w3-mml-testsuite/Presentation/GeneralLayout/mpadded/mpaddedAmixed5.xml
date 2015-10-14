@@ -54,92 +54,92 @@ attributes and layout schemata.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mi>A</mi> 
-        <mfrac> 
-          <mpadded lspace="2em" width="2em"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mpadded height="1 width"> 
-            <mi>A</mi> 
-          </mpadded> 
-        </mfrac> 
-        <mfrac> 
-          <mpadded width="1 height" depth="-1ex"> 
-            <mi>A</mi> 
-          </mpadded> 
-          <mpadded height="3"> 
-            <mi>A</mi> 
-          </mpadded> 
-        </mfrac> 
-        <mfrac> 
-          <mpadded width="200% width"> 
-            <mi>A</mi> 
-            <mpadded width="1em"> 
-              <msqrt> 
-                <mn>5</mn> 
-              </msqrt> 
-            </mpadded> 
-          </mpadded> 
-          <mpadded height="300% width"> 
-            <mi>A</mi> 
-          </mpadded> 
-        </mfrac> 
-        <mi>A</mi> 
-        <mpadded width="1em"> 
-          <msqrt> 
-            <mn>5</mn> 
-          </msqrt> 
-        </mpadded> 
-        <mi>A</mi> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi>A</mi>
+        <mfrac>
+          <mpadded lspace="2em" width="2em">
+            <mi>y</mi>
+          </mpadded>
+          <mpadded height="1 width">
+            <mi>A</mi>
+          </mpadded>
+        </mfrac>
+        <mfrac>
+          <mpadded width="1 height" depth="-1ex">
+            <mi>A</mi>
+          </mpadded>
+          <mpadded height="3">
+            <mi>A</mi>
+          </mpadded>
+        </mfrac>
+        <mfrac>
+          <mpadded width="200% width">
+            <mi>A</mi>
+            <mpadded width="1em">
+              <msqrt>
+                <mn>5</mn>
+              </msqrt>
+            </mpadded>
+          </mpadded>
+          <mpadded height="300% width">
+            <mi>A</mi>
+          </mpadded>
+        </mfrac>
+        <mi>A</mi>
+        <mpadded width="1em">
+          <msqrt>
+            <mn>5</mn>
+          </msqrt>
+        </mpadded>
+        <mi>A</mi>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mfrac> 
-          &lt;mpadded lspace ='2em' width='2em'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mpadded height='1 width'> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mpadded> 
-        &lt;/mfrac> 
-        &lt;mfrac> 
-          &lt;mpadded width='1 height' depth='-1ex'> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mpadded height='3'> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mpadded> 
-        &lt;/mfrac> 
-        &lt;mfrac> 
-          &lt;mpadded width='200% width'> 
-            &lt;mi>A&lt;/mi> 
-            &lt;mpadded width='1em'> 
-              &lt;msqrt> 
-                &lt;mn>5&lt;/mn> 
-              &lt;/msqrt> 
-            &lt;/mpadded> 
-          &lt;/mpadded> 
-          &lt;mpadded height='300% width'> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mpadded> 
-        &lt;/mfrac> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='1em'> 
-          &lt;msqrt> 
-            &lt;mn>5&lt;/mn> 
-          &lt;/msqrt> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mi>A&lt;/mi>
+        &lt;mfrac>
+          &lt;mpadded lspace ='2em' width='2em'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mpadded height='1 width'>
+            &lt;mi>A&lt;/mi>
+          &lt;/mpadded>
+        &lt;/mfrac>
+        &lt;mfrac>
+          &lt;mpadded width='1 height' depth='-1ex'>
+            &lt;mi>A&lt;/mi>
+          &lt;/mpadded>
+          &lt;mpadded height='3'>
+            &lt;mi>A&lt;/mi>
+          &lt;/mpadded>
+        &lt;/mfrac>
+        &lt;mfrac>
+          &lt;mpadded width='200% width'>
+            &lt;mi>A&lt;/mi>
+            &lt;mpadded width='1em'>
+              &lt;msqrt>
+                &lt;mn>5&lt;/mn>
+              &lt;/msqrt>
+            &lt;/mpadded>
+          &lt;/mpadded>
+          &lt;mpadded height='300% width'>
+            &lt;mi>A&lt;/mi>
+          &lt;/mpadded>
+        &lt;/mfrac>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='1em'>
+          &lt;msqrt>
+            &lt;mn>5&lt;/mn>
+          &lt;/msqrt>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

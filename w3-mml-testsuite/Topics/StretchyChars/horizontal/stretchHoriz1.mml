@@ -1,4 +1,4 @@
-    <math> 
+    <math>
       <mtable frame="solid">
         <mtr>
           <mtd></mtd>
@@ -8,7 +8,7 @@
           <mtd>
             <mtext>Stretching in script</mtext>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>no mrows</mtext>
@@ -19,24 +19,24 @@
               <mtext> maps to </mtext>
             </mover>
           </mtd>
-          <mtd> 
+          <mtd>
             <mover>
               <mtext> maps to </mtext>
               <mo> &#x02192; </mo>
-            </mover> 
+            </mover>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>all in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mo> &#x02192; </mo>
                 <mtext> maps to </mtext>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
           <mtd>
             <mrow>
@@ -44,20 +44,20 @@
                 <mtext> maps to </mtext>
                 <mo> &#x02192; </mo>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>op in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mover>
               <mrow>
                 <mo> &#x02192; </mo>
               </mrow>
               <mtext> maps to </mtext>
-            </mover> 
+            </mover>
           </mtd>
           <mtd>
             <mover>
@@ -65,14 +65,14 @@
               <mrow>
                 <mo> &#x02192; </mo>
               </mrow>
-            </mover> 
+            </mover>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>text in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mrow>
@@ -80,9 +80,9 @@
                 </mrow>
                 <mtext> maps to </mtext>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mtext> maps to </mtext>
@@ -90,8 +90,8 @@
                   <mo> &#x02192; </mo>
                 </mrow>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
         </mtr>
-      </mtable> 
+      </mtable>
     </math>

@@ -53,7 +53,7 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mtable frame="solid">
         <mtr>
           <mtd/>
@@ -63,7 +63,7 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>Stretching in script</mtext>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>no mrows</mtext>
@@ -74,24 +74,24 @@ http://www.w3.org/Consortium/Legal/.
               <mtext> maps to </mtext>
             </mover>
           </mtd>
-          <mtd> 
+          <mtd>
             <mover>
               <mtext> maps to </mtext>
               <mo> &#x02192; </mo>
-            </mover> 
+            </mover>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>all in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mo> &#x02192; </mo>
                 <mtext> maps to </mtext>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
           <mtd>
             <mrow>
@@ -99,20 +99,20 @@ http://www.w3.org/Consortium/Legal/.
                 <mtext> maps to </mtext>
                 <mo> &#x02192; </mo>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>op in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mover>
               <mrow>
                 <mo> &#x02192; </mo>
               </mrow>
               <mtext> maps to </mtext>
-            </mover> 
+            </mover>
           </mtd>
           <mtd>
             <mover>
@@ -120,14 +120,14 @@ http://www.w3.org/Consortium/Legal/.
               <mrow>
                 <mo> &#x02192; </mo>
               </mrow>
-            </mover> 
+            </mover>
           </mtd>
         </mtr>
         <mtr>
           <mtd>
             <mtext>text in row</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mrow>
@@ -135,9 +135,9 @@ http://www.w3.org/Consortium/Legal/.
                 </mrow>
                 <mtext> maps to </mtext>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
-          <mtd> 
+          <mtd>
             <mrow>
               <mover>
                 <mtext> maps to </mtext>
@@ -145,17 +145,17 @@ http://www.w3.org/Consortium/Legal/.
                   <mo> &#x02192; </mo>
                 </mrow>
               </mover>
-            </mrow> 
+            </mrow>
           </mtd>
         </mtr>
-      </mtable> 
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
+    &lt;math>
       &lt;mtable frame="solid">
         &lt;mtr>
           &lt;mtd>&lt;/mtd>
@@ -165,7 +165,7 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>Stretching in script&lt;/mtext>
           &lt;/mtd>
-        &lt;/mtr> 
+        &lt;/mtr>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>no mrows&lt;/mtext>
@@ -176,24 +176,24 @@ http://www.w3.org/Consortium/Legal/.
               &lt;mtext> maps to &lt;/mtext>
             &lt;/mover>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mover>
               &lt;mtext> maps to &lt;/mtext>
               &lt;mo> &amp;RightArrow; &lt;/mo>
-            &lt;/mover> 
+            &lt;/mover>
           &lt;/mtd>
         &lt;/mtr>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>all in row&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mrow>
               &lt;mover>
                 &lt;mo> &amp;RightArrow; &lt;/mo>
                 &lt;mtext> maps to &lt;/mtext>
               &lt;/mover>
-            &lt;/mrow> 
+            &lt;/mrow>
           &lt;/mtd>
           &lt;mtd>
             &lt;mrow>
@@ -201,20 +201,20 @@ http://www.w3.org/Consortium/Legal/.
                 &lt;mtext> maps to &lt;/mtext>
                 &lt;mo> &amp;RightArrow; &lt;/mo>
               &lt;/mover>
-            &lt;/mrow> 
+            &lt;/mrow>
           &lt;/mtd>
         &lt;/mtr>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>op in row&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mover>
               &lt;mrow>
                 &lt;mo> &amp;RightArrow; &lt;/mo>
               &lt;/mrow>
               &lt;mtext> maps to &lt;/mtext>
-            &lt;/mover> 
+            &lt;/mover>
           &lt;/mtd>
           &lt;mtd>
             &lt;mover>
@@ -222,14 +222,14 @@ http://www.w3.org/Consortium/Legal/.
               &lt;mrow>
                 &lt;mo> &amp;RightArrow; &lt;/mo>
               &lt;/mrow>
-            &lt;/mover> 
+            &lt;/mover>
           &lt;/mtd>
         &lt;/mtr>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>text in row&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mrow>
               &lt;mover>
                 &lt;mrow>
@@ -237,9 +237,9 @@ http://www.w3.org/Consortium/Legal/.
                 &lt;/mrow>
                 &lt;mtext> maps to &lt;/mtext>
               &lt;/mover>
-            &lt;/mrow> 
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;mrow>
               &lt;mover>
                 &lt;mtext> maps to &lt;/mtext>
@@ -247,10 +247,10 @@ http://www.w3.org/Consortium/Legal/.
                   &lt;mo> &amp;RightArrow; &lt;/mo>
                 &lt;/mrow>
               &lt;/mover>
-            &lt;/mrow> 
+            &lt;/mrow>
           &lt;/mtd>
         &lt;/mtr>
-      &lt;/mtable> 
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

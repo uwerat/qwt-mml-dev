@@ -55,7 +55,7 @@ http://www.w3.org/Consortium/Legal/.
       <mrow>
         <mi>&#x003B1;</mi>
         <mi>&#x0000A;</mi>
-        <mi>&#x003B1;</mi> 
+        <mi>&#x003B1;</mi>
       </mrow>
     </math>
   </p>
@@ -67,7 +67,7 @@ http://www.w3.org/Consortium/Legal/.
       &lt;mrow>
         &lt;mi>&amp;alpha;&lt;/mi>
         &lt;mi>&amp;NewLine;&lt;/mi>
-        &lt;mi>&amp;alpha;&lt;/mi> 
+        &lt;mi>&amp;alpha;&lt;/mi>
       &lt;/mrow>
     &lt;/math>
   </pre>

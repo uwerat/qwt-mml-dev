@@ -54,42 +54,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi>x</mi> 
-      <mo>+</mo> 
-      <mstyle background="yellow"> 
-        <mpadded> 
-          <mfrac> 
-            <mn>1</mn> 
-            <mi>&#x0210F;</mi> 
-          </mfrac> 
-          <mo>+</mo> 
-          <mi>y</mi> 
-        </mpadded> 
-      </mstyle> 
-      <mo>+</mo> 
-      <mi>x</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>x</mi>
+      <mo>+</mo>
+      <mstyle background="yellow">
+        <mpadded>
+          <mfrac>
+            <mn>1</mn>
+            <mi>&#x0210F;</mi>
+          </mfrac>
+          <mo>+</mo>
+          <mi>y</mi>
+        </mpadded>
+      </mstyle>
+      <mo>+</mo>
+      <mi>x</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle background='yellow'> 
-        &lt;mpadded> 
-          &lt;mfrac> 
-            &lt;mn>1&lt;/mn> 
-            &lt;mi>&amp;planck;&lt;/mi> 
-          &lt;/mfrac> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mpadded> 
-      &lt;/mstyle> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
+    &lt;math>
+      &lt;mi>x&lt;/mi>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle background='yellow'>
+        &lt;mpadded>
+          &lt;mfrac>
+            &lt;mn>1&lt;/mn>
+            &lt;mi>&amp;planck;&lt;/mi>
+          &lt;/mfrac>
+          &lt;mo>+&lt;/mo>
+          &lt;mi>y&lt;/mi>
+        &lt;/mpadded>
+      &lt;/mstyle>
+      &lt;mo>+&lt;/mo>
+      &lt;mi>x&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

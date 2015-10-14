@@ -53,13 +53,13 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msup foo="blue"> 
-        <mn>2</mn> 
-        <mn>5</mn> 
-      </msup> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup foo="blue">
+        <mn>2</mn>
+        <mn>5</mn>
+      </msup>
       <mo bar="2ex">+
-      </mo> 
+      </mo>
       <mi>x</mi>
     </math>
   </p>
@@ -67,13 +67,13 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;msup foo="blue"> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mn>5&lt;/mn> 
-      &lt;/msup> 
+    &lt;math>
+      &lt;msup foo="blue">
+        &lt;mn>2&lt;/mn>
+        &lt;mn>5&lt;/mn>
+      &lt;/msup>
       &lt;mo bar="2ex">+
-      &lt;/mo> 
+      &lt;/mo>
       &lt;mi>x&lt;/mi>
     &lt;/math>
   </pre>

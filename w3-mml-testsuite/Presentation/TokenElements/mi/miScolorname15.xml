@@ -53,20 +53,20 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi mathcolor="blue">x</mi> 
-      <mo>+</mo> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi mathcolor="blue">x</mi>
+      <mo>+</mo>
       <mn mathcolor="#00ff33" color="purple">7
-      </mn> 
-      <mo>+</mo> 
-      <mn color="yellow">3</mn> 
-      <mo>+</mo> 
-      <mstyle color="red"> 
-        <mi>z</mi> 
-        <mo>+</mo> 
-        <mi mathcolor="blue">q</mi> 
-        <mo>+</mo> 
-        <mi>q</mi> 
+      </mn>
+      <mo>+</mo>
+      <mn color="yellow">3</mn>
+      <mo>+</mo>
+      <mstyle color="red">
+        <mi>z</mi>
+        <mo>+</mo>
+        <mi mathcolor="blue">q</mi>
+        <mo>+</mo>
+        <mi>q</mi>
       </mstyle>
     </math>
   </p>
@@ -74,20 +74,20 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi mathcolor="blue">x&lt;/mi> 
-      &lt;mo>+&lt;/mo> 
+    &lt;math>
+      &lt;mi mathcolor="blue">x&lt;/mi>
+      &lt;mo>+&lt;/mo>
       &lt;mn mathcolor="#00ff33" color="purple">7
-      &lt;/mn> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mn color="yellow">3&lt;/mn> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle color="red"> 
-        &lt;mi>z&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathcolor="blue">q&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi>q&lt;/mi> 
+      &lt;/mn>
+      &lt;mo>+&lt;/mo>
+      &lt;mn color="yellow">3&lt;/mn>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle color="red">
+        &lt;mi>z&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathcolor="blue">q&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi>q&lt;/mi>
       &lt;/mstyle>
     &lt;/math>
   </pre>

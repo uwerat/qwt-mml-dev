@@ -53,50 +53,50 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <msubsup> 
-          <mo> &#x0222B; </mo> 
-          <mn> 0 </mn> 
-          <mn> 1 </mn> 
-        </msubsup> 
-        <mrow> 
-          <msup> 
-            <mi> &#x02147; </mi> 
-            <mi> x </mi> 
-          </msup> 
-          <mo> &#x02062; </mo> 
-          <mrow> 
-            <mo> &#x02146; </mo> 
-            <mi> x </mi> 
-          </mrow> 
-        </mrow> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msubsup>
+          <mo> &#x0222B; </mo>
+          <mn> 0 </mn>
+          <mn> 1 </mn>
+        </msubsup>
+        <mrow>
+          <msup>
+            <mi> &#x02147; </mi>
+            <mi> x </mi>
+          </msup>
+          <mo> &#x02062; </mo>
+          <mrow>
+            <mo> &#x02146; </mo>
+            <mi> x </mi>
+          </mrow>
+        </mrow>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;msubsup> 
-          &lt;mo> &amp;int; &lt;/mo> 
-          &lt;mn> 0 &lt;/mn> 
-          &lt;mn> 1 &lt;/mn> 
-        &lt;/msubsup> 
-        &lt;mrow> 
-          &lt;msup> 
-            &lt;mi> &amp;ExponentialE; &lt;/mi> 
-            &lt;mi> x &lt;/mi> 
-          &lt;/msup> 
-          &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
-          &lt;mrow> 
-            &lt;mo> &amp;DifferentialD; &lt;/mo> 
-            &lt;mi> x &lt;/mi> 
-          &lt;/mrow> 
-        &lt;/mrow> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;msubsup>
+          &lt;mo> &amp;int; &lt;/mo>
+          &lt;mn> 0 &lt;/mn>
+          &lt;mn> 1 &lt;/mn>
+        &lt;/msubsup>
+        &lt;mrow>
+          &lt;msup>
+            &lt;mi> &amp;ExponentialE; &lt;/mi>
+            &lt;mi> x &lt;/mi>
+          &lt;/msup>
+          &lt;mo> &amp;InvisibleTimes; &lt;/mo>
+          &lt;mrow>
+            &lt;mo> &amp;DifferentialD; &lt;/mo>
+            &lt;mi> x &lt;/mi>
+          &lt;/mrow>
+        &lt;/mrow>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -54,42 +54,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfenced> 
-        <msub> 
-          <mi>a</mi> 
-          <mn>1</mn> 
-        </msub> 
-        <msub> 
-          <mi>a</mi> 
-          <mn>2</mn> 
-        </msub> 
-        <msub> 
-          <mi>a</mi> 
-          <mn>3</mn> 
-        </msub> 
-      </mfenced> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced>
+        <msub>
+          <mi>a</mi>
+          <mn>1</mn>
+        </msub>
+        <msub>
+          <mi>a</mi>
+          <mn>2</mn>
+        </msub>
+        <msub>
+          <mi>a</mi>
+          <mn>3</mn>
+        </msub>
+      </mfenced>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfenced> 
-        &lt;msub> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mn>1&lt;/mn> 
-        &lt;/msub> 
-        &lt;msub> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msub> 
-        &lt;msub> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/msub> 
-      &lt;/mfenced> 
+    &lt;math>
+      &lt;mfenced>
+        &lt;msub>
+          &lt;mi>a&lt;/mi>
+          &lt;mn>1&lt;/mn>
+        &lt;/msub>
+        &lt;msub>
+          &lt;mi>a&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msub>
+        &lt;msub>
+          &lt;mi>a&lt;/mi>
+          &lt;mn>3&lt;/mn>
+        &lt;/msub>
+      &lt;/mfenced>
     &lt;/math>
   </pre>
     <p style="text-align: right">

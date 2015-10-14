@@ -1,17 +1,17 @@
     <math>
       <mtable>
-        <mtr> 
+        <mtr>
           <mtd>
             <mo>&#x02190;</mo>
-          </mtd> 
+          </mtd>
           <mtd>
             <mn>1</mn>
           </mtd>
         </mtr>
-        <mtr> 
+        <mtr>
           <mtd>
             <mtext>a long cell</mtext>
-          </mtd> 
+          </mtd>
           <mtd>
             <mn>1</mn>
           </mtd>

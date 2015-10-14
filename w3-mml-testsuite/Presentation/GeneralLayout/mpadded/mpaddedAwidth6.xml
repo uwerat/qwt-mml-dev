@@ -36,7 +36,7 @@ http://www.w3.org/Consortium/Legal/.
         <tr>
           <td style="text-align: right" valign="top">Description:</td>
           <td>Basic test of padding on the right with &lt;mpadded> using the
-    &lt;i>width&lt;/i> attribute.  This example runs through all the formats for 
+    &lt;i>width&lt;/i> attribute.  This example runs through all the formats for
     specifying &lt;mpadded> attribute values.</td>
         </tr>
         <tr>
@@ -55,60 +55,60 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mi>A</mi> 
-        <mpadded width="1.5 height"> 
-          <mi>A</mi> 
-        </mpadded> 
-        <mi>A</mi> 
-        <mpadded width="3 width"> 
-          <mi>A</mi> 
-        </mpadded> 
-        <mi>A</mi> 
-        <mpadded width="150% width"> 
-          <mi>A</mi> 
-        </mpadded> 
-        <mi>A</mi> 
-        <mpadded width="2em"> 
-          <mi>A</mi> 
-        </mpadded> 
-        <mi>A</mi> 
-        <mpadded width="12pt"> 
-          <mi>A</mi> 
-        </mpadded> 
-        <mi>A</mi> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi>A</mi>
+        <mpadded width="1.5 height">
+          <mi>A</mi>
+        </mpadded>
+        <mi>A</mi>
+        <mpadded width="3 width">
+          <mi>A</mi>
+        </mpadded>
+        <mi>A</mi>
+        <mpadded width="150% width">
+          <mi>A</mi>
+        </mpadded>
+        <mi>A</mi>
+        <mpadded width="2em">
+          <mi>A</mi>
+        </mpadded>
+        <mi>A</mi>
+        <mpadded width="12pt">
+          <mi>A</mi>
+        </mpadded>
+        <mi>A</mi>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='1.5 height'> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='3 width'> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='150% width'> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='2em'> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-        &lt;mpadded width='12pt'> 
-          &lt;mi>A&lt;/mi> 
-        &lt;/mpadded> 
-        &lt;mi>A&lt;/mi> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='1.5 height'>
+          &lt;mi>A&lt;/mi>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='3 width'>
+          &lt;mi>A&lt;/mi>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='150% width'>
+          &lt;mi>A&lt;/mi>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='2em'>
+          &lt;mi>A&lt;/mi>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+        &lt;mpadded width='12pt'>
+          &lt;mi>A&lt;/mi>
+        &lt;/mpadded>
+        &lt;mi>A&lt;/mi>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

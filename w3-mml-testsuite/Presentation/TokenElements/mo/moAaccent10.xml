@@ -59,70 +59,70 @@ unwanted side effects from setting the 'accent' attribute on an
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mover> 
-          <mrow> 
-            <mi>G</mi> 
-            <mo>-</mo> 
-            <mn>1</mn> 
-          </mrow> 
-          <mo accent="false">&#x000AF;</mo> 
-        </mover> 
-        <mo accent="false">+</mo> 
-        <mover accent="true"> 
-          <mrow> 
-            <mi>G</mi> 
-            <mo>-</mo> 
-            <mn>1</mn> 
-          </mrow> 
-          <mo accent="false">&#x000AF;</mo> 
-        </mover> 
-        <mo accent="true">+</mo> 
-        <mover accent="false"> 
-          <mrow> 
-            <mi>G</mi> 
-            <mo>-</mo> 
-            <mn>1</mn> 
-          </mrow> 
-          <mo accent="false">&#x000AF;</mo> 
-        </mover> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mover>
+          <mrow>
+            <mi>G</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo accent="false">&#x000AF;</mo>
+        </mover>
+        <mo accent="false">+</mo>
+        <mover accent="true">
+          <mrow>
+            <mi>G</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo accent="false">&#x000AF;</mo>
+        </mover>
+        <mo accent="true">+</mo>
+        <mover accent="false">
+          <mrow>
+            <mi>G</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+          </mrow>
+          <mo accent="false">&#x000AF;</mo>
+        </mover>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mover> 
-          &lt;mrow> 
-            &lt;mi>G&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mrow> 
-          &lt;mo accent='false'>&amp;OverBar;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mo accent='false'>+&lt;/mo> 
-        &lt;mover accent='true'> 
-          &lt;mrow> 
-            &lt;mi>G&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mrow> 
-          &lt;mo accent='false'>&amp;OverBar;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mo accent='true'>+&lt;/mo> 
-        &lt;mover accent='false'> 
-          &lt;mrow> 
-            &lt;mi>G&lt;/mi> 
-            &lt;mo>-&lt;/mo> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mrow> 
-          &lt;mo accent='false'>&amp;OverBar;&lt;/mo> 
-        &lt;/mover> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mover>
+          &lt;mrow>
+            &lt;mi>G&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mn>1&lt;/mn>
+          &lt;/mrow>
+          &lt;mo accent='false'>&amp;OverBar;&lt;/mo>
+        &lt;/mover>
+        &lt;mo accent='false'>+&lt;/mo>
+        &lt;mover accent='true'>
+          &lt;mrow>
+            &lt;mi>G&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mn>1&lt;/mn>
+          &lt;/mrow>
+          &lt;mo accent='false'>&amp;OverBar;&lt;/mo>
+        &lt;/mover>
+        &lt;mo accent='true'>+&lt;/mo>
+        &lt;mover accent='false'>
+          &lt;mrow>
+            &lt;mi>G&lt;/mi>
+            &lt;mo>-&lt;/mo>
+            &lt;mn>1&lt;/mn>
+          &lt;/mrow>
+          &lt;mo accent='false'>&amp;OverBar;&lt;/mo>
+        &lt;/mover>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

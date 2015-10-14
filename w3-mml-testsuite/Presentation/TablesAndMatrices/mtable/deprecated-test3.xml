@@ -53,42 +53,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mn>2</mn> 
-        <mtr> 
-          <mn>5</mn> 
-        </mtr> 
-        <mtr> 
-          <mtd/> 
-        </mtr> 
-        <mtd> 
-          <mn>4</mn> 
-          <mo>+</mo> 
-          <mn>3</mn> 
-        </mtd> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mn>2</mn>
+        <mtr>
+          <mn>5</mn>
+        </mtr>
+        <mtr>
+          <mtd/>
+        </mtr>
+        <mtd>
+          <mn>4</mn>
+          <mo>+</mo>
+          <mn>3</mn>
+        </mtd>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mtr> 
-          &lt;mn>5&lt;/mn> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd>&lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtd> 
-          &lt;mn>4&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mtd> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mn>2&lt;/mn>
+        &lt;mtr>
+          &lt;mn>5&lt;/mn>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>&lt;/mtd>
+        &lt;/mtr>
+        &lt;mtd>
+          &lt;mn>4&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mn>3&lt;/mn>
+        &lt;/mtd>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -55,66 +55,66 @@ element is used to make the spaces visible.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfrac> 
-        <mrow> 
-          <mi>x</mi> 
-          <mspace width="1cm"/> 
-          <mi>y</mi> 
-        </mrow> 
-        <mn>2</mn> 
-      </mfrac> 
-      <mo>+</mo> 
-      <mfrac> 
-        <mn>2</mn> 
-        <mrow> 
-          <mi>x</mi> 
-          <mspace height="1cm"/> 
-          <mi>y</mi> 
-        </mrow> 
-      </mfrac> 
-      <mo>+</mo> 
-      <mfrac> 
-        <mrow> 
-          <mi>x</mi> 
-          <mspace depth="1cm"/> 
-          <mi>y</mi> 
-        </mrow> 
-        <mn>2</mn> 
-      </mfrac> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mi>x</mi>
+          <mspace width="1cm"/>
+          <mi>y</mi>
+        </mrow>
+        <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+        <mn>2</mn>
+        <mrow>
+          <mi>x</mi>
+          <mspace height="1cm"/>
+          <mi>y</mi>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+        <mrow>
+          <mi>x</mi>
+          <mspace depth="1cm"/>
+          <mi>y</mi>
+        </mrow>
+        <mn>2</mn>
+      </mfrac>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfrac> 
-        &lt;mrow> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mspace width="1cm"/> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mrow> 
-        &lt;mn>2&lt;/mn> 
-      &lt;/mfrac> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mfrac> 
-        &lt;mn>2&lt;/mn> 
-        &lt;mrow> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mspace height="1cm"/> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mrow> 
-      &lt;/mfrac> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mfrac> 
-        &lt;mrow> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mspace depth="1cm"/> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mrow> 
-        &lt;mn>2&lt;/mn> 
-      &lt;/mfrac> 
+    &lt;math>
+      &lt;mfrac>
+        &lt;mrow>
+          &lt;mi>x&lt;/mi>
+          &lt;mspace width="1cm"/>
+          &lt;mi>y&lt;/mi>
+        &lt;/mrow>
+        &lt;mn>2&lt;/mn>
+      &lt;/mfrac>
+      &lt;mo>+&lt;/mo>
+      &lt;mfrac>
+        &lt;mn>2&lt;/mn>
+        &lt;mrow>
+          &lt;mi>x&lt;/mi>
+          &lt;mspace height="1cm"/>
+          &lt;mi>y&lt;/mi>
+        &lt;/mrow>
+      &lt;/mfrac>
+      &lt;mo>+&lt;/mo>
+      &lt;mfrac>
+        &lt;mrow>
+          &lt;mi>x&lt;/mi>
+          &lt;mspace depth="1cm"/>
+          &lt;mi>y&lt;/mi>
+        &lt;/mrow>
+        &lt;mn>2&lt;/mn>
+      &lt;/mfrac>
     &lt;/math>
   </pre>
     <p style="text-align: right">

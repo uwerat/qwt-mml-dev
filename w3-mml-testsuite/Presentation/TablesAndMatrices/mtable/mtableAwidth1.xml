@@ -53,50 +53,50 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable frame="solid" width="25em"> 
-        <mtr> 
-          <mtd> 
-            <mn>1</mn> 
-          </mtd> 
-          <mtd> 
-            <mn>2</mn> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>x</mi> 
-          </mtd> 
-          <mtd> 
-            <mi>y</mi> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable frame="solid" width="25em">
+        <mtr>
+          <mtd>
+            <mn>1</mn>
+          </mtd>
+          <mtd>
+            <mn>2</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>x</mi>
+          </mtd>
+          <mtd>
+            <mi>y</mi>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable frame="solid" width="25em"> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mn>2&lt;/mn> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>x&lt;/mi> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable frame="solid" width="25em">
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mn>1&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mn>2&lt;/mn>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>x&lt;/mi>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>y&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

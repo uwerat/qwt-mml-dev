@@ -53,24 +53,24 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <prsubset/> 
-        <ci> A </ci> 
-        <ci> B </ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <prsubset/>
+        <ci> A </ci>
+        <ci> B </ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;prsubset/> 
-        &lt;ci> A &lt;/ci> 
-        &lt;ci> B &lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;prsubset/>
+        &lt;ci> A &lt;/ci>
+        &lt;ci> B &lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

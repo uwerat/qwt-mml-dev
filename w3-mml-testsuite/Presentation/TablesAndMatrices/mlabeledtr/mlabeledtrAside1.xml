@@ -75,7 +75,7 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mi>c</mi>
           </mtd>
-        </mlabeledtr> 
+        </mlabeledtr>
         <mlabeledtr>
           <mtd>
             <mtext>2nd</mtext>
@@ -97,7 +97,7 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mi>z</mi>
           </mtd>
-        </mlabeledtr> 
+        </mlabeledtr>
         <mlabeledtr>
           <mtd>
             <mtext>3rd</mtext>
@@ -112,7 +112,7 @@ http://www.w3.org/Consortium/Legal/.
             <mn>5</mn>
           </mtd>
         </mlabeledtr>
-      </mtable> 
+      </mtable>
     </math>
   </p>
     <hr/>
@@ -141,7 +141,7 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mi>c&lt;/mi>
           &lt;/mtd>
-        &lt;/mlabeledtr> 
+        &lt;/mlabeledtr>
         &lt;mlabeledtr>
           &lt;mtd>
             &lt;mtext>2nd&lt;/mtext>
@@ -163,7 +163,7 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mi>z&lt;/mi>
           &lt;/mtd>
-        &lt;/mlabeledtr> 
+        &lt;/mlabeledtr>
         &lt;mlabeledtr>
           &lt;mtd>
             &lt;mtext>3rd&lt;/mtext>
@@ -178,7 +178,7 @@ http://www.w3.org/Consortium/Legal/.
             &lt;mn>5&lt;/mn>
           &lt;/mtd>
         &lt;/mlabeledtr>
-      &lt;/mtable> 
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

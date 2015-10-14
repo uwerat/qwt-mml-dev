@@ -53,56 +53,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <implies/> 
-        <apply> 
-          <eq/> 
-          <ci>A</ci> 
-          <ci>B</ci> 
-        </apply> 
-        <apply> 
-          <eq/> 
-          <apply> 
-            <union/> 
-            <ci>A</ci> 
-            <ci>C</ci> 
-          </apply> 
-          <apply> 
-            <union/> 
-            <ci>B</ci> 
-            <ci>C</ci> 
-          </apply> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <implies/>
+        <apply>
+          <eq/>
+          <ci>A</ci>
+          <ci>B</ci>
+        </apply>
+        <apply>
+          <eq/>
+          <apply>
+            <union/>
+            <ci>A</ci>
+            <ci>C</ci>
+          </apply>
+          <apply>
+            <union/>
+            <ci>B</ci>
+            <ci>C</ci>
+          </apply>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;implies/> 
-        &lt;apply> 
-          &lt;eq/> 
-          &lt;ci>A&lt;/ci> 
-          &lt;ci>B&lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;eq/> 
-          &lt;apply> 
-            &lt;union/> 
-            &lt;ci>A&lt;/ci> 
-            &lt;ci>C&lt;/ci> 
-          &lt;/apply> 
-          &lt;apply> 
-            &lt;union/> 
-            &lt;ci>B&lt;/ci> 
-            &lt;ci>C&lt;/ci> 
-          &lt;/apply> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;implies/>
+        &lt;apply>
+          &lt;eq/>
+          &lt;ci>A&lt;/ci>
+          &lt;ci>B&lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;eq/>
+          &lt;apply>
+            &lt;union/>
+            &lt;ci>A&lt;/ci>
+            &lt;ci>C&lt;/ci>
+          &lt;/apply>
+          &lt;apply>
+            &lt;union/>
+            &lt;ci>B&lt;/ci>
+            &lt;ci>C&lt;/ci>
+          &lt;/apply>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -1,10 +1,10 @@
-    <math> 
-      <apply> 
-        <arcsinh/> 
-        <apply> 
-          <plus/> 
-          <ci>a</ci> 
-          <ci>b</ci> 
-        </apply> 
-      </apply> 
+    <math>
+      <apply>
+        <arcsinh/>
+        <apply>
+          <plus/>
+          <ci>a</ci>
+          <ci>b</ci>
+        </apply>
+      </apply>
     </math>

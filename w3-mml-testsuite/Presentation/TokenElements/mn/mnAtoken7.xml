@@ -54,44 +54,44 @@ in various combinations.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mn>5</mn> 
-        <mo>+</mo> 
-        <mn fontweight="bold" fontstyle="italic">31 
-        </mn> 
-        <mo>+</mo> 
-        <mn fontfamily="Helvetica" color="#00ff00">0 
-        </mn> 
-        <mo>+</mo> 
-        <mn fontweight="bold" fontsize="36pt">14 
-        </mn> 
-        <mo>+</mo> 
-        <mn fontweight="bold" fontstyle="normal">123456789 
-        </mn> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mn>5</mn>
+        <mo>+</mo>
+        <mn fontweight="bold" fontstyle="italic">31
+        </mn>
+        <mo>+</mo>
+        <mn fontfamily="Helvetica" color="#00ff00">0
+        </mn>
+        <mo>+</mo>
+        <mn fontweight="bold" fontsize="36pt">14
+        </mn>
+        <mo>+</mo>
+        <mn fontweight="bold" fontstyle="normal">123456789
+        </mn>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mn>5&lt;/mn> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mn fontweight='bold' fontstyle='italic'>31 
-        &lt;/mn> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mn fontfamily='Helvetica' color='#00ff00'>0 
-        &lt;/mn> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mn fontweight='bold' fontsize='36pt'>14 
-        &lt;/mn> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mn fontweight='bold' fontstyle='normal'>123456789 
-        &lt;/mn> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mn>5&lt;/mn>
+        &lt;mo>+&lt;/mo>
+        &lt;mn fontweight='bold' fontstyle='italic'>31
+        &lt;/mn>
+        &lt;mo>+&lt;/mo>
+        &lt;mn fontfamily='Helvetica' color='#00ff00'>0
+        &lt;/mn>
+        &lt;mo>+&lt;/mo>
+        &lt;mn fontweight='bold' fontsize='36pt'>14
+        &lt;/mn>
+        &lt;mo>+&lt;/mo>
+        &lt;mn fontweight='bold' fontstyle='normal'>123456789
+        &lt;/mn>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

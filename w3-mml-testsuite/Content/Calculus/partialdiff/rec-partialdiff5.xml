@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <partialdiff/> 
-        <list> 
-          <cn>1</cn> 
-          <cn>1</cn> 
-          <cn>3</cn> 
-        </list> 
-        <ci type="fn">f</ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <partialdiff/>
+        <list>
+          <cn>1</cn>
+          <cn>1</cn>
+          <cn>3</cn>
+        </list>
+        <ci type="fn">f</ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;partialdiff/> 
-        &lt;list> 
-          &lt;cn>1&lt;/cn> 
-          &lt;cn>1&lt;/cn> 
-          &lt;cn>3&lt;/cn> 
-        &lt;/list> 
-        &lt;ci type="fn">f&lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;partialdiff/>
+        &lt;list>
+          &lt;cn>1&lt;/cn>
+          &lt;cn>1&lt;/cn>
+          &lt;cn>3&lt;/cn>
+        &lt;/list>
+        &lt;ci type="fn">f&lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

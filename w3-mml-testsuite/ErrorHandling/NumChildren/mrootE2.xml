@@ -54,34 +54,34 @@ Of course, it could be more friendly than the one shown below...</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mroot> 
-          <mn>3</mn> 
-          <mi>x</mi> 
-          <mn>2</mn> 
-        </mroot> 
-        <mroot> 
-          <mn>3</mn> 
-        </mroot> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mroot>
+          <mn>3</mn>
+          <mi>x</mi>
+          <mn>2</mn>
+        </mroot>
+        <mroot>
+          <mn>3</mn>
+        </mroot>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mroot> 
-          &lt;mn>3&lt;/mn> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/mroot> 
-        &lt;mroot> 
-          &lt;mn>3&lt;/mn> 
-        &lt;/mroot> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mroot>
+          &lt;mn>3&lt;/mn>
+          &lt;mi>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/mroot>
+        &lt;mroot>
+          &lt;mn>3&lt;/mn>
+        &lt;/mroot>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

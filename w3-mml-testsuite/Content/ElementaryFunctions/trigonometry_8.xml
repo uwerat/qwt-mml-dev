@@ -53,212 +53,212 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <plus/> 
-        <apply> 
-          <sin/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <cos/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <tan/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <sec/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <csc/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <cot/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <sinh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <cosh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <tanh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <sech/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <csch/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <coth/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arcsin/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccos/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arctan/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arcsec/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccsc/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccot/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arcsinh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccosh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arctanh/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arcsech/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccsch/> 
-          <ci> x </ci> 
-        </apply> 
-        <apply> 
-          <arccoth/> 
-          <ci> x </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <plus/>
+        <apply>
+          <sin/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <cos/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <tan/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <sec/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <csc/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <cot/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <sinh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <cosh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <tanh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <sech/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <csch/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <coth/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arcsin/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccos/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arctan/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arcsec/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccsc/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccot/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arcsinh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccosh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arctanh/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arcsech/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccsch/>
+          <ci> x </ci>
+        </apply>
+        <apply>
+          <arccoth/>
+          <ci> x </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;plus/> 
-        &lt;apply> 
-          &lt;sin/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;cos/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;tan/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;sec/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;csc/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;cot/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;sinh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;cosh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;tanh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;sech/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;csch/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;coth/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arcsin/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccos/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arctan/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arcsec/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccsc/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccot/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arcsinh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccosh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arctanh/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arcsech/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccsch/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;arccoth/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;plus/>
+        &lt;apply>
+          &lt;sin/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;cos/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;tan/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;sec/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;csc/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;cot/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;sinh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;cosh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;tanh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;sech/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;csch/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;coth/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arcsin/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccos/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arctan/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arcsec/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccsc/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccot/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arcsinh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccosh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arctanh/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arcsech/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccsch/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+        &lt;apply>
+          &lt;arccoth/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

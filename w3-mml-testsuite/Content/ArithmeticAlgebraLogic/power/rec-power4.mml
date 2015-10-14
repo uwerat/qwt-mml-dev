@@ -1,7 +1,7 @@
-    <math> 
-      <apply> 
-        <power/> 
-        <ci> x </ci> 
-        <cn> 3 </cn> 
-      </apply> 
+    <math>
+      <apply>
+        <power/>
+        <ci> x </ci>
+        <cn> 3 </cn>
+      </apply>
     </math>

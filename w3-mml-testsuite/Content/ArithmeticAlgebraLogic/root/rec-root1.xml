@@ -53,28 +53,28 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <root/> 
-        <degree> 
-          <ci type="integer"> n </ci> 
-        </degree> 
-        <ci> a </ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <root/>
+        <degree>
+          <ci type="integer"> n </ci>
+        </degree>
+        <ci> a </ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;root/> 
-        &lt;degree> 
-          &lt;ci type='integer'> n &lt;/ci> 
-        &lt;/degree> 
-        &lt;ci> a &lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;root/>
+        &lt;degree>
+          &lt;ci type='integer'> n &lt;/ci>
+        &lt;/degree>
+        &lt;ci> a &lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

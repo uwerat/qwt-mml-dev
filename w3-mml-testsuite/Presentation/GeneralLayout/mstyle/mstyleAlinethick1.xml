@@ -53,72 +53,72 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mfrac> 
-            <mi>y</mi> 
-            <mn>2</mn> 
-          </mfrac> 
-        </mfrac> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle>
+        <mfrac>
+          <mi>x</mi>
+          <mfrac>
+            <mi>y</mi>
+            <mn>2</mn>
+          </mfrac>
+        </mfrac>
       </mstyle>
-      <mo>=</mo> 
-      <mstyle> 
-        <mfrac linethickness="2"> 
-          <mi>x</mi> 
-          <mfrac> 
-            <mi>y</mi> 
-            <mn>2</mn> 
-          </mfrac> 
-        </mfrac> 
+      <mo>=</mo>
+      <mstyle>
+        <mfrac linethickness="2">
+          <mi>x</mi>
+          <mfrac>
+            <mi>y</mi>
+            <mn>2</mn>
+          </mfrac>
+        </mfrac>
       </mstyle>
-      <mo>=</mo> 
-      <mstyle linethickness="2"> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mfrac> 
-            <mi>y</mi> 
-            <mn>2</mn> 
-          </mfrac> 
-        </mfrac> 
-      </mstyle> 
+      <mo>=</mo>
+      <mstyle linethickness="2">
+        <mfrac>
+          <mi>x</mi>
+          <mfrac>
+            <mi>y</mi>
+            <mn>2</mn>
+          </mfrac>
+        </mfrac>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mfrac> 
-            &lt;mi>y&lt;/mi> 
-            &lt;mn>2&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mfrac> 
+    &lt;math>
+      &lt;mstyle>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mfrac>
+            &lt;mi>y&lt;/mi>
+            &lt;mn>2&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mfrac>
       &lt;/mstyle>
-      &lt;mo>=&lt;/mo> 
-      &lt;mstyle> 
-        &lt;mfrac linethickness="2"> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mfrac> 
-            &lt;mi>y&lt;/mi> 
-            &lt;mn>2&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mfrac> 
+      &lt;mo>=&lt;/mo>
+      &lt;mstyle>
+        &lt;mfrac linethickness="2">
+          &lt;mi>x&lt;/mi>
+          &lt;mfrac>
+            &lt;mi>y&lt;/mi>
+            &lt;mn>2&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mfrac>
       &lt;/mstyle>
-      &lt;mo>=&lt;/mo> 
-      &lt;mstyle linethickness="2"> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mfrac> 
-            &lt;mi>y&lt;/mi> 
-            &lt;mn>2&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
+      &lt;mo>=&lt;/mo>
+      &lt;mstyle linethickness="2">
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mfrac>
+            &lt;mi>y&lt;/mi>
+            &lt;mn>2&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mfrac>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -55,18 +55,18 @@ http://www.w3.org/Consortium/Legal/.
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mtable>
-        <mtr> 
+        <mtr>
           <mtd>
             <mo>&#x02190;</mo>
-          </mtd> 
+          </mtd>
           <mtd>
             <mn>1</mn>
           </mtd>
         </mtr>
-        <mtr> 
+        <mtr>
           <mtd>
             <mtext>a long cell</mtext>
-          </mtd> 
+          </mtd>
           <mtd>
             <mn>1</mn>
           </mtd>
@@ -80,18 +80,18 @@ http://www.w3.org/Consortium/Legal/.
     <pre>
     &lt;math>
       &lt;mtable>
-        &lt;mtr> 
+        &lt;mtr>
           &lt;mtd>
             &lt;mo>&amp;larr;&lt;/mo>
-          &lt;/mtd> 
+          &lt;/mtd>
           &lt;mtd>
             &lt;mn>1&lt;/mn>
           &lt;/mtd>
         &lt;/mtr>
-        &lt;mtr> 
+        &lt;mtr>
           &lt;mtd>
             &lt;mtext>a long cell&lt;/mtext>
-          &lt;/mtd> 
+          &lt;/mtd>
           &lt;mtd>
             &lt;mn>1&lt;/mn>
           &lt;/mtd>

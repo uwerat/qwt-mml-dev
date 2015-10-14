@@ -53,20 +53,20 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="blue" color="white"> 
-        <mtext> Theorem 1: </mtext> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="blue" color="white">
+        <mtext> Theorem 1: </mtext>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle background='blue' color='white'> 
-        &lt;mtext> Theorem 1: &lt;/mtext> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle background='blue' color='white'>
+        &lt;mtext> Theorem 1: &lt;/mtext>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

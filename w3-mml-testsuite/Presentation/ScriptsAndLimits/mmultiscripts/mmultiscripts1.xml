@@ -53,56 +53,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mmultiscripts> 
-          <mi> F </mi> 
-          <mn> 1 </mn> 
-          <none/> 
-          <mprescripts/> 
-          <mn> 0 </mn> 
-          <none/> 
-        </mmultiscripts> 
-        <mo> &#x02061; </mo> 
-        <mrow> 
-          <mo> ( </mo> 
-          <mrow> 
-            <mo> ; </mo> 
-            <mi> a </mi> 
-            <mo> ; </mo> 
-            <mi> z </mi> 
-          </mrow> 
-          <mo> ) </mo> 
-        </mrow> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mmultiscripts>
+          <mi> F </mi>
+          <mn> 1 </mn>
+          <none/>
+          <mprescripts/>
+          <mn> 0 </mn>
+          <none/>
+        </mmultiscripts>
+        <mo> &#x02061; </mo>
+        <mrow>
+          <mo> ( </mo>
+          <mrow>
+            <mo> ; </mo>
+            <mi> a </mi>
+            <mo> ; </mo>
+            <mi> z </mi>
+          </mrow>
+          <mo> ) </mo>
+        </mrow>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mmultiscripts> 
-          &lt;mi> F &lt;/mi> 
-          &lt;mn> 1 &lt;/mn> 
-          &lt;none/> 
-          &lt;mprescripts/> 
-          &lt;mn> 0 &lt;/mn> 
-          &lt;none/> 
-        &lt;/mmultiscripts> 
-        &lt;mo> &amp;ApplyFunction; &lt;/mo> 
-        &lt;mrow> 
-          &lt;mo> ( &lt;/mo> 
-          &lt;mrow> 
-            &lt;mo> ; &lt;/mo> 
-            &lt;mi> a &lt;/mi> 
-            &lt;mo> ; &lt;/mo> 
-            &lt;mi> z &lt;/mi> 
-          &lt;/mrow> 
-          &lt;mo> ) &lt;/mo> 
-        &lt;/mrow> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mmultiscripts>
+          &lt;mi> F &lt;/mi>
+          &lt;mn> 1 &lt;/mn>
+          &lt;none/>
+          &lt;mprescripts/>
+          &lt;mn> 0 &lt;/mn>
+          &lt;none/>
+        &lt;/mmultiscripts>
+        &lt;mo> &amp;ApplyFunction; &lt;/mo>
+        &lt;mrow>
+          &lt;mo> ( &lt;/mo>
+          &lt;mrow>
+            &lt;mo> ; &lt;/mo>
+            &lt;mi> a &lt;/mi>
+            &lt;mo> ; &lt;/mo>
+            &lt;mi> z &lt;/mi>
+          &lt;/mrow>
+          &lt;mo> ) &lt;/mo>
+        &lt;/mrow>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

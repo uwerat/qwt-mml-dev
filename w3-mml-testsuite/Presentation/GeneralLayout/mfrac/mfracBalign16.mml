@@ -3,40 +3,40 @@
         <mtable>
           <mtr>
             <mtd>
-              <mi>x</mi> 
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mi>a</mi>
                 <mi>b</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mn>1</mn>
                 <mi>b</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mn>1</mn>
                 <mn>2</mn>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <msup>
@@ -45,12 +45,12 @@
                 </msup>
                 <mi>z</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mi>z</mi>
@@ -59,7 +59,7 @@
                   <mn>2</mn>
                 </msup>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
         </mtable>

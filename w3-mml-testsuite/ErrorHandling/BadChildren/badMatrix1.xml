@@ -53,8 +53,8 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
         <mtr>
           <mtd>
             <mtext>T1</mtext>
@@ -62,119 +62,119 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>T2</mtext>
           </mtd>
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>empty matrix</mtext> 
-          </mtd> 
-          <mtd> 
-            <matrix> </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>empty matrix row in matrix</mtext> 
-          </mtd> 
-          <mtd> 
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>empty matrix</mtext>
+          </mtd>
+          <mtd>
+            <matrix> </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>empty matrix row in matrix</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>empty matrix row</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>empty matrix row</mtext>
+          </mtd>
+          <mtd>
             <matrixrow>
-            </matrixrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>1 ele in matrixrow</mtext> 
-          </mtd> 
-          <mtd> 
+            </matrixrow>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>1 ele in matrixrow</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
                 <cn>2</cn>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>2 ele in matrixrow</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>2 ele in matrixrow</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
                 <cn>2</cn>
                 <cn>4</cn>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>3 ele in matrixrow</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>3 ele in matrixrow</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
                 <cn>2</cn>
                 <cn>4</cn>
                 <cn>8</cn>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>2 matrixrows</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>2 matrixrows</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
                 <cn>1</cn>
                 <cn>3</cn>
                 <cn>5</cn>
-              </matrixrow> 
+              </matrixrow>
               <matrixrow>
                 <cn>2</cn>
                 <cn>4</cn>
                 <cn>8</cn>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>2 matrixrows w/ empty row</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>2 matrixrows w/ empty row</mtext>
+          </mtd>
+          <mtd>
             <matrix>
               <matrixrow>
-              </matrixrow> 
+              </matrixrow>
               <matrixrow>
                 <cn>2</cn>
                 <cn>4</cn>
                 <cn>8</cn>
-              </matrixrow> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mtext>non matrix row in matrix</mtext> 
-          </mtd> 
-          <mtd> 
+              </matrixrow>
+            </matrix>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtext>non matrix row in matrix</mtext>
+          </mtd>
+          <mtd>
             <matrix>
-              <cn>2</cn> 
-            </matrix> 
-          </mtd> 
-        </mtr> 
+              <cn>2</cn>
+            </matrix>
+          </mtd>
+        </mtr>
         <mtr>
           <mtd>
             <mtext>B1</mtext>
@@ -182,16 +182,16 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>B2</mtext>
           </mtd>
-        </mtr> 
-      </mtable> 
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
+    &lt;math>
+      &lt;mtable>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>T1&lt;/mtext>
@@ -199,119 +199,119 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>T2&lt;/mtext>
           &lt;/mtd>
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>empty matrix&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;matrix> &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>empty matrix row in matrix&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>empty matrix&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;matrix> &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>empty matrix row in matrix&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>empty matrix row&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>empty matrix row&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrixrow>
-            &lt;/matrixrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>1 ele in matrixrow&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+            &lt;/matrixrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>1 ele in matrixrow&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
                 &lt;cn>2&lt;/cn>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>2 ele in matrixrow&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>2 ele in matrixrow&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
                 &lt;cn>2&lt;/cn>
                 &lt;cn>4&lt;/cn>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>3 ele in matrixrow&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>3 ele in matrixrow&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
                 &lt;cn>2&lt;/cn>
                 &lt;cn>4&lt;/cn>
                 &lt;cn>8&lt;/cn>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>2 matrixrows&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>2 matrixrows&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
                 &lt;cn>1&lt;/cn>
                 &lt;cn>3&lt;/cn>
                 &lt;cn>5&lt;/cn>
-              &lt;/matrixrow> 
+              &lt;/matrixrow>
               &lt;matrixrow>
                 &lt;cn>2&lt;/cn>
                 &lt;cn>4&lt;/cn>
                 &lt;cn>8&lt;/cn>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>2 matrixrows w/ empty row&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>2 matrixrows w/ empty row&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
               &lt;matrixrow>
-              &lt;/matrixrow> 
+              &lt;/matrixrow>
               &lt;matrixrow>
                 &lt;cn>2&lt;/cn>
                 &lt;cn>4&lt;/cn>
                 &lt;cn>8&lt;/cn>
-              &lt;/matrixrow> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mtext>non matrix row in matrix&lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
+              &lt;/matrixrow>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mtext>non matrix row in matrix&lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
             &lt;matrix>
-              &lt;cn>2&lt;/cn> 
-            &lt;/matrix> 
-          &lt;/mtd> 
-        &lt;/mtr> 
+              &lt;cn>2&lt;/cn>
+            &lt;/matrix>
+          &lt;/mtd>
+        &lt;/mtr>
         &lt;mtr>
           &lt;mtd>
             &lt;mtext>B1&lt;/mtext>
@@ -319,8 +319,8 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>B2&lt;/mtext>
           &lt;/mtd>
-        &lt;/mtr> 
-      &lt;/mtable> 
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

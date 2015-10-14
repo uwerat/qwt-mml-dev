@@ -54,118 +54,118 @@ and color attribute inheritance with &lt;mstyle>, &lt;mo> and &lt;mi>.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd> 
-            <mi>A</mi> 
-            <mo color="black">+</mo> 
-            <mi color="GREEN">B</mi> 
-            <mo color="Silver">+</mo> 
-            <mi color="Lime">C</mi> 
-            <mo color="Gray">+</mo> 
-            <mstyle background="#fff"> 
-              <mrow> 
-                <mi color="OLIVE">D</mi> 
-                <mo color="white">+</mo> 
-                <mi color="Yellow">E</mi> 
-              </mrow> 
-            </mstyle> 
-            <mo color="Maroon">+</mo> 
-            <mi color="Navy">F</mi> 
-            <mo color="Red">+</mo> 
-            <mi color="Blue">G</mi> 
-            <mo color="Purple">+</mo> 
-            <mi color="Teal">H</mi> 
-            <mo color="Fuchsia">+</mo> 
-            <mi color="Aqua">I</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>A</mi> 
-            <mo mathcolor="black">+</mo> 
-            <mi mathcolor="GREEN">B</mi> 
-            <mo mathcolor="Silver">+</mo> 
-            <mi mathcolor="Lime">C</mi> 
-            <mo mathcolor="Gray">+</mo> 
-            <mstyle mathbackground="#fff"> 
-              <mrow> 
-                <mi mathcolor="OLIVE">D</mi> 
-                <mo mathcolor="white">+</mo> 
-                <mi mathcolor="Yellow">E</mi> 
-              </mrow> 
-            </mstyle> 
-            <mo mathcolor="Maroon">+</mo> 
-            <mi mathcolor="Navy">F</mi> 
-            <mo mathcolor="Red">+</mo> 
-            <mi mathcolor="Blue">G</mi> 
-            <mo mathcolor="Purple">+</mo> 
-            <mi mathcolor="Teal">H</mi> 
-            <mo mathcolor="Fuchsia">+</mo> 
-            <mi mathcolor="Aqua">I</mi> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd>
+            <mi>A</mi>
+            <mo color="black">+</mo>
+            <mi color="GREEN">B</mi>
+            <mo color="Silver">+</mo>
+            <mi color="Lime">C</mi>
+            <mo color="Gray">+</mo>
+            <mstyle background="#fff">
+              <mrow>
+                <mi color="OLIVE">D</mi>
+                <mo color="white">+</mo>
+                <mi color="Yellow">E</mi>
+              </mrow>
+            </mstyle>
+            <mo color="Maroon">+</mo>
+            <mi color="Navy">F</mi>
+            <mo color="Red">+</mo>
+            <mi color="Blue">G</mi>
+            <mo color="Purple">+</mo>
+            <mi color="Teal">H</mi>
+            <mo color="Fuchsia">+</mo>
+            <mi color="Aqua">I</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>A</mi>
+            <mo mathcolor="black">+</mo>
+            <mi mathcolor="GREEN">B</mi>
+            <mo mathcolor="Silver">+</mo>
+            <mi mathcolor="Lime">C</mi>
+            <mo mathcolor="Gray">+</mo>
+            <mstyle mathbackground="#fff">
+              <mrow>
+                <mi mathcolor="OLIVE">D</mi>
+                <mo mathcolor="white">+</mo>
+                <mi mathcolor="Yellow">E</mi>
+              </mrow>
+            </mstyle>
+            <mo mathcolor="Maroon">+</mo>
+            <mi mathcolor="Navy">F</mi>
+            <mo mathcolor="Red">+</mo>
+            <mi mathcolor="Blue">G</mi>
+            <mo mathcolor="Purple">+</mo>
+            <mi mathcolor="Teal">H</mi>
+            <mo mathcolor="Fuchsia">+</mo>
+            <mi mathcolor="Aqua">I</mi>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>A&lt;/mi> 
-            &lt;mo color='black'>+&lt;/mo> 
-            &lt;mi color='GREEN'>B&lt;/mi> 
-            &lt;mo color='Silver'>+&lt;/mo> 
-            &lt;mi color='Lime'>C&lt;/mi> 
-            &lt;mo color='Gray'>+&lt;/mo> 
-            &lt;mstyle background='#fff'> 
-              &lt;mrow> 
-                &lt;mi color='OLIVE'>D&lt;/mi> 
-                &lt;mo color='white'>+&lt;/mo> 
-                &lt;mi color='Yellow'>E&lt;/mi> 
-              &lt;/mrow> 
-            &lt;/mstyle> 
-            &lt;mo color='Maroon'>+&lt;/mo> 
-            &lt;mi color='Navy'>F&lt;/mi> 
-            &lt;mo color='Red'>+&lt;/mo> 
-            &lt;mi color='Blue'>G&lt;/mi> 
-            &lt;mo color='Purple'>+&lt;/mo> 
-            &lt;mi color='Teal'>H&lt;/mi> 
-            &lt;mo color='Fuchsia'>+&lt;/mo> 
-            &lt;mi color='Aqua'>I&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>A&lt;/mi> 
-            &lt;mo mathcolor='black'>+&lt;/mo> 
-            &lt;mi mathcolor='GREEN'>B&lt;/mi> 
-            &lt;mo mathcolor='Silver'>+&lt;/mo> 
-            &lt;mi mathcolor='Lime'>C&lt;/mi> 
-            &lt;mo mathcolor='Gray'>+&lt;/mo> 
-            &lt;mstyle mathbackround='#fff'> 
-              &lt;mrow> 
-                &lt;mi mathcolor='OLIVE'>D&lt;/mi> 
-                &lt;mo mathcolor='white'>+&lt;/mo> 
-                &lt;mi mathcolor='Yellow'>E&lt;/mi> 
-              &lt;/mrow> 
-            &lt;/mstyle> 
-            &lt;mo mathcolor='Maroon'>+&lt;/mo> 
-            &lt;mi mathcolor='Navy'>F&lt;/mi> 
-            &lt;mo mathcolor='Red'>+&lt;/mo> 
-            &lt;mi mathcolor='Blue'>G&lt;/mi> 
-            &lt;mo mathcolor='Purple'>+&lt;/mo> 
-            &lt;mi mathcolor='Teal'>H&lt;/mi> 
-            &lt;mo mathcolor='Fuchsia'>+&lt;/mo> 
-            &lt;mi mathcolor='Aqua'>I&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>A&lt;/mi>
+            &lt;mo color='black'>+&lt;/mo>
+            &lt;mi color='GREEN'>B&lt;/mi>
+            &lt;mo color='Silver'>+&lt;/mo>
+            &lt;mi color='Lime'>C&lt;/mi>
+            &lt;mo color='Gray'>+&lt;/mo>
+            &lt;mstyle background='#fff'>
+              &lt;mrow>
+                &lt;mi color='OLIVE'>D&lt;/mi>
+                &lt;mo color='white'>+&lt;/mo>
+                &lt;mi color='Yellow'>E&lt;/mi>
+              &lt;/mrow>
+            &lt;/mstyle>
+            &lt;mo color='Maroon'>+&lt;/mo>
+            &lt;mi color='Navy'>F&lt;/mi>
+            &lt;mo color='Red'>+&lt;/mo>
+            &lt;mi color='Blue'>G&lt;/mi>
+            &lt;mo color='Purple'>+&lt;/mo>
+            &lt;mi color='Teal'>H&lt;/mi>
+            &lt;mo color='Fuchsia'>+&lt;/mo>
+            &lt;mi color='Aqua'>I&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>A&lt;/mi>
+            &lt;mo mathcolor='black'>+&lt;/mo>
+            &lt;mi mathcolor='GREEN'>B&lt;/mi>
+            &lt;mo mathcolor='Silver'>+&lt;/mo>
+            &lt;mi mathcolor='Lime'>C&lt;/mi>
+            &lt;mo mathcolor='Gray'>+&lt;/mo>
+            &lt;mstyle mathbackround='#fff'>
+              &lt;mrow>
+                &lt;mi mathcolor='OLIVE'>D&lt;/mi>
+                &lt;mo mathcolor='white'>+&lt;/mo>
+                &lt;mi mathcolor='Yellow'>E&lt;/mi>
+              &lt;/mrow>
+            &lt;/mstyle>
+            &lt;mo mathcolor='Maroon'>+&lt;/mo>
+            &lt;mi mathcolor='Navy'>F&lt;/mi>
+            &lt;mo mathcolor='Red'>+&lt;/mo>
+            &lt;mi mathcolor='Blue'>G&lt;/mi>
+            &lt;mo mathcolor='Purple'>+&lt;/mo>
+            &lt;mi mathcolor='Teal'>H&lt;/mi>
+            &lt;mo mathcolor='Fuchsia'>+&lt;/mo>
+            &lt;mi mathcolor='Aqua'>I&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

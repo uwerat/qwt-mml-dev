@@ -4,9 +4,9 @@
           <mtd>
             <mtext>correct:</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
             </bvar>
           </mtd>
         </mtr>
@@ -14,12 +14,12 @@
           <mtd>
             <mtext>correct w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -27,7 +27,7 @@
           <mtd>
             <mtext>missing &#x003c;ci&amp;#x0003E;:</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <bvar> </bvar>
           </mtd>
         </mtr>
@@ -36,11 +36,11 @@
             <mtext>missing &#x003c;ci&amp;#x0003E; w/ degree:
             </mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
+          <mtd>
+            <bvar>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -48,10 +48,10 @@
           <mtd>
             <mtext>2 &#x003c;ci&amp;#x0003E;s</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
-              <ci>y</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
+              <ci>y</ci>
             </bvar>
           </mtd>
         </mtr>
@@ -59,13 +59,13 @@
           <mtd>
             <mtext>2 w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
-              <ci>y</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
+              <ci>y</ci>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -73,9 +73,9 @@
           <mtd>
             <mtext>&#x003c;mi&amp;#x0003E; used</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <mi>x</mi> 
+          <mtd>
+            <bvar>
+              <mi>x</mi>
             </bvar>
           </mtd>
         </mtr>
@@ -83,12 +83,12 @@
           <mtd>
             <mtext>&#x003c;mi&amp;#x0003E; used w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <mi>x</mi> 
+          <mtd>
+            <bvar>
+              <mi>x</mi>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -97,14 +97,14 @@
             <mtext>missing &#x003c;ci&amp;#x0003E;, 2 degrees
             </mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
+          <mtd>
+            <bvar>
               <degree>
                 <cn>4</cn>
-              </degree> 
+              </degree>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>

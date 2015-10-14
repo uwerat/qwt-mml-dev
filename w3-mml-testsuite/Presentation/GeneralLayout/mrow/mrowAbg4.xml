@@ -53,35 +53,35 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="yellow"> 
-        <mo>(</mo> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="yellow">
+        <mo>(</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
+        <mo>+</mo>
         <mi>x</mi>
-        <mo>+</mo> 
-        <mi>x</mi> 
-        <mo>)</mo> 
+        <mo>+</mo>
+        <mi>x</mi>
+        <mo>)</mo>
       </mstyle>
     </math>
   </p>
@@ -89,35 +89,35 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle background='yellow'> 
-        &lt;mo>(&lt;/mo> 
+    &lt;math>
+      &lt;mstyle background='yellow'>
+        &lt;mo>(&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
+        &lt;mo>+&lt;/mo>
         &lt;mi>x&lt;/mi>
-        &lt;mo>+&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>)&lt;/mo> 
+        &lt;mo>+&lt;/mo>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>)&lt;/mo>
       &lt;/mstyle>
     &lt;/math>
   </pre>

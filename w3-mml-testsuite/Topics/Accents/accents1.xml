@@ -53,35 +53,35 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle fontsize="24pt"> 
-        <mover accent="false"> 
-          <mi>x</mi> 
-          <mo>&#x002DC;</mo> 
-        </mover> 
-        <mover accent="true"> 
-          <mi>x</mi> 
-          <mo>&#x002DC;</mo> 
-        </mover> 
-        <mover> 
-          <mi>x</mi> 
-          <mo>&#x002DC;</mo> 
-        </mover> 
-        <mover> 
-          <mi>x</mi> 
-          <mo>+</mo> 
-        </mover> 
-        <mover accent="false"> 
-          <mi>x</mi> 
-          <mo>+</mo> 
-        </mover> 
-      </mstyle> 
-      <msup> 
-        <mover accent="false"> 
-          <mi>x</mi> 
-          <mo>&#x02032;</mo> 
-        </mover> 
-        <mn>2</mn> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle fontsize="24pt">
+        <mover accent="false">
+          <mi>x</mi>
+          <mo>&#x002DC;</mo>
+        </mover>
+        <mover accent="true">
+          <mi>x</mi>
+          <mo>&#x002DC;</mo>
+        </mover>
+        <mover>
+          <mi>x</mi>
+          <mo>&#x002DC;</mo>
+        </mover>
+        <mover>
+          <mi>x</mi>
+          <mo>+</mo>
+        </mover>
+        <mover accent="false">
+          <mi>x</mi>
+          <mo>+</mo>
+        </mover>
+      </mstyle>
+      <msup>
+        <mover accent="false">
+          <mi>x</mi>
+          <mo>&#x02032;</mo>
+        </mover>
+        <mn>2</mn>
       </msup>
     </math>
   </p>
@@ -89,35 +89,35 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle fontsize="24pt"> 
-        &lt;mover accent="false"> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>&amp;tilde;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mover accent="true"> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>&amp;tilde;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mover> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>&amp;tilde;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mover> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-        &lt;/mover> 
-        &lt;mover accent="false"> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-        &lt;/mover> 
-      &lt;/mstyle> 
-      &lt;msup> 
-        &lt;mover accent="false"> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>&amp;prime;&lt;/mo> 
-        &lt;/mover> 
-        &lt;mn>2&lt;/mn> 
+    &lt;math>
+      &lt;mstyle fontsize="24pt">
+        &lt;mover accent="false">
+          &lt;mi>x&lt;/mi>
+          &lt;mo>&amp;tilde;&lt;/mo>
+        &lt;/mover>
+        &lt;mover accent="true">
+          &lt;mi>x&lt;/mi>
+          &lt;mo>&amp;tilde;&lt;/mo>
+        &lt;/mover>
+        &lt;mover>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>&amp;tilde;&lt;/mo>
+        &lt;/mover>
+        &lt;mover>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+        &lt;/mover>
+        &lt;mover accent="false">
+          &lt;mi>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+        &lt;/mover>
+      &lt;/mstyle>
+      &lt;msup>
+        &lt;mover accent="false">
+          &lt;mi>x&lt;/mi>
+          &lt;mo>&amp;prime;&lt;/mo>
+        &lt;/mover>
+        &lt;mn>2&lt;/mn>
       &lt;/msup>
     &lt;/math>
   </pre>

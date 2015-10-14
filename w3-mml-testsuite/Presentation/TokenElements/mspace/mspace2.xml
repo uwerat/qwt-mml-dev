@@ -53,24 +53,24 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="#ccffff"> 
-        <mi>H</mi> 
-        <mspace width="-10px"/> 
-        <mi>H</mi> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="#ccffff">
+        <mi>H</mi>
+        <mspace width="-10px"/>
+        <mi>H</mi>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle background='#ccffff'> 
-        &lt;mi>H&lt;/mi> 
-        &lt;mspace width='-10px'/> 
-        &lt;mi>H&lt;/mi> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle background='#ccffff'>
+        &lt;mi>H&lt;/mi>
+        &lt;mspace width='-10px'/>
+        &lt;mi>H&lt;/mi>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

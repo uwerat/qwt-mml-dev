@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <list> 
-        <cn type="real"> 12345.7 </cn> 
-        <cn type="integer"> 12345 </cn> 
-        <cn type="integer" base="16"> AB3 </cn> 
-        <cn type="rational"> 12342 <sep/> 2342342 </cn> 
-        <cn type="complex-cartesian"> 12.3 <sep/> 5 </cn> 
-        <cn type="complex-polar"> 2 <sep/> 3.1415 </cn> 
-        <cn type="constant"> &#x003C0; </cn> 
-      </list> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <list>
+        <cn type="real"> 12345.7 </cn>
+        <cn type="integer"> 12345 </cn>
+        <cn type="integer" base="16"> AB3 </cn>
+        <cn type="rational"> 12342 <sep/> 2342342 </cn>
+        <cn type="complex-cartesian"> 12.3 <sep/> 5 </cn>
+        <cn type="complex-polar"> 2 <sep/> 3.1415 </cn>
+        <cn type="constant"> &#x003C0; </cn>
+      </list>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;list> 
-        &lt;cn type="real"> 12345.7 &lt;/cn> 
-        &lt;cn type="integer"> 12345 &lt;/cn> 
-        &lt;cn type="integer" base="16"> AB3 &lt;/cn> 
-        &lt;cn type="rational"> 12342 &lt;sep/> 2342342 &lt;/cn> 
-        &lt;cn type="complex-cartesian"> 12.3 &lt;sep/> 5 &lt;/cn> 
-        &lt;cn type="complex-polar"> 2 &lt;sep/> 3.1415 &lt;/cn> 
-        &lt;cn type="constant"> &amp;pi; &lt;/cn> 
-      &lt;/list> 
+    &lt;math>
+      &lt;list>
+        &lt;cn type="real"> 12345.7 &lt;/cn>
+        &lt;cn type="integer"> 12345 &lt;/cn>
+        &lt;cn type="integer" base="16"> AB3 &lt;/cn>
+        &lt;cn type="rational"> 12342 &lt;sep/> 2342342 &lt;/cn>
+        &lt;cn type="complex-cartesian"> 12.3 &lt;sep/> 5 &lt;/cn>
+        &lt;cn type="complex-polar"> 2 &lt;sep/> 3.1415 &lt;/cn>
+        &lt;cn type="constant"> &amp;pi; &lt;/cn>
+      &lt;/list>
     &lt;/math>
   </pre>
     <p style="text-align: right">

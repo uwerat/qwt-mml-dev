@@ -54,18 +54,18 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtext> This is &#x02009; some &#x02009;&#x0200A;&#x0200A; text with spaces. 
-      </mtext> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtext> This is &#x02009; some &#x02009;&#x0200A;&#x0200A; text with spaces.
+      </mtext>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtext> This is &amp;ThinSpace; some &amp;ThickSpace; text with spaces. 
-      &lt;/mtext> 
+    &lt;math>
+      &lt;mtext> This is &amp;ThinSpace; some &amp;ThickSpace; text with spaces.
+      &lt;/mtext>
     &lt;/math>
   </pre>
     <p style="text-align: right">

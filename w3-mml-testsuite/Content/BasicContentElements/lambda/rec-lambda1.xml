@@ -53,40 +53,40 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <lambda> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <apply> 
-          <sin/> 
-          <apply> 
-            <plus/> 
-            <ci> x </ci> 
-            <cn> 1 </cn> 
-          </apply> 
-        </apply> 
-      </lambda> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <lambda>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <apply>
+          <sin/>
+          <apply>
+            <plus/>
+            <ci> x </ci>
+            <cn> 1 </cn>
+          </apply>
+        </apply>
+      </lambda>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;lambda> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/bvar> 
-        &lt;apply> 
-          &lt;sin/> 
-          &lt;apply> 
-            &lt;plus/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;cn> 1 &lt;/cn> 
-          &lt;/apply> 
-        &lt;/apply> 
-      &lt;/lambda> 
+    &lt;math>
+      &lt;lambda>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+        &lt;/bvar>
+        &lt;apply>
+          &lt;sin/>
+          &lt;apply>
+            &lt;plus/>
+            &lt;ci> x &lt;/ci>
+            &lt;cn> 1 &lt;/cn>
+          &lt;/apply>
+        &lt;/apply>
+      &lt;/lambda>
     &lt;/math>
   </pre>
     <p style="text-align: right">

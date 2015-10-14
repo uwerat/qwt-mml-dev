@@ -53,76 +53,76 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mo stretchy="false">(</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">)</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">[</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">]</mo> 
-      <mo stretchy="false">&#x0230A;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x0230B;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x02308;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x02309;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x02016;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">{</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">}</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x02329;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x0232A;</mo> 
-      <mi>H</mi> 
-      <mi>&#x021C0;</mi> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x022F1;</mo> 
-      <mi>H</mi> 
-      <mo stretchy="false">&#x002D9;</mo> 
-      <mi>H</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mo stretchy="false">(</mo>
+      <mi>H</mi>
+      <mo stretchy="false">)</mo>
+      <mi>H</mi>
+      <mo stretchy="false">[</mo>
+      <mi>H</mi>
+      <mo stretchy="false">]</mo>
+      <mo stretchy="false">&#x0230A;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x0230B;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x02308;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x02309;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x02016;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">{</mo>
+      <mi>H</mi>
+      <mo stretchy="false">}</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x02329;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x0232A;</mo>
+      <mi>H</mi>
+      <mi>&#x021C0;</mi>
+      <mi>H</mi>
+      <mo stretchy="false">&#x022F1;</mo>
+      <mi>H</mi>
+      <mo stretchy="false">&#x002D9;</mo>
+      <mi>H</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mo stretchy='false'>(&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>)&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>[&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>]&lt;/mo> 
-      &lt;mo stretchy='false'>&amp;lfloor;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;rfloor;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;lceil;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;rceil;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;Verbar;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>{&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>}&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;langle;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;rangle;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mi>&amp;rharu;&lt;/mi> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;dtdot;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
-      &lt;mo stretchy='false'>&amp;dot;&lt;/mo> 
-      &lt;mi>H&lt;/mi> 
+    &lt;math>
+      &lt;mo stretchy='false'>(&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>)&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>[&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>]&lt;/mo>
+      &lt;mo stretchy='false'>&amp;lfloor;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;rfloor;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;lceil;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;rceil;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;Verbar;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>{&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>}&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;langle;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;rangle;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mi>&amp;rharu;&lt;/mi>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;dtdot;&lt;/mo>
+      &lt;mi>H&lt;/mi>
+      &lt;mo stretchy='false'>&amp;dot;&lt;/mo>
+      &lt;mi>H&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

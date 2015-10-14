@@ -54,116 +54,116 @@ fontsize/mathsize attribute inheritance with &lt;mstyle> and &lt;mi></td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd> 
-            <mstyle fontweight="bold" color="#ff0000"> 
-              <mrow> 
-                <mi>A</mi> 
-                <mo>+</mo> 
-                <mi fontweight="normal" fontstyle="italic">A 
-                </mi> 
-                <mo>+</mo> 
-                <mstyle fontsize="0.1in"> 
-                  <mi>A</mi> 
-                  <mo>+</mo> 
-                  <mi fontsize="2em">A</mi> 
-                  <mo>+</mo> 
-                  <mi fontsize="36pt">A</mi> 
-                </mstyle> 
-                <mo>+</mo> 
-                <mi fontsize="20mm">A</mi> 
-              </mrow> 
-            </mstyle> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mstyle mathcolor="#ff0000"> 
-              <mrow> 
-                <mi>A</mi> 
-                <mo>+</mo> 
-                <mstyle mathsize="0.1in"> 
-                  <mi>A</mi> 
-                  <mo>+</mo> 
-                  <mi mathsize="2em">A</mi> 
-                  <mo>+</mo> 
-                  <mi mathsize="36pt">A</mi> 
-                </mstyle> 
-                <mo>+</mo> 
-                <mi mathsize="20mm">A</mi> 
-                <mo>+</mo> 
-                <mstyle mathsize="big"> 
-                  <mi>A</mi> 
-                  <mo>+</mo> 
-                  <mi mathsize="small">A</mi> 
-                  <mo>+</mo> 
-                  <mi mathsize="normal">A</mi> 
-                </mstyle> 
-              </mrow> 
-            </mstyle> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd>
+            <mstyle fontweight="bold" color="#ff0000">
+              <mrow>
+                <mi>A</mi>
+                <mo>+</mo>
+                <mi fontweight="normal" fontstyle="italic">A
+                </mi>
+                <mo>+</mo>
+                <mstyle fontsize="0.1in">
+                  <mi>A</mi>
+                  <mo>+</mo>
+                  <mi fontsize="2em">A</mi>
+                  <mo>+</mo>
+                  <mi fontsize="36pt">A</mi>
+                </mstyle>
+                <mo>+</mo>
+                <mi fontsize="20mm">A</mi>
+              </mrow>
+            </mstyle>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mstyle mathcolor="#ff0000">
+              <mrow>
+                <mi>A</mi>
+                <mo>+</mo>
+                <mstyle mathsize="0.1in">
+                  <mi>A</mi>
+                  <mo>+</mo>
+                  <mi mathsize="2em">A</mi>
+                  <mo>+</mo>
+                  <mi mathsize="36pt">A</mi>
+                </mstyle>
+                <mo>+</mo>
+                <mi mathsize="20mm">A</mi>
+                <mo>+</mo>
+                <mstyle mathsize="big">
+                  <mi>A</mi>
+                  <mo>+</mo>
+                  <mi mathsize="small">A</mi>
+                  <mo>+</mo>
+                  <mi mathsize="normal">A</mi>
+                </mstyle>
+              </mrow>
+            </mstyle>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mstyle fontweight='bold' color='#ff0000'> 
-              &lt;mrow> 
-                &lt;mi>A&lt;/mi> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mi fontweight='normal' fontstyle='italic'>A 
-                &lt;/mi> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mstyle fontsize='0.1in'> 
-                  &lt;mi>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi fontsize='2em'>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi fontsize='36pt'>A&lt;/mi> 
-                &lt;/mstyle> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mi fontsize='20mm'>A&lt;/mi> 
-              &lt;/mrow> 
-            &lt;/mstyle> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mstyle mathcolor='#ff0000'> 
-              &lt;mrow> 
-                &lt;mi>A&lt;/mi> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mstyle mathsize='0.1in'> 
-                  &lt;mi>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi mathsize='2em'>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi mathsize='36pt'>A&lt;/mi> 
-                &lt;/mstyle> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mi mathsize='20mm'>A&lt;/mi> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mstyle mathsize='big'> 
-                  &lt;mi>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi mathsize='small'>A&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mi mathsize='normal'>A&lt;/mi> 
-                &lt;/mstyle> 
-              &lt;/mrow> 
-            &lt;/mstyle> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mstyle fontweight='bold' color='#ff0000'>
+              &lt;mrow>
+                &lt;mi>A&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mi fontweight='normal' fontstyle='italic'>A
+                &lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mstyle fontsize='0.1in'>
+                  &lt;mi>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi fontsize='2em'>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi fontsize='36pt'>A&lt;/mi>
+                &lt;/mstyle>
+                &lt;mo>+&lt;/mo>
+                &lt;mi fontsize='20mm'>A&lt;/mi>
+              &lt;/mrow>
+            &lt;/mstyle>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mstyle mathcolor='#ff0000'>
+              &lt;mrow>
+                &lt;mi>A&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mstyle mathsize='0.1in'>
+                  &lt;mi>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi mathsize='2em'>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi mathsize='36pt'>A&lt;/mi>
+                &lt;/mstyle>
+                &lt;mo>+&lt;/mo>
+                &lt;mi mathsize='20mm'>A&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mstyle mathsize='big'>
+                  &lt;mi>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi mathsize='small'>A&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mi mathsize='normal'>A&lt;/mi>
+                &lt;/mstyle>
+              &lt;/mrow>
+            &lt;/mstyle>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -1,7 +1,7 @@
-    <math> 
-      <apply> 
-        <subset/> 
-        <ci> A </ci> 
-        <ci> B </ci> 
-      </apply> 
+    <math>
+      <apply>
+        <subset/>
+        <ci> A </ci>
+        <ci> B </ci>
+      </apply>
     </math>

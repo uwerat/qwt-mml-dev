@@ -53,40 +53,40 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <tan/> 
-        <apply> 
-          <times/> 
-          <ci>x</ci> 
-          <apply> 
-            <plus/> 
-            <ci>y</ci> 
-            <ci>z</ci> 
-          </apply> 
-          <ci> z </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <tan/>
+        <apply>
+          <times/>
+          <ci>x</ci>
+          <apply>
+            <plus/>
+            <ci>y</ci>
+            <ci>z</ci>
+          </apply>
+          <ci> z </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;tan/> 
-        &lt;apply> 
-          &lt;times/> 
-          &lt;ci>x&lt;/ci> 
-          &lt;apply> 
-            &lt;plus/> 
-            &lt;ci>y&lt;/ci> 
-            &lt;ci>z&lt;/ci> 
-          &lt;/apply> 
-          &lt;ci> z &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;tan/>
+        &lt;apply>
+          &lt;times/>
+          &lt;ci>x&lt;/ci>
+          &lt;apply>
+            &lt;plus/>
+            &lt;ci>y&lt;/ci>
+            &lt;ci>z&lt;/ci>
+          &lt;/apply>
+          &lt;ci> z &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

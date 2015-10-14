@@ -53,232 +53,232 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x0041;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="normal">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D400;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="bold">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D434;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="italic">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D468;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="bold-italic">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D538;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="double-struck">A</mi> 
-            <mo>=</mo> 
-            <mi>&#x1D538;</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D49C;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="script">A</mi> 
-            <mo>=</mo> 
-            <mi>&#x1D49C;</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D4D0;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="bold-script">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D504;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="fraktur">A</mi> 
-            <mo>=</mo> 
-            <mi>&#x1D504;</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D56C;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="bold-fraktur">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D5A0;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="sans-serif">A</mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D5D4;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="bold-sans-serif">A 
-            </mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D608;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="sans-serif-italic">A 
-            </mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D63D;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="sans-serif-bold-italic">A 
-            </mi> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mi>&#x1D670;</mi> 
-            <mo>=</mo> 
-            <mi mathvariant="monospace">A</mi> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd>
+            <mi>&#x0041;</mi>
+            <mo>=</mo>
+            <mi mathvariant="normal">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D400;</mi>
+            <mo>=</mo>
+            <mi mathvariant="bold">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D434;</mi>
+            <mo>=</mo>
+            <mi mathvariant="italic">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D468;</mi>
+            <mo>=</mo>
+            <mi mathvariant="bold-italic">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D538;</mi>
+            <mo>=</mo>
+            <mi mathvariant="double-struck">A</mi>
+            <mo>=</mo>
+            <mi>&#x1D538;</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D49C;</mi>
+            <mo>=</mo>
+            <mi mathvariant="script">A</mi>
+            <mo>=</mo>
+            <mi>&#x1D49C;</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D4D0;</mi>
+            <mo>=</mo>
+            <mi mathvariant="bold-script">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D504;</mi>
+            <mo>=</mo>
+            <mi mathvariant="fraktur">A</mi>
+            <mo>=</mo>
+            <mi>&#x1D504;</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D56C;</mi>
+            <mo>=</mo>
+            <mi mathvariant="bold-fraktur">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D5A0;</mi>
+            <mo>=</mo>
+            <mi mathvariant="sans-serif">A</mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D5D4;</mi>
+            <mo>=</mo>
+            <mi mathvariant="bold-sans-serif">A
+            </mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D608;</mi>
+            <mo>=</mo>
+            <mi mathvariant="sans-serif-italic">A
+            </mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D63D;</mi>
+            <mo>=</mo>
+            <mi mathvariant="sans-serif-bold-italic">A
+            </mi>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>&#x1D670;</mi>
+            <mo>=</mo>
+            <mi mathvariant="monospace">A</mi>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x0041;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='normal'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D400;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='bold'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D434;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='italic'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D468;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='bold-italic'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D538;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='double-struck'>A&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi>&amp;Aopf;&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D49C;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='script'>A&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi>&amp;Ascr;&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D4D0;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='bold-script'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D504;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='fraktur'>A&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi>&amp;Afr;&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D56C;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='bold-fraktur'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D5A0;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='sans-serif'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D5D4;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='bold-sans-serif'>A 
-            &lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D608;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='sans-serif-italic'>A 
-            &lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D63D;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='sans-serif-bold-italic'>A 
-            &lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mi>&amp;#x1D670;&lt;/mi> 
-            &lt;mo>=&lt;/mo> 
-            &lt;mi mathvariant='monospace'>A&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x0041;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='normal'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D400;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='bold'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D434;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='italic'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D468;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='bold-italic'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D538;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='double-struck'>A&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi>&amp;Aopf;&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D49C;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='script'>A&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi>&amp;Ascr;&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D4D0;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='bold-script'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D504;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='fraktur'>A&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi>&amp;Afr;&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D56C;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='bold-fraktur'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D5A0;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='sans-serif'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D5D4;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='bold-sans-serif'>A
+            &lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D608;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='sans-serif-italic'>A
+            &lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D63D;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='sans-serif-bold-italic'>A
+            &lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mi>&amp;#x1D670;&lt;/mi>
+            &lt;mo>=&lt;/mo>
+            &lt;mi mathvariant='monospace'>A&lt;/mi>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

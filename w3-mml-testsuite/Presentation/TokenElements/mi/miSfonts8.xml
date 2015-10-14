@@ -54,48 +54,48 @@ with &lt;mstyle> and &lt;mi></td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle fontstyle="italic" fontfamily="Helvetica"> 
-        <mrow> 
-          <mi>a</mi> 
-          <mo>+</mo> 
-          <mi fontweight="bold">b</mi> 
-          <mo>+</mo> 
-          <mi fontstyle="normal">c</mi> 
-          <mo>+</mo> 
-          <mi fontfamily="Courier" color="#00ff00">f 
-          </mi> 
-          <mo>+</mo> 
-          <mi fontsize="36pt">&#x00393;</mi> 
-          <mo>+</mo> 
-          <mi fontweight="bold" fontstyle="normal">d 
-          </mi> 
-        </mrow> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle fontstyle="italic" fontfamily="Helvetica">
+        <mrow>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi fontweight="bold">b</mi>
+          <mo>+</mo>
+          <mi fontstyle="normal">c</mi>
+          <mo>+</mo>
+          <mi fontfamily="Courier" color="#00ff00">f
+          </mi>
+          <mo>+</mo>
+          <mi fontsize="36pt">&#x00393;</mi>
+          <mo>+</mo>
+          <mi fontweight="bold" fontstyle="normal">d
+          </mi>
+        </mrow>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle fontstyle='italic' fontfamily='Helvetica'> 
-        &lt;mrow> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi fontweight='bold'>b&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi fontstyle='normal'>c&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi fontfamily='Courier' color='#00ff00'>f 
-          &lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi fontsize='36pt'>&amp;Gamma;&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi fontweight='bold' fontstyle='normal'>d 
-          &lt;/mi> 
-        &lt;/mrow> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle fontstyle='italic' fontfamily='Helvetica'>
+        &lt;mrow>
+          &lt;mi>a&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi fontweight='bold'>b&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi fontstyle='normal'>c&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi fontfamily='Courier' color='#00ff00'>f
+          &lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi fontsize='36pt'>&amp;Gamma;&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi fontweight='bold' fontstyle='normal'>d
+          &lt;/mi>
+        &lt;/mrow>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

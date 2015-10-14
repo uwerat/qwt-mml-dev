@@ -57,7 +57,7 @@ http://www.w3.org/Consortium/Legal/.
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mo>&#x0222B;</mo>
       <mi>f</mi>
-      <mrow> 
+      <mrow>
         <mo>(</mo>
         <mi>x</mi>
         <mo>)</mo>
@@ -74,7 +74,7 @@ http://www.w3.org/Consortium/Legal/.
     &lt;math>
       &lt;mo>&amp;int;&lt;/mo>
       &lt;mi>f&lt;/mi>
-      &lt;mrow> 
+      &lt;mrow>
         &lt;mo>(&lt;/mo>
         &lt;mi>x&lt;/mi>
         &lt;mo>)&lt;/mo>

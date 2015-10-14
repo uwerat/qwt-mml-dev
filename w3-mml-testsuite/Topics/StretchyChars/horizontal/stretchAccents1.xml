@@ -53,76 +53,76 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x0005E;</mo> 
-      </mover> 
-      <mo>+</mo> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x000AF;</mo> 
-      </mover> 
-      <mo>+</mo> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x02713;</mo> 
-      </mover> 
-      <mo>+</mo> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x0223C;</mo> 
-      </mover> 
-      <mo>+</mo> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x0FE37;</mo> 
-      </mover> 
-      <mo>+</mo> 
-      <munder> 
-        <mi>xxx</mi> 
-        <mo>&#x0FE38;</mo> 
-      </munder> 
-      <mo>+</mo> 
-      <mi>xxx</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x0005E;</mo>
+      </mover>
+      <mo>+</mo>
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x000AF;</mo>
+      </mover>
+      <mo>+</mo>
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x02713;</mo>
+      </mover>
+      <mo>+</mo>
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x0223C;</mo>
+      </mover>
+      <mo>+</mo>
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x0FE37;</mo>
+      </mover>
+      <mo>+</mo>
+      <munder>
+        <mi>xxx</mi>
+        <mo>&#x0FE38;</mo>
+      </munder>
+      <mo>+</mo>
+      <mi>xxx</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;Hat;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;OverBar;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;check;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;Tilde;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;OverBrace;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>+&lt;/mo> 
-      &lt;munder> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;UnderBrace;&lt;/mo> 
-      &lt;/munder> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mi>xxx&lt;/mi> 
+    &lt;math>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;Hat;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>+&lt;/mo>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;OverBar;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>+&lt;/mo>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;check;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>+&lt;/mo>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;Tilde;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>+&lt;/mo>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;OverBrace;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>+&lt;/mo>
+      &lt;munder>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;UnderBrace;&lt;/mo>
+      &lt;/munder>
+      &lt;mo>+&lt;/mo>
+      &lt;mi>xxx&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

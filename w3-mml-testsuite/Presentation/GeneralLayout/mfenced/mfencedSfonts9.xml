@@ -54,70 +54,70 @@ with &lt;mstyle> font and color attributes.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle background="#88cc88"> 
-        <mfenced> 
-          <mrow> 
-            <mi>a</mi> 
-            <mo>+</mo> 
-            <mi>b</mi> 
-          </mrow> 
-        </mfenced> 
-      </mstyle> 
-      <mo>=</mo> 
-      <mstyle fontweight="bold"> 
-        <mfenced> 
-          <mfrac> 
-            <mi>&#x003B1;</mi> 
-            <mi>&#x003B2;</mi> 
-          </mfrac> 
-        </mfenced> 
-      </mstyle> 
-      <mo>=</mo> 
-      <mstyle fontfamily="Helvetica"> 
-        <mfenced open="["> 
-          <mrow> 
-            <mi>a</mi> 
-            <mo>+</mo> 
-            <mi>b</mi> 
-          </mrow> 
-        </mfenced> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle background="#88cc88">
+        <mfenced>
+          <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+          </mrow>
+        </mfenced>
+      </mstyle>
+      <mo>=</mo>
+      <mstyle fontweight="bold">
+        <mfenced>
+          <mfrac>
+            <mi>&#x003B1;</mi>
+            <mi>&#x003B2;</mi>
+          </mfrac>
+        </mfenced>
+      </mstyle>
+      <mo>=</mo>
+      <mstyle fontfamily="Helvetica">
+        <mfenced open="[">
+          <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+          </mrow>
+        </mfenced>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle background='#88cc88'> 
-        &lt;mfenced> 
-          &lt;mrow> 
-            &lt;mi>a&lt;/mi> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>b&lt;/mi> 
-          &lt;/mrow> 
-        &lt;/mfenced> 
-      &lt;/mstyle> 
-      &lt;mo>=&lt;/mo> 
-      &lt;mstyle fontweight='bold'> 
-        &lt;mfenced> 
-          &lt;mfrac> 
-            &lt;mi>&amp;alpha;&lt;/mi> 
-            &lt;mi>&amp;beta;&lt;/mi> 
-          &lt;/mfrac> 
-        &lt;/mfenced> 
-      &lt;/mstyle> 
-      &lt;mo>=&lt;/mo> 
-      &lt;mstyle fontfamily='Helvetica'> 
-        &lt;mfenced open='['> 
-          &lt;mrow> 
-            &lt;mi>a&lt;/mi> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mi>b&lt;/mi> 
-          &lt;/mrow> 
-        &lt;/mfenced> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle background='#88cc88'>
+        &lt;mfenced>
+          &lt;mrow>
+            &lt;mi>a&lt;/mi>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>b&lt;/mi>
+          &lt;/mrow>
+        &lt;/mfenced>
+      &lt;/mstyle>
+      &lt;mo>=&lt;/mo>
+      &lt;mstyle fontweight='bold'>
+        &lt;mfenced>
+          &lt;mfrac>
+            &lt;mi>&amp;alpha;&lt;/mi>
+            &lt;mi>&amp;beta;&lt;/mi>
+          &lt;/mfrac>
+        &lt;/mfenced>
+      &lt;/mstyle>
+      &lt;mo>=&lt;/mo>
+      &lt;mstyle fontfamily='Helvetica'>
+        &lt;mfenced open='['>
+          &lt;mrow>
+            &lt;mi>a&lt;/mi>
+            &lt;mo>+&lt;/mo>
+            &lt;mi>b&lt;/mi>
+          &lt;/mrow>
+        &lt;/mfenced>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

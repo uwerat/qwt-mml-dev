@@ -53,90 +53,90 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <forall/> 
-        <bvar> 
-          <ci> p </ci> 
-        </bvar> 
-        <bvar> 
-          <ci> q </ci> 
-        </bvar> 
-        <condition> 
-          <apply> 
-            <and/> 
-            <apply> 
-              <in/> 
-              <ci> p </ci> 
-              <rationals/> 
-            </apply> 
-            <apply> 
-              <in/> 
-              <ci> q </ci> 
-              <rationals/> 
-            </apply> 
-            <apply> 
-              <lt/> 
-              <ci> p </ci> 
-              <ci> q </ci> 
-            </apply> 
-          </apply> 
-        </condition> 
-        <apply> 
-          <lt/> 
-          <ci> p </ci> 
-          <apply> 
-            <power/> 
-            <ci> q </ci> 
-            <cn> 2 </cn> 
-          </apply> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <forall/>
+        <bvar>
+          <ci> p </ci>
+        </bvar>
+        <bvar>
+          <ci> q </ci>
+        </bvar>
+        <condition>
+          <apply>
+            <and/>
+            <apply>
+              <in/>
+              <ci> p </ci>
+              <rationals/>
+            </apply>
+            <apply>
+              <in/>
+              <ci> q </ci>
+              <rationals/>
+            </apply>
+            <apply>
+              <lt/>
+              <ci> p </ci>
+              <ci> q </ci>
+            </apply>
+          </apply>
+        </condition>
+        <apply>
+          <lt/>
+          <ci> p </ci>
+          <apply>
+            <power/>
+            <ci> q </ci>
+            <cn> 2 </cn>
+          </apply>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;forall/> 
-        &lt;bvar> 
-          &lt;ci> p &lt;/ci> 
-        &lt;/bvar> 
-        &lt;bvar> 
-          &lt;ci> q &lt;/ci> 
-        &lt;/bvar> 
-        &lt;condition> 
-          &lt;apply> 
-            &lt;and/> 
-            &lt;apply> 
-              &lt;in/> 
-              &lt;ci> p &lt;/ci> 
-              &lt;rationals/> 
-            &lt;/apply> 
-            &lt;apply> 
-              &lt;in/> 
-              &lt;ci> q &lt;/ci> 
-              &lt;rationals/> 
-            &lt;/apply> 
-            &lt;apply> 
-              &lt;lt/> 
-              &lt;ci> p &lt;/ci> 
-              &lt;ci> q &lt;/ci> 
-            &lt;/apply> 
-          &lt;/apply> 
-        &lt;/condition> 
-        &lt;apply> 
-          &lt;lt/> 
-          &lt;ci> p &lt;/ci> 
-          &lt;apply> 
-            &lt;power/> 
-            &lt;ci> q &lt;/ci> 
-            &lt;cn> 2 &lt;/cn> 
-          &lt;/apply> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;forall/>
+        &lt;bvar>
+          &lt;ci> p &lt;/ci>
+        &lt;/bvar>
+        &lt;bvar>
+          &lt;ci> q &lt;/ci>
+        &lt;/bvar>
+        &lt;condition>
+          &lt;apply>
+            &lt;and/>
+            &lt;apply>
+              &lt;in/>
+              &lt;ci> p &lt;/ci>
+              &lt;rationals/>
+            &lt;/apply>
+            &lt;apply>
+              &lt;in/>
+              &lt;ci> q &lt;/ci>
+              &lt;rationals/>
+            &lt;/apply>
+            &lt;apply>
+              &lt;lt/>
+              &lt;ci> p &lt;/ci>
+              &lt;ci> q &lt;/ci>
+            &lt;/apply>
+          &lt;/apply>
+        &lt;/condition>
+        &lt;apply>
+          &lt;lt/>
+          &lt;ci> p &lt;/ci>
+          &lt;apply>
+            &lt;power/>
+            &lt;ci> q &lt;/ci>
+            &lt;cn> 2 &lt;/cn>
+          &lt;/apply>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

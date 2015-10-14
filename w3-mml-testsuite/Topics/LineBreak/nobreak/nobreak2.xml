@@ -47,60 +47,60 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mi>B</mi> 
-      <mo>-</mo> 
-      <mi>B</mi> 
-      <mo>-</mo> 
-      <mi>B</mi> 
-      <mo>-</mo> 
-      <msup> 
-        <mrow> 
-          <mo>(</mo> 
-          <mi>a</mi> 
-          <mo>-</mo> 
-          <mi>a</mi> 
-          <mo>-</mo> 
-          <mi>a</mi> 
-          <mspace linebreak="nobreak"/> 
-          <mo>-</mo> 
-          <mi>a</mi> 
-          <mo>)</mo> 
-        </mrow> 
-        <mn>22</mn> 
-      </msup> 
-      <mo>-</mo> 
-      <mi>c</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>B</mi>
+      <mo>-</mo>
+      <mi>B</mi>
+      <mo>-</mo>
+      <mi>B</mi>
+      <mo>-</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>-</mo>
+          <mi>a</mi>
+          <mo>-</mo>
+          <mi>a</mi>
+          <mspace linebreak="nobreak"/>
+          <mo>-</mo>
+          <mi>a</mi>
+          <mo>)</mo>
+        </mrow>
+        <mn>22</mn>
+      </msup>
+      <mo>-</mo>
+      <mi>c</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>B&lt;/mi> 
-      &lt;mo>-&lt;/mo> 
-      &lt;msup> 
-        &lt;mrow> 
-          &lt;mo>(&lt;/mo> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mo>-&lt;/mo> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mo>-&lt;/mo> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mspace linebreak="nobreak"/> 
-          &lt;mo>-&lt;/mo> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mo>)&lt;/mo> 
-        &lt;/mrow> 
-        &lt;mn>22&lt;/mn> 
-      &lt;/msup> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>c&lt;/mi> 
+    &lt;math>
+      &lt;mi>B&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>B&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>B&lt;/mi>
+      &lt;mo>-&lt;/mo>
+      &lt;msup>
+        &lt;mrow>
+          &lt;mo>(&lt;/mo>
+          &lt;mi>a&lt;/mi>
+          &lt;mo>-&lt;/mo>
+          &lt;mi>a&lt;/mi>
+          &lt;mo>-&lt;/mo>
+          &lt;mi>a&lt;/mi>
+          &lt;mspace linebreak="nobreak"/>
+          &lt;mo>-&lt;/mo>
+          &lt;mi>a&lt;/mi>
+          &lt;mo>)&lt;/mo>
+        &lt;/mrow>
+        &lt;mn>22&lt;/mn>
+      &lt;/msup>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>c&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

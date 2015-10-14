@@ -57,31 +57,31 @@ http://www.w3.org/Consortium/Legal/.
       <msup>
         <mi> x </mi>
         <mn> 2 </mn>
-      </msup> 
+      </msup>
       <mo> + </mo>
       <msup>
         <mi> 2 </mi>
         <mn> 2 </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo> &#x02032; </mo>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo>'</mo>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mo> '' </mo>
-      </msup> 
+      </msup>
       <mo> + </mo>
       <mi>x</mi>
       <mi>&#x02032;</mi>
-      <mo> + </mo> 
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
@@ -89,15 +89,15 @@ http://www.w3.org/Consortium/Legal/.
         </msup>
         <mn> ' </mn>
       </msup>
-      <mo> + </mo> 
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
           <mo> ' </mo>
         </msup>
         <mn> 2 </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <mrow>
@@ -105,29 +105,29 @@ http://www.w3.org/Consortium/Legal/.
           <mo> + </mo>
           <mo> ' </mo>
         </mrow>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <msup>
           <mi> x </mi>
           <mo> ' </mo>
         </msup>
         <mn> ' </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mi> x </mi>
         <msup>
           <mo> ' </mo>
           <mn> ' </mn>
         </msup>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mo> ' </mo>
         <mn> ' </mn>
-      </msup> 
-      <mo> + </mo> 
+      </msup>
+      <mo> + </mo>
       <msup>
         <mo> ' </mo>
         <mo> ' </mo>
@@ -142,31 +142,31 @@ http://www.w3.org/Consortium/Legal/.
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;mn> 2 &lt;/mn>
-      &lt;/msup> 
+      &lt;/msup>
       &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> 2 &lt;/mi>
         &lt;mn> 2 &lt;/mn>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;mo> &amp;prime; &lt;/mo>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;mo>'&lt;/mo>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;mo> '' &lt;/mo>
-      &lt;/msup> 
+      &lt;/msup>
       &lt;mo> + &lt;/mo>
       &lt;mi>x&lt;/mi>
       &lt;mi>&amp;prime;&lt;/mi>
-      &lt;mo> + &lt;/mo> 
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;msup>
           &lt;mi> x &lt;/mi>
@@ -174,15 +174,15 @@ http://www.w3.org/Consortium/Legal/.
         &lt;/msup>
         &lt;mn> ' &lt;/mn>
       &lt;/msup>
-      &lt;mo> + &lt;/mo> 
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;msup>
           &lt;mi> x &lt;/mi>
           &lt;mo> ' &lt;/mo>
         &lt;/msup>
         &lt;mn> 2 &lt;/mn>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;mrow>
@@ -190,29 +190,29 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mo> + &lt;/mo>
           &lt;mo> ' &lt;/mo>
         &lt;/mrow>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;msup>
           &lt;mi> x &lt;/mi>
           &lt;mo> ' &lt;/mo>
         &lt;/msup>
         &lt;mn> ' &lt;/mn>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mi> x &lt;/mi>
         &lt;msup>
           &lt;mo> ' &lt;/mo>
           &lt;mn> ' &lt;/mn>
         &lt;/msup>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mo> ' &lt;/mo>
         &lt;mn> ' &lt;/mn>
-      &lt;/msup> 
-      &lt;mo> + &lt;/mo> 
+      &lt;/msup>
+      &lt;mo> + &lt;/mo>
       &lt;msup>
         &lt;mo> ' &lt;/mo>
         &lt;mo> ' &lt;/mo>

@@ -56,120 +56,120 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfrac> 
-        <mn>1</mn> 
-        <mn>2</mn> 
-      </mfrac> 
-      <mo>+</mo> 
-      <mstyle displaystyle="true"> 
-        <mfrac> 
-          <mn>1</mn> 
-          <mn>2</mn> 
-        </mfrac> 
-      </mstyle> 
-      <mo>+</mo> 
-      <mfrac> 
-        <mn>1</mn> 
-        <mrow> 
-          <mn>1</mn> 
-          <mo>+</mo> 
-          <mfrac> 
-            <mi>x</mi> 
-            <mn>3</mn> 
-          </mfrac> 
-        </mrow> 
-      </mfrac> 
-      <mo>+</mo> 
-      <mstyle displaystyle="true"> 
-        <mfrac> 
-          <mn>1</mn> 
-          <mrow> 
-            <mn>1</mn> 
-            <mo>+</mo> 
-            <mfrac> 
-              <mi>x</mi> 
-              <mn>3</mn> 
-            </mfrac> 
-          </mrow> 
-        </mfrac> 
-      </mstyle> 
-      <mo>+</mo> 
-      <mstyle displaystyle="true"> 
-        <mfrac> 
-          <mn>1</mn> 
-          <mrow> 
-            <mn>1</mn> 
-            <mo>+</mo> 
-            <mstyle displaystyle="true"> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mn>3</mn> 
-              </mfrac> 
-            </mstyle> 
-          </mrow> 
-        </mfrac> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mstyle displaystyle="true">
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+      </mstyle>
+      <mo>+</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mfrac>
+            <mi>x</mi>
+            <mn>3</mn>
+          </mfrac>
+        </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mstyle displaystyle="true">
+        <mfrac>
+          <mn>1</mn>
+          <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mfrac>
+              <mi>x</mi>
+              <mn>3</mn>
+            </mfrac>
+          </mrow>
+        </mfrac>
+      </mstyle>
+      <mo>+</mo>
+      <mstyle displaystyle="true">
+        <mfrac>
+          <mn>1</mn>
+          <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mstyle displaystyle="true">
+              <mfrac>
+                <mi>x</mi>
+                <mn>3</mn>
+              </mfrac>
+            </mstyle>
+          </mrow>
+        </mfrac>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfrac> 
-        &lt;mn>1&lt;/mn> 
-        &lt;mn>2&lt;/mn> 
-      &lt;/mfrac> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;mfrac> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mfrac> 
-        &lt;mn>1&lt;/mn> 
-        &lt;mrow> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mfrac> 
-            &lt;mi>x&lt;/mi> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mfrac> 
-        &lt;/mrow> 
-      &lt;/mfrac> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;mfrac> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mrow> 
-            &lt;mn>1&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mfrac> 
-              &lt;mi>x&lt;/mi> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/mfrac> 
-          &lt;/mrow> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;mfrac> 
-          &lt;mn>1&lt;/mn> 
-          &lt;mrow> 
-            &lt;mn>1&lt;/mn> 
-            &lt;mo>+&lt;/mo> 
-            &lt;mstyle displaystyle='true'> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mn>3&lt;/mn> 
-              &lt;/mfrac> 
-            &lt;/mstyle> 
-          &lt;/mrow> 
-        &lt;/mfrac> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mfrac>
+        &lt;mn>1&lt;/mn>
+        &lt;mn>2&lt;/mn>
+      &lt;/mfrac>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle displaystyle='true'>
+        &lt;mfrac>
+          &lt;mn>1&lt;/mn>
+          &lt;mn>2&lt;/mn>
+        &lt;/mfrac>
+      &lt;/mstyle>
+      &lt;mo>+&lt;/mo>
+      &lt;mfrac>
+        &lt;mn>1&lt;/mn>
+        &lt;mrow>
+          &lt;mn>1&lt;/mn>
+          &lt;mo>+&lt;/mo>
+          &lt;mfrac>
+            &lt;mi>x&lt;/mi>
+            &lt;mn>3&lt;/mn>
+          &lt;/mfrac>
+        &lt;/mrow>
+      &lt;/mfrac>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle displaystyle='true'>
+        &lt;mfrac>
+          &lt;mn>1&lt;/mn>
+          &lt;mrow>
+            &lt;mn>1&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mfrac>
+              &lt;mi>x&lt;/mi>
+              &lt;mn>3&lt;/mn>
+            &lt;/mfrac>
+          &lt;/mrow>
+        &lt;/mfrac>
+      &lt;/mstyle>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle displaystyle='true'>
+        &lt;mfrac>
+          &lt;mn>1&lt;/mn>
+          &lt;mrow>
+            &lt;mn>1&lt;/mn>
+            &lt;mo>+&lt;/mo>
+            &lt;mstyle displaystyle='true'>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mn>3&lt;/mn>
+              &lt;/mfrac>
+            &lt;/mstyle>
+          &lt;/mrow>
+        &lt;/mfrac>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

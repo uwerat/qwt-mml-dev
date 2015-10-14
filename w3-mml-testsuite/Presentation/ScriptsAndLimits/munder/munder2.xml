@@ -53,62 +53,62 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <munder accentunder="true"> 
-          <mrow> 
-            <mi> x </mi> 
-            <mo> + </mo> 
-            <mi> y </mi> 
-            <mo> + </mo> 
-            <mi> z </mi> 
-          </mrow> 
-          <mo stretchy="true"> &#x0FE38; </mo> 
-        </munder> 
-        <mtext> &#x02009;&#x0200A;&#x0200A; vs &#x02009;&#x0200A;&#x0200A; 
-        </mtext> 
-        <munder accentunder="false"> 
-          <mrow> 
-            <mi> x </mi> 
-            <mo> + </mo> 
-            <mi> y </mi> 
-            <mo> + </mo> 
-            <mi> z </mi> 
-          </mrow> 
-          <mo stretchy="true"> &#x0FE38; </mo> 
-        </munder> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <munder accentunder="true">
+          <mrow>
+            <mi> x </mi>
+            <mo> + </mo>
+            <mi> y </mi>
+            <mo> + </mo>
+            <mi> z </mi>
+          </mrow>
+          <mo stretchy="true"> &#x0FE38; </mo>
+        </munder>
+        <mtext> &#x02009;&#x0200A;&#x0200A; vs &#x02009;&#x0200A;&#x0200A;
+        </mtext>
+        <munder accentunder="false">
+          <mrow>
+            <mi> x </mi>
+            <mo> + </mo>
+            <mi> y </mi>
+            <mo> + </mo>
+            <mi> z </mi>
+          </mrow>
+          <mo stretchy="true"> &#x0FE38; </mo>
+        </munder>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;munder accentunder="true"> 
-          &lt;mrow> 
-            &lt;mi> x &lt;/mi> 
-            &lt;mo> + &lt;/mo> 
-            &lt;mi> y &lt;/mi> 
-            &lt;mo> + &lt;/mo> 
-            &lt;mi> z &lt;/mi> 
-          &lt;/mrow> 
-          &lt;mo stretchy='true'> &amp;UnderBrace; &lt;/mo> 
-        &lt;/munder> 
-        &lt;mtext> &amp;ThickSpace; vs &amp;ThickSpace; 
-        &lt;/mtext> 
-        &lt;munder accentunder="false"> 
-          &lt;mrow> 
-            &lt;mi> x &lt;/mi> 
-            &lt;mo> + &lt;/mo> 
-            &lt;mi> y &lt;/mi> 
-            &lt;mo> + &lt;/mo> 
-            &lt;mi> z &lt;/mi> 
-          &lt;/mrow> 
-          &lt;mo stretchy='true'> &amp;UnderBrace; &lt;/mo> 
-        &lt;/munder> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;munder accentunder="true">
+          &lt;mrow>
+            &lt;mi> x &lt;/mi>
+            &lt;mo> + &lt;/mo>
+            &lt;mi> y &lt;/mi>
+            &lt;mo> + &lt;/mo>
+            &lt;mi> z &lt;/mi>
+          &lt;/mrow>
+          &lt;mo stretchy='true'> &amp;UnderBrace; &lt;/mo>
+        &lt;/munder>
+        &lt;mtext> &amp;ThickSpace; vs &amp;ThickSpace;
+        &lt;/mtext>
+        &lt;munder accentunder="false">
+          &lt;mrow>
+            &lt;mi> x &lt;/mi>
+            &lt;mo> + &lt;/mo>
+            &lt;mi> y &lt;/mi>
+            &lt;mo> + &lt;/mo>
+            &lt;mi> z &lt;/mi>
+          &lt;/mrow>
+          &lt;mo stretchy='true'> &amp;UnderBrace; &lt;/mo>
+        &lt;/munder>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

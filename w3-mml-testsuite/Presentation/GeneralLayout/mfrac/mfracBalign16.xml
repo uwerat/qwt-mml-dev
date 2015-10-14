@@ -58,40 +58,40 @@ http://www.w3.org/Consortium/Legal/.
         <mtable>
           <mtr>
             <mtd>
-              <mi>x</mi> 
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mi>a</mi>
                 <mi>b</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mn>1</mn>
                 <mi>b</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mn>1</mn>
                 <mn>2</mn>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <msup>
@@ -100,12 +100,12 @@ http://www.w3.org/Consortium/Legal/.
                 </msup>
                 <mi>z</mi>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
           <mtr>
-            <mtd> 
-              <mi>x</mi> 
+            <mtd>
+              <mi>x</mi>
               <mo>-</mo>
               <mfrac>
                 <mi>z</mi>
@@ -114,7 +114,7 @@ http://www.w3.org/Consortium/Legal/.
                   <mn>2</mn>
                 </msup>
               </mfrac>
-              <mi>x</mi> 
+              <mi>x</mi>
             </mtd>
           </mtr>
         </mtable>
@@ -130,40 +130,40 @@ http://www.w3.org/Consortium/Legal/.
         &lt;mtable>
           &lt;mtr>
             &lt;mtd>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
               &lt;mo>-&lt;/mo>
               &lt;mfrac>
                 &lt;mi>a&lt;/mi>
                 &lt;mi>b&lt;/mi>
               &lt;/mfrac>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
             &lt;/mtd>
           &lt;/mtr>
           &lt;mtr>
-            &lt;mtd> 
-              &lt;mi>x&lt;/mi> 
+            &lt;mtd>
+              &lt;mi>x&lt;/mi>
               &lt;mo>-&lt;/mo>
               &lt;mfrac>
                 &lt;mn>1&lt;/mn>
                 &lt;mi>b&lt;/mi>
               &lt;/mfrac>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
             &lt;/mtd>
           &lt;/mtr>
           &lt;mtr>
-            &lt;mtd> 
-              &lt;mi>x&lt;/mi> 
+            &lt;mtd>
+              &lt;mi>x&lt;/mi>
               &lt;mo>-&lt;/mo>
               &lt;mfrac>
                 &lt;mn>1&lt;/mn>
                 &lt;mn>2&lt;/mn>
               &lt;/mfrac>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
             &lt;/mtd>
           &lt;/mtr>
           &lt;mtr>
-            &lt;mtd> 
-              &lt;mi>x&lt;/mi> 
+            &lt;mtd>
+              &lt;mi>x&lt;/mi>
               &lt;mo>-&lt;/mo>
               &lt;mfrac>
                 &lt;msup>
@@ -172,12 +172,12 @@ http://www.w3.org/Consortium/Legal/.
                 &lt;/msup>
                 &lt;mi>z&lt;/mi>
               &lt;/mfrac>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
             &lt;/mtd>
           &lt;/mtr>
           &lt;mtr>
-            &lt;mtd> 
-              &lt;mi>x&lt;/mi> 
+            &lt;mtd>
+              &lt;mi>x&lt;/mi>
               &lt;mo>-&lt;/mo>
               &lt;mfrac>
                 &lt;mi>z&lt;/mi>
@@ -186,7 +186,7 @@ http://www.w3.org/Consortium/Legal/.
                   &lt;mn>2&lt;/mn>
                 &lt;/msup>
               &lt;/mfrac>
-              &lt;mi>x&lt;/mi> 
+              &lt;mi>x&lt;/mi>
             &lt;/mtd>
           &lt;/mtr>
         &lt;/mtable>

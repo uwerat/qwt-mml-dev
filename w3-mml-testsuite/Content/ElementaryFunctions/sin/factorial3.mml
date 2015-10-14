@@ -1,18 +1,18 @@
     <math>
       <apply>
-        <times/> 
+        <times/>
         <apply>
-          <sin/> 
+          <sin/>
           <apply>
-            <times/> 
-            <ci> x </ci> 
-            <ci> y </ci> 
-          </apply> 
-        </apply> 
+            <times/>
+            <ci> x </ci>
+            <ci> y </ci>
+          </apply>
+        </apply>
         <apply>
-          <times/> 
-          <cn>2</cn> 
-          <ci>b</ci> 
-        </apply> 
+          <times/>
+          <cn>2</cn>
+          <ci>b</ci>
+        </apply>
       </apply>
     </math>

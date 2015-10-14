@@ -54,56 +54,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mfenced open="["> 
-        <mrow> 
-          <mi>a</mi> 
-          <mo>+</mo> 
-          <mi>b</mi> 
-        </mrow> 
-      </mfenced> 
-      <mfenced open="{" close="}" separators="|;+"> 
-        <mfrac> 
-          <mi>a</mi> 
-          <mi>b</mi> 
-        </mfrac> 
-        <mfrac> 
-          <mi>d</mi> 
-          <mi>e</mi> 
-        </mfrac> 
-        <mi>a</mi> 
-        <mi>b</mi> 
-        <mi>a</mi> 
-        <mi>b</mi> 
-      </mfenced> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfenced open="[">
+        <mrow>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+        </mrow>
+      </mfenced>
+      <mfenced open="{" close="}" separators="|;+">
+        <mfrac>
+          <mi>a</mi>
+          <mi>b</mi>
+        </mfrac>
+        <mfrac>
+          <mi>d</mi>
+          <mi>e</mi>
+        </mfrac>
+        <mi>a</mi>
+        <mi>b</mi>
+        <mi>a</mi>
+        <mi>b</mi>
+      </mfenced>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mfenced open='['> 
-        &lt;mrow> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi>b&lt;/mi> 
-        &lt;/mrow> 
-      &lt;/mfenced> 
-      &lt;mfenced open='{' close='}' separators='|;+'> 
-        &lt;mfrac> 
-          &lt;mi>a&lt;/mi> 
-          &lt;mi>b&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mfrac> 
-          &lt;mi>d&lt;/mi> 
-          &lt;mi>e&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mi>a&lt;/mi> 
-        &lt;mi>b&lt;/mi> 
-        &lt;mi>a&lt;/mi> 
-        &lt;mi>b&lt;/mi> 
-      &lt;/mfenced> 
+    &lt;math>
+      &lt;mfenced open='['>
+        &lt;mrow>
+          &lt;mi>a&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi>b&lt;/mi>
+        &lt;/mrow>
+      &lt;/mfenced>
+      &lt;mfenced open='{' close='}' separators='|;+'>
+        &lt;mfrac>
+          &lt;mi>a&lt;/mi>
+          &lt;mi>b&lt;/mi>
+        &lt;/mfrac>
+        &lt;mfrac>
+          &lt;mi>d&lt;/mi>
+          &lt;mi>e&lt;/mi>
+        &lt;/mfrac>
+        &lt;mi>a&lt;/mi>
+        &lt;mi>b&lt;/mi>
+        &lt;mi>a&lt;/mi>
+        &lt;mi>b&lt;/mi>
+      &lt;/mfenced>
     &lt;/math>
   </pre>
     <p style="text-align: right">

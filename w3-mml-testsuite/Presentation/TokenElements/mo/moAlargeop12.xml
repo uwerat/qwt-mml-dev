@@ -56,56 +56,56 @@ is true or false.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mo>&#x0222B;</mo> 
-        <mi>x</mi> 
-        <mo>=</mo> 
-        <mo largeop="true">&#x0222B;</mo> 
-        <mi>x</mi> 
-        <mo>=</mo> 
-        <mo largeop="false">&#x0222B;</mo> 
-        <mi>x</mi> 
-        <mo>=</mo> 
-        <mstyle displaystyle="true"> 
-          <mo>&#x0222B;</mo> 
-          <mi>x</mi> 
-          <mo>=</mo> 
-          <mo largeop="true">&#x0222B;</mo> 
-          <mi>x</mi> 
-          <mo>=</mo> 
-          <mo largeop="false">&#x0222B;</mo> 
-          <mi>x</mi> 
-        </mstyle> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo>&#x0222B;</mo>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mo largeop="true">&#x0222B;</mo>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mo largeop="false">&#x0222B;</mo>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mstyle displaystyle="true">
+          <mo>&#x0222B;</mo>
+          <mi>x</mi>
+          <mo>=</mo>
+          <mo largeop="true">&#x0222B;</mo>
+          <mi>x</mi>
+          <mo>=</mo>
+          <mo largeop="false">&#x0222B;</mo>
+          <mi>x</mi>
+        </mstyle>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mo>&amp;int;&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>=&lt;/mo> 
-        &lt;mo largeop='true'>&amp;int;&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>=&lt;/mo> 
-        &lt;mo largeop='false'>&amp;int;&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>=&lt;/mo> 
-        &lt;mstyle displaystyle='true'> 
-          &lt;mo>&amp;int;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>=&lt;/mo> 
-          &lt;mo largeop='true'>&amp;int;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mo>=&lt;/mo> 
-          &lt;mo largeop='false'>&amp;int;&lt;/mo> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/mstyle> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mo>&amp;int;&lt;/mo>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>=&lt;/mo>
+        &lt;mo largeop='true'>&amp;int;&lt;/mo>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>=&lt;/mo>
+        &lt;mo largeop='false'>&amp;int;&lt;/mo>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>=&lt;/mo>
+        &lt;mstyle displaystyle='true'>
+          &lt;mo>&amp;int;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>=&lt;/mo>
+          &lt;mo largeop='true'>&amp;int;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+          &lt;mo>=&lt;/mo>
+          &lt;mo largeop='false'>&amp;int;&lt;/mo>
+          &lt;mi>x&lt;/mi>
+        &lt;/mstyle>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

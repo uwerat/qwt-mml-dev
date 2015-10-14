@@ -54,110 +54,110 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mstyle color="#48c" scriptlevel="+0"> 
-          <mfrac> 
-            <mfrac> 
-              <mn>1</mn> 
-              <mrow> 
-                <mi>y</mi> 
-                <mo>+</mo> 
-                <mn>3</mn> 
-              </mrow> 
-            </mfrac> 
-            <mrow> 
-              <mi>y</mi> 
-              <mo>+</mo> 
-              <mn>3</mn> 
-            </mrow> 
-          </mfrac> 
-        </mstyle> 
-        <mstyle color="#48c" scriptlevel="+1"> 
-          <mfrac> 
-            <mn>1</mn> 
-            <mrow> 
-              <mi>y</mi> 
-              <mo>+</mo> 
-              <mn>3</mn> 
-            </mrow> 
-          </mfrac> 
-        </mstyle> 
-        <mstyle color="#48c" scriptlevel="+2"> 
-          <mfrac> 
-            <mstyle color="#48c" scriptlevel="-3"> 
-              <mfrac> 
-                <mn>1</mn> 
-                <mrow> 
-                  <mi>y</mi> 
-                  <mo>+</mo> 
-                  <mn>3</mn> 
-                </mrow> 
-              </mfrac> 
-            </mstyle> 
-            <mrow> 
-              <mi>y</mi> 
-              <mo>+</mo> 
-              <mn>3</mn> 
-            </mrow> 
-          </mfrac> 
-        </mstyle> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mstyle color="#48c" scriptlevel="+0">
+          <mfrac>
+            <mfrac>
+              <mn>1</mn>
+              <mrow>
+                <mi>y</mi>
+                <mo>+</mo>
+                <mn>3</mn>
+              </mrow>
+            </mfrac>
+            <mrow>
+              <mi>y</mi>
+              <mo>+</mo>
+              <mn>3</mn>
+            </mrow>
+          </mfrac>
+        </mstyle>
+        <mstyle color="#48c" scriptlevel="+1">
+          <mfrac>
+            <mn>1</mn>
+            <mrow>
+              <mi>y</mi>
+              <mo>+</mo>
+              <mn>3</mn>
+            </mrow>
+          </mfrac>
+        </mstyle>
+        <mstyle color="#48c" scriptlevel="+2">
+          <mfrac>
+            <mstyle color="#48c" scriptlevel="-3">
+              <mfrac>
+                <mn>1</mn>
+                <mrow>
+                  <mi>y</mi>
+                  <mo>+</mo>
+                  <mn>3</mn>
+                </mrow>
+              </mfrac>
+            </mstyle>
+            <mrow>
+              <mi>y</mi>
+              <mo>+</mo>
+              <mn>3</mn>
+            </mrow>
+          </mfrac>
+        </mstyle>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mstyle color='#48c' scriptlevel='+0'> 
-          &lt;mfrac> 
-            &lt;mfrac> 
-              &lt;mn>1&lt;/mn> 
-              &lt;mrow> 
-                &lt;mi>y&lt;/mi> 
-                &lt;mo>+&lt;/mo> 
-                &lt;mn>3&lt;/mn> 
-              &lt;/mrow> 
-            &lt;/mfrac> 
-            &lt;mrow> 
-              &lt;mi>y&lt;/mi> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mfrac> 
-        &lt;/mstyle> 
-        &lt;mstyle color='#48c' scriptlevel='+1'> 
-          &lt;mfrac> 
-            &lt;mn>1&lt;/mn> 
-            &lt;mrow> 
-              &lt;mi>y&lt;/mi> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mfrac> 
-        &lt;/mstyle> 
-        &lt;mstyle color='#48c' scriptlevel='+2'> 
-          &lt;mfrac> 
-            &lt;mstyle color='#48c' scriptlevel='-3'> 
-              &lt;mfrac> 
-                &lt;mn>1&lt;/mn> 
-                &lt;mrow> 
-                  &lt;mi>y&lt;/mi> 
-                  &lt;mo>+&lt;/mo> 
-                  &lt;mn>3&lt;/mn> 
-                &lt;/mrow> 
-              &lt;/mfrac> 
-            &lt;/mstyle> 
-            &lt;mrow> 
-              &lt;mi>y&lt;/mi> 
-              &lt;mo>+&lt;/mo> 
-              &lt;mn>3&lt;/mn> 
-            &lt;/mrow> 
-          &lt;/mfrac> 
-        &lt;/mstyle> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mstyle color='#48c' scriptlevel='+0'>
+          &lt;mfrac>
+            &lt;mfrac>
+              &lt;mn>1&lt;/mn>
+              &lt;mrow>
+                &lt;mi>y&lt;/mi>
+                &lt;mo>+&lt;/mo>
+                &lt;mn>3&lt;/mn>
+              &lt;/mrow>
+            &lt;/mfrac>
+            &lt;mrow>
+              &lt;mi>y&lt;/mi>
+              &lt;mo>+&lt;/mo>
+              &lt;mn>3&lt;/mn>
+            &lt;/mrow>
+          &lt;/mfrac>
+        &lt;/mstyle>
+        &lt;mstyle color='#48c' scriptlevel='+1'>
+          &lt;mfrac>
+            &lt;mn>1&lt;/mn>
+            &lt;mrow>
+              &lt;mi>y&lt;/mi>
+              &lt;mo>+&lt;/mo>
+              &lt;mn>3&lt;/mn>
+            &lt;/mrow>
+          &lt;/mfrac>
+        &lt;/mstyle>
+        &lt;mstyle color='#48c' scriptlevel='+2'>
+          &lt;mfrac>
+            &lt;mstyle color='#48c' scriptlevel='-3'>
+              &lt;mfrac>
+                &lt;mn>1&lt;/mn>
+                &lt;mrow>
+                  &lt;mi>y&lt;/mi>
+                  &lt;mo>+&lt;/mo>
+                  &lt;mn>3&lt;/mn>
+                &lt;/mrow>
+              &lt;/mfrac>
+            &lt;/mstyle>
+            &lt;mrow>
+              &lt;mi>y&lt;/mi>
+              &lt;mo>+&lt;/mo>
+              &lt;mn>3&lt;/mn>
+            &lt;/mrow>
+          &lt;/mfrac>
+        &lt;/mstyle>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

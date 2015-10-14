@@ -1,8 +1,8 @@
-    <math> 
-      <lambda> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <cn> 3 </cn> 
-      </lambda> 
+    <math>
+      <lambda>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <cn> 3 </cn>
+      </lambda>
     </math>

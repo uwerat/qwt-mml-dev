@@ -55,60 +55,60 @@ various multiple color attribute value formats.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mstyle displaystyle="true"> 
-        <mrow> 
-          <ms>A</ms> 
-          <mo>+</mo> 
-          <ms fontweight="bold">A</ms> 
-          <mo>+</mo> 
-          <ms fontweight="normal" fontstyle="italic">A 
-          </ms> 
-          <mo>+</mo> 
-          <ms fontstyle="normal">A</ms> 
-          <mo>+</mo> 
-          <ms fontweight="bold" fontstyle="normal">A 
-          </ms> 
-          <mo>+</mo> 
-          <ms color="#9c0fff">A</ms> 
-          <mo>+</mo> 
-          <ms color="#0ee">A</ms> 
-          <mo>+</mo> 
-          <ms color="Green">A</ms> 
-          <mo>+</mo> 
-          <ms fontfamily="Helvetica">A</ms> 
-        </mrow> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle displaystyle="true">
+        <mrow>
+          <ms>A</ms>
+          <mo>+</mo>
+          <ms fontweight="bold">A</ms>
+          <mo>+</mo>
+          <ms fontweight="normal" fontstyle="italic">A
+          </ms>
+          <mo>+</mo>
+          <ms fontstyle="normal">A</ms>
+          <mo>+</mo>
+          <ms fontweight="bold" fontstyle="normal">A
+          </ms>
+          <mo>+</mo>
+          <ms color="#9c0fff">A</ms>
+          <mo>+</mo>
+          <ms color="#0ee">A</ms>
+          <mo>+</mo>
+          <ms color="Green">A</ms>
+          <mo>+</mo>
+          <ms fontfamily="Helvetica">A</ms>
+        </mrow>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;mrow> 
-          &lt;ms>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms fontweight='bold'>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms fontweight='normal' fontstyle='italic'>A 
-          &lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms fontstyle='normal'>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms fontweight='bold' fontstyle='normal'>A 
-          &lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms color='#9c0fff'>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms color='#0ee'>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms color='Green'>A&lt;/ms> 
-          &lt;mo>+&lt;/mo> 
-          &lt;ms fontfamily='Helvetica'>A&lt;/ms> 
-        &lt;/mrow> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;mstyle displaystyle='true'>
+        &lt;mrow>
+          &lt;ms>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms fontweight='bold'>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms fontweight='normal' fontstyle='italic'>A
+          &lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms fontstyle='normal'>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms fontweight='bold' fontstyle='normal'>A
+          &lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms color='#9c0fff'>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms color='#0ee'>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms color='Green'>A&lt;/ms>
+          &lt;mo>+&lt;/mo>
+          &lt;ms fontfamily='Helvetica'>A&lt;/ms>
+        &lt;/mrow>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

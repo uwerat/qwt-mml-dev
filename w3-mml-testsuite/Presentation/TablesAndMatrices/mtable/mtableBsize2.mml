@@ -1,37 +1,37 @@
     <math>
       <mtable equalrows='false' equalcolumns='false'>
-        <mtr> 
+        <mtr>
           <mtd>
             <mi>H</mi>
-          </mtd> 
+          </mtd>
           <mtd>
             <mo>&#x02192;</mo>
-          </mtd> 
+          </mtd>
           <mtd>
             <mi>G</mi>
-          </mtd> 
+          </mtd>
         </mtr>
-        <mtr> 
+        <mtr>
           <mtd>
             <mo>&#x02193;</mo>
-          </mtd> 
+          </mtd>
           <mtd>
             <mspace height='2em' width='3em'/>
-          </mtd> 
+          </mtd>
           <mtd>
             <mo>&#x02193;</mo>
-          </mtd> 
+          </mtd>
         </mtr>
-        <mtr> 
+        <mtr>
           <mtd>
             <mi>K</mi>
-          </mtd> 
+          </mtd>
           <mtd>
             <mo>&#x02192;</mo>
-          </mtd> 
+          </mtd>
           <mtd>
             <mi>L</mi>
-          </mtd> 
+          </mtd>
         </mtr>
       </mtable>
     </math>

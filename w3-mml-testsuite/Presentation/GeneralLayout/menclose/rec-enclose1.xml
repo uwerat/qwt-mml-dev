@@ -53,90 +53,90 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable columnspacing="0px" rowspacing="2px"> 
-        <mtr> 
-          <mtd> </mtd> 
-          <mtd columnalign="right"> 
-            <mn>10</mn> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd columnalign="right"> 
-            <mn>131</mn> 
-          </mtd> 
-          <mtd columnalign="right"> 
-            <menclose notation="longdiv"> 
-              <mn>1413</mn> 
-            </menclose> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> </mtd> 
-          <mtd columnalign="right"> 
-            <mrow> 
-              <munder> 
-                <mn>131</mn> 
-                <mo> &#x00332; </mo> 
-              </munder> 
-              <mphantom> 
-                <mn>3</mn> 
-              </mphantom> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
-          <mtd> </mtd> 
-          <mtd columnalign="right"> 
-            <mn>103</mn> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" rowspacing="2px">
+        <mtr>
+          <mtd> </mtd>
+          <mtd columnalign="right">
+            <mn>10</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd columnalign="right">
+            <mn>131</mn>
+          </mtd>
+          <mtd columnalign="right">
+            <menclose notation="longdiv">
+              <mn>1413</mn>
+            </menclose>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd> </mtd>
+          <mtd columnalign="right">
+            <mrow>
+              <munder>
+                <mn>131</mn>
+                <mo> &#x00332; </mo>
+              </munder>
+              <mphantom>
+                <mn>3</mn>
+              </mphantom>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd> </mtd>
+          <mtd columnalign="right">
+            <mn>103</mn>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable columnspacing='0px' rowspacing='2px'> 
-        &lt;mtr> 
-          &lt;mtd> &lt;/mtd> 
-          &lt;mtd columnalign='right'> 
-            &lt;mn>10&lt;/mn> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd columnalign='right'> 
-            &lt;mn>131&lt;/mn> 
-          &lt;/mtd> 
-          &lt;mtd columnalign='right'> 
-            &lt;menclose notation='longdiv'> 
-              &lt;mn>1413&lt;/mn> 
-            &lt;/menclose> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> &lt;/mtd> 
-          &lt;mtd columnalign='right'> 
-            &lt;mrow> 
-              &lt;munder> 
-                &lt;mn>131&lt;/mn> 
-                &lt;mo> &amp;UnderBar; &lt;/mo> 
-              &lt;/munder> 
-              &lt;mphantom> 
-                &lt;mn>3&lt;/mn> 
-              &lt;/mphantom> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> &lt;/mtd> 
-          &lt;mtd columnalign='right'> 
-            &lt;mn>103&lt;/mn> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable columnspacing='0px' rowspacing='2px'>
+        &lt;mtr>
+          &lt;mtd> &lt;/mtd>
+          &lt;mtd columnalign='right'>
+            &lt;mn>10&lt;/mn>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd columnalign='right'>
+            &lt;mn>131&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd columnalign='right'>
+            &lt;menclose notation='longdiv'>
+              &lt;mn>1413&lt;/mn>
+            &lt;/menclose>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd> &lt;/mtd>
+          &lt;mtd columnalign='right'>
+            &lt;mrow>
+              &lt;munder>
+                &lt;mn>131&lt;/mn>
+                &lt;mo> &amp;UnderBar; &lt;/mo>
+              &lt;/munder>
+              &lt;mphantom>
+                &lt;mn>3&lt;/mn>
+              &lt;/mphantom>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd> &lt;/mtd>
+          &lt;mtd columnalign='right'>
+            &lt;mn>103&lt;/mn>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

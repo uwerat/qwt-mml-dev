@@ -57,54 +57,54 @@ below.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mo>-</mo> 
-        <mi>x</mi> 
-      </mrow> 
-      <mrow> 
-        <mo form="infix">-</mo> 
-        <mi>x</mi> 
-      </mrow> 
-      <mrow> 
-        <mo form="prefix">-</mo> 
-        <mi>x</mi> 
-      </mrow> 
-      <mrow> 
-        <mo form="postfix">-</mo> 
-        <mi>x</mi> 
-      </mrow> 
-      <mo>-</mo> 
-      <mi>x</mi> 
-      <mo form="prefix">-</mo> 
-      <mi>x</mi> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo>-</mo>
+        <mi>x</mi>
+      </mrow>
+      <mrow>
+        <mo form="infix">-</mo>
+        <mi>x</mi>
+      </mrow>
+      <mrow>
+        <mo form="prefix">-</mo>
+        <mi>x</mi>
+      </mrow>
+      <mrow>
+        <mo form="postfix">-</mo>
+        <mi>x</mi>
+      </mrow>
+      <mo>-</mo>
+      <mi>x</mi>
+      <mo form="prefix">-</mo>
+      <mi>x</mi>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mo>-&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mrow> 
-        &lt;mo form='infix'>-&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mrow> 
-        &lt;mo form='prefix'>-&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mrow> 
-        &lt;mo form='postfix'>-&lt;/mo> 
-        &lt;mi>x&lt;/mi> 
-      &lt;/mrow> 
-      &lt;mo>-&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
-      &lt;mo form='prefix'>-&lt;/mo> 
-      &lt;mi>x&lt;/mi> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mo>-&lt;/mo>
+        &lt;mi>x&lt;/mi>
+      &lt;/mrow>
+      &lt;mrow>
+        &lt;mo form='infix'>-&lt;/mo>
+        &lt;mi>x&lt;/mi>
+      &lt;/mrow>
+      &lt;mrow>
+        &lt;mo form='prefix'>-&lt;/mo>
+        &lt;mi>x&lt;/mi>
+      &lt;/mrow>
+      &lt;mrow>
+        &lt;mo form='postfix'>-&lt;/mo>
+        &lt;mi>x&lt;/mi>
+      &lt;/mrow>
+      &lt;mo>-&lt;/mo>
+      &lt;mi>x&lt;/mi>
+      &lt;mo form='prefix'>-&lt;/mo>
+      &lt;mi>x&lt;/mi>
     &lt;/math>
   </pre>
     <p style="text-align: right">

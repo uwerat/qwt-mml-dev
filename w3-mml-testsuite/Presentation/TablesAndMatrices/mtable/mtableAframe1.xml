@@ -70,7 +70,7 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mi>y</mi>
           </mtd>
-        </mtr> 
+        </mtr>
       </mtable>
     </math>
   </p>
@@ -95,7 +95,7 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mi>y&lt;/mi>
           &lt;/mtd>
-        &lt;/mtr> 
+        &lt;/mtr>
       &lt;/mtable>
     &lt;/math>
   </pre>

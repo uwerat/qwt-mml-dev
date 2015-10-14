@@ -53,58 +53,58 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <max/> 
-        <bvar> 
-          <ci>x</ci> 
-        </bvar> 
-        <condition> 
-          <apply> 
-            <and/> 
-            <apply> 
-              <in/> 
-              <ci>x</ci> 
-              <ci type="set">B</ci> 
-            </apply> 
-            <apply> 
-              <notin/> 
-              <ci>x</ci> 
-              <ci type="set">C</ci> 
-            </apply> 
-          </apply> 
-        </condition> 
-        <ci>x</ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <max/>
+        <bvar>
+          <ci>x</ci>
+        </bvar>
+        <condition>
+          <apply>
+            <and/>
+            <apply>
+              <in/>
+              <ci>x</ci>
+              <ci type="set">B</ci>
+            </apply>
+            <apply>
+              <notin/>
+              <ci>x</ci>
+              <ci type="set">C</ci>
+            </apply>
+          </apply>
+        </condition>
+        <ci>x</ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;max/> 
-        &lt;bvar> 
-          &lt;ci>x&lt;/ci> 
-        &lt;/bvar> 
-        &lt;condition> 
-          &lt;apply> 
-            &lt;and/> 
-            &lt;apply> 
-              &lt;in/> 
-              &lt;ci>x&lt;/ci> 
-              &lt;ci type="set">B&lt;/ci> 
-            &lt;/apply> 
-            &lt;apply> 
-              &lt;notin/> 
-              &lt;ci>x&lt;/ci> 
-              &lt;ci type="set">C&lt;/ci> 
-            &lt;/apply> 
-          &lt;/apply> 
-        &lt;/condition> 
-        &lt;ci>x&lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;max/>
+        &lt;bvar>
+          &lt;ci>x&lt;/ci>
+        &lt;/bvar>
+        &lt;condition>
+          &lt;apply>
+            &lt;and/>
+            &lt;apply>
+              &lt;in/>
+              &lt;ci>x&lt;/ci>
+              &lt;ci type="set">B&lt;/ci>
+            &lt;/apply>
+            &lt;apply>
+              &lt;notin/>
+              &lt;ci>x&lt;/ci>
+              &lt;ci type="set">C&lt;/ci>
+            &lt;/apply>
+          &lt;/apply>
+        &lt;/condition>
+        &lt;ci>x&lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

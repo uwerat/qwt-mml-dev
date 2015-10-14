@@ -53,44 +53,44 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <sin/> 
-        <apply> 
-          <plus/> 
-          <apply> 
-            <cos/> 
-            <ci> x </ci> 
-          </apply> 
-          <apply> 
-            <power/> 
-            <ci> x </ci> 
-            <cn> 3 </cn> 
-          </apply> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <sin/>
+        <apply>
+          <plus/>
+          <apply>
+            <cos/>
+            <ci> x </ci>
+          </apply>
+          <apply>
+            <power/>
+            <ci> x </ci>
+            <cn> 3 </cn>
+          </apply>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;sin/> 
-        &lt;apply> 
-          &lt;plus/> 
-          &lt;apply> 
-            &lt;cos/> 
-            &lt;ci> x &lt;/ci> 
-          &lt;/apply> 
-          &lt;apply> 
-            &lt;power/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;cn> 3 &lt;/cn> 
-          &lt;/apply> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;sin/>
+        &lt;apply>
+          &lt;plus/>
+          &lt;apply>
+            &lt;cos/>
+            &lt;ci> x &lt;/ci>
+          &lt;/apply>
+          &lt;apply>
+            &lt;power/>
+            &lt;ci> x &lt;/ci>
+            &lt;cn> 3 &lt;/cn>
+          &lt;/apply>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -54,40 +54,40 @@ elements for &lt;ms>.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <ms>dog</ms> 
-        <mo>+</mo> 
-        <ms fontweight="bold">cat</ms> 
-        <mo>+</mo> 
-        <ms fontsize="36pt">dog</ms> 
-        <mo>+</mo> 
-        <ms fontstyle="normal">cat</ms> 
-        <mo>+</mo> 
-        <ms color="#9c0fff">pig</ms> 
-        <mo>+</mo> 
-        <ms fontfamily="Helvetica">goat</ms> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <ms>dog</ms>
+        <mo>+</mo>
+        <ms fontweight="bold">cat</ms>
+        <mo>+</mo>
+        <ms fontsize="36pt">dog</ms>
+        <mo>+</mo>
+        <ms fontstyle="normal">cat</ms>
+        <mo>+</mo>
+        <ms color="#9c0fff">pig</ms>
+        <mo>+</mo>
+        <ms fontfamily="Helvetica">goat</ms>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;ms>dog&lt;/ms> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms fontweight='bold'>cat&lt;/ms> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms fontsize='36pt'>dog&lt;/ms> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms fontstyle='normal'>cat&lt;/ms> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms color='#9c0fff'>pig&lt;/ms> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms fontfamily='Helvetica'>goat&lt;/ms> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;ms>dog&lt;/ms>
+        &lt;mo>+&lt;/mo>
+        &lt;ms fontweight='bold'>cat&lt;/ms>
+        &lt;mo>+&lt;/mo>
+        &lt;ms fontsize='36pt'>dog&lt;/ms>
+        &lt;mo>+&lt;/mo>
+        &lt;ms fontstyle='normal'>cat&lt;/ms>
+        &lt;mo>+&lt;/mo>
+        &lt;ms color='#9c0fff'>pig&lt;/ms>
+        &lt;mo>+&lt;/mo>
+        &lt;ms fontfamily='Helvetica'>goat&lt;/ms>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

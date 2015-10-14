@@ -1,6 +1,6 @@
-    <math> 
-      <apply> 
-        <minus/> 
-        <cn>1</cn> 
-      </apply> 
+    <math>
+      <apply>
+        <minus/>
+        <cn>1</cn>
+      </apply>
     </math>

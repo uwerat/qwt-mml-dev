@@ -53,34 +53,34 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <moment/> 
-        <degree> 
-          <cn> 3 </cn> 
-        </degree> 
-        <momentabout> 
-          <cn>0</cn> 
-        </momentabout> 
-        <ci> X </ci> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <moment/>
+        <degree>
+          <cn> 3 </cn>
+        </degree>
+        <momentabout>
+          <cn>0</cn>
+        </momentabout>
+        <ci> X </ci>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;moment/> 
-        &lt;degree> 
-          &lt;cn> 3 &lt;/cn> 
-        &lt;/degree> 
-        &lt;momentabout> 
-          &lt;cn>0&lt;/cn> 
-        &lt;/momentabout> 
-        &lt;ci> X &lt;/ci> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;moment/>
+        &lt;degree>
+          &lt;cn> 3 &lt;/cn>
+        &lt;/degree>
+        &lt;momentabout>
+          &lt;cn>0&lt;/cn>
+        &lt;/momentabout>
+        &lt;ci> X &lt;/ci>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

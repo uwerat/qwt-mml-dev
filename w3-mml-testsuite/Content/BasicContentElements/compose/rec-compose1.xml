@@ -54,32 +54,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <compose/> 
-        <fn> 
-          <ci> f </ci> 
-        </fn> 
-        <fn> 
-          <ci> g </ci> 
-        </fn> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <compose/>
+        <fn>
+          <ci> f </ci>
+        </fn>
+        <fn>
+          <ci> g </ci>
+        </fn>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;compose/> 
-        &lt;fn> 
-          &lt;ci> f &lt;/ci> 
-        &lt;/fn> 
-        &lt;fn> 
-          &lt;ci> g &lt;/ci> 
-        &lt;/fn> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;compose/>
+        &lt;fn>
+          &lt;ci> f &lt;/ci>
+        &lt;/fn>
+        &lt;fn>
+          &lt;ci> g &lt;/ci>
+        &lt;/fn>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

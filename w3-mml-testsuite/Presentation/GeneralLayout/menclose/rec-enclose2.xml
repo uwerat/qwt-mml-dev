@@ -54,14 +54,14 @@ http://www.w3.org/Consortium/Legal/.
       <b>Your browser's rendering</b>:</p>
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub> 
-      <mi>a</mi> 
-      <mrow> 
-        <menclose notation="actuarial"> 
-          <mi>n</mi> 
-        </menclose> 
-        <mo>&#x02062;</mo> 
-        <mi>i</mi> 
+    <msub>
+      <mi>a</mi>
+      <mrow>
+        <menclose notation="actuarial">
+          <mi>n</mi>
+        </menclose>
+        <mo>&#x02062;</mo>
+        <mi>i</mi>
       </mrow>
     </msub>
     </math>
@@ -70,18 +70,18 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-    &lt;msub> 
-      &lt;mi>a&lt;/mi> 
-      &lt;mrow> 
-        &lt;menclose notation='actuarial'> 
-          &lt;mi>n&lt;/mi> 
-        &lt;/menclose> 
-        &lt;mo>&amp;it;&lt;/mo> 
-        &lt;mi>i&lt;/mi> 
+    &lt;math>
+    &lt;msub>
+      &lt;mi>a&lt;/mi>
+      &lt;mrow>
+        &lt;menclose notation='actuarial'>
+          &lt;mi>n&lt;/mi>
+        &lt;/menclose>
+        &lt;mo>&amp;it;&lt;/mo>
+        &lt;mi>i&lt;/mi>
       &lt;/mrow>
     &lt;/msub>
-    &lt;/math> 
+    &lt;/math>
   </pre>
     <p style="text-align: right">
       <a href="../../../../overview.html" target="_top">

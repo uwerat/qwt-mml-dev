@@ -54,12 +54,12 @@ http://www.w3.org/Consortium/Legal/.
       <b>Your browser's rendering</b>:</p>
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <apply> 
-        <apply> 
+      <apply>
+        <apply>
           <plus/>
           <sin/>
-          <cos/> 
-        </apply> 
+          <cos/>
+        </apply>
         <ci>x</ci>
       </apply>
     </math>
@@ -69,12 +69,12 @@ http://www.w3.org/Consortium/Legal/.
       <b>Source Code</b>:</p>
     <pre>
     &lt;math>
-      &lt;apply> 
-        &lt;apply> 
+      &lt;apply>
+        &lt;apply>
           &lt;plus/>
           &lt;sin/>
-          &lt;cos/> 
-        &lt;/apply> 
+          &lt;cos/>
+        &lt;/apply>
         &lt;ci>x&lt;/ci>
       &lt;/apply>
     &lt;/math>

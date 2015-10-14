@@ -53,36 +53,36 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mover accent="true"> 
-          <mi> x </mi> 
-          <mo> &#x0005E; </mo> 
-        </mover> 
-        <mtext> &#x02002;&#x02002;vs&#x02002;&#x02002; </mtext> 
-        <mover accent="false"> 
-          <mi> x </mi> 
-          <mo> &#x0005E; </mo> 
-        </mover> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mover accent="true">
+          <mi> x </mi>
+          <mo> &#x0005E; </mo>
+        </mover>
+        <mtext> &#x02002;&#x02002;vs&#x02002;&#x02002; </mtext>
+        <mover accent="false">
+          <mi> x </mi>
+          <mo> &#x0005E; </mo>
+        </mover>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mover accent="true"> 
-          &lt;mi> x &lt;/mi> 
-          &lt;mo> &amp;Hat; &lt;/mo> 
-        &lt;/mover> 
-        &lt;mtext> &amp;ensp;&amp;ensp;vs&amp;ensp;&amp;ensp; &lt;/mtext> 
-        &lt;mover accent="false"> 
-          &lt;mi> x &lt;/mi> 
-          &lt;mo> &amp;Hat; &lt;/mo> 
-        &lt;/mover> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mover accent="true">
+          &lt;mi> x &lt;/mi>
+          &lt;mo> &amp;Hat; &lt;/mo>
+        &lt;/mover>
+        &lt;mtext> &amp;ensp;&amp;ensp;vs&amp;ensp;&amp;ensp; &lt;/mtext>
+        &lt;mover accent="false">
+          &lt;mi> x &lt;/mi>
+          &lt;mo> &amp;Hat; &lt;/mo>
+        &lt;/mover>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <intersect/> 
-        <ci type="set"> A </ci> 
-        <apply> 
-          <union/> 
-          <ci type="set"> B </ci> 
-          <ci type="set"> C </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <intersect/>
+        <ci type="set"> A </ci>
+        <apply>
+          <union/>
+          <ci type="set"> B </ci>
+          <ci type="set"> C </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;intersect/> 
-        &lt;ci type="set"> A &lt;/ci> 
-        &lt;apply> 
-          &lt;union/> 
-          &lt;ci type="set"> B &lt;/ci> 
-          &lt;ci type="set"> C &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;intersect/>
+        &lt;ci type="set"> A &lt;/ci>
+        &lt;apply>
+          &lt;union/>
+          &lt;ci type="set"> B &lt;/ci>
+          &lt;ci type="set"> C &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

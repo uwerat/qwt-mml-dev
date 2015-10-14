@@ -54,21 +54,21 @@ http://www.w3.org/Consortium/Legal/.
       <b>Your browser's rendering</b>:</p>
     <p>
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <apply> 
-        <int/> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <lowlimit> 
-          <cn> 0 </cn> 
-        </lowlimit> 
-        <uplimit> 
-          <ci> a </ci> 
-        </uplimit> 
+      <apply>
+        <int/>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <lowlimit>
+          <cn> 0 </cn>
+        </lowlimit>
+        <uplimit>
+          <ci> a </ci>
+        </uplimit>
         <apply>
-          <divide/> 
-          <ci> 1 </ci> 
-          <ci> x </ci> 
+          <divide/>
+          <ci> 1 </ci>
+          <ci> x </ci>
         </apply>
       </apply>
     </math>
@@ -78,21 +78,21 @@ http://www.w3.org/Consortium/Legal/.
       <b>Source Code</b>:</p>
     <pre>
     &lt;math>
-      &lt;apply> 
-        &lt;int/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/bvar> 
-        &lt;lowlimit> 
-          &lt;cn> 0 &lt;/cn> 
-        &lt;/lowlimit> 
-        &lt;uplimit> 
-          &lt;ci> a &lt;/ci> 
-        &lt;/uplimit> 
+      &lt;apply>
+        &lt;int/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+        &lt;/bvar>
+        &lt;lowlimit>
+          &lt;cn> 0 &lt;/cn>
+        &lt;/lowlimit>
+        &lt;uplimit>
+          &lt;ci> a &lt;/ci>
+        &lt;/uplimit>
         &lt;apply>
-          &lt;divide/> 
-          &lt;ci> 1 &lt;/ci> 
-          &lt;ci> x &lt;/ci> 
+          &lt;divide/>
+          &lt;ci> 1 &lt;/ci>
+          &lt;ci> x &lt;/ci>
         &lt;/apply>
       &lt;/apply>
     &lt;/math>

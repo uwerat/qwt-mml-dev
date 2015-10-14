@@ -68,15 +68,15 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;arccos/> 
-        &lt;apply> 
-          &lt;times/> 
-          &lt;cn>5&lt;/cn> 
-          &lt;cn>&amp;pi;&lt;/cn> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;arccos/>
+        &lt;apply>
+          &lt;times/>
+          &lt;cn>5&lt;/cn>
+          &lt;cn>&amp;pi;&lt;/cn>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mover> 
-        <mi>xxx</mi> 
-        <mo>&#x000AF;</mo> 
-      </mover> 
-      <mo>=</mo> 
-      <mover> 
-        <mi mathvariant="italic">xxx</mi> 
-        <mo>&#x000AF;</mo> 
-      </mover> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mover>
+        <mi>xxx</mi>
+        <mo>&#x000AF;</mo>
+      </mover>
+      <mo>=</mo>
+      <mover>
+        <mi mathvariant="italic">xxx</mi>
+        <mo>&#x000AF;</mo>
+      </mover>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mover> 
-        &lt;mi>xxx&lt;/mi> 
-        &lt;mo>&amp;OverBar;&lt;/mo> 
-      &lt;/mover> 
-      &lt;mo>=&lt;/mo> 
-      &lt;mover> 
-        &lt;mi mathvariant='italic'>xxx&lt;/mi> 
-        &lt;mo>&amp;OverBar;&lt;/mo> 
-      &lt;/mover> 
+    &lt;math>
+      &lt;mover>
+        &lt;mi>xxx&lt;/mi>
+        &lt;mo>&amp;OverBar;&lt;/mo>
+      &lt;/mover>
+      &lt;mo>=&lt;/mo>
+      &lt;mover>
+        &lt;mi mathvariant='italic'>xxx&lt;/mi>
+        &lt;mo>&amp;OverBar;&lt;/mo>
+      &lt;/mover>
     &lt;/math>
   </pre>
     <p style="text-align: right">

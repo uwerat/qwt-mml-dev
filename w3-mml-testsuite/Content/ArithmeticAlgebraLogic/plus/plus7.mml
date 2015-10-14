@@ -1,10 +1,10 @@
     <math>
-      <apply> 
-        <apply> 
+      <apply>
+        <apply>
           <plus/>
           <sin/>
-          <cos/> 
-        </apply> 
+          <cos/>
+        </apply>
         <ci>x</ci>
       </apply>
     </math>

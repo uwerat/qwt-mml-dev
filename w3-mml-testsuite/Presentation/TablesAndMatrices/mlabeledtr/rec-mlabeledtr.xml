@@ -53,56 +53,56 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mlabeledtr id="e-is-m-c-square"> 
-          <mtd> 
-            <mtext> (2.1) </mtext> 
-          </mtd> 
-          <mtd> 
-            <mrow> 
-              <mi>E</mi> 
-              <mo>=</mo> 
-              <mrow> 
-                <mi>m</mi> 
-                <mo>&#x02062;</mo> 
-                <msup> 
-                  <mi>c</mi> 
-                  <mn>2</mn> 
-                </msup> 
-              </mrow> 
-            </mrow> 
-          </mtd> 
-        </mlabeledtr> 
-      </mtable> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mlabeledtr id="e-is-m-c-square">
+          <mtd>
+            <mtext> (2.1) </mtext>
+          </mtd>
+          <mtd>
+            <mrow>
+              <mi>E</mi>
+              <mo>=</mo>
+              <mrow>
+                <mi>m</mi>
+                <mo>&#x02062;</mo>
+                <msup>
+                  <mi>c</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </mrow>
+          </mtd>
+        </mlabeledtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mlabeledtr id='e-is-m-c-square'> 
-          &lt;mtd> 
-            &lt;mtext> (2.1) &lt;/mtext> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mrow> 
-              &lt;mi>E&lt;/mi> 
-              &lt;mo>=&lt;/mo> 
-              &lt;mrow> 
-                &lt;mi>m&lt;/mi> 
-                &lt;mo>&amp;it;&lt;/mo> 
-                &lt;msup> 
-                  &lt;mi>c&lt;/mi> 
-                  &lt;mn>2&lt;/mn> 
-                &lt;/msup> 
-              &lt;/mrow> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mlabeledtr> 
-      &lt;/mtable> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mlabeledtr id='e-is-m-c-square'>
+          &lt;mtd>
+            &lt;mtext> (2.1) &lt;/mtext>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mrow>
+              &lt;mi>E&lt;/mi>
+              &lt;mo>=&lt;/mo>
+              &lt;mrow>
+                &lt;mi>m&lt;/mi>
+                &lt;mo>&amp;it;&lt;/mo>
+                &lt;msup>
+                  &lt;mi>c&lt;/mi>
+                  &lt;mn>2&lt;/mn>
+                &lt;/msup>
+              &lt;/mrow>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mlabeledtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -55,42 +55,42 @@ visible.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mi>x</mi> 
-        <mstyle background="#000099"> 
-          <mspace height="1ex" width="1ex"/> 
-        </mstyle> 
-        <mi>M</mi> 
-        <mstyle background="#000099"> 
-          <mspace height="1ex" depth="1em" width="1ex"/> 
-        </mstyle> 
-        <mi>x</mi> 
-        <mstyle background="#000099"> 
-          <mspace depth="2mm" width=".2in"/> 
-        </mstyle> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi>x</mi>
+        <mstyle background="#000099">
+          <mspace height="1ex" width="1ex"/>
+        </mstyle>
+        <mi>M</mi>
+        <mstyle background="#000099">
+          <mspace height="1ex" depth="1em" width="1ex"/>
+        </mstyle>
+        <mi>x</mi>
+        <mstyle background="#000099">
+          <mspace depth="2mm" width=".2in"/>
+        </mstyle>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mstyle background="#000099"> 
-          &lt;mspace height="1ex" width="1ex"/> 
-        &lt;/mstyle> 
-        &lt;mi>M&lt;/mi> 
-        &lt;mstyle background="#000099"> 
-          &lt;mspace height="1ex" depth="1em" width="1ex"/> 
-        &lt;/mstyle> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mstyle background="#000099"> 
-          &lt;mspace depth="2mm" width=".2in"/> 
-        &lt;/mstyle> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mi>x&lt;/mi>
+        &lt;mstyle background="#000099">
+          &lt;mspace height="1ex" width="1ex"/>
+        &lt;/mstyle>
+        &lt;mi>M&lt;/mi>
+        &lt;mstyle background="#000099">
+          &lt;mspace height="1ex" depth="1em" width="1ex"/>
+        &lt;/mstyle>
+        &lt;mi>x&lt;/mi>
+        &lt;mstyle background="#000099">
+          &lt;mspace depth="2mm" width=".2in"/>
+        &lt;/mstyle>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

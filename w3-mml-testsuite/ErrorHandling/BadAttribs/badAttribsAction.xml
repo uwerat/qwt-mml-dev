@@ -53,9 +53,9 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <maction> 
-        <mn>2</mn> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <maction>
+        <mn>2</mn>
       </maction>
     </math>
   </p>
@@ -63,9 +63,9 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;maction> 
-        &lt;mn>2&lt;/mn> 
+    &lt;math>
+      &lt;maction>
+        &lt;mn>2&lt;/mn>
       &lt;/maction>
     &lt;/math>
   </pre>

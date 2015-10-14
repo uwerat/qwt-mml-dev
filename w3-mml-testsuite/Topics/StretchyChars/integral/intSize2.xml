@@ -53,356 +53,356 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mtable> 
-        <mtr> 
-          <mtd/> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable>
+        <mtr>
+          <mtd/>
           <mtd/>
           <mtd>
             <mtext>symm</mtext>
-          </mtd> 
+          </mtd>
           <mtd>
             <mtext>stretch</mtext>
           </mtd>
           <mtd>
             <mtext>symm/stretch</mtext>
           </mtd>
-        </mtr> 
-        <mtr> 
+        </mtr>
+        <mtr>
           <mtd>
             <mtext>small op</mtext>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="false" symmetric="false">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="false" symmetric="true">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="true" symmetric="false">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="true" symmetric="true">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
           <mtd>
             <mtext>large op</mtext>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="false" symmetric="false">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="false" symmetric="true">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="true" symmetric="false">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="true" symmetric="true">&#x0222B;
-              </mo> 
-              <mi>x</mi> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
+              </mo>
+              <mi>x</mi>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
           <mtd>
             <mtext>small op</mtext>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="false" symmetric="false">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="false" symmetric="true">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="true" symmetric="false">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="false" stretchy="true" symmetric="true">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-        <mtr> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
+          </mtd>
+        </mtr>
+        <mtr>
           <mtd>
             <mtext>large op</mtext>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="false" symmetric="false">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="false" symmetric="true">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="true" symmetric="false">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
           </mtd>
-          <mtd> 
-            <mrow> 
+          <mtd>
+            <mrow>
               <mo largeop="true" stretchy="true" symmetric="true">&#x0222B;
-              </mo> 
-              <mfrac> 
-                <mi>x</mi> 
-                <mi>y</mi> 
-              </mfrac> 
-            </mrow> 
-          </mtd> 
-        </mtr> 
-      </mtable> 
+              </mo>
+              <mfrac>
+                <mi>x</mi>
+                <mi>y</mi>
+              </mfrac>
+            </mrow>
+          </mtd>
+        </mtr>
+      </mtable>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mtable> 
-        &lt;mtr> 
-          &lt;mtd>&lt;/mtd> 
+    &lt;math>
+      &lt;mtable>
+        &lt;mtr>
+          &lt;mtd>&lt;/mtd>
           &lt;mtd>&lt;/mtd>
           &lt;mtd>
             &lt;mtext>symm&lt;/mtext>
-          &lt;/mtd> 
+          &lt;/mtd>
           &lt;mtd>
             &lt;mtext>stretch&lt;/mtext>
           &lt;/mtd>
           &lt;mtd>
             &lt;mtext>symm/stretch&lt;/mtext>
           &lt;/mtd>
-        &lt;/mtr> 
-        &lt;mtr> 
+        &lt;/mtr>
+        &lt;mtr>
           &lt;mtd>
             &lt;mtext>small op&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="false" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="false" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="true" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="true" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
           &lt;mtd>
             &lt;mtext>large op&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="false" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="false" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="true" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="true" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mi>x&lt;/mi> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
+              &lt;/mo>
+              &lt;mi>x&lt;/mi>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
           &lt;mtd>
             &lt;mtext>small op&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="false" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="false" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="true" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="false" stretchy="true" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-        &lt;mtr> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+        &lt;mtr>
           &lt;mtd>
             &lt;mtext>large op&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="false" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="false" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="true" symmetric="false">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;mrow> 
+          &lt;mtd>
+            &lt;mrow>
               &lt;mo largeop="true" stretchy="true" symmetric="true">&amp;int;
-              &lt;/mo> 
-              &lt;mfrac> 
-                &lt;mi>x&lt;/mi> 
-                &lt;mi>y&lt;/mi> 
-              &lt;/mfrac> 
-            &lt;/mrow> 
-          &lt;/mtd> 
-        &lt;/mtr> 
-      &lt;/mtable> 
+              &lt;/mo>
+              &lt;mfrac>
+                &lt;mi>x&lt;/mi>
+                &lt;mi>y&lt;/mi>
+              &lt;/mfrac>
+            &lt;/mrow>
+          &lt;/mtd>
+        &lt;/mtr>
+      &lt;/mtable>
     &lt;/math>
   </pre>
     <p style="text-align: right">

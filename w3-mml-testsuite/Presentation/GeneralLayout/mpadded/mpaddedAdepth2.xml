@@ -36,7 +36,7 @@ http://www.w3.org/Consortium/Legal/.
         <tr>
           <td style="text-align: right" valign="top">Description:</td>
           <td>Basic test of padding on the bottom with &lt;mpadded> using the
-    &lt;i>height&lt;/i> attribute.  This example runs through all the formats for 
+    &lt;i>height&lt;/i> attribute.  This example runs through all the formats for
     specifying &lt;mpadded> attribute values.</td>
         </tr>
         <tr>
@@ -55,86 +55,86 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <munder> 
-          <mi>y</mi> 
-          <mi>x</mi> 
-        </munder> 
-        <munder> 
-          <mpadded depth="1.0 height"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mi>x</mi> 
-        </munder> 
-        <munder> 
-          <mpadded depth="3 width"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mi>x</mi> 
-        </munder> 
-        <munder> 
-          <mpadded depth="200% height"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mi>x</mi> 
-        </munder> 
-        <munder> 
-          <mpadded depth="-1ex"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mi>x</mi> 
-        </munder> 
-        <munder> 
-          <mpadded depth="10pt"> 
-            <mi>y</mi> 
-          </mpadded> 
-          <mi>x</mi> 
-        </munder> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <munder>
+          <mi>y</mi>
+          <mi>x</mi>
+        </munder>
+        <munder>
+          <mpadded depth="1.0 height">
+            <mi>y</mi>
+          </mpadded>
+          <mi>x</mi>
+        </munder>
+        <munder>
+          <mpadded depth="3 width">
+            <mi>y</mi>
+          </mpadded>
+          <mi>x</mi>
+        </munder>
+        <munder>
+          <mpadded depth="200% height">
+            <mi>y</mi>
+          </mpadded>
+          <mi>x</mi>
+        </munder>
+        <munder>
+          <mpadded depth="-1ex">
+            <mi>y</mi>
+          </mpadded>
+          <mi>x</mi>
+        </munder>
+        <munder>
+          <mpadded depth="10pt">
+            <mi>y</mi>
+          </mpadded>
+          <mi>x</mi>
+        </munder>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;munder> 
-          &lt;mi>y&lt;/mi> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-        &lt;munder> 
-          &lt;mpadded depth='1.0 height'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-        &lt;munder> 
-          &lt;mpadded depth='3 width'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-        &lt;munder> 
-          &lt;mpadded depth='200% height'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-        &lt;munder> 
-          &lt;mpadded depth='-1ex'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-        &lt;munder> 
-          &lt;mpadded depth='10pt'> 
-            &lt;mi>y&lt;/mi> 
-          &lt;/mpadded> 
-          &lt;mi>x&lt;/mi> 
-        &lt;/munder> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;munder>
+          &lt;mi>y&lt;/mi>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+        &lt;munder>
+          &lt;mpadded depth='1.0 height'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+        &lt;munder>
+          &lt;mpadded depth='3 width'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+        &lt;munder>
+          &lt;mpadded depth='200% height'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+        &lt;munder>
+          &lt;mpadded depth='-1ex'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+        &lt;munder>
+          &lt;mpadded depth='10pt'>
+            &lt;mi>y&lt;/mi>
+          &lt;/mpadded>
+          &lt;mi>x&lt;/mi>
+        &lt;/munder>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

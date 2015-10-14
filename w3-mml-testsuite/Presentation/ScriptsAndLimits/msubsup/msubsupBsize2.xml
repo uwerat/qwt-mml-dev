@@ -54,76 +54,76 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msubsup> 
-        <mo>&#x0222B;</mo> 
-        <mn>0</mn> 
-        <mn>1</mn> 
-      </msubsup> 
-      <mo>+</mo> 
-      <msubsup> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mi>y</mi> 
-        </mfrac> 
-        <mn>0</mn> 
-        <mi>a</mi> 
-      </msubsup> 
-      <mo>+</mo> 
-      <msubsup> 
-        <mfrac> 
-          <mi>x</mi> 
-          <mi>y</mi> 
-        </mfrac> 
-        <mn>0</mn> 
-        <mn>1</mn> 
-      </msubsup> 
-      <mo>+</mo> 
-      <mstyle displaystyle="true"> 
-        <msubsup> 
-          <mo>&#x0222B;</mo> 
-          <mn>0</mn> 
-          <mi>a</mi> 
-        </msubsup> 
-      </mstyle> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msubsup>
+        <mo>&#x0222B;</mo>
+        <mn>0</mn>
+        <mn>1</mn>
+      </msubsup>
+      <mo>+</mo>
+      <msubsup>
+        <mfrac>
+          <mi>x</mi>
+          <mi>y</mi>
+        </mfrac>
+        <mn>0</mn>
+        <mi>a</mi>
+      </msubsup>
+      <mo>+</mo>
+      <msubsup>
+        <mfrac>
+          <mi>x</mi>
+          <mi>y</mi>
+        </mfrac>
+        <mn>0</mn>
+        <mn>1</mn>
+      </msubsup>
+      <mo>+</mo>
+      <mstyle displaystyle="true">
+        <msubsup>
+          <mo>&#x0222B;</mo>
+          <mn>0</mn>
+          <mi>a</mi>
+        </msubsup>
+      </mstyle>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;msubsup> 
-        &lt;mo>&amp;int;&lt;/mo> 
-        &lt;mn>0&lt;/mn> 
-        &lt;mn>1&lt;/mn> 
-      &lt;/msubsup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;msubsup> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mn>0&lt;/mn> 
-        &lt;mi>a&lt;/mi> 
-      &lt;/msubsup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;msubsup> 
-        &lt;mfrac> 
-          &lt;mi>x&lt;/mi> 
-          &lt;mi>y&lt;/mi> 
-        &lt;/mfrac> 
-        &lt;mn>0&lt;/mn> 
-        &lt;mn>1&lt;/mn> 
-      &lt;/msubsup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mstyle displaystyle='true'> 
-        &lt;msubsup> 
-          &lt;mo>&amp;int;&lt;/mo> 
-          &lt;mn>0&lt;/mn> 
-          &lt;mi>a&lt;/mi> 
-        &lt;/msubsup> 
-      &lt;/mstyle> 
+    &lt;math>
+      &lt;msubsup>
+        &lt;mo>&amp;int;&lt;/mo>
+        &lt;mn>0&lt;/mn>
+        &lt;mn>1&lt;/mn>
+      &lt;/msubsup>
+      &lt;mo>+&lt;/mo>
+      &lt;msubsup>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mi>y&lt;/mi>
+        &lt;/mfrac>
+        &lt;mn>0&lt;/mn>
+        &lt;mi>a&lt;/mi>
+      &lt;/msubsup>
+      &lt;mo>+&lt;/mo>
+      &lt;msubsup>
+        &lt;mfrac>
+          &lt;mi>x&lt;/mi>
+          &lt;mi>y&lt;/mi>
+        &lt;/mfrac>
+        &lt;mn>0&lt;/mn>
+        &lt;mn>1&lt;/mn>
+      &lt;/msubsup>
+      &lt;mo>+&lt;/mo>
+      &lt;mstyle displaystyle='true'>
+        &lt;msubsup>
+          &lt;mo>&amp;int;&lt;/mo>
+          &lt;mn>0&lt;/mn>
+          &lt;mi>a&lt;/mi>
+        &lt;/msubsup>
+      &lt;/mstyle>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -59,9 +59,9 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>correct:</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
             </bvar>
           </mtd>
         </mtr>
@@ -69,12 +69,12 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>correct w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -82,7 +82,7 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>missing &#x003c;ci&#x0003E;:</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <bvar> </bvar>
           </mtd>
         </mtr>
@@ -91,11 +91,11 @@ http://www.w3.org/Consortium/Legal/.
             <mtext>missing &#x003c;ci&#x0003E; w/ degree:
             </mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
+          <mtd>
+            <bvar>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -103,10 +103,10 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>2 &#x003c;ci&#x0003E;s</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
-              <ci>y</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
+              <ci>y</ci>
             </bvar>
           </mtd>
         </mtr>
@@ -114,13 +114,13 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>2 w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <ci>x</ci> 
-              <ci>y</ci> 
+          <mtd>
+            <bvar>
+              <ci>x</ci>
+              <ci>y</ci>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -128,9 +128,9 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>&#x003c;mi&#x0003E; used</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <mi>x</mi> 
+          <mtd>
+            <bvar>
+              <mi>x</mi>
             </bvar>
           </mtd>
         </mtr>
@@ -138,12 +138,12 @@ http://www.w3.org/Consortium/Legal/.
           <mtd>
             <mtext>&#x003c;mi&#x0003E; used w/ degree</mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
-              <mi>x</mi> 
+          <mtd>
+            <bvar>
+              <mi>x</mi>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -152,14 +152,14 @@ http://www.w3.org/Consortium/Legal/.
             <mtext>missing &#x003c;ci&#x0003E;, 2 degrees
             </mtext>
           </mtd>
-          <mtd> 
-            <bvar> 
+          <mtd>
+            <bvar>
               <degree>
                 <cn>4</cn>
-              </degree> 
+              </degree>
               <degree>
                 <cn>2</cn>
-              </degree> 
+              </degree>
             </bvar>
           </mtd>
         </mtr>
@@ -176,9 +176,9 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>correct:&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;ci>x&lt;/ci> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;ci>x&lt;/ci>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -186,12 +186,12 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>correct w/ degree&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;ci>x&lt;/ci> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;ci>x&lt;/ci>
               &lt;degree>
                 &lt;cn>2&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -199,7 +199,7 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>missing &amp;lt;ci&amp;gt;:&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
+          &lt;mtd>
             &lt;bvar> &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -208,11 +208,11 @@ http://www.w3.org/Consortium/Legal/.
             &lt;mtext>missing &amp;lt;ci&amp;gt; w/ degree:
             &lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
+          &lt;mtd>
+            &lt;bvar>
               &lt;degree>
                 &lt;cn>2&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -220,10 +220,10 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>2 &amp;lt;ci&amp;gt;s&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;ci>x&lt;/ci> 
-              &lt;ci>y&lt;/ci> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;ci>x&lt;/ci>
+              &lt;ci>y&lt;/ci>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -231,13 +231,13 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>2 w/ degree&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;ci>x&lt;/ci> 
-              &lt;ci>y&lt;/ci> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;ci>x&lt;/ci>
+              &lt;ci>y&lt;/ci>
               &lt;degree>
                 &lt;cn>2&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -245,9 +245,9 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>&amp;lt;mi&amp;gt; used&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;mi>x&lt;/mi> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;mi>x&lt;/mi>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -255,12 +255,12 @@ http://www.w3.org/Consortium/Legal/.
           &lt;mtd>
             &lt;mtext>&amp;lt;mi&amp;gt; used w/ degree&lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
-              &lt;mi>x&lt;/mi> 
+          &lt;mtd>
+            &lt;bvar>
+              &lt;mi>x&lt;/mi>
               &lt;degree>
                 &lt;cn>2&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>
@@ -269,14 +269,14 @@ http://www.w3.org/Consortium/Legal/.
             &lt;mtext>missing &amp;lt;ci&amp;gt;, 2 degrees
             &lt;/mtext>
           &lt;/mtd>
-          &lt;mtd> 
-            &lt;bvar> 
+          &lt;mtd>
+            &lt;bvar>
               &lt;degree>
                 &lt;cn>4&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
               &lt;degree>
                 &lt;cn>2&lt;/cn>
-              &lt;/degree> 
+              &lt;/degree>
             &lt;/bvar>
           &lt;/mtd>
         &lt;/mtr>

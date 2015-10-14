@@ -55,36 +55,36 @@ values.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <ms fontsize="14pt">boy</ms> 
-        <mo color="black">+</mo> 
-        <mstyle fontsize="24pt" color="GREEN"> 
-          <ms>girl</ms> 
-          <mo color="red">+</mo> 
-          <ms color="red">apple</ms> 
-        </mstyle> 
-        <mo>+</mo> 
-        <ms>fig</ms> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <ms fontsize="14pt">boy</ms>
+        <mo color="black">+</mo>
+        <mstyle fontsize="24pt" color="GREEN">
+          <ms>girl</ms>
+          <mo color="red">+</mo>
+          <ms color="red">apple</ms>
+        </mstyle>
+        <mo>+</mo>
+        <ms>fig</ms>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;ms fontsize='14pt'>boy&lt;/ms> 
-        &lt;mo color='black'>+&lt;/mo> 
-        &lt;mstyle fontsize='24pt' color='GREEN'> 
-          &lt;ms>girl&lt;/ms> 
-          &lt;mo color='red'>+&lt;/mo> 
-          &lt;ms color='red'>apple&lt;/ms> 
-        &lt;/mstyle> 
-        &lt;mo>+&lt;/mo> 
-        &lt;ms>fig&lt;/ms> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;ms fontsize='14pt'>boy&lt;/ms>
+        &lt;mo color='black'>+&lt;/mo>
+        &lt;mstyle fontsize='24pt' color='GREEN'>
+          &lt;ms>girl&lt;/ms>
+          &lt;mo color='red'>+&lt;/mo>
+          &lt;ms color='red'>apple&lt;/ms>
+        &lt;/mstyle>
+        &lt;mo>+&lt;/mo>
+        &lt;ms>fig&lt;/ms>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

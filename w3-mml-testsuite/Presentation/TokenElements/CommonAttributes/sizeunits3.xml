@@ -54,60 +54,60 @@ vertical units, using the 'mathsize' attribute of the &lt;mi> element.</td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mi>x</mi> 
-        <mo>+</mo> 
-        <mi>M</mi> 
-        <mo>+</mo> 
-        <mi mathsize="2em">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="2ex">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize=".1in">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize=".5cm">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="8mm">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="24pt">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="2pc">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="75%">x</mi> 
-        <mo>+</mo> 
-        <mi mathsize="36pt">x</mi> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>M</mi>
+        <mo>+</mo>
+        <mi mathsize="2em">x</mi>
+        <mo>+</mo>
+        <mi mathsize="2ex">x</mi>
+        <mo>+</mo>
+        <mi mathsize=".1in">x</mi>
+        <mo>+</mo>
+        <mi mathsize=".5cm">x</mi>
+        <mo>+</mo>
+        <mi mathsize="8mm">x</mi>
+        <mo>+</mo>
+        <mi mathsize="24pt">x</mi>
+        <mo>+</mo>
+        <mi mathsize="2pc">x</mi>
+        <mo>+</mo>
+        <mi mathsize="75%">x</mi>
+        <mo>+</mo>
+        <mi mathsize="36pt">x</mi>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mi>x&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi>M&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathsize='2em'>x&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathsize='2ex'>x&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathsize='.1in'>x&lt;/mi> 
-        &lt;mo>+&lt;/mo> 
-        &lt;mi mathsize='.5cm'>x&lt;/mi> 
-        &lt;mo>+lt;/mo> 
-          &lt;mi mathsize='8mm'>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi mathsize='24pt'>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi mathsize='2pc'>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi mathsize='75%'>x&lt;/mi> 
-          &lt;mo>+&lt;/mo> 
-          &lt;mi mathsize='36pt'>x&lt;/mi> 
-        &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mi>x&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi>M&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathsize='2em'>x&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathsize='2ex'>x&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathsize='.1in'>x&lt;/mi>
+        &lt;mo>+&lt;/mo>
+        &lt;mi mathsize='.5cm'>x&lt;/mi>
+        &lt;mo>+lt;/mo>
+          &lt;mi mathsize='8mm'>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi mathsize='24pt'>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi mathsize='2pc'>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi mathsize='75%'>x&lt;/mi>
+          &lt;mo>+&lt;/mo>
+          &lt;mi mathsize='36pt'>x&lt;/mi>
+        &lt;/mrow>
       &lt;/math>
   </pre>
     <p style="text-align: right">

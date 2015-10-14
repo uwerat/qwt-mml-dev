@@ -53,42 +53,42 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <int/> 
-        <bvar> 
-          <ci> x </ci> 
-        </bvar> 
-        <interval> 
-          <ci> a </ci> 
-          <ci> b </ci> 
-        </interval> 
-        <apply> 
-          <cos/> 
-          <ci> x </ci> 
-        </apply> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <int/>
+        <bvar>
+          <ci> x </ci>
+        </bvar>
+        <interval>
+          <ci> a </ci>
+          <ci> b </ci>
+        </interval>
+        <apply>
+          <cos/>
+          <ci> x </ci>
+        </apply>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;int/> 
-        &lt;bvar> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/bvar> 
-        &lt;interval> 
-          &lt;ci> a &lt;/ci> 
-          &lt;ci> b &lt;/ci> 
-        &lt;/interval> 
-        &lt;apply> 
-          &lt;cos/> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/apply> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;int/>
+        &lt;bvar>
+          &lt;ci> x &lt;/ci>
+        &lt;/bvar>
+        &lt;interval>
+          &lt;ci> a &lt;/ci>
+          &lt;ci> b &lt;/ci>
+        &lt;/interval>
+        &lt;apply>
+          &lt;cos/>
+          &lt;ci> x &lt;/ci>
+        &lt;/apply>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

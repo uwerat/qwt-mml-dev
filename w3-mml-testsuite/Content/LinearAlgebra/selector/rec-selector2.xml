@@ -53,26 +53,26 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <apply> 
-        <selector/> 
-        <ci type="matrix"> A </ci> 
-        <cn> 3 </cn> 
-        <cn> 2 </cn> 
-      </apply> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <apply>
+        <selector/>
+        <ci type="matrix"> A </ci>
+        <cn> 3 </cn>
+        <cn> 2 </cn>
+      </apply>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;apply> 
-        &lt;selector/> 
-        &lt;ci type="matrix"> A &lt;/ci> 
-        &lt;cn> 3 &lt;/cn> 
-        &lt;cn> 2 &lt;/cn> 
-      &lt;/apply> 
+    &lt;math>
+      &lt;apply>
+        &lt;selector/>
+        &lt;ci type="matrix"> A &lt;/ci>
+        &lt;cn> 3 &lt;/cn>
+        &lt;cn> 2 &lt;/cn>
+      &lt;/apply>
     &lt;/math>
   </pre>
     <p style="text-align: right">

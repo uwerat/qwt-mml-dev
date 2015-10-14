@@ -53,48 +53,48 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <msup> 
-        <mn>5</mn> 
-        <foo>2</foo> 
-      </msup> 
-      <mo>+</mo> 
-      <msup> 
-        <foo>2</foo> 
-        <mn>5</mn> 
-      </msup> 
-      <mo>+</mo> 
-      <mrow> 
-        <mn>5</mn> 
-        <foo>+</foo> 
-        <mn>5</mn> 
-      </mrow> 
-      <mo>+</mo> 
-      <foo/> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msup>
+        <mn>5</mn>
+        <foo>2</foo>
+      </msup>
+      <mo>+</mo>
+      <msup>
+        <foo>2</foo>
+        <mn>5</mn>
+      </msup>
+      <mo>+</mo>
+      <mrow>
+        <mn>5</mn>
+        <foo>+</foo>
+        <mn>5</mn>
+      </mrow>
+      <mo>+</mo>
+      <foo/>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;msup> 
-        &lt;mn>5&lt;/mn> 
-        &lt;foo>2&lt;/foo> 
-      &lt;/msup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;msup> 
-        &lt;foo>2&lt;/foo> 
-        &lt;mn>5&lt;/mn> 
-      &lt;/msup> 
-      &lt;mo>+&lt;/mo> 
-      &lt;mrow> 
-        &lt;mn>5&lt;/mn> 
-        &lt;foo>+&lt;/foo> 
-        &lt;mn>5&lt;/mn> 
-      &lt;/mrow> 
-      &lt;mo>+&lt;/mo> 
-      &lt;foo/> 
+    &lt;math>
+      &lt;msup>
+        &lt;mn>5&lt;/mn>
+        &lt;foo>2&lt;/foo>
+      &lt;/msup>
+      &lt;mo>+&lt;/mo>
+      &lt;msup>
+        &lt;foo>2&lt;/foo>
+        &lt;mn>5&lt;/mn>
+      &lt;/msup>
+      &lt;mo>+&lt;/mo>
+      &lt;mrow>
+        &lt;mn>5&lt;/mn>
+        &lt;foo>+&lt;/foo>
+        &lt;mn>5&lt;/mn>
+      &lt;/mrow>
+      &lt;mo>+&lt;/mo>
+      &lt;foo/>
     &lt;/math>
   </pre>
     <p style="text-align: right">

@@ -1,1044 +1,1044 @@
-    <math> 
-      <mtable> 
+    <math>
+      <mtable>
         <mtr>
           <mtd>
             <mtext>inverse</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <inverse/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>lt</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <lt/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>compose</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <compose/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>domain</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <domain/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>codomain</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <codomain/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>image</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <image/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>quotient</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <quotient/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>factorial</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <factorial/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>divide</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <divide/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>max</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <max/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>min</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <min/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>minus</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <minus/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>plus</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <plus/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>power</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <power/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>rem</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <rem/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>times</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <times/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>root</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <root/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>gcd</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <gcd/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>and</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <and/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>or</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <or/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>not</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <not/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>xor</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <xor/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>implies</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <implies/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>forall</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <forall/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>exists</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <exists/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>abs</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <abs/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>conjugate</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <conjugate/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arg</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arg/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>real</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <real/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>imaginary</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <imaginary/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>lcm</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <lcm/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>floor</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <floor/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>ceiling</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <ceiling/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>eq</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <eq/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>neq</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <neq/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>gt</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <gt/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>lt</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <lt/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>geq</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <geq/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>leq</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <leq/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>equivalent</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <equivalent/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>approx</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <approx/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>factorof</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <factorof/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>int</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <int/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>diff</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <diff/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>partialdiff</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <partialdiff/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>divergence</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <divergence/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>grad</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <grad/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>curl</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <curl/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>laplacian</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <laplacian/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>union</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <union/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>intersect</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <intersect/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>in</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <in/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>notin</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <notin/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>subset</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <subset/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>prsubset</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <prsubset/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>notsubset</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <notsubset/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>notprsubset</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <notprsubset/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>setdiff</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <setdiff/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>card</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <card/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>cartesianproduct</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <cartesianproduct/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sum</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sum/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>product</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <product/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>limit</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <limit/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>tendsto</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <tendsto/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>exp</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <exp/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>ln</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <ln/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>log</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <log/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sin</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sin/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>cos</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <cos/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>tan</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <tan/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sec</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sec/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>csc</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <csc/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>cot</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <cot/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sinh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sinh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>cosh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <cosh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>tanh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <tanh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sech</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sech/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>csch</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <csch/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>coth</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <coth/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arcsin</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arcsin/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccos</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccos/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arctan</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arctan/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arcsec</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arcsec/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccsc</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccsc/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccot</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccot/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arcsinh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arcsinh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccosh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccosh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arctanh</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arctanh/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arcsech</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arcsech/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccsch</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccsch/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>arccoth</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccoth/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>mean</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <mean/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>sdev</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <sdev/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>variance</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <variance/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>median</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <median/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>mode</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <mode/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>moment</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <moment/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>momentabout</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <arccoth/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>determinant</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <determinant/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>transpose</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <transpose/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>selector</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <selector/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>vectorproduct</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <vectorproduct/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>scalarproduct</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <scalarproduct/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
+        </mtr>
         <mtr>
           <mtd>
             <mtext>outerproduct</mtext>
           </mtd>
-          <mtd> 
+          <mtd>
             <apply>
               <outerproduct/>
-            </apply> 
+            </apply>
           </mtd>
-        </mtr> 
-      </mtable> 
+        </mtr>
+      </mtable>
     </math>

@@ -53,37 +53,37 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"> 
-      <mtable> 
-        <mlabeledtr> 
-          <mtd> 
-            <mi>A</mi> 
-          </mtd> 
-          <mtd> 
-            <mi>B</mi> 
-          </mtd> 
-          <mtd> 
-            <mi>C</mi> 
-          </mtd> 
-        </mlabeledtr> 
-        <mtr> 
-          <mtd/> 
-          <mtd/> 
-        </mtr> 
-        <mtr> 
-          <mtd> 
-            <mn>1</mn> 
-          </mtd> 
-          <mtd> 
-            <mn>2</mn> 
-          </mtd> 
-          <mtd> 
-            <mn>3</mn> 
-          </mtd> 
-          <mtd class="array" columnalign="center"> 
-            <mn>4</mn> 
-          </mtd> 
-        </mtr> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+      <mtable>
+        <mlabeledtr>
+          <mtd>
+            <mi>A</mi>
+          </mtd>
+          <mtd>
+            <mi>B</mi>
+          </mtd>
+          <mtd>
+            <mi>C</mi>
+          </mtd>
+        </mlabeledtr>
+        <mtr>
+          <mtd/>
+          <mtd/>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mn>1</mn>
+          </mtd>
+          <mtd>
+            <mn>2</mn>
+          </mtd>
+          <mtd>
+            <mn>3</mn>
+          </mtd>
+          <mtd class="array" columnalign="center">
+            <mn>4</mn>
+          </mtd>
+        </mtr>
       </mtable>
     </math>
   </p>
@@ -91,37 +91,37 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math display="inline"> 
-      &lt;mtable> 
-        &lt;mlabeledtr> 
-          &lt;mtd> 
-            &lt;mi>A&lt;/mi> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mi>B&lt;/mi> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mi>C&lt;/mi> 
-          &lt;/mtd> 
-        &lt;/mlabeledtr> 
-        &lt;mtr> 
-          &lt;mtd/> 
-          &lt;mtd/> 
-        &lt;/mtr> 
-        &lt;mtr> 
-          &lt;mtd> 
-            &lt;mn>1&lt;/mn> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mn>2&lt;/mn> 
-          &lt;/mtd> 
-          &lt;mtd> 
-            &lt;mn>3&lt;/mn> 
-          &lt;/mtd> 
-          &lt;mtd class="array" columnalign="center"> 
-            &lt;mn>4&lt;/mn> 
-          &lt;/mtd> 
-        &lt;/mtr> 
+    &lt;math display="inline">
+      &lt;mtable>
+        &lt;mlabeledtr>
+          &lt;mtd>
+            &lt;mi>A&lt;/mi>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>B&lt;/mi>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mi>C&lt;/mi>
+          &lt;/mtd>
+        &lt;/mlabeledtr>
+        &lt;mtr>
+          &lt;mtd/>
+          &lt;mtd/>
+        &lt;/mtr>
+        &lt;mtr>
+          &lt;mtd>
+            &lt;mn>1&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mn>2&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd>
+            &lt;mn>3&lt;/mn>
+          &lt;/mtd>
+          &lt;mtd class="array" columnalign="center">
+            &lt;mn>4&lt;/mn>
+          &lt;/mtd>
+        &lt;/mtr>
       &lt;/mtable>
     &lt;/math>
   </pre>

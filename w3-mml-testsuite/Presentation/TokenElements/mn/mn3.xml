@@ -53,32 +53,32 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <mn> 2 </mn> 
-        <mo> + </mo> 
-        <mrow> 
-          <mn> 3 </mn> 
-          <mo> &#x02062; </mo> 
-          <mi> &#x02148; </mi> 
-        </mrow> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mn> 2 </mn>
+        <mo> + </mo>
+        <mrow>
+          <mn> 3 </mn>
+          <mo> &#x02062; </mo>
+          <mi> &#x02148; </mi>
+        </mrow>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;mn> 2 &lt;/mn> 
-        &lt;mo> + &lt;/mo> 
-        &lt;mrow> 
-          &lt;mn> 3 &lt;/mn> 
-          &lt;mo> &amp;InvisibleTimes; &lt;/mo> 
-          &lt;mi> &amp;ImaginaryI; &lt;/mi> 
-        &lt;/mrow> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;mn> 2 &lt;/mn>
+        &lt;mo> + &lt;/mo>
+        &lt;mrow>
+          &lt;mn> 3 &lt;/mn>
+          &lt;mo> &amp;InvisibleTimes; &lt;/mo>
+          &lt;mi> &amp;ImaginaryI; &lt;/mi>
+        &lt;/mrow>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">

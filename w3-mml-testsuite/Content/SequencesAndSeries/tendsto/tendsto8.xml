@@ -53,40 +53,40 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <reln> 
-        <tendsto type="two-sided"/> 
-        <apply> 
-          <power/> 
-          <ci> x </ci> 
-          <cn> 2 </cn> 
-        </apply> 
-        <apply> 
-          <power/> 
-          <ci> a </ci> 
-          <cn> 2 </cn> 
-        </apply> 
-      </reln> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <reln>
+        <tendsto type="two-sided"/>
+        <apply>
+          <power/>
+          <ci> x </ci>
+          <cn> 2 </cn>
+        </apply>
+        <apply>
+          <power/>
+          <ci> a </ci>
+          <cn> 2 </cn>
+        </apply>
+      </reln>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;reln> 
-        &lt;tendsto type="two-sided"/> 
-        &lt;apply> 
-          &lt;power/> 
-          &lt;ci> x &lt;/ci> 
-          &lt;cn> 2 &lt;/cn> 
-        &lt;/apply> 
-        &lt;apply> 
-          &lt;power/> 
-          &lt;ci> a &lt;/ci> 
-          &lt;cn> 2 &lt;/cn> 
-        &lt;/apply> 
-      &lt;/reln> 
+    &lt;math>
+      &lt;reln>
+        &lt;tendsto type="two-sided"/>
+        &lt;apply>
+          &lt;power/>
+          &lt;ci> x &lt;/ci>
+          &lt;cn> 2 &lt;/cn>
+        &lt;/apply>
+        &lt;apply>
+          &lt;power/>
+          &lt;ci> a &lt;/ci>
+          &lt;cn> 2 &lt;/cn>
+        &lt;/apply>
+      &lt;/reln>
     &lt;/math>
   </pre>
     <p style="text-align: right">

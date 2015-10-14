@@ -53,40 +53,40 @@ http://www.w3.org/Consortium/Legal/.
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <piecewise> 
-        <piece> 
-          <cn> 0 </cn> 
-          <apply> 
-            <lt/> 
-            <ci> x </ci> 
-            <cn> 0 </cn> 
-          </apply> 
-        </piece> 
-        <otherwise> 
-          <ci> x </ci> 
-        </otherwise> 
-      </piecewise> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <piecewise>
+        <piece>
+          <cn> 0 </cn>
+          <apply>
+            <lt/>
+            <ci> x </ci>
+            <cn> 0 </cn>
+          </apply>
+        </piece>
+        <otherwise>
+          <ci> x </ci>
+        </otherwise>
+      </piecewise>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;piecewise> 
-        &lt;piece> 
-          &lt;cn> 0 &lt;/cn> 
-          &lt;apply> 
-            &lt;lt/> 
-            &lt;ci> x &lt;/ci> 
-            &lt;cn> 0 &lt;/cn> 
-          &lt;/apply> 
-        &lt;/piece> 
-        &lt;otherwise> 
-          &lt;ci> x &lt;/ci> 
-        &lt;/otherwise> 
-      &lt;/piecewise> 
+    &lt;math>
+      &lt;piecewise>
+        &lt;piece>
+          &lt;cn> 0 &lt;/cn>
+          &lt;apply>
+            &lt;lt/>
+            &lt;ci> x &lt;/ci>
+            &lt;cn> 0 &lt;/cn>
+          &lt;/apply>
+        &lt;/piece>
+        &lt;otherwise>
+          &lt;ci> x &lt;/ci>
+        &lt;/otherwise>
+      &lt;/piecewise>
     &lt;/math>
   </pre>
     <p style="text-align: right">

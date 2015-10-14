@@ -55,124 +55,124 @@ element, which is a little more obscure than something like 'fontsize'.  </td>
     <p>
       <b>Your browser's rendering</b>:</p>
     <p>
-    <math xmlns="http://www.w3.org/1998/Math/MathML"> 
-      <mrow> 
-        <msup> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="24pt"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="1ex"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="1em"> 
-          <mrow> 
-            <mi>M</mi> 
-            <mi mathcolor="Blue">x</mi> 
-          </mrow> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="10px"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="0.25in"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="1cm"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="10mm"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup superscriptshift="1pc"> 
-          <mi mathcolor="Blue">x</mi> 
-          <mn>2</mn> 
-        </msup> 
-        <mo>+</mo> 
-        <msup> 
-          <mi fontsize="170%" mathcolor="Blue">x 
-          </mi> 
-          <mn>2</mn> 
-        </msup> 
-      </mrow> 
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <msup>
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="24pt">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="1ex">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="1em">
+          <mrow>
+            <mi>M</mi>
+            <mi mathcolor="Blue">x</mi>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="10px">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="0.25in">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="1cm">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="10mm">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup superscriptshift="1pc">
+          <mi mathcolor="Blue">x</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+          <mi fontsize="170%" mathcolor="Blue">x
+          </mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
     </math>
   </p>
     <hr/>
     <p>
       <b>Source Code</b>:</p>
     <pre>
-    &lt;math> 
-      &lt;mrow> 
-        &lt;msup> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='24pt'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='1ex'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='1em'> 
-          &lt;mrow> 
-            &lt;mi>M&lt;/mi> 
-            &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;/mrow> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='10px'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='0.25in'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='1cm'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='10mm'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup superscriptshift='1pc'> 
-          &lt;mi mathcolor='Blue'>x&lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-        &lt;mo>+&lt;/mo> 
-        &lt;msup > 
-          &lt;mi fontsize='170%' mathcolor='Blue'>x 
-          &lt;/mi> 
-          &lt;mn>2&lt;/mn> 
-        &lt;/msup> 
-      &lt;/mrow> 
+    &lt;math>
+      &lt;mrow>
+        &lt;msup>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='24pt'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='1ex'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='1em'>
+          &lt;mrow>
+            &lt;mi>M&lt;/mi>
+            &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;/mrow>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='10px'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='0.25in'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='1cm'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='10mm'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup superscriptshift='1pc'>
+          &lt;mi mathcolor='Blue'>x&lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+        &lt;mo>+&lt;/mo>
+        &lt;msup >
+          &lt;mi fontsize='170%' mathcolor='Blue'>x
+          &lt;/mi>
+          &lt;mn>2&lt;/mn>
+        &lt;/msup>
+      &lt;/mrow>
     &lt;/math>
   </pre>
     <p style="text-align: right">
