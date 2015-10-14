@@ -1202,10 +1202,10 @@ QwtMmlDocument::QwtMmlDocument()
     m_monospace_font_name = "Luxi Mono";
     m_doublestruck_font_name = "Doublestruck";
     m_base_font_point_size = 16;
-
-#ifdef MML_TEST
     m_foreground_color = Qt::black;
     m_background_color = Qt::white;
+
+#ifdef MML_TEST
     m_draw_frames = false;
 #endif
 }
