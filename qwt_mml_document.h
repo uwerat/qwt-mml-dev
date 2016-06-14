@@ -1,6 +1,8 @@
 #ifndef _QWT_MML_DOCUMENT_H_
 #define _QWT_MML_DOCUMENT_H_
 
+#include <qwt_global.h>
+
 #include <qcolor.h>
 #include <qstring.h>
 #include <qsize.h>
@@ -10,7 +12,7 @@ class QPointF;
 
 class QwtMmlDocument;
 
-class QwtMathMLDocument
+class QWT_EXPORT QwtMathMLDocument
 {
 public:
     enum MmlFont
