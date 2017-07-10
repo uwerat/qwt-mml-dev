@@ -1,7 +1,11 @@
 #ifndef _QWT_MML_ENTITY_TABLE_H_
 #define _QWT_MML_ENTITY_TABLE_H_
 
+#ifdef NO_QWT
+#define QWT_EXPORT
+#else
 #include <qwt_global.h>
+#endif
 
 #include <qstring.h>
 

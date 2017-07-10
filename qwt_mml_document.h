@@ -1,7 +1,12 @@
 #ifndef _QWT_MML_DOCUMENT_H_
 #define _QWT_MML_DOCUMENT_H_
 
+#ifdef NO_QWT
+#define QWT_EXPORT
+#else
 #include <qwt_global.h>
+#endif
+
 
 #include <qcolor.h>
 #include <qstring.h>
