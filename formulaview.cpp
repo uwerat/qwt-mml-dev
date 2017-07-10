@@ -90,13 +90,20 @@ void FormulaView::renderFormula( QPainter *painter ) const
     doc.setDrawFrames( d_drawFrames );
 #endif
 
+    QRect viewRect = rect();
     QRectF docRect;
     docRect.setSize( doc.size() );
-    docRect.moveCenter( rect().center() );
+    docRect.moveCenter( viewRect.center() );
 
     if ( d_transformation )
     {
-        const double scaleF = d_scale ? 2.0 : 1.0;
+        double scaleF = 1;
+        if ( d_scale )
+        {
+            const double scaleX = viewRect.width() / docRect.width();
+            const double scaleY = viewRect.height() / docRect.height();
+            scaleF = qMin(scaleX, scaleY);
+         }
 
         painter->save();
 

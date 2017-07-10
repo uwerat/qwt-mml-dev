@@ -7,6 +7,7 @@
 #include <qcombobox.h>
 #include <qdebug.h>
 #include <qfiledialog.h>
+#include <qlabel.h>
 #include <qmimedata.h>
 #include <qstatusbar.h>
 #include <qtoolbar.h>
@@ -25,6 +26,10 @@ MainWindow::MainWindow()
     btnLoad->setToolButtonStyle( Qt::ToolButtonTextUnderIcon );
     toolBar->addWidget( btnLoad );
 
+    toolBar->addSeparator();
+
+    toolBar->addWidget( new QLabel( "Font size" ) );
+
     QComboBox *comboFontSizes = new QComboBox( toolBar );
     QStringList fontSizes;
     for ( int i = 8; i <= 128; i += 2 )
@@ -33,14 +38,18 @@ MainWindow::MainWindow()
     comboFontSizes->setCurrentIndex( 32 );
     toolBar->addWidget( comboFontSizes );
 
+    toolBar->addSeparator();
+
     QCheckBox *checkTransformation = new QCheckBox( toolBar );
-    checkTransformation->setText( "Transformation" );
+    checkTransformation->setText( "Transformations" );
     checkTransformation->setChecked( true );
     toolBar->addWidget( checkTransformation );
 
     d_checkScale = new QCheckBox( toolBar );
-    d_checkScale->setText( "Scale" );
+    d_checkScale->setText( "Fit to window" );
     toolBar->addWidget( d_checkScale );
+
+    toolBar->addWidget( new QLabel( "Rotation" ) );
 
     d_comboRotations = new QComboBox( toolBar );
     QStringList rotations;
@@ -49,6 +58,8 @@ MainWindow::MainWindow()
     d_comboRotations->addItems( rotations );
     d_comboRotations->setCurrentIndex( 0 );
     toolBar->addWidget( d_comboRotations );
+
+    toolBar->addSeparator();
 
     QCheckBox *checkDrawFrames = new QCheckBox( toolBar );
     checkDrawFrames->setText( "Draw frames" );
