@@ -1,13 +1,13 @@
 #ifndef _FORMULA_VIEW_H_
 #define _FORMULA_VIEW_H_
 
-#include <qwidget.h>
+#include <qframe.h>
 
 class QPainter;
 
 class QwtMathMLDocument;
 
-class FormulaView: public QWidget
+class FormulaView: public QFrame
 {
     Q_OBJECT
 
@@ -16,6 +16,9 @@ public:
     ~FormulaView();
 
     QString formula() const;
+
+    void setPaddings( const QMargins &value );
+    void setPaddings( const int &value );
 
 public Q_SLOTS:
     void setFormula( const QString & );
@@ -30,9 +33,10 @@ protected:
     virtual void paintEvent( QPaintEvent * );
 
 private:
-    void renderFormula( QPainter * ) const;
+    void renderFormula( QPainter *, const QRect & ) const;
 
 private:
+    QMargins d_paddings;
     QwtMathMLDocument* d_mmlDoc;
     QString d_formula;
     bool d_transformation;

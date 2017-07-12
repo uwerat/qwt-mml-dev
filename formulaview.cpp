@@ -6,7 +6,7 @@
 #include <qpainter.h>
 
 FormulaView::FormulaView( QWidget *parent ):
-    QWidget( parent ),
+    QFrame( parent ),
     d_transformation( true ),
     d_scale( false ),
     d_rotation( 0 )
@@ -90,19 +90,39 @@ void FormulaView::setColors( const bool &colors )
     update();
 }
 
+void FormulaView::setPaddings( const QMargins &value )
+{
+    d_paddings = value;
+}
+
+void FormulaView::setPaddings( const int &value )
+{
+    d_paddings.setLeft(value);
+    d_paddings.setTop(value);
+    d_paddings.setRight(value);
+    d_paddings.setBottom(value);
+}
+
 void FormulaView::paintEvent( QPaintEvent *event )
 {
+    QFrame::paintEvent(event);
+
     QPainter painter( this );
     painter.setClipRegion( event->region() );
 
-    painter.fillRect( event->rect(), Qt::white );
+    int fw = frameWidth();
+    QRect viewRect = event->rect().adjusted(fw, fw, -fw, -fw);
 
-    renderFormula( &painter );
+    painter.fillRect( viewRect, d_mmlDoc->backgroundColor() );
+
+    if ( !d_paddings.isNull() )
+        viewRect = viewRect.marginsRemoved(d_paddings);
+
+    renderFormula( &painter, viewRect );
 }
 
-void FormulaView::renderFormula( QPainter *painter ) const
+void FormulaView::renderFormula( QPainter *painter, const QRect &viewRect ) const
 {
-    QRect viewRect = rect();
     QRectF docRect;
     docRect.setSize( d_mmlDoc->size() );
     docRect.moveCenter( viewRect.center() );
