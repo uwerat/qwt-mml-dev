@@ -10,7 +10,9 @@ FormulaView::FormulaView( QWidget *parent ):
     d_fontSize( 8 ),
     d_transformation( true ),
     d_scale( false ),
-    d_rotation( 0 )
+    d_rotation( 0 ),
+    d_drawFrames( false ),
+    d_colors( false )
 {
 }
 

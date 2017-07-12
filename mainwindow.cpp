@@ -61,9 +61,11 @@ MainWindow::MainWindow()
 
     toolBar->addSeparator();
 
+#ifdef MML_TEST
     QCheckBox *checkDrawFrames = new QCheckBox( toolBar );
     checkDrawFrames->setText( "Draw frames" );
     toolBar->addWidget( checkDrawFrames );
+#endif
 
     QCheckBox *checkColors = new QCheckBox( toolBar );
     checkColors->setText( "Colors" );
@@ -76,18 +78,22 @@ MainWindow::MainWindow()
     connect( checkTransformation, SIGNAL( toggled( bool ) ), this, SLOT( updateTransformation( const bool & ) ) );
     connect( d_checkScale, SIGNAL( toggled( bool ) ), this, SLOT( updateScaling( const bool & ) ) );
     connect( d_comboRotations, SIGNAL( currentIndexChanged( const QString & ) ), this, SLOT( updateRotation( const QString & ) ) );
+#ifdef MML_TEST
     connect( checkDrawFrames, SIGNAL( toggled( bool ) ), this, SLOT( updateDrawFrames( const bool & ) ) );
+#endif
     connect( checkColors, SIGNAL( toggled( bool ) ), this, SLOT( updateColors( const bool & ) ) );
 
     updateFontSize( comboFontSizes->currentText() );
     updateTransformation( checkTransformation->isChecked() );
     updateScaling( d_checkScale->isChecked() );
     updateRotation( d_comboRotations->currentText() );
+#ifdef MML_TEST
     updateDrawFrames( checkDrawFrames->isChecked() );
+#endif
     updateColors( checkColors->isChecked() );
 
     setAcceptDrops(true);
-};
+}
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)
 {
