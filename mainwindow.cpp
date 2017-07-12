@@ -1,8 +1,6 @@
 #include "formulaview.h"
 #include "mainwindow.h"
 
-#include <qapplication.h>
-#include <qbuffer.h>
 #include <qcheckbox.h>
 #include <qcombobox.h>
 #include <qdebug.h>
@@ -13,7 +11,7 @@
 #include <qtoolbar.h>
 #include <qtoolbutton.h>
 
-MainWindow::MainWindow()
+MainWindow::MainWindow() : QMainWindow()
 {
     d_view = new FormulaView( this );
     setCentralWidget( d_view );
@@ -136,14 +134,7 @@ void MainWindow::loadFormula( const QString &fileName )
 {
     statusBar()->showMessage( fileName );
 
-    QFile file( fileName );
-    if ( !file.open(QIODevice::ReadOnly | QIODevice::Text) )
-        return;
-
-    const QByteArray document = file.readAll();
-    file.close();
-
-    d_view->setFormula( document );
+    d_view->loadFormula( fileName );
 }
 
 void MainWindow::updateFontSize( const QString &fontSize )

@@ -17,6 +17,9 @@ public:
 
     QString formula() const;
 
+    void loadFormula(const QString& fileName);
+    void clearFormula();
+
     void setPaddings( const QMargins &value );
     void setPaddings( const int &value );
 

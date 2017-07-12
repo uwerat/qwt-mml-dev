@@ -41,6 +41,29 @@ void FormulaView::setFormula( const QString &formula )
     update();
 }
 
+void FormulaView::loadFormula(const QString& fileName)
+{
+    QFile file( fileName );
+    if (!file.exists())
+    {
+        d_mmlDoc->clear();
+        return;
+    }
+    if ( !file.open(QIODevice::ReadOnly | QIODevice::Text) )
+    {
+        qWarning() << "Error while opening formula file" << fileName
+                   << "with message" << file.errorString();
+        d_mmlDoc->clear();
+        return;
+    }
+    setFormula( file.readAll() );
+}
+
+void FormulaView::clearFormula()
+{
+    d_mmlDoc->clear();
+}
+
 void FormulaView::setFontSize( const qreal &fontSize )
 {
     d_mmlDoc->setBaseFontPointSize( fontSize );
