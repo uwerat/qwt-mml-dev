@@ -5,12 +5,15 @@
 
 class QPainter;
 
+class QwtMathMLDocument;
+
 class FormulaView: public QWidget
 {
     Q_OBJECT
 
 public:
     FormulaView( QWidget *parent = NULL );
+    ~FormulaView();
 
     QString formula() const;
 
@@ -30,13 +33,11 @@ private:
     void renderFormula( QPainter * ) const;
 
 private:
+    QwtMathMLDocument* d_mmlDoc;
     QString d_formula;
-    qreal d_fontSize;
     bool d_transformation;
     bool d_scale;
     qreal d_rotation;
-    bool d_drawFrames;
-    bool d_colors;
 };
 
 #endif
