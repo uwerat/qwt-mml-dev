@@ -207,8 +207,8 @@ public:
     qreal em() const;
     qreal ex() const;
 
-    QString explicitAttribute( const QString &name, const QString &def = QString::null ) const;
-    QString inheritAttributeFromMrow( const QString &name, const QString &def = QString::null ) const;
+    QString explicitAttribute( const QString &name, const QString &def = QString() ) const;
+    QString inheritAttributeFromMrow( const QString &name, const QString &def = QString() ) const;
 
     virtual QFont font() const;
     virtual QColor color() const;
@@ -1087,7 +1087,7 @@ QString QwtMmlDocument::fontName( QwtMathMLDocument::MmlFont type ) const
             return m_doublestruck_font_name;
     };
 
-    return QString::null;
+    return QString();
 }
 
 void QwtMmlDocument::setFontName( QwtMathMLDocument::MmlFont type,
@@ -1432,7 +1432,7 @@ QwtMmlNode *QwtMmlDocument::createNode( NodeType type,
 void QwtMmlDocument::insertOperator( QwtMmlNode *node, const QString &text )
 {
     QwtMmlNode *text_node = createNode( TextNode, QwtMmlAttributeMap(), text, 0 );
-    QwtMmlNode *mo_node = createNode( MoNode, QwtMmlAttributeMap(), QString::null, 0 );
+    QwtMmlNode *mo_node = createNode( MoNode, QwtMmlAttributeMap(), QString(), 0 );
 
     bool ok = insertChild( node, mo_node, 0 );
     Q_ASSERT( ok );
@@ -1549,7 +1549,7 @@ QwtMmlNode *QwtMmlDocument::domToMml( const QDomNode &dom_node, bool *ok,
 
                 if ( mml_type == MtableNode && mml_child->nodeType() != MtrNode )
                 {
-                    QwtMmlNode *mtr_node = createNode( MtrNode, QwtMmlAttributeMap(), QString::null, 0 );
+                    QwtMmlNode *mtr_node = createNode( MtrNode, QwtMmlAttributeMap(), QString(), 0 );
                     insertChild( mml_node, mtr_node, 0 );
                     if ( !insertChild( mtr_node, mml_child, errorMsg ) )
                     {
@@ -1561,7 +1561,7 @@ QwtMmlNode *QwtMmlDocument::domToMml( const QDomNode &dom_node, bool *ok,
                 }
                 else if ( mml_type == MtrNode && mml_child->nodeType() != MtdNode )
                 {
-                    QwtMmlNode *mtd_node = createNode( MtdNode, QwtMmlAttributeMap(), QString::null, 0 );
+                    QwtMmlNode *mtd_node = createNode( MtdNode, QwtMmlAttributeMap(), QString(), 0 );
                     insertChild( mml_node, mtd_node, 0 );
                     if ( !insertChild( mtd_node, mml_child, errorMsg ) )
                     {
@@ -1620,7 +1620,7 @@ QwtMmlNode *QwtMmlDocument::createImplicitMrowNode( const QDomNode &dom_node,
         return domToMml( dom_child_list.item( 0 ), ok, errorMsg );
 
     QwtMmlNode *mml_node = createNode( MrowNode, QwtMmlAttributeMap(),
-                                       QString::null, errorMsg );
+                                       QString(), errorMsg );
     Q_ASSERT( mml_node != 0 ); // there is no reason in heaven or hell for this to fail
 
     for ( int i = 0; i < child_cnt; ++i )
@@ -1869,7 +1869,7 @@ QColor QwtMmlNode::background() const
 
 static void updateFontAttr( QwtMmlAttributeMap &font_attr, const QwtMmlNode *n,
                             const QString &name,
-                            const QString &preferred_name = QString::null )
+                            const QString &preferred_name = QString() )
 {
     if ( font_attr.contains( preferred_name ) || font_attr.contains( name ) )
         return;
@@ -4042,7 +4042,7 @@ static QString mmlDictAttribute( const QString &name, const QwtMmlOperSpec *spec
 {
     int i = attributeIndex( name );
     if ( i == -1 )
-        return QString::null;
+        return QString();
     else
         return spec->attributes[i];
 }
