@@ -12,6 +12,7 @@ MOC_DIR      = moc
 OBJECTS_DIR  = obj
 
 # DEFINES += MML_TEST
+DEFINES += NO_QWT
 
 HEADERS = \
 	qwt_mml_document.h \

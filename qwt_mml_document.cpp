@@ -708,6 +708,11 @@ static const QwtMmlNodeSpec g_node_spec_data[] =
     { QwtMml::NoNode,         0,            0,                0,                            0,                       0                                                                     }
 };
 
+static const QSet<QString> g_ignored_tag_names =
+{
+    "annotation" // LibreOffice stores StarMath expression in this tag
+};
+
 static const char *g_oper_spec_names[g_oper_spec_rows] =
 {
     "accent", "fence", "largeop", "lspace", "minsize", "movablelimits",
@@ -3773,6 +3778,8 @@ static const QwtMmlNodeSpec *mmlFindNodeSpec( const QString &tag )
     {
         if ( tag == spec->tag ) return spec;
     }
+    if (g_ignored_tag_names.contains(tag))
+        return spec; // QwtMml::NoNode
     return 0;
 }
 

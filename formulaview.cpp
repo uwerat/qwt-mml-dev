@@ -6,12 +6,18 @@
 #include <qpainter.h>
 
 FormulaView::FormulaView( QWidget *parent ):
-    QWidget( parent ),
-    d_fontSize( 8 ),
+    QFrame( parent ),
     d_transformation( true ),
     d_scale( false ),
     d_rotation( 0 )
 {
+    d_mmlDoc = new QwtMathMLDocument;
+    d_mmlDoc->setBaseFontPointSize( 8 );
+}
+
+FormulaView::~FormulaView()
+{
+    delete d_mmlDoc;
 }
 
 QString FormulaView::formula() const
@@ -22,12 +28,45 @@ QString FormulaView::formula() const
 void FormulaView::setFormula( const QString &formula )
 {
     d_formula = formula;
+    QString errorMsg;
+    int errorLine, errorColumn;
+    bool ok = d_mmlDoc->setContent( d_formula, &errorMsg, &errorLine, &errorColumn );
+    if (!ok)
+    {
+        qWarning() << "MathML error at line" << errorLine
+                   << "column" << errorColumn
+                   << "with message" << errorMsg;
+        d_mmlDoc->clear();
+    }
     update();
+}
+
+void FormulaView::loadFormula(const QString& fileName)
+{
+    QFile file( fileName );
+    if (!file.exists())
+    {
+        d_mmlDoc->clear();
+        return;
+    }
+    if ( !file.open(QIODevice::ReadOnly | QIODevice::Text) )
+    {
+        qWarning() << "Error while opening formula file" << fileName
+                   << "with message" << file.errorString();
+        d_mmlDoc->clear();
+        return;
+    }
+    setFormula( file.readAll() );
+}
+
+void FormulaView::clearFormula()
+{
+    d_mmlDoc->clear();
 }
 
 void FormulaView::setFontSize( const qreal &fontSize )
 {
-    d_fontSize = fontSize;
+    d_mmlDoc->setBaseFontPointSize( fontSize );
     update();
 }
 
@@ -51,52 +90,75 @@ void FormulaView::setRotation( const qreal &rotation )
 
 void FormulaView::setDrawFrames( const bool &drawFrames )
 {
-    d_drawFrames = drawFrames;
+#ifdef MML_TEST
+    d_mmlDoc->setDrawFrames( drawFrames );
+#else
+    Q_UNUSED(drawFrames)
+#endif
     update();
 }
 
 void FormulaView::setColors( const bool &colors )
 {
-    d_colors = colors;
+    if ( colors )
+    {
+        d_mmlDoc->setBackgroundColor( Qt::darkCyan );
+        d_mmlDoc->setForegroundColor( Qt::yellow );
+    }
+    else
+    {
+        d_mmlDoc->setBackgroundColor( Qt::white );
+        d_mmlDoc->setForegroundColor( Qt::black );
+    }
     update();
+}
+
+void FormulaView::setPaddings( const QMargins &value )
+{
+    d_paddings = value;
+}
+
+void FormulaView::setPaddings( const int &value )
+{
+    d_paddings.setLeft(value);
+    d_paddings.setTop(value);
+    d_paddings.setRight(value);
+    d_paddings.setBottom(value);
 }
 
 void FormulaView::paintEvent( QPaintEvent *event )
 {
+    QFrame::paintEvent(event);
+
     QPainter painter( this );
     painter.setClipRegion( event->region() );
 
-    painter.fillRect( event->rect(), Qt::white );
+    int fw = frameWidth();
+    QRect viewRect = event->rect().adjusted(fw, fw, -fw, -fw);
 
-    renderFormula( &painter );
+    painter.fillRect( viewRect, d_mmlDoc->backgroundColor() );
+
+    if ( !d_paddings.isNull() )
+        viewRect = viewRect.marginsRemoved(d_paddings);
+
+    renderFormula( &painter, viewRect );
 }
 
-void FormulaView::renderFormula( QPainter *painter ) const
+void FormulaView::renderFormula( QPainter *painter, const QRect &viewRect ) const
 {
-    QwtMathMLDocument doc;
-    doc.setContent( d_formula );
-    if ( d_colors )
-    {
-        doc.setBackgroundColor( Qt::darkCyan );
-        doc.setForegroundColor( Qt::yellow );
-    }
-    else
-    {
-        doc.setBackgroundColor( Qt::white );
-        doc.setForegroundColor( Qt::black );
-    }
-    doc.setBaseFontPointSize( d_fontSize );
-#ifdef MML_TEST
-    doc.setDrawFrames( d_drawFrames );
-#endif
-
     QRectF docRect;
-    docRect.setSize( doc.size() );
-    docRect.moveCenter( rect().center() );
+    docRect.setSize( d_mmlDoc->size() );
+    docRect.moveCenter( viewRect.center() );
 
     if ( d_transformation )
     {
-        const double scaleF = d_scale ? 2.0 : 1.0;
+        double scaleF = 1;
+        if ( d_scale )
+        {
+            const double scaleX = viewRect.width() / docRect.width();
+            const double scaleY = viewRect.height() / docRect.height();
+            scaleF = qMin(scaleX, scaleY);
+         }
 
         painter->save();
 
@@ -104,12 +166,12 @@ void FormulaView::renderFormula( QPainter *painter ) const
         painter->rotate( d_rotation );
         painter->scale( scaleF, scaleF );
         painter->translate( docRect.topLeft() - docRect.center() );
-        doc.paint( painter, QPointF( 0.0, 0.0 ) );
+        d_mmlDoc->paint( painter, QPointF( 0.0, 0.0 ) );
 
         painter->restore();
     }
     else
     {
-        doc.paint( painter, docRect.topLeft() );
+        d_mmlDoc->paint( painter, docRect.topLeft() );
     }
 }

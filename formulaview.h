@@ -1,18 +1,27 @@
 #ifndef _FORMULA_VIEW_H_
 #define _FORMULA_VIEW_H_
 
-#include <qwidget.h>
+#include <qframe.h>
 
 class QPainter;
 
-class FormulaView: public QWidget
+class QwtMathMLDocument;
+
+class FormulaView: public QFrame
 {
     Q_OBJECT
 
 public:
     FormulaView( QWidget *parent = NULL );
+    ~FormulaView();
 
     QString formula() const;
+
+    void loadFormula(const QString& fileName);
+    void clearFormula();
+
+    void setPaddings( const QMargins &value );
+    void setPaddings( const int &value );
 
 public Q_SLOTS:
     void setFormula( const QString & );
@@ -27,16 +36,15 @@ protected:
     virtual void paintEvent( QPaintEvent * );
 
 private:
-    void renderFormula( QPainter * ) const;
+    void renderFormula( QPainter *, const QRect & ) const;
 
 private:
+    QMargins d_paddings;
+    QwtMathMLDocument* d_mmlDoc;
     QString d_formula;
-    qreal d_fontSize;
     bool d_transformation;
     bool d_scale;
     qreal d_rotation;
-    bool d_drawFrames;
-    bool d_colors;
 };
 
 #endif
